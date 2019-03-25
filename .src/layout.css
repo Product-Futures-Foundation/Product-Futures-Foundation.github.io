@@ -1,0 +1,28 @@
+body {font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
+
+.main {padding-left:4px;}
+.header {border-bottom:solid; font-family:arial, san-serif;}
+.footer {border-top:solid; font-family:arial, san-serif; font-size:50%; text-align:right;}
+
+span.bullet{margin-left:1%;font-size:150%;}
+span.indent{margin-left:1%;}
+span.quot,span.quot2,span.quot3{font-weight:normal; font-style:italic;}
+span.italic{font-style:italic;}
+span.bold{font-weight:bold;}
+
+
+span.h1{font-size:200%;}
+span.h2{font-size:175%;}
+span.h3{font-size:150%;}
+span.h4{font-size:125%;}
+
+span.date{font-size:125%;}
+span.rel{font-size:75%;}
+span.tiny{font-size:50%;}
+
+a{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover,a:focus{text-decoration:none;}
+
+input{font-size:65%;}
+img{float:right;}

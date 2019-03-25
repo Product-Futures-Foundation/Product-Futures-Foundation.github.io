@@ -1,0 +1,5 @@
+pkg strives to be the universal packaging interface and process manager.
+
+app is probably a better name.
+
+Rough draft in pkg.* at github.com/AGNUcius/GNUnix/tree/master/bin

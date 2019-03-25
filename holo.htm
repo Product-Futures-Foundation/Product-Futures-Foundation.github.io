@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <title>holo</title>
+  <link href=".src/preferred.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<p class='header'>
+ <a href="-home.htm">Home</a> | <a href="-diary.htm">Diary</a> | <a href="-todo.htm">Todo</a> | <a href="-index.htm">Index</a> | <a href="-about.htm">About</a> |</p>
+<p class='main'>#!~/bin/bash<br/>
+# ~/<a href="work.htm">work</a>/holo<br/>
+<br/>
+# <a class="ext" href="http://Developer.holochain.org">Developer.holochain.org</a><br/>
+# <a class="ext" href="http://github.com/holochain">github.com/holochain</a><br/>
+# <a class="ext" href="http://Medium.com/holochain">Medium.com/holochain</a><br/>
+<br/>
+set -e #exit on error<br/>
+<br/>
+<a href="pkg.htm">pkg</a> add curl nodejs zeromq-devel<br/>
+<br/>
+<small>[<small>[ -x rustc ]</small>]</small> || curl <a class="ext" href="https://sh.rustup.rs">https://sh.rustup.rs</a> -sSf | sh -s -- --default-<a href="tool.htm">tool</a>chain nightly<br/>
+<br/>
+#use nightly <a href="tool.htm">tool</a>chain<br/>
+rustup <a href="tool.htm">tool</a>chain install nightly<br/>
+rustup default nightly<br/>
+rustup target add wasm32-unknown-unknown --<a href="tool.htm">tool</a>chain nightly<br/>
+<br/>
+<small>[<small>[ -d holochain-cmd ]</small>]</small> || git clone <a class="ext" href="https://github.com/holochain/holochain-cmd">https://github.com/holochain/holochain-cmd</a><br/>
+<br/>
+cd holochain-cmd<br/>
+git pull<br/>
+git submodule init<br/>
+git submodule update<br/>
+<br/>
+cargo install -f --path .<br/>
+<br/>
+hc --help<br/>
+hc --version<br/>
+</p>
+<p class='footer'>
+ Page generated from <a href=".txt/holo">holo</a> by <a href=".src/lens.el">lens.el</a>.</p>
+</body>
+</html>

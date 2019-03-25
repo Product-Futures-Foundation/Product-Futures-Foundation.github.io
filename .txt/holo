@@ -1,0 +1,29 @@
+#!~/bin/bash
+# ~/work/holo
+
+# Developer.holochain.org
+# github.com/holochain
+# Medium.com/holochain
+
+set -e #exit on error
+
+pkg add curl nodejs zeromq-devel
+
+[[ -x rustc ]] || curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly
+
+#use nightly toolchain
+rustup toolchain install nightly
+rustup default nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
+
+[[ -d holochain-cmd ]] || git clone https://github.com/holochain/holochain-cmd
+
+cd holochain-cmd
+git pull
+git submodule init
+git submodule update
+
+cargo install -f --path .
+
+hc --help
+hc --version
