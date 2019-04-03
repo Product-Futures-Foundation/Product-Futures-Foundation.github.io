@@ -1,1 +1,3 @@
-coin, money, pointer, reference
+Related: coin, money, pointer, reference
+
+Tokens are a reference or pointer to value, but not are valuable themselves.

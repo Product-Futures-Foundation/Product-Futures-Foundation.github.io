@@ -5,6 +5,7 @@
 # github.com/holochain
 # Medium.com/holochain
 
+
 set -e #exit on error
 
 pkg add curl nodejs zeromq-devel
