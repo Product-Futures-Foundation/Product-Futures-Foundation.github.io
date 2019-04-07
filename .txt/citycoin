@@ -3,10 +3,11 @@
 
 CityCoin is a claim over the Property and Promises required for the production of future goods and services.
 
-The DAO issues and sells these strange tokens to acquire the Sources and Skills needed to create a series of private cities under the full control of those citizen owners.
+The DAO issues and sells CityCoins to acquire land, tools and work required to create a series of private cities under the full control of those citizen owners.
 
 Some users pay with plain-old-money used to buy the land and tools.
 While others pay with commitments of work to create those products.
+
 
 ===Terms of Operation
 Money becomes Property: Consumers pay early to own land and tools for food and home.
@@ -14,12 +15,14 @@ Property becomes Product: Owners are consumers paying early for goods and servic
 Promises become Property: Workers become owners as they complete work commitments.
 Profit becomes Property: Consumers pay late to own when they buy surplus product.
 
+
 ====Money becomes Property
 Similar to crowdfunding, consumers prepay for future goods and services with plain-old-money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that future production.
 
 This is fundamentally different from equity-based crowdfunding because of the reason investors are taking a risk.
 
 In this case, the risk is made to as an investor to *avoid* paying profit, and as a consumer to ensure the future production of that good or services.
+
 
 ====Property becomes Product
 Each owner accepts the product itself as the direct and natural return on investment, thereby avoiding the usual selling and buying of the finished commodity.
@@ -32,6 +35,7 @@ This allows groups to operate at zero profit even while all shareholders remain 
 
 Subgroups must be allowed to secede from the majority when the property is realistically divisible to promote localized control and inhibit Tyranny of the Majority.
 
+
 ====Promises become Property
 Workers invest when they commit to achieve work within the city.
 
@@ -43,10 +47,12 @@ Workers promise to accomplish future goals and receive property as those promise
 
 Vested property can be used as collateral to access even more valuable property under this work-to-own scheme.
 
+
 ====Profit becomes Property
 Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued CityCoin titles, or to buy CityCoin titles being offered for sale by other owners.
 
 This causes all users to incrementally gain the property ownership required to finally also control the production they need and receive those products at cost.
+
 
 ===Development Phases
 PREBOOT
@@ -97,8 +103,8 @@ Investment Types (3 ways to pay)
  some of their profits, and vest ownership of those titles to you,
  the payer. //[[How should we determine the minimum percentage?]]
 
-Commentary
-Products
+
+==== Products
 Each owner of Property is owner of future Product in that same ratio.
 
 For example, if you own 3% of the hives, you own 3% of the future honey.
@@ -109,7 +115,7 @@ For example, a young tree does not produce fruit immediately, and the fruit is n
 
 CityCoin titles issued to workers may not vest if quality or quantity projections are not met. Projections must be adjusted for reasons outside the worker’s control such as such as severe weather, fire, earthquake, accidents, etc.
 
-Property
+==== Property
 A variety of city design templates following permaculture principles could help guide core decisions around borders, roads, shared structures, etc.
 
 The market price of each newly issued CityCoin title is based on:
@@ -134,7 +140,7 @@ Each owner must pay initial and recurring costs of production in one of these wa
 
 For the safety of all citizens, every citizen must receive at least enough CityCoin titles to ensure Tier0 quality of life.
 
-Promises
+====Promises
 Promises are commitments of future labor which are traded for Property under these terms, or for Promises from others to work for you in the future.
 
 For example, you might commit to pick fruit in the orchard during harvest season, drive a bus during the week, and cook breakfast every other Sunday at one of the many restaurants.
@@ -157,12 +163,12 @@ A guild system might help determine worker skill levels and offer free access to
 
 The job auction code needs to be written…
 
-Profit
+====Profit
 Any owner may sell any amount of Product at any price, but some percentage of that Profit must be treated as an investment from that payer into issuing more CityCoin titles, or to buy CityCoin titles from others.
 
 This safely reduces Profit within the system as the Property required for production is incrementally redistributed t
 
-App Ideas
+====App Ideas
 {List all Products currently in funding stage and accepting new investors}
 
 >> User clicks on a Product to show details
@@ -179,7 +185,7 @@ User requests some Product at a projected rate, such as:
 
 The user is then shown Real Estate usable for that production, sorted by those nearest their current location by default.o the users of those Products.
 
-Definitions
+====Definitions
 Property: All the land and tools and other non-human inputs needed to make a Product.
 Promise : A commitment from a skilled human to achieve goals toward making a Product.
 Product: A *projected* quantity and quality of some good or service across time.
