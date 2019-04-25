@@ -16,7 +16,7 @@ span.shell{background:#ddd;}
 span.cmnt{background:#dfd;}
 span.type{background:#9bf;}
 
-a{color:#009;}
+a{color:#009; text-decoration: underline;}
 a:visited{color:#606;}
 a.ext{color:#600;}
 a:hover, a:focus{background:#006; color:#ff0;}

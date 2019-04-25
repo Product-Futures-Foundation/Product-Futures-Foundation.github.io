@@ -52,9 +52,7 @@
 
 
 ;;; Limitations
-;; Filenames must be all lowercase and
-;; will match case variations in text.
-
+;; Filenames must be lowercase but will match any case.
 
 ;;;  Main entry points
 ;; `lens', `lens-mode', `lens-make-page'
@@ -74,16 +72,20 @@
 ;; .01 new
 ;; .02 cleanup
 ;; .03 do not link to self
+;; .04 external links
 
 ;;; Customizations:
-(defcustom lens-global-page-title nil "Title of _all_ generated pages.  If set to `nil' the title is the name of the input file.")
+(defcustom lens-external nil "List of links to external sites.")
+
+(defcustom lens-global-page-title nil "Title of each generated page.
+If set to `nil' the title is the name of the input file.")
 (defcustom lens-output-dir ".." "where to write the output")
 (defcustom lens-img-dir ".img" "where <img> content is located")
 (defcustom lens-css ".src/preferred.css" "stylesheet")
 (defcustom lens-host-mail "AGNUcius@Gmail.com" "mail address to send edits")
 (defcustom lens-shortest-inner
-  ;; 3 ;too many inner matches
-  4 ;not enough prefix coverage
+  ;; 3 too many inner matches
+  ;; 4 not enough prefix coverage
   "Shortest term to match _within_ other terms.
 All terms less than this match only at the beginning of words (using `\\b')")
 
@@ -458,10 +460,10 @@ All terms less than this match only at the beginning of words (using `\\b')")
   ;;encase and terminate
   (setq lens-font-lock
         (concat "\\(\\)\\("
+;				lens-external "\\|"
 				lens-explicit-URL "\\|"
 				lens-implicit-HTTP "\\|"
-				lens-font-lock "zzzzzzzz\\)")))
-;; what a mess.
+				lens-font-lock "zzzzzzzz\\)"))) ;; what a mess.
 
 
 (defun lens-follow ()
