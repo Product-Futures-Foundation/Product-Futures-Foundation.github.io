@@ -82,10 +82,10 @@ If set to `nil' the title is the name of the input file.")
 (defcustom lens-output-dir ".." "where to write the output")
 (defcustom lens-img-dir ".img" "where <img> content is located")
 (defcustom lens-css ".src/preferred.css" "stylesheet")
-(defcustom lens-host-mail "AGNUcius@Gmail.com" "mail address to send edits")
+(defcustom lens-host-mail "Patrick.T.Anderson@gmail.com" "mail address to send edits")
 (defcustom lens-shortest-inner
-  ;; 3 too many inner matches
-  ;; 4 not enough prefix coverage
+  3 ;;too many inner matches
+  ;; 4 ;;not enough prefix coverage
   "Shortest term to match _within_ other terms.
 All terms less than this match only at the beginning of words (using `\\b')")
 
