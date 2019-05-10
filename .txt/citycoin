@@ -124,13 +124,19 @@ A variety of city design templates following permaculture principles could help 
 
 The market price of each newly issued CityCoin title is based on:
 1. The market price of the Property required for that production.
-2. The inverse of the market price of the Promises required for that production.
+2. The market price of the Promises required for that production.
 
 This means those paying with plain-old-money are implicitly also buying *other* CityCoins used to compensate workers.
 
-For example, those paying for “1 Gallon of milk per month” must pay for the land and tools and work to build and run the dairy and tend to the cattle and Alfalfa and water rights, etc., recursively, for all that production.
+For example, those paying with plain-old-money for “1 Gallon of milk per month” must pay the market-price of the land, tools, cattle, water rights, etc., recursively, for all that production.
 
-The price of Promises is found through auction, increasing as the crowdfunding campaign end-date approaches.
+But that is only *part* of the cost.  The other cost is human labor.
+
+So the CityCoin DAO calculates the amount of human labor required to build and operate a dairy (or is fed this info by humans) and then increases the selling price to compensate those workers with their own CityCoins.
+
+This means CityCoins bought with plain-old-money must be priced high enough to buy the property required for that production, and to also buy *other* property which will vest to workers as they complete those promises.
+
+The price of Promises is found through auction, increasing as each crowdfunding campaign end-date approaches.
 
 Each group must insure every worker is qualified, especially for dangerous jobs.
 
