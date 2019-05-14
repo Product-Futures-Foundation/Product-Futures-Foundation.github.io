@@ -1,35 +1,27 @@
 =    CityCoin — Public Goals through Private Property
 
 
-CityCoin is a claim over the Property and Promises required for the production of future goods and services.
+CityCoin is a GNU money backed by the Property and Promises required for the production of future goods and services.
 
 The CityCoin DAO issues and sells CityCoin Titles to acquire land, tools and work required to create a series of private cities under the full control of those citizen owners.
 
-Some users pay with plain-old-money used to buy the land and tools.
-While others pay with commitments of work to create those products.
+Some investors will pay with traditional money to buy the land and tools.
+
+While others pay with commitments of work needed to create those products.
 
 
 ===Terms of Operation
-Money becomes Property: Consumers pay early to own land and tools for food and home.
-Property becomes Product: Owners are consumers paying early for goods and services.
+Property becomes Product: The owner of INPUTS is the owner of OUTPUTS automatically.
+Money becomes Property: Consumers become owners when they pay early with traditional money.
 Promises become Property: Workers become owners as they complete work commitments.
-Profit becomes Property: Consumers pay late to own when they buy surplus product.
-
-
-====Money becomes Property
-Similar to crowdfunding, consumers prepay for future goods and services with plain-old-money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that future production.
-
-But this is also fundamentally different from equity-based crowdfunding because of the reason the investor+owner+consumer is taking a risk.
-
-Under this model, the investors, owners and consumers are one-and-the-same.
-
-They take risk to *avoid* paying the profit they would otherwise pay when attempting to purchase that product from the regular market.
-
-This (imperfectly) ensures the future production of that product, and so acts as a more direct alternative to traditional insurance.
+Profit becomes Property: Consumers become owners when they pay late while buying surplus product.
 
 
 ====Property becomes Product
-Each owner accepts the product itself as the direct and natural return on investment, thereby avoiding the usual selling and buying of the finished commodity.
+Each owner accepts the product itself as the direct and natural return on investment, thereby avoiding the usual selling and buying of that finished commodity.
+
+>>        Just as the owner of a tree owns all of that fruit,
+>>    each co-owner of an orchard owns his portion of that fruit.
 
 The price each pays as a consumer is exactly the costs each paid as an owner while the final sale is eliminated, leaving profit undefined.
 
@@ -38,6 +30,18 @@ Instead of selling the product to another consumer, the product has been pre-dis
 This allows groups to operate at zero profit even while all shareholders remain satisfied. Notice the numeric compensation is approximately the same as a For Profit investment, but inverted in that the consumer avoids paying profit for that product.
 
 Subgroups must be allowed to secede from the majority when the property is realistically divisible to promote localized control and inhibit Tyranny of the Majority.
+
+
+====Money becomes Property
+Similar to crowdfunding, consumers prepay for future goods and services with traditional money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that future production.
+
+Under this model, the investors, owners and consumers are one-and-the-same.
+
+But this is also fundamentally different from equity-based crowdfunding because of the reason the investor is taking a risk.
+
+They take risk to *avoid* paying the profit they would otherwise pay when attempting to purchase that product from the regular market.
+
+This (imperfectly) ensures the future production of that product, and so acts as a more direct alternative to traditional insurance.
 
 
 ====Promises become Property
@@ -92,7 +96,7 @@ SURPLUS
 The city produces more than it consumes.
 
 Investment Types (3 ways to pay)
-1. Pay with commitments of plain-old-money to crowdfund the debt-free
+1. Pay with commitments of traditional money to crowdfund the debt-free
  purchase of real estate and tools from the regular market.
 
 2. Pay with commitments to work in the future for others within the city.
@@ -126,15 +130,15 @@ The market price of each newly issued CityCoin title is based on:
 1. The market price of the Property required for that production.
 2. The market price of the Promises required for that production.
 
-This means those paying with plain-old-money are implicitly also buying *other* CityCoins used to compensate workers.
+This means those paying with traditional money are implicitly also buying *other* CityCoins used to compensate workers.
 
-For example, those paying with plain-old-money for “1 Gallon of milk per month” must pay the market-price of the land, tools, cattle, water rights, etc., recursively, for all that production.
+For example, those paying with traditional money for “1 Gallon of milk per month” must pay the market-price of the land, tools, cattle, water rights, etc., recursively, for all that production.
 
 But that is only *part* of the cost.  The other cost is human labor.
 
 So the CityCoin DAO calculates the amount of human labor required to build and operate a dairy (or is fed this info by humans) and then increases the selling price to compensate those workers with their own CityCoins.
 
-This means CityCoins bought with plain-old-money must be priced high enough to buy the property required for that production, and to also buy *other* property which will vest to workers as they complete those promises.
+This means CityCoins bought with traditional money must be priced high enough to buy the property required for that production, and to also buy *other* property which will vest to workers as they complete those promises.
 
 The price of Promises is found through auction, increasing as each crowdfunding campaign end-date approaches.
 
