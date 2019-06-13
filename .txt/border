@@ -1,2 +1,4 @@
-wall
+alloc, divide, fence, gate, wall
+
+Borders localize control.
 
