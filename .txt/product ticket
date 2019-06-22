@@ -1,0 +1,10 @@
+
+A Product Ticket is a commodity money backed by a single product instance.
+
+For example:
+One 15 minute taxi ride between 8am and 8pm in the City of Plenty.  Good until Dec 2099.
+
+One pint of Grade AA organic honey from hives at GPS location ____.  Pickup after Fall 2021.
+
+Each Product Ticket may have a window of validity, such as a start and end time.
+
