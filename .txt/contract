@@ -1,0 +1,30 @@
+Related: block, chain, CityCoin, fintech
+
+OpenLaw.io
+
+DAML.com >>The developer’s choice for building smart contracts
+
+Pact.Kadena.io
+
+Smart Contracts are legal instruments written in specialized programming languages such as:
+Solidity
+Vyper  Vyper.ReadTheDocs.io  github.com/ethereum/vyper/wiki/Vyper-tools-and-resources
+Bamboo  github.com/pirapira/bamboo OCaml >>Bamboo: a morphing smart contract language
+Flint
+LLL
+Obsidian IEEEXplore.IEEE.org/document/7965268 >>Obsidian: A Safer Blockchain Programming Language
+EVM  The Ethereum Virtual Machine 'executes'
+
+==Competitors
+Holo
+NEO
+
+
+==Dev tools
+dapparatus
+AuthIO.org >>Verify your smart contracts behave as intended.
+
+==Security audits
+Arxiv.org/pdf/1802.06038.pdf >>Finding The Greedy, Prodigal, and Suicidal Contracts at Scale
+
+https://medium.com/authio/solidity-ctf-part-4-read-the-fine-print-5ad259a5f5bb
