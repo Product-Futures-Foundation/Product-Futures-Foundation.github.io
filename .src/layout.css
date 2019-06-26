@@ -4,11 +4,11 @@ body {font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", mo
 .header {border-bottom:solid; font-family:arial, san-serif;}
 .footer {border-top:solid; font-family:arial, san-serif; font-size:50%; text-align:right;}
 
-span.bullet{margin-left:1%;font-size:150%;}
-span.indent{margin-left:1%;}
-span.quot,span.quot2,span.quot3{font-weight:normal; font-style:italic;}
-span.italic{font-style:italic;}
-span.bold{font-weight:bold;}
+span.bullet {margin-left:1%;font-size:150%;}
+span.indent {margin-left:1%;}
+span.quot,span.quot2,span.quot3 {font-weight:normal; font-style:italic;}
+span.italic {font-style:italic;}
+span.bold {font-weight:bold;}
 
 
 span.h1{font-size:200%;}

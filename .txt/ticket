@@ -1,12 +1,10 @@
-Proof of ownership in physical goods or services.
+Related: token, title
 
-Each Ticket has a
+A Product Ticket is proof of ownership (or maybe a commodity money) for a single, semi-fungible product instance.
 
-Window of Validity: A set of conditions and the expected results.
+Each Product Ticket may have a window of validity, such as a start and end time and other real-world constraints defined by the physical limitations of production.
 
-beginning and ending STATE Time and other 
+Examples:
+One 15 minute taxi ride between 8am and 8pm in the City of Plenty.  Good until Dec 2099.
 
-
-Goods: A
-
-Services: A "Work Ticket" or "Service Ticket"
+One pint of Grade AA organic honey from hives at GPS location ____.  Pickup after Fall 2021.

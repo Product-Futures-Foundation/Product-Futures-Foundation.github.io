@@ -97,7 +97,6 @@ All terms less than this match only at the beginning of words (using `\\b')")
 ;;; CODE:
 (require 'time-date)
 (require 'interpreter-minor)
-
 (require 'package)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/"))
@@ -448,7 +447,8 @@ All terms less than this match only at the beginning of words (using `\\b')")
 ;				lens-external "\\|"
 				lens-explicit-URL "\\|"
 				lens-implicit-HTTP "\\|"
-				lens-font-lock "zzzzzzzz\\)"))) ;; what a mess.
+				lens-font-lock "zzzzzzzz\\)")))
+;; what a mess.
 
 
 (defun lens-follow ()
