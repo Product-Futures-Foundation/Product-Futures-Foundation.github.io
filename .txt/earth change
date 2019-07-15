@@ -1,71 +1,32 @@
-== Overview
-Earth Change is a new way for groups to own and control the production they need.
+Related: For Product
 
-The Earth Change DAO issues and sells Source Titles to acquire the land, tools and work required to create a series of private cities under the direct control of those citizen owners.
+= Overview
+Earth Change helps groups share sources and trade work to produce the real goods and services they need.
 
-Some investors will pay with traditional money to buy the land and tools, while others pay with commitments of work needed to create those products.
+Potential members buy future products through a simple web interface.
 
+The Earth Change DAO calculates all the land, tools, plants, animals and work required for each product then check prices to buy those sources, and finally issues and auction Source Titles to buy those sources.
 
-== Terms of Operation
-Sources becomes Product: The owner of INPUTS is the owner of OUTPUTS automatically.
-Money becomes Sources: Consumers become source owners when they pay early with traditional money.
-Promises become Sources: Workers become source owners as they complete work commitments.
-Profit becomes Sources: Consumers become source owners when they pay late while buying surplus product.
+The auction price of each Source Title must implicitly include the price of sources used to pay workers.
 
+=Timeline
+Future products are sold to buy Sources required to begin production.
+Some of these Sources are sold for commitments to work in the future.
+Owners accept the Product itself as the natural return on investment.
+Owners sell Surplus Product but some profit becomes payer investment.
 
-=== Sources becomes Product
-Each source owner accepts the product itself as the direct and natural return on investment, thereby avoiding the usual selling and buying of that finished commodity.
-
->>        Just as the owner of a tree owns all of that fruit,
->>    each co-owner of an orchard owns his portion of that fruit.
-
-The price each pays as a consumer is exactly the costs each paid as an source owner while the final sale is eliminated, leaving profit undefined.
-
-Instead of selling the product to another consumer, the product has been pre-distributed to the consumer who predicted they would need it. There is no sale because it is already the individuated property of that consumer/owner.
-
-This allows groups to operate at zero profit even while all shareholders remain satisfied.  The numeric return is approximately the same as a For Profit investment but inverted in that the shareholder *avoids* paying profit for that product.
-
-
-=== Money becomes Sources
-Similar to crowdfunding, consumers prepay for future goods and services with traditional money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that future production.
-
-Owners may sell sources or products at any time, but some profit must be treated as the payer's investment.
-
-But this is also fundamentally different from equity-based crowdfunding because of the reason the investor is taking a risk.
-
-They take risk to *avoid* paying the profit they would otherwise pay when attempting to purchase that product on the regular market.
-
-This (imperfectly) ensures the future production of that product, and so becomes a true insurance.
-
-
-=== Promises become Sources
-Every worker is a consumer who must also own sources to control the products he must consume.
-
-Workers promise to accomplish future goals and receive sources as those promises are fulfilled. This replaces the rent or mortgage that would otherwise take most of the wages.
-
-These Source Titles vest as those promises are completed, thereby avoiding excessive price and rent the worker would usually pay for food and housing.
-
-Vested sources can be used as collateral to access even more valuable sources under this work-to-own scheme.
-
-
-=== Profit becomes Sources
-Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued Source Titles, or to buy Source Titles being offered for sale by other owners.
-
-This causes all users to incrementally gain the property ownership in the sources required to finally also control the production they need and receive those products at cost.
-
-
-== Phases
+= Phases
 === PREBOOT
-Search real estate listings to meet the many requirements such as: minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
+Search real estate listings to meet the many requirements such as minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
 
 Start crowdfunding pre-campaign to ask workers and other investor where they prefer to build.
 
-Finalize parcel selection and mint Source Titles against each square foot.
+Finalize parcel selection and mint Source Titles against each ft².
 
 === BOOT
-Start real crowdfunding campaign to begin selling Source Titles to workers and other investors.
+Start real crowdfunding campaign and begin selling Source Titles to workers and other investors.
 
-Reach agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
+Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
 
 === START
 Purchase land, tools and startup supplies, including primary bulk food ingredients such as bushels of grains, legumes, raw potatoes, bales of herbs and spices etc. to cook large, cheap but nutritious shared meals and begin soap and cloth making.
@@ -73,35 +34,18 @@ Purchase land, tools and startup supplies, including primary bulk food ingredien
 Workers may move onsite immediately, but may need to use tents, cafeteria style dining and temporary sanitation facilities while the first shared structures are built and support systems are established.
 
 === STASIS
-The city can support Tier0 without external trade.
+City supports Tier0 quality of life without external trade.
 Begin building private structures such as tiny houses.
 Install slow-maturing plants and animals with uses beyond food.
 
 === SOVEREIGN
- The city can support Tier1 without external trade.
+City supports Tier1 qol without external trade.
 
 === SURPLUS
-The city produces more than it consumes.
-
-Investment Types (3 ways to pay)
-1. Pay with commitments of traditional money to crowdfund the debt-free
- purchase of real estate and tools from the regular market.
-
-2. Pay with commitments to work in the future for others within the city.
- This cause you, the worker, to receive immediate access to enough
- Source Titles to sustain at least Tier0 quality of life.
- Vesting occurs as promises are kept, causing all workers to gain
- debt-free housing and food security.
-
-3. Pay in a sort of ‘accidental’ way when you buy surplus product
- from other owners and pay more than the real costs of production.
- Owners selling surplus are required to buy Source Titles with
- some of their profits, and vest ownership of those titles to you,
- the payer. //[[How should we determine the minimum percentage?]]
+City produces more than it consumes.
 
 
-
-== Definitions
+= Definitions
 === Products
 Each owner of Sources is owner of future Product in that same ratio.
 
@@ -133,15 +77,11 @@ A variety of city design templates following permaculture principles could help 
 For the health and safety of all citizens, every citizen on site must receive at least enough Source Titles to ensure Tier0 quality of life.
 
 ===Promises
-Promises are commitments of future work which are traded for Source Titles or for Promises from others to work for you.
+Promises are commitments of future work which are traded for Source Titles or for Promises from others to work on your behalf.
 
-Work is auctioned, with the amount of Source Titles being offered for eah job increasing as the crowdfunding end-date approaches.
+Work is auctioned for Source Titles with compensation increasing as the crowdfund end date approaches.  So more difficult or less fun jobs receive higher paid.
 
-Each group must insure every worker is qualified, especially for dangerous jobs.
-
-Each worker must be able to commit the minimum Promises required to meet Tier0 quality of life else they cannot live onsite.
-
-For example, you might commit to clean bathrooms, pick fruit, drive bus, cook breakfast, etc.
+Each group must insure every worker is qualified
 
 Source Titles purchased with work commitments vest incrementally, as that work is completed.
 
@@ -157,41 +97,17 @@ Work is returned to it’s natural position as a problem to minimize instead of 
 
 Automation and robots can be used to safely reduce work in this scenario because each group only wants the results.
 
-Anyone may apply for any job, but skill must proven and each group may enforce any other arbitrary requirements.
-
-A guild system might help determine worker skill levels and offer free access to educational media and paid apprenticeships. Guilds would protect owners by spreading quality and fulfillment risks across groups of workers.
+A guild system could train and test workers and protect owners by insuring quality levels and spreading fulfillment risks across many workers.
 
 
 ===Profit
 Any owner may sell any amount of product at any price, but some percentage of that profit must be treated as the payer's investment by purchasing Source Titles for that payer and giving those Source Titles to that payer.
 
-This safely reduces Profit within the system as the Sources required for production is incrementally redistributed to the consumers who need the results.
+This safely reduces Profit within the system as the Sources required for production are incrementally redistributed to the consumers who need the results.
 
 
-=Governance
-The Earth Change DAO web interface lets you pay with money or work commitments to buy future products.
 
-At first the DAO does not know how to turn a request for honey into land, hives and bees, so must be 'taught' the sources and skills are required for each product.
-
-The DAO then searches the internet to price those sources and skills to set the minimum bid for each coin.
-
-It then issues Source Titles against those products and sells those coins to buy the sources.
-
-These special owners of sources are the owners of products even before they are created.  They do do not buy the products from a central authority.  There is no central authority.
-
-For example, if you own N% of an orchard, you own N% of the fruit without purchase.
-
-
-==Timeline
-The Earth Change DAO issues and auctions a wide variety of Source Titles, each representing a portion of the land and tools and organisms, etc. required to create some product.
-
-The DAO then issues and auctions Work Orders to gather the human effort required for that production.
-
-Once all the Source Titles are sold and all Work Orders filled, the sources are purchased and production can begin.
-
-The DAO periodically issues and deposits Product Tickets into the accounts of the Source Title owners representing the projected quality and quantity of that finished product.
-
-=== Startup
+= Startup
 Estimate the quantity and quality food, housing, sanitation, clothing, basic health-care, child care, transportation, etc. needed to support on-site workers.
 
 Estimate the sources and promises needed for that production and issue Source Titles toward those goals.
@@ -204,7 +120,23 @@ The rest must be 'bootup' goods such as tents, bulk-food, used clothing, first-a
 
 We may also need to secure commitments of some critical services that we cannot yet supply on-site such as advanced dental work, extended health care, long-distance travel, etc.
 
-===Finance
+=Finance
+Investment Types (3 ways to pay)
+1. Pay with commitments of traditional money to crowdfund the debt-free
+ purchase of real estate and tools from the regular market.
+
+2. Pay with commitments to work in the future for others within the city.
+ This cause you, the worker, to receive immediate access to enough
+ Source Titles to sustain at least Tier0 quality of life.
+ Vesting occurs as promises are kept, causing all workers to gain
+ debt-free housing and food security.
+
+3. Pay in a sort of ‘accidental’ way when you buy surplus product
+ from other owners and pay more than the real costs of production.
+ Owners selling surplus are required to buy Source Titles with
+ some of their profits, and vest ownership of those titles to you,
+ the payer. //[[How should we determine the minimum percentage?]]
+
 Potential users pre-pay to purchase land, water-rights, tools, plants, animals, etc. required to create basic goods and services they need such as food, shelter, cloth, soap, medicine, sanitation, basic health care including dentistry, optometry, etc.
 
 Some pre-pay with traditional money buy the land and tools while others pre-pay by commiting to complete the needed work.
@@ -222,7 +154,7 @@ This auto-distributes ownership to those who pay for that growth.
 In this way we treat profit as misallocated property that is 'reflected' back to the buyer as ownership in sources.  This investment in sources must not be replaced by giving the buyer extra product or as a lowered price, for such do not create the negative-feedback loop required to help consumers escape owner domination.
 
 
-== Strategy
+= Strategy
 Attract middle-income Consumers to pre-pay for organic products and earth-friendly services.
 
 Use part of the funds to buy cheap agricultural land without mortgage.
@@ -252,7 +184,7 @@ For example, if you like milk and honey, then you will eventually want co-owners
 Hybrid Option: Attract traditional Venture Capitalists, and pay them a % of profit when selling surplus.
 
 
-== Workflow
+= Workflow
 Vision of a future product is proposed.
 Engineering constraints are enforced to find a realistic implementation or variation.
 The scale and level of vertical integration are estimated, balancing more immediate needs with longer term goals.
@@ -276,7 +208,7 @@ A functional Earth Change system will require enough "Horizontal Diversity" to a
 
 Vertical Integration increases local sovereignty by reducing the need to gather and spend external tokens. For example, we might buy feed for our chickens and cattle at first, but will also grow those plants to avoid the need to buy in the future.  We won't co-own mines or factories right away, so will just buy off-the-shelf tools while we are 'booting'.
 
-==Notes
+=Notes
 Thus we use property ownership in Sources to "pre-distribute" products to those who can predict they will need them.
 
 The usual transaction of consumer purchase is eliminated for those owners, for that product.  The price each pays as a consumer is exactly the costs each paid as a co-owner and profit is undefined since the final sale does not occur - it has been imputed.
@@ -303,7 +235,7 @@ We can eventually grow all the inputs required for food, soap, cloth, medicine, 
 
 
 
-==Potential Partners:
+=Potential Partners:
 OneCommunityGlobal.org >>FOR THE HIGHEST GOOD OF ALL
 Geoff Lawton of GeoffLawtonOnline.com
 Marcin Jakubowski of OpenSourceEcology.org
@@ -398,10 +330,11 @@ Education portal to create and watch videos or articles.
 Docs.Google.com/document/d/1s67rO5Okc5mjntVxKOG4WWVMhiHsQmRcwpvBVKZFfaA
 
 ==Notes
-Source Titles sold at $1/ft² supply $42,650/acre to buy the land, tools and work (workers are paid with Source Titles, never directly with $).
+Source Titles sold at $1/ft² supply $43,650/acre to buy the land, tools and work (workers are paid with Source Titles, never directly with $).
 Instead of representation, governance is direct control through commitments of property or promises toward public works (parallel, semi-continuous crowdfunding campaigns).
 
 ==See also
 Facebook.com/Earth.Change.Page
 KickStarter.com/projects/712902160/76969456/preview
 Facebook.com/job_opening/1249675101854603
+leanstack.com/app/projects/471143/canvases/568658

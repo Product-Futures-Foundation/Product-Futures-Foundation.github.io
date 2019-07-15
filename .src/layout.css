@@ -1,8 +1,6 @@
-body {font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
-
 .main {padding-left:4px;}
-.header {border-bottom:solid; font-family:arial, san-serif;}
-.footer {border-top:solid; font-family:arial, san-serif; font-size:50%; text-align:right;}
+.header {border-bottom:solid; }
+.footer {border-top:solid; font-size:50%; text-align:right;}
 
 span.bullet {margin-left:1%;font-size:150%;}
 span.indent {margin-left:1%;}

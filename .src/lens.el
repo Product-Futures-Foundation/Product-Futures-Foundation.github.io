@@ -1,6 +1,6 @@
 ;;; lens.el --- Focus on text. -*- emacs-lisp -*-
 
-;; Copyright (C) 2013->oo Product Futures Foundation
+;; Copyright (C) 2013->∞ Product Futures Foundation
 
 ;;  This program is free software: you can
 ;;  redistribute it and/or modify it under the
@@ -21,7 +21,7 @@
 ;;  program.  If not, see http://GNU.org/licenses
 
 
-;;; Features
+;;; LENS
 ;; Link plain-text documents without markup.
 ;; Preserve whitespace and guess formatting.
 
@@ -46,7 +46,7 @@
 ;;        auto-mode-alist))
 
 ;;; Example scenario
-;; Write ~/doc/.txt/profit to define that term.
+;; Create ~/doc/.txt/profit and define that term.
 ;; While editing that file in Emacs, run  M-x lens
 ;; Output is written to  ~/doc/profit.htm
 
@@ -75,7 +75,11 @@
 ;; .01 new
 ;; .02 cleanup
 ;; .03 do not link to self
-;; .04 external links (j/k)
+;;; Todo:
+;; .04 external URLs
+;; .05 do not create term.htm for file-system links
+;; .06 
+
 
 ;;; Customizations:
 (defcustom lens-external nil "List of links to external sites.")
@@ -84,7 +88,6 @@ If set to `nil' the title is the name of the input file.")
 (defcustom lens-output-dir ".." "where to write the output")
 (defcustom lens-img-dir ".img" "where <img> content is located")
 (defcustom lens-css ".src/preferred.css" "stylesheet")
-(defcustom lens-host-mail "Patrick.T.Anderson@gmail.com" "mail address to send edits")
 (defcustom lens-shortest-inner
   3 ;;too many inner matches
   ;; 4 ;;not enough prefix coverage

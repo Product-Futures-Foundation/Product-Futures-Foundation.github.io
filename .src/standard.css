@@ -1,5 +1,10 @@
-body {background:#eee;}
-/* #header,#footer {background:#ff8;} */
+body {background:#eee; font-family:"Courier New";}
+
+ /*
+  * font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
+  */
+.header, .footer {font-family:arial, san-serif;}
+
 /* #main {background:#ffa; border:1em solid #ff8;} */
 /* span.h1,span.h2,span.h3,span.h4 {background:#ccc;} */
 

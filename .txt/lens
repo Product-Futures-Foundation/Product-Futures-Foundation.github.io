@@ -1,3 +1,5 @@
 Related: For Product
 
-The LENS Contract Language defines group policy for Shared Assets and Work Commitments.
+Use the LENS smart contract language to define group policy for shared assets, work commitments and token dynamics.
+
+../.src/lens.el

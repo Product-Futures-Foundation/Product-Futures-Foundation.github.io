@@ -1,3 +1,4 @@
 Related: code, coin, contract, data, lang, money, name, pointer, reference, symbol, text, ticket, title, unique number or phrase, word
 
-A token may point at value.
+A token may point at value or debt or nothing at all.
+A title is a special token which points at property.
