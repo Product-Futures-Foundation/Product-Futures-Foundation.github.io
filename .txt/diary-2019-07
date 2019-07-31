@@ -1,9 +1,114 @@
+2019-07-28:
+p  0x51209A17Bfa079d345532f799d9C77F73d28cbFE
+d  0x20A1106710F17ac0C99FaB7B0b8Fd8F91e014905
+a  0x1d191eaFB020f7ED17DA78F79F72B8B00CaCDa03
+h  0xF66F5BB2FA3a6Ea5f6f4ed5C55838aCa7321688b
+o  0x7fB8F7485BA4144D21648e979D555f9Feac3Da52
+i  0xE4b675ee73D7dF1655eeC8d32be9857e2739fc43
+
+2019-07-28:
+OLD way:
+debt
+buy sources, begin production
+  workers do not gain source ownership, so pay profit even when buying even crucial products such as food and housing.
+try to sell product to consumers for more than cost
+try to payback debt plus interest
+
+GNU way:
+no debt
+try to pre-sell product to consumers
+buy sources, begin production
+  workers gain source ownership, so receive food, housing, and most other crucial products at the real costs of production.
+no debt or interest to repay
+
+2019-07-24: ArchChain.cc >>Archchain is a project that encompasses applications of blockchain and distributed ledgers in the design and management of buildings and cities.
+
+2019-07-24: ▦Coin is a new name for a money backed by the property rights and work bonds required to create future products.
+
+2019-07-24: Alchemy.DAOStack.io/profile/0x51209a17bfa079d345532f799d9c77f73d28cbfe
+
+2019-07-23: github.com/AlphaWallet/TokenScript >>The authors of the design paper holds that there is no tangible benefit of using blockchain without tokenisation.
+
+2019-07-22:
+== Timeline
+Each subgroup:
+  Find land for sale suitable for permaculture.
+  Decide layout of shared structures and paths.
+  Decide each product type for each shared ft².
+
+DAO:
+  Mint one NFT for each ft² of each parcel.
+  Auction NFTs to fund production without debt.
+  Buy land, tools, plants and animals, water-rights.
+
+Each subgroup:
+  Begin building shared structures.
+  Install plants and animals.
+  Resolve border disputes, pollution, etc.
+
+2019-07-22: docs.google.com/forms/d/e/1FAIpQLSd7ZXhUzNCOMMGTCO3m2HgKGOJN5uq0oeDfCgJDnFwR8OsFXw
+
+2019-07-21:
+First of all, a big "Thank You!" for all the beauty you create here.
+
+I ran the wizard at dOrg.tech but I don't know how interact with it? 🙄
+
+2019-07-21: Atra.io >>Blockchain development from months to minutes
+
+2019-07-21: Alchemy.DAOStack.io >>
+
+2019-07-21: DAOFest.io >>
+
+2019-07-21:
+$ crew install nodebrew
+$ nodebrew install-binary 11
+$ nodebrew use 11
+
+$ curl https://npmjs.org/install.sh
+$ sh install.sh (will install npm)
+$ npm version (should display npm version, might be outdated)
+$ npm update npm -g (npm can update itself)
+$ npm version (should be latest now)
+
+2019-07-21: "'The key objective of a DAO is value creation or production, and to make that happen, there needs to be a specific linkage between user actions and the resulting effects of those actions on the overall value to the organization.'"
+
+2019-07-21: PlatformValueNow.org >>The Platform Value Now project, funded by Finland’s Strategic Research Council, focuses on understanding the fast emerging platform ecosystems, their value creation dynamics and requirements of the supportive institutional environment.
+
+2019-07-21: HouseParty rinkeby.aragon.org/#/houseparty 0x9C0A1d5d62a0b0DB8aaEFD4b245C8f81F1604092
+
+2019-07-20: rinkeby.aragon.org/#/productfuturesfoundation
+
+2019-07-20: dOrg.tech
+Hurray! Your DAO is deployed!
+Here are some useful information about it.
+Name: ProductFuturesFoundation
+Token Name: CityCoin
+Token Symbol: CC
+Avatar: 0xe4753F6A16E76d8012716E61D9DB175B8C271c73
+DAO Token: 0xd9973A3F3db97fAFB4f9Cf18E657E54616608107
+Reputation: 0x5B75720eBf9DE4B1A7E7fc2BF040Ef8f8B16CABA
+
+2019-07-20:
+0xCbF47C09255caDe2d94c0d1f14BF032FA41953D1
+
+2019-07-20: dOrg.tech
+Hurray! Your DAO is deployed!
+Here are some useful information about it.
+Name: ProductFuturesFoundation
+Token Name: EarthChange
+Token Symbol: ECT
+Avatar: 0xc5fE40662cb692bf6b2489a9B07E8598994f77f9
+DAO Token: 0x0EA1F39f6168722DA6E1d2c6Dc3dcE476Fd94F5d
+Reputation: 0x86E4e03C4F4A74a86b8DF44c8555d1Bced571961
+
+2019-07-20: Using SkyCocker.github.io/chromebrew to run emacs on Chromebook
+
 2019-07-17: github.com/C-ORG/whitepaper >>people want money!
-But really they want goods and services.
+But in the end they just want goods and services.
 
 2019-07-17: Video conference with Grace Rachmany today.
 
-2019-07-17: Tokenomics by Grace Rachmany of DAOLeadership.com  YouTube.com/watch?v=7z7dp2FLwYE >> Utility tokens, security tokens and asset-backed tokens
+2019-07-17: Tokenomics by Grace Rachmany of DAOLeadership.com  YouTube.com/watch?v=7z7dp2FLwYE >>Utility tokens, security tokens and asset-backed tokens
 
 2019-07-16: C-Org.co >>The current fundraising models impose significant limitations on the mechanisms available to align stakeholders’ interests. A Continuous Organization is a new model designed to make organizations more fluid and more robust by overcoming those limitations. Using the Continuous Organization model, organizations can set themselves in continuous fundraising mode while benefiting from solid and flexible mechanisms to align stakeholders’ interests in their financial success.
 
