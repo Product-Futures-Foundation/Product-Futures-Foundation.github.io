@@ -1,3 +1,145 @@
+2019-08-19: https://github.com/ethberlinzwei/Find-A-Team/issues/23
+
+## Introduction
+
+- [ ] _Who you are_:
+Patrick T Anderson, C/C++ developer turned to a life of economic hackery :)
+
+- [ ] _What you do_:
+similar to how the GNU GPL uses Copyright to enforce Copyleft,
+I have been developing a Terms of Operation increase User Freedom
+using Property Rights to enforce Property Left
+
+- [ ] _How you got first into Ethereum_:
+Hmm, not sure.
+
+- [ ] _What brings you to ETHBerlin_: 
+I wasn't able to actually attend...
+
+## Idea description
+
+_What is your idea? Give as many details as you possibly can._
+
+Search real estate listings to meet the many requirements such as minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
+
+Start crowdfunding *pre*-campaign to ask workers and other investor where they prefer to build.
+
+Finalize parcel selection and mint Source Titles against each ft².
+
+=== BOOT
+Start real crowdfunding campaign and begin selling Source Titles to workers and other investors.
+
+Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
+
+=== START
+Purchase land, tools and startup supplies, including primary bulk food ingredients such as bushels of grains, legumes, raw potatoes, bales of herbs and spices etc. to cook large, cheap but nutritious shared meals and begin soap and cloth making.
+
+Workers may move onsite immediately, but may need to use tents, cafeteria style dining and temporary sanitation facilities while the first shared structures are built and support systems are established.
+
+=== TERMS
+
+. Money becomes Sources: Consumers gain sources when they buy future products.
+. Promises become Sources: Workers gain sources as they fulfill work promises.
+. Sources become Product: Owners of sources are also owners of future products.
+. Profit becomes Sources: Consumers gain sources when they buy surplus products.
+
+==== Money becomes Sources
+Similar to crowdfunding, consumers prepay for future products with traditional money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that production.
+
+These investors take risk to *avoid* paying the profit they would otherwise pay when buying that product on the open market.
+
+
+==== Promises become Sources
+Every worker is a consumer who needs source ownership for the same reasons.
+
+Workers gain immediate access to sources which vest as work is complete.
+
+Vested sources become collateral to access even more valuable sources.
+
+
+==== Sources become Product
+Source owners accept the product itself as the direct and natural return on investment, and so do not sell or buy the finished product (except surplus as explained below).
+
+>>        Just as the owner of a tree owns all of that fruit,
+>>    each co-owner of an orchard owns his portion of that fruit.
+
+The price each pays as a consumer is exactly the costs each paid as an source owner while the final sale is eliminated, leaving profit undefined.
+
+Instead of selling the product to another consumer, the product has been pre-distributed to the consumer who predicted they would need it.  There is no sale because it is already the individuated property of that consumer+owner.
+
+This allows these groups to operate at zero profit even while all shareholders remain satisfied.  The numeric return is approximately the same as a For Profit investment but inverted in that the shareholder *avoids* paying profit for that product.
+
+This is a generalization of economic imputation.
+
+
+==== Profit becomes Sources
+Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued Source Titles, or to buy Source Titles being offered for sale by other owners.
+
+This causes all users to incrementally gain the property ownership in the sources required to finally also control the production they need and receive those products at cost.
+
+
+## Skillset
+
+_What skills do you need, or think you might need to implement the idea?_
+
+- [ ] Core Blockchain Development (Go, C++, Rust)
+- [X] Smart Contracts (Solidity, Vyper)
+- [X] DApps, Web3.JS (JavaScript, CSS)
+- [ ] Design, User Experience
+- [ ] Project Management
+- [ ] Game theory
+- [ ] _Other_: ...
+
+## Communication
+
+_Consider leaving your personal Riot/Status address so that the team can contact you off GitHub._
+
+- [X] _Riot handle_: patrick.t.anderson
+- [X] _Status IM_: Patrick-T-Anderson
+
+
+
+2019-08-15: House Party
+
+2019-08-15: tg.me/DAO-Legal
+I wonder about a variation where we sell coins to buy large pieces of farmland (10-100 acres) to create privately-owned cities, and where each coin represents real ownership in some arbitrary amount (let's say one-square-foot) of land.
+
+Could we create a stablecoin *backed by real land* that we could use to live and build a new city without paying rent?
+
+
+2019-08-15: DAO Food Sovereignty
+We can sell part of the coins for "plain old money" to buy land and startup tools, with each coin priced to *also include* the fact the DAO will be selling the rest of the coins for commitments of future work required for the initial setup and the first round of production.
+
+Even before production begins, workers are 'paid' with the property that protects them from paying profit.
+
+Those who commit and qualify to work somewhere in DAOLand receive a coin representing real property ownership in the physical sources required for the production they must have, such as food, housing, clothing, etc. under the full dominion of each group and without the many penalties of late purchase.
+
+Profits might be high when surplus is sold.
+If some is treated as that payer's investment,
+users gain access to Sources to insure "User Freedom" in the physical realm.
+
+It seems like this should localize control for each group since, as consumers are 'onboarded' simply because they overpaid for a slice of pizza, they receive *eventual* ownership in the land and tools and seeds, etc. required to make a *future* slice of pizza from a chain of production under their ownership.
+
+2019-08-15: pad.disroot.org/p/DAOfoodnotes
+
+2019-08-12: Less than $30k/acre at DonnerLand.com/listings/cougar-rock
+
+2019-08-12: t.me/sovereignfooddao or Web.Telegram.org/#/im?p=@sovereignfooddao
+
+If we can crack the code on ethics (see the GNU GPL for hints),
+owning land in groups will allow us to regain control of production
+of the goods and services we must have, and must otherwise beg from
+corporations and governments who seem to have their own agendas.
+
+For example:
+191.2 acres for $5,500,00 USD at LandAndFarm.com/property/Dietrich_Ranch-9245836
+191 acres = 8,319,960 square feet
+If each ft² sold for $1, we have $8,319,960 USD to buy the property IRL.
+
+2019-08-12: Facebook.com/groups/LVTGame
+
+2019-08-10: Owocki.com >>The World as Perpetual Beta
+
 2019-08-07: ■□▢▣▤▥▦▧▨▩
 
 Each □ represents 1 ft² of real land.
@@ -11,11 +153,12 @@ For each parcel,
 Some □ must be auctioned for $ to pay for land and tools.
   These □ vest as production is completed.
 
-The rest must be auctioned for future work to secure that labor.
-  These □ vest as work is completed.
+Remainder is auctioned for future work to secure that labor.
+  These □ vest as that work is completed.
 
   For each work unit,
-    pay increase as the end-date of the funding round approaches.
+    Payout of □ increases as funding end-date approaches.
+    In some cases, auction must end before action begins.
 
   To insure the health and safety of all participants,
     Each worker must be allow immediate access to enough □
