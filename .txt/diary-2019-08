@@ -1,23 +1,26 @@
+2019-08-29: 
+
 2019-08-28: Minimum Viable Prototype for pad.disroot.org/p/DAOfoodnotes
 The scale of pilot project should probably be around
 100 acres of land, 100 investors of money and 100 investors of work.
 
 For example:
-250 acres at LandAndFarm.com/property/Meadowview_Ranch-9373344 for $1,850,000
+$1,850,000 for 250 acres at LandAndFarm.com/property/Meadowview_Ranch-9373344
 
-250_acres * 43,560_ft²/acre  = 10,890,000_ft²
+There are 43,560 ft² in every acre, so:
+    250 * 43560 = 10890000 ft²
 
-That is roughly 5_ft² for $1
+That's $7,400 per acre,
+or about $1 per 5 ft²
+which is 20¢ per ft².
+
 ...
 
-If ⬜ represents 1_ft² of land,
-
-in this case, each ⬜ sold at $1
-funds the purchase of 4 more ft²
-
-Some of those 4_ft² will pay workers,
-while others can be sold to pay for
-tools and other startup supplies.
+If we mint ⬜ representing 1 ft² of land,
+and if we can sell some ⬜ for $1,
+we have 80¢ to buy tools,
+other startup supplies,
+or ft² for workers.
 
 2019-08-28: CoinTelegraph.com/explained/tokenization-explained
 
