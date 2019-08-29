@@ -1,24 +1,23 @@
 Related: block, chain, CityCoin, DAO, fintech, lens, solidity
 
 OpenLaw.io
-
+Law.MIT.edu
+COALA.global >>Coalition of Automated Legal Applications
 DAML.com >>The developer’s choice for building smart contracts
 
-Pact.Kadena.io
+Pact.Kadena.io >>Pact is the first truly human readable smart contract language. It lets anyone write clearly, directly and safely onto a blockchain—a true advance for secure, automated contracts. Pact supports entirely new business models and on-chain services.
 
 Smart Contracts are legal instruments written in specialized programming languages such as:
-Solidity
-Vyper  Vyper.ReadTheDocs.io  github.com/ethereum/vyper/wiki/Vyper-tools-and-resources
-Bamboo  github.com/pirapira/bamboo OCaml >>Bamboo: a morphing smart contract language
-Flint
-LLL
-Obsidian IEEEXplore.IEEE.org/document/7965268 >>Obsidian: A Safer Blockchain Programming Language
-EVM  The Ethereum Virtual Machine 'executes'
+  Solidity
+  Vyper  Vyper.ReadTheDocs.io  github.com/ethereum/vyper/wiki/Vyper-tools-and-resources
+  Bamboo  github.com/pirapira/bamboo OCaml >>Bamboo: a morphing smart contract language
+  Flint
+  LLL
+  Obsidian IEEEXplore.IEEE.org/document/7965268 >>Obsidian: A Safer Blockchain Programming Language
+  EVM  The Ethereum Virtual Machine 'executes'
 
-==Competitors
-Holo
-NEO
-
+  Holo
+  NEO
 
 ==Dev tools
 dapparatus

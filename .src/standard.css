@@ -1,8 +1,8 @@
 body {background:#eee; font-family:"Courier New";}
 
- /*
-  * font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
-  */
+/*
+ * font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
+ */
 .header, .footer {font-family:arial, san-serif;}
 
 /* #main {background:#ffa; border:1em solid #ff8;} */
@@ -21,8 +21,8 @@ span.shell {background:#ddd;}
 span.cmnt {background:#dfd;}
 span.type {background:#9bf;}
 
-// a {color:#009;}
-// a:visited {color:#606;}
-a.ext {color:#900;}
-a:hover, a:focus {background:#009; color:#ff0;}
-a.ext:hover, a.ext:focus {background:#900; color:#ff0;}
+a {color:#000; text-decoration:none;}
+a:hover, a:focus {color:#009;}
+
+a.ext {color:#009;}
+a.ext:hover, a.ext:focus {color:#606;}

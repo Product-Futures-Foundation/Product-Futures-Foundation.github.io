@@ -1,55 +1,252 @@
-2019-08-19: https://github.com/ethberlinzwei/Find-A-Team/issues/23
+2019-08-28: Minimum Viable Prototype for pad.disroot.org/p/DAOfoodnotes
+The scale of pilot project should probably be around
+100 acres of land, 100 investors of money and 100 investors of work.
 
-## Introduction
+For example:
+250 acres at LandAndFarm.com/property/Meadowview_Ranch-9373344 for $1,850,000
 
+250_acres * 43,560_ft²/acre  = 10,890,000_ft²
+
+That is roughly 5_ft² for $1
+...
+
+If ⬜ represents 1_ft² of land,
+
+in this case, each ⬜ sold at $1
+funds the purchase of 4 more ft²
+
+Some of those 4_ft² will pay workers,
+while others can be sold to pay for
+tools and other startup supplies.
+
+2019-08-28: CoinTelegraph.com/explained/tokenization-explained
+
+"'Remember our COW token? Let’s apply the Howey Test here.
+
+It is being sold as an investment opportunity. Investors do rely on you, as the farm’s owner, to keep it profitable and ideally not run it into the ground. Are profits expected to be made? Sure, why else would investors buy a token named COW?'"
+
+Milk?
+
+2019-08-28: MIT.edu/~tknight/IJDC >>Shape grammars were invented over twenty-five years ago by Stiny and Gips. They were one of the earliest algorithmic systems for creating and understanding designs directly through computations with shapes, rather than indirectly through computations with text or symbols.
+Reminds me of BreckyUnits.com
+
+2019-08-28: Some Earth Change
+LinkedIn.com/in/rebeccarachmany
+LinkedIn.com/in/auryn-macmillan-009a3991
+
+
+2019-08-27: Tokenized.com
+
+2019-08-27: build.colony.io/t/connecting-daos-to-the-real-world/37
+
+2019-08-27: chat.holochain.org/appsup/channels/app-housing-economy
+
+2019-08-27: Some of the troubles with representive governance at github.com/ethberlinzwei/Find-A-Team/issues/37
+
+2019-08-27:
+. Buy future products.
+. Commit to work in the future.
+. Pay profit while buying surplus.
+
+2019-08-26: ⬜ is a coin backed by land held for product.
+
+2019-08-26: Answers for pad.disroot.org/p/DAOfoodnotes
+
+> For you to continue your work on this subject, what topic holds priority for you?
+
+A way turn the value people can commit toward future products
+into the property and promises required for that production.
+
+
+> What other critical issues do you suggest we explore?
+
+This only covers the economic part of the problem.
+
+We also need to gather the vast information about
+the details of permaculture, solar-aware housing,
+low-tech energy solutions and many other physical
+limitations or difficulties encountered when trying
+to organize humans to share sources and skills.
+
+
+> What networks or organizations are your affiliated with who have relevance to this subject? (Include a link)
+
+Product-Futures-Foundation.github.io
+
+
+> Do you have a theory of change for this subject?
+
+I do not have this written.
+
+
+> Would you like to present/share your ideas in a community call sometime?
+
+Yes.
+
+> What platforms or tools do you currently use for remote collaboration and driving action between contributors? (eg. Alchemy)
+
+Email: Patrick.T.Anderson@gmail.com
+Telegram: patrick_t_anderson
+Diary: Product-Futures-Foundation.github.io/-diary.htm
+Twitter.com/Patrick_T_Ander
+Facebook.com/PatrickToddAnderson
+LinkedIn.com/in/patricktanderson
+
+
+> What potential sources of funding do you see available for this project and/or associated DAO projects?
+
+Workers and other consumers who need access to affordable organic solutions.
+
+
+> What is the issue or opportunity a DAO is trying to adress?
+
+An easy way for people to buy and sell future goods and services
+to fund the land and tools and work required for that production
+in a semi-continuous way so those groups can manage those assets.
+
+
+> Why is a DAO the most appropriate solution for this issue?
+
+A DAO can hide the complexity of organizing that production
+while allowing users to retain full control of that production.
+
+
+> How is a DAO a more appropriate solution than what people have tried and tested so far (in addressing the issue)?
+
+We could do this with paper instead of computers,
+using a property registry to record land ownership,
+a work roster to record task assignments and completions,
+and (optionally) a ticket system to represent future goods and services.
+
+> What are aspects of the solution that other approaches to solving the issue strong on where a DAO is weak?
+
+The paper solution is possible even during extreme isolation or poverty.
+
+
+> What are the positive consequences of a DAO being implemented for this purpose?
+
+We regain control of the production of our basic necessities,
+and so create a real alternative to buying from corporations
+that act in unsocial ways.
+
+
+> What are the negative consequenes (intended and possilby unintended) of implementing a DAO in this context?
+We may lose control of the system and accidentally empower
+an even more destructive grouping strategy.
+
+
+> What are the values that you would like to see embedded in this particular DAO implementation?
+Local control meant to reduce pollution and other externalities.
+
+
+> How are those values tranlsated into systems and processes that are aligned with those values?
+
+When you co-own the productive assets, you care about how they are treated.
+
+To further localize production we could make the DAO 'default' to buying land nearest to that user's location.
+
+> What are particular aspects of the designed system that evidenlty demonstrate embeddedness of those values?
+
+Treating profit as the payer's investment causes all users to incrementally gain ownership in the sources of the products they use.
+
+When users own property because they need the product,
+they do not benefit during market scarcity,
+so have no incentive to destroy surplus
+and can generally ignore market price.
+
+When workers trade work before production begins,
+they seek permanent solutions and try to minimize work.
+
+
+> What are the intentions of possible contributors to the DAO development?
+The 3 primary contributors are:
+
+1. Those buying *future* goods and services with traditional money.
+2. Those offering *future* goods and services as work commitments.
+3. Those buying *surplus* goods and services with traditional money or with work commitments.
+
+> What are the motivations of possible contributors to the DAO develpment?
+
+Food, housing, sanitation, clothing, health-care and other things they need.
+
+> What are the boundaries (domain) of this emergent process? (ie. who participates? who is a stakeholder? where does it start and end?)
+
+Anyone can participate by committing either money or work.
+
+It starts when people start prepaying for future products.
+
+It ends (should stop growing) when everyone has enough property ownership to control the production they need.
+
+
+> What makes us the right group to take this forward?
+You are focused on the food problem which central to this solution.
+
+> Are you looking for a community of practice, a working group, a network, or another form of collaborative organizing?
+I don't know enough about the differences to choose.
+
+2019-08-26: Video call with https://help.colony.io/hc/en-us/profiles/378760718914-Auryn
+
+2019-08-22: Miro.com
+
+2019-08-22: CoMakery.com
+
+2019-08-22: github.com/ethberlinzwei/Find-A-Team/issues/36
+
+2019-08-22: LandAndFarm.com/property/Meadowview_Ranch-9373344
+
+2019-08-20: 🌽🌾🌿🍄🍅🍆🍇🍈🍉🍊🍋🍌🍍🍎🍏🍐🍑🍒🍓
+Playing with unicode and fonts in Emacs.
+
+2019-08-19: github.com/ethberlinzwei/Find-A-Team/issues/23
 - [ ] _Who you are_:
 Patrick T Anderson, C/C++ developer turned to a life of economic hackery :)
 
 - [ ] _What you do_:
-similar to how the GNU GPL uses Copyright to enforce Copyleft,
-I have been developing a Terms of Operation increase User Freedom
+Similar to how the GNU GPL uses Copyright to enforce Copyleft,
+I have been developing a Terms of Operation
 using Property Rights to enforce Property Left
+to secure User Freedom in the Material World.
 
-- [ ] _How you got first into Ethereum_:
-Hmm, not sure.
-
-- [ ] _What brings you to ETHBerlin_: 
-I wasn't able to actually attend...
+- [ ] _What brings you to ETHBerlin_:
+I wasn't able to attend ☹
 
 ## Idea description
 
 _What is your idea? Give as many details as you possibly can._
 
+The idea is to use private property ownership to regain control of physical production for our mutual benefit to achieve what governments and businesses fail to deliver.
+
+## PREBOOT
 Search real estate listings to meet the many requirements such as minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
 
 Start crowdfunding *pre*-campaign to ask workers and other investor where they prefer to build.
 
 Finalize parcel selection and mint Source Titles against each ft².
 
-=== BOOT
+## BOOT
 Start real crowdfunding campaign and begin selling Source Titles to workers and other investors.
 
 Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
 
-=== START
+## START
 Purchase land, tools and startup supplies, including primary bulk food ingredients such as bushels of grains, legumes, raw potatoes, bales of herbs and spices etc. to cook large, cheap but nutritious shared meals and begin soap and cloth making.
 
 Workers may move onsite immediately, but may need to use tents, cafeteria style dining and temporary sanitation facilities while the first shared structures are built and support systems are established.
 
-=== TERMS
+## TERMS
 
 . Money becomes Sources: Consumers gain sources when they buy future products.
 . Promises become Sources: Workers gain sources as they fulfill work promises.
 . Sources become Product: Owners of sources are also owners of future products.
 . Profit becomes Sources: Consumers gain sources when they buy surplus products.
 
-==== Money becomes Sources
+### Money becomes Sources
 Similar to crowdfunding, consumers prepay for future products with traditional money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that production.
 
 These investors take risk to *avoid* paying the profit they would otherwise pay when buying that product on the open market.
 
 
-==== Promises become Sources
+### Promises become Sources
 Every worker is a consumer who needs source ownership for the same reasons.
 
 Workers gain immediate access to sources which vest as work is complete.
@@ -57,11 +254,11 @@ Workers gain immediate access to sources which vest as work is complete.
 Vested sources become collateral to access even more valuable sources.
 
 
-==== Sources become Product
+### Sources become Product
 Source owners accept the product itself as the direct and natural return on investment, and so do not sell or buy the finished product (except surplus as explained below).
 
->>        Just as the owner of a tree owns all of that fruit,
->>    each co-owner of an orchard owns his portion of that fruit.
+>>Just as the owner of a tree owns all of that fruit,
+>>each co-owner of an orchard owns his portion of that fruit.
 
 The price each pays as a consumer is exactly the costs each paid as an source owner while the final sale is eliminated, leaving profit undefined.
 
@@ -72,23 +269,25 @@ This allows these groups to operate at zero profit even while all shareholders r
 This is a generalization of economic imputation.
 
 
-==== Profit becomes Sources
+### Profit becomes Sources
 Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued Source Titles, or to buy Source Titles being offered for sale by other owners.
 
 This causes all users to incrementally gain the property ownership in the sources required to finally also control the production they need and receive those products at cost.
 
 
 ## Skillset
-
 _What skills do you need, or think you might need to implement the idea?_
 
 - [ ] Core Blockchain Development (Go, C++, Rust)
 - [X] Smart Contracts (Solidity, Vyper)
 - [X] DApps, Web3.JS (JavaScript, CSS)
-- [ ] Design, User Experience
-- [ ] Project Management
-- [ ] Game theory
-- [ ] _Other_: ...
+- [ X] Design, User Experience
+- [ X] Project Management
+- [ X] Game theory
+- [ X] Permaculture
+- [ X] City Planning
+- [ X] Token Ethics
+
 
 ## Communication
 
@@ -96,6 +295,7 @@ _Consider leaving your personal Riot/Status address so that the team can contact
 
 - [X] _Riot handle_: patrick.t.anderson
 - [X] _Status IM_: Patrick-T-Anderson
+- [X] _github_ : [Patrick-T-Anderson.github.io](http://Patrick-T-Anderson.github.io)
 
 
 
@@ -140,6 +340,7 @@ If each ft² sold for $1, we have $8,319,960 USD to buy the property IRL.
 
 2019-08-10: Owocki.com >>The World as Perpetual Beta
 
+[[rewritten for github.com/ethberlinzwei/Find-A-Team/issues/23]]
 2019-08-07: ■□▢▣▤▥▦▧▨▩
 
 Each □ represents 1 ft² of real land.

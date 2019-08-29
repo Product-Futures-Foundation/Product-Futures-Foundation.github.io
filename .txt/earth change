@@ -1,17 +1,15 @@
-Related: For Product
+Earth Change is a new way for groups to acquire and manage the property and promises required to produce the goods and services they need.
 
-= Overview
-Earth Change helps groups share sources and swap skills to produce the real goods and services they need.
+The Each Earth Change Title (ECT) is a Non-Fungible Token representing property ownership in the land, water-rights, tools, plants, animals, required create a specific good or service *and* implicit ownership of all future products created by those Sources.
 
-Sources are all the non-human inputs such as land, water-rights, tools, plants, animals, robots, etc.
+Both Sources and Products are held under terms of the For Product contract.
 
-Potential members buy future products with money or with future work commitments.
+ECTs are issued and auctioned to secure the property and promises.
 
-The Earth Change DAO calculates all the required for each product then check prices to buy those Sources, and finally issues and auction Source Titles to buy those Sources.
+Minimum bid for each ECT is found by calculating the market price for all the property,
+plus the fact that some of that property will be used to 'pay' for those work promises.
 
-The auction price of each Source Title implicitly includes the sources used to pay workers.
-
-=Timeline
+= Timeline
 Future products are sold to buy Sources required to begin production.
 Some of these Sources are sold for commitments to work in the future.
 Owners accept the Product itself as the natural return on investment.
@@ -23,10 +21,10 @@ Search real estate listings to meet the many requirements such as minimum size, 
 
 Start crowdfunding pre-campaign to ask workers and other investor where they prefer to build.
 
-Finalize parcel selection and mint Source Titles against each ft².
+Finalize parcel selection and mint ECTs against each ft².
 
 === BOOT
-Start real crowdfunding campaign and begin selling Source Titles to workers and other investors.
+Start real crowdfunding campaign and begin selling ECTs to workers and other investors.
 
 Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
 
@@ -57,16 +55,16 @@ Each Product instance has a window-of-validity in time enforced by constraints o
 
 For example, a young tree does not produce fruit immediately, and the fruit is not fresh forever.
 
-Source Titles issued to workers may not fully vest if quality or quantity projections are not met.  Projections must be adjusted for reasons outside the worker’s control such as such as severe weather, fire, earthquake, accidents, etc.
+ECTs issued to workers may not fully vest if quality or quantity projections are not met.  Projections must be adjusted for reasons outside the worker’s control such as such as severe weather, fire, earthquake, accidents, etc.
 
 === Sources
 Those paying with traditional money for “1 Gallon of milk per month” must pay the market-price of the land, tools, cattle, water rights, etc., recursively, for all that production.
 
 But that is only *part* of the cost.  The other cost is human labor.
 
-So those paying with traditional money are implicitly also buying the Source Titles used to compensate workers for one round of production.
+So those paying with traditional money are implicitly also buying the ECTs used to compensate workers for one round of production.
 
-The Earth Change DAO calculates the amount of human labor required to build and operate a dairy and then adjusts the selling price of Source Titles to insure the workers' Source Titles are also paid for.
+The Earth Change DAO calculates the amount of human labor required to build and operate a dairy and then adjusts the selling price of ECTs to insure the workers' ECTs are also paid for.
 
 Each owner must pay initial and recurring costs of production in one of these ways:
 . Supply Sources or Promises for your portion of the costs of production for this group.
@@ -76,16 +74,16 @@ Each owner must pay initial and recurring costs of production in one of these wa
 
 A variety of city design templates following permaculture principles could help guide core decisions around borders, roads, shared structures, etc.
 
-For the health and safety of all citizens, every citizen on site must receive at least enough Source Titles to ensure Tier0 quality of life.
+For the health and safety of all citizens, every citizen on site must receive at least enough ECTs to ensure Tier0 quality of life.
 
 ===Promises
-Promises are commitments of future work which are traded for Source Titles or for Promises from others to work on your behalf.
+Promises are commitments of future work which are traded for ECTs or for Promises from others to work on your behalf.
 
-Work is auctioned for Source Titles with compensation increasing as the crowdfund end date approaches.  So more difficult or less fun jobs receive higher paid.
+Work is auctioned for ECTs with compensation increasing as the crowdfund end date approaches.  So more difficult or less fun jobs receive higher paid.
 
 Each group must insure every worker is qualified
 
-Source Titles purchased with work commitments vest incrementally, as that work is completed.
+ECTs purchased with work commitments vest incrementally, as that work is completed.
 
 Trading work early in time, before production begins, allows us to specialize without passing tokens while also solving the “simultaneous coincidence of wants” problem that faces typical barter.
 
@@ -103,7 +101,7 @@ A guild system could train and test workers and protect owners by insuring quali
 
 
 ===Profit
-Any owner may sell any amount of product at any price, but some percentage of that profit must be treated as the payer's investment by purchasing Source Titles for that payer and giving those Source Titles to that payer.
+Any owner may sell any amount of product at any price, but some percentage of that profit must be treated as the payer's investment by purchasing ECTs for that payer and giving those ECTs to that payer.
 
 This safely reduces Profit within the system as the Sources required for production are incrementally redistributed to the consumers who need the results.
 
@@ -112,9 +110,9 @@ This safely reduces Profit within the system as the Sources required for product
 = Startup
 Estimate the quantity and quality food, housing, sanitation, clothing, basic health-care, child care, transportation, etc. needed to support on-site workers.
 
-Estimate the sources and promises needed for that production and issue Source Titles toward those goals.
+Estimate the sources and promises needed for that production and issue ECTs toward those goals.
 
-Sell about half of those Source Titles for traditional money, and the other half for commitments of future work.
+Sell about half of those ECTs for traditional money, and the other half for commitments of future work.
 
 Part of the property must be the land, water, tools, organisms, lumber, wire, pipe, etc. needed to create and operate the Earth Change city.
 
@@ -129,13 +127,13 @@ Investment Types (3 ways to pay)
 
 2. Pay with commitments to work in the future for others within the city.
  This cause you, the worker, to receive immediate access to enough
- Source Titles to sustain at least Tier0 quality of life.
+ ECTs to sustain at least Tier0 quality of life.
  Vesting occurs as promises are kept, causing all workers to gain
  debt-free housing and food security.
 
 3. Pay in a sort of ‘accidental’ way when you buy surplus product
  from other owners and pay more than the real costs of production.
- Owners selling surplus are required to buy Source Titles with
+ Owners selling surplus are required to buy ECTs with
  some of their profits, and vest ownership of those titles to you,
  the payer. //[[How should we determine the minimum percentage?]]
 
@@ -143,7 +141,7 @@ Potential users pre-pay to purchase land, water-rights, tools, plants, animals, 
 
 Some pre-pay with traditional money buy the land and tools while others pre-pay by commiting to complete the needed work.
 
-After some amount of time, or some series of events [these conditions are currently unknown] the Source Titles should vest more fully to the payer, allowing him to eventually sell them or negotiate with other co-owners to rezone the property.
+After some amount of time, or some series of events [these conditions are currently unknown] the ECTs should vest more fully to the payer, allowing him to eventually sell them or negotiate with other co-owners to rezone the property.
 
 At some point, and under certain constraints, and mostly to resolve disputes, subgroups must finally be allowed to secede (fork/split) from the group while retaining Property ownership.
 
@@ -191,14 +189,14 @@ Vision of a future product is proposed.
 Engineering constraints are enforced to find a realistic implementation or variation.
 The scale and level of vertical integration are estimated, balancing more immediate needs with longer term goals.
 A 'recipe' for that production is written, listing the required Sources and Skills.
-Source Titles are issued against those Sources.
-Some of these Source Titles are sold to purchase the real estate and tools and plants and animals on the open market.
-The rest of these Source Titles are sold to secure the Skills as work commitments.
+ECTs are issued against those Sources.
+Some of these ECTs are sold to purchase the real estate and tools and plants and animals on the open market.
+The rest of these ECTs are sold to secure the Skills as work commitments.
 Once we have all the commitments of Sources and Skills, we can begin production.
 
 After the first round of production, Products are distributed to each investor based on their percentage of ownership.
 
-Owners with surplus Product may sell to non-owners to cover costs of production and Profit may be collected from the non-owners (as much as the market will bear), but some of that profit must be treated as that payer's investment, causing them to gain Source Titles.
+Owners with surplus Product may sell to non-owners to cover costs of production and Profit may be collected from the non-owners (as much as the market will bear), but some of that profit must be treated as that payer's investment, causing them to gain ECTs.
 
 Workers are consumers who receive ownership in the Sources required to produce the Products they need.
 
@@ -332,7 +330,7 @@ Education portal to create and watch videos or articles.
 Docs.Google.com/document/d/1s67rO5Okc5mjntVxKOG4WWVMhiHsQmRcwpvBVKZFfaA
 
 ==Notes
-Source Titles sold at $1/ft² supply $43,650/acre to buy the land, tools and work (workers are paid with Source Titles, never directly with $).
+ECTs sold at $1/ft² supply $43,650/acre to buy the land, tools and work (workers are paid with ECTs, never directly with $).
 Instead of representation, governance is direct control through commitments of property or promises toward public works (parallel, semi-continuous crowdfunding campaigns).
 
 ==See also
@@ -342,3 +340,4 @@ Facebook.com/Earth.Change.Page
 KickStarter.com/projects/712902160/76969456/preview
 Facebook.com/job_opening/1249675101854603
 LeanStack.com/app/projects/471143/canvases/568658
+

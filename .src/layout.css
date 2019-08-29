@@ -8,19 +8,13 @@ span.quot,span.quot2,span.quot3 {font-weight:normal; font-style:italic;}
 span.italic {font-style:italic;}
 span.bold {font-weight:bold;}
 
+span.h1 {font-size:200%;}
+span.h2 {font-size:175%;}
+span.h3 {font-size:150%;}
+span.h4 {font-size:125%;}
 
-span.h1{font-size:200%;}
-span.h2{font-size:175%;}
-span.h3{font-size:150%;}
-span.h4{font-size:125%;}
+span.rel {font-size:75%;}
+span.tiny {font-size:50%;}
 
-span.date{font-size:125%;}
-span.rel{font-size:75%;}
-span.tiny{font-size:50%;}
-
-a{text-decoration:none;}
-a:visited{text-decoration:none;}
-a:hover,a:focus{text-decoration:none;}
-
-input{font-size:65%;}
-img{float:right;}
+input {font-size:65%;}
+img {float:right;}
