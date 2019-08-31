@@ -1,15 +1,38 @@
 = EARTH CHANGE
 
-Earth Change is a new way for groups to acquire and manage the property and promises required to produce the goods and services they need.
+== Who am I?
+Hi, I'm Patrick Anderson, long-time software engineer now designing systems
+that align ecology with economy.
 
-The Each Earth Change Title (ECT) is a Non-Fungible Token representing property ownership in the land, water-rights, tools, plants, animals, required create a specific good or service *and* implicit ownership of all future products created by those Sources.
+My team is creating a new way to organize material production
+to change the flow of commerce toward regenerative abundance.
 
-Both Sources and Products are held under terms of the For Product contract.
+We are designing a token
+and a DAO interface to acquire and manage
+the sources and skills required for the production
+of critical goods and services such as food and housing.
 
-ECTs are issued and auctioned to secure the property and promises.
+I am excited to be here today with the Food Sovereignty DAOStack group
+to explain how we can secure the property and promises
+needed to get this food party started!
 
-Minimum bid for each ECT is found by calculating the market price for all the property,
-plus the fact that some of that property will be used to 'pay' for those work promises.
+== How does it work?
+When you invest, you become a co-owner in the sources required for that production
+and accept the product itself as the natural return on that investment.
+
+>> When the consumers are owners there is no sale.
+>> Just as when you own a tree, you own the fruit,
+>> when you co-own a forest, you co-own the fruit.
+>> You own the outputs because you own the inputs.
+
+== How does it start?
+Potential members commit either work or money toward future production
+through the DAO interface
+
+Once all money and work commitments are recorded, we buy the sources.
+
+Each member owns only as much sources as they buy, and only as much of
+the product as their percentage for each round of production.
 
 == Timeline
 Future products are sold to buy Sources required to begin production.
@@ -21,19 +44,22 @@ Owners sell Surplus Product but some profit becomes payer investment.
 === PREBOOT
 Search real estate listings to meet the many requirements such as minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
 
-Start crowdfunding pre-campaign to ask workers and other investor where they prefer to build.
+Ask workers and other investor where they prefer to build.
 
-Finalize parcel selection and mint ECTs against each ft².
+Finalize parcel selection and begin minting tokens representing those sources.
 
 === BOOT
-Start real crowdfunding campaign and begin selling ECTs to workers and other investors.
+Start real crowdfunding campaign and begin selling tokens to workers and other investors.
 
 Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
 
+
 === START
+Somehow reach agreement over the general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
+
 Purchase land, tools and startup supplies, including primary bulk food ingredients such as bushels of grains, legumes, raw potatoes, bales of herbs and spices etc. to cook large, cheap but nutritious shared meals and begin soap and cloth making.
 
-Workers may move onsite immediately, but may need to use tents, cafeteria style dining and temporary sanitation facilities while the first shared structures are built and support systems are established.
+Any worker may move onsite immediately, but will likely be in tents with temporary sanitation facilities and cafeteria style dining while the first shared structures are built and support systems are established.
 
 === STASIS
 City supports Tier0 quality of life without external trade.
@@ -41,10 +67,45 @@ Begin building private structures such as tiny houses.
 Install slow-maturing plants and animals with uses beyond food.
 
 === SOVEREIGN
-City supports Tier1 qol without external trade.
+City supports Tier1 quality of life without external trade.
 
 === SURPLUS
 City produces more than it consumes.
+
+
+== What are the rules?
+. Money becomes Sources: Consumers gain sources when they buy future products.
+. Promises become Sources: Workers gain sources as they fulfill work promises.
+. Sources become Product: Owners of sources are also owners of future products.
+. Profit becomes Sources: Consumers gain sources when they buy surplus products.
+
+=== Money becomes Sources
+Similar to crowdfunding, consumers prepay for future products with traditional money, but instead of just receiving one round of production, they become the real property owners of the land and tools that will be purchased for that production.
+
+These investors take risk to avoid paying the profit they would otherwise pay when buying that product on the open market.
+
+=== Promises become Sources
+Every worker is a consumer who needs source ownership for the same reasons.
+These crowdfunders pay with promises of future labor.
+Workers gain immediate access to sources which vest as work is complete.
+Vested sources become collateral to access even more valuable sources.
+
+
+=== Sources become Product
+Source owners accept the product itself as the direct and natural return on investment, and so do not sell or buy the finished product (except surplus as explained below).
+
+The price each pays as a consumer is exactly the costs each paid as an source owner while the final sale is eliminated, leaving profit undefined.
+
+Instead of selling the product to another consumer, the product has been pre-distributed to the consumer who predicted they would need it.  There is no sale because it is already the individuated property of that consumer+owner.
+
+This allows these groups to operate at zero profit even while all shareholders remain satisfied.  The numeric return is approximately the same as a For Profit investment but inverted in that the shareholder *avoids* paying profit for that product.
+
+This is a generalization of economic imputation.
+
+=== Profit becomes Sources
+Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued Source Titles, or to buy Source Titles being offered for sale by other owners.
+
+This causes all users to incrementally gain the property ownership in the sources required to finally also control the production they need and receive those products at cost.
 
 
 == Definitions
@@ -57,7 +118,7 @@ Each Product instance has a window-of-validity in time enforced by constraints o
 
 For example, a young tree does not produce fruit immediately, and the fruit is not fresh forever.
 
-ECTs issued to workers may not fully vest if quality or quantity projections are not met.  Projections must be adjusted for reasons outside the worker’s control such as such as severe weather, fire, earthquake, accidents, etc.
+Property may not fully vest to workers if quality or quantity projections are not met.  Projections must be adjusted for reasons outside the worker’s control such as such as severe weather, fire, earthquake, accidents, etc.
 
 === Sources
 Those paying with traditional money for “1 Gallon of milk per month” must pay the market-price of the land, tools, cattle, water rights, etc., recursively, for all that production.
@@ -65,8 +126,6 @@ Those paying with traditional money for “1 Gallon of milk per month” must pa
 But that is only *part* of the cost.  The other cost is human labor.
 
 So those paying with traditional money are implicitly also buying the ECTs used to compensate workers for one round of production.
-
-The Earth Change DAO calculates the amount of human labor required to build and operate a dairy and then adjusts the selling price of ECTs to insure the workers' ECTs are also paid for.
 
 Each owner must pay initial and recurring costs of production in one of these ways:
 . Supply Sources or Promises for your portion of the costs of production for this group.
@@ -76,12 +135,12 @@ Each owner must pay initial and recurring costs of production in one of these wa
 
 A variety of city design templates following permaculture principles could help guide core decisions around borders, roads, shared structures, etc.
 
-For the health and safety of all citizens, every citizen on site must receive at least enough ECTs to ensure Tier0 quality of life.
+For the health and safety of all citizens, every citizen on site must receive at least enough tokens to ensure Tier0 quality of life.
 
 ===Promises
-Promises are commitments of future work which are traded for ECTs or for Promises from others to work on your behalf.
+Promises are commitments of future work.
 
-Work is auctioned for ECTs with compensation increasing as the crowdfund end date approaches.  So more difficult or less fun jobs receive higher paid.
+Work is auctioned with payout increasing as the crowdfund end date approaches.  So more difficult or less fun jobs receive higher pay.
 
 Each group must insure every worker is qualified
 
@@ -302,12 +361,8 @@ github.com/raineorshine/solgraph >>Generates a DOT graph that visualizes functio
 
 ==Theory and mechanics
 medium.com/@gavofyork/condition-orientated-programming-969f6ba0161a
-
 hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3
 github.com/poanetwork/wiki/wiki/What-is-POA
-
-Since most coins are not backed by anything of value,they use consensus in an  attempt to control the validity of transactions stored on the chain and to control issuance.
-Issuance
 forum.zeppelin.solutions/t/how-to-implement-erc20-supply-mechanisms/226/1
 
 
@@ -341,4 +396,11 @@ Facebook.com/Earth.Change.Page
 KickStarter.com/projects/712902160/76969456/preview
 Facebook.com/job_opening/1249675101854603
 LeanStack.com/app/projects/471143/canvases/568658
+app.gitbook.com/@earth-change
+
+
+DAO interface:
+. Define a new product [Teach the DAO the sources required for that production.]
+. Buy a future product. [Prepay for a product and receive source ownership.]
+. Sell a future product. [This is how you commit future work.  You must 'qualify' to access the sources of that production.  Source owners may impose any arbitrary requirement for access.]
 
