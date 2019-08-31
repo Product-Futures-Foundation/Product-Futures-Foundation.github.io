@@ -1,890 +1,605 @@
 UNICODE.org/charts/nameslist
 
-C0 Controls and Basic Latin
-C0 controls
 Alias names are those for ISO/IEC 6429:1992. Commonly used alternative aliases are also shown.
-0000	 ␀ 	<CONTROL>
- 	 	=	NULL
-0001	 ␁ 	<CONTROL>
- 	 	=	START OF HEADING
-0002	 ␂ 	<CONTROL>
- 	 	=	START OF TEXT
-0003	 ␃ 	<CONTROL>
- 	 	=	END OF TEXT
-0004	 ␄ 	<CONTROL>
- 	 	=	END OF TRANSMISSION
-0005	 ␅ 	<CONTROL>
- 	 	=	ENQUIRY
-0006	 ␆ 	<CONTROL>
- 	 	=	ACKNOWLEDGE
-0007	 ␇ 	<CONTROL>
- 	 	=	BELL
-0008	 ␈ 	<CONTROL>
- 	 	=	BACKSPACE
-0009	 ␉ 	<CONTROL>
- 	 	=	CHARACTER TABULATION
- 	 	=	horizontal tabulation (HT), tab
-000A	 ␊ 	<CONTROL>
- 	 	=	LINE FEED (LF)
- 	 	=	new line (NL), end of line (EOL)
-000B	 ␋ 	<CONTROL>
- 	 	=	LINE TABULATION
- 	 	=	vertical tabulation (VT)
-000C	 ␌ 	<CONTROL>
- 	 	=	FORM FEED (FF)
-000D	 ␍ 	<CONTROL>
- 	 	=	CARRIAGE RETURN (CR)
-000E	 ␎ 	<CONTROL>
- 	 	=	SHIFT OUT
- 	 	•	known as LOCKING-SHIFT ONE in 8-bit environments
-000F	 ␏ 	<CONTROL>
- 	 	=	SHIFT IN
- 	 	•	known as LOCKING-SHIFT ZERO in 8-bit environments
-0010	 ␐ 	<CONTROL>
- 	 	=	DATA LINK ESCAPE
-0011	 ␑ 	<CONTROL>
- 	 	=	DEVICE CONTROL ONE
-0012	 ␒ 	<CONTROL>
- 	 	=	DEVICE CONTROL TWO
-0013	 ␓ 	<CONTROL>
- 	 	=	DEVICE CONTROL THREE
-0014	 ␔ 	<CONTROL>
- 	 	=	DEVICE CONTROL FOUR
-0015	 ␕ 	<CONTROL>
- 	 	=	NEGATIVE ACKNOWLEDGE
-0016	 ␖ 	<CONTROL>
- 	 	=	SYNCHRONOUS IDLE
-0017	 ␗ 	<CONTROL>
- 	 	=	END OF TRANSMISSION BLOCK
-0018	 ␘ 	<CONTROL>
- 	 	=	CANCEL
-0019	 ␙ 	<CONTROL>
- 	 	=	END OF MEDIUM
-001A	 ␚ 	<CONTROL>
- 	 	=	SUBSTITUTE
- 	 	→	FFFD � replacement character
-001B	 ␛ 	<CONTROL>
- 	 	=	ESCAPE
-001C	 ␜ 	<CONTROL>
- 	 	=	INFORMATION SEPARATOR FOUR
- 	 	=	file separator (FS)
-001D	 ␝ 	<CONTROL>
- 	 	=	INFORMATION SEPARATOR THREE
- 	 	=	group separator (GS)
-001E	 ␞ 	<CONTROL>
- 	 	=	INFORMATION SEPARATOR TWO
- 	 	=	record separator (RS)
-001F	 ␟ 	<CONTROL>
- 	 	=	INFORMATION SEPARATOR ONE
- 	 	=	unit separator (US)
+0000     ␀  <CONTROL> =   NULL
+0001     ␁  <CONTROL> =   START OF HEADING
+0002     ␂  <CONTROL> =   START OF TEXT
+0003     ␃  <CONTROL> =   END OF TEXT
+0004     ␄  <CONTROL> =   END OF TRANSMISSION
+0005     ␅  <CONTROL> =   ENQUIRY
+0006     ␆  <CONTROL> =   ACKNOWLEDGE
+0007     ␇  <CONTROL> =   BELL
+0008     ␈  <CONTROL> =   BACKSPACE
+0009     ␉  <CONTROL> =   CHARACTER TABULATION =   horizontal tabulation (HT), tab
+000A     ␊  <CONTROL> =   LINE FEED (LF) =   new line (NL), end of line (EOL)
+000B     ␋  <CONTROL> =   LINE TABULATION =   vertical tabulation (VT)
+000C     ␌  <CONTROL> =   FORM FEED (FF)
+000D     ␍  <CONTROL> =   CARRIAGE RETURN (CR)
+000E     ␎  <CONTROL> =   SHIFT OUT •   known as LOCKING-SHIFT ONE in 8-bit environments
+000F     ␏  <CONTROL> =   SHIFT IN •   known as LOCKING-SHIFT ZERO in 8-bit environments
+0010     ␐  <CONTROL> =   DATA LINK ESCAPE
+0011     ␑  <CONTROL> =   DEVICE CONTROL ONE
+0012     ␒  <CONTROL> =   DEVICE CONTROL TWO
+0013     ␓  <CONTROL> =   DEVICE CONTROL THREE
+0014     ␔  <CONTROL> =   DEVICE CONTROL FOUR
+0015     ␕  <CONTROL> =   NEGATIVE ACKNOWLEDGE
+0016     ␖  <CONTROL> =   SYNCHRONOUS IDLE
+0017     ␗  <CONTROL> =   END OF TRANSMISSION BLOCK
+0018     ␘  <CONTROL> =   CANCEL
+0019     ␙  <CONTROL> =   END OF MEDIUM
+001A     ␚  <CONTROL> =   SUBSTITUTE
+001B     ␛  <CONTROL> =   ESCAPE
+001C     ␜  <CONTROL> =   INFORMATION SEPARATOR FOUR =   file separator (FS)
+001D     ␝  <CONTROL> =   INFORMATION SEPARATOR THREE =   group separator (GS)
+001E     ␞  <CONTROL> =   INFORMATION SEPARATOR TWO =   record separator (RS)
+001F     ␟  <CONTROL> =   INFORMATION SEPARATOR ONE =   unit separator (US)
+
 ASCII punctuation and symbols
 Based on ISO/IEC 646.
-0020	 ␣ 	SPACE
- 	 	•	sometimes considered a control code
- 	 	•	other space characters: 2000 ␣-200A ␣
- 	 	→	00A0 ␣ no-break space
- 	 	→	200B ⬚ zero width space
- 	 	→	2060 ⬚ word joiner
- 	 	→	3000 ␣ ideographic space
- 	 	→	FEFF ⬚ zero width no-break space
-0021	 ! 	EXCLAMATION MARK
- 	 	=	factorial
- 	 	=	bang
- 	 	→	00A1 ¡ inverted exclamation mark
- 	 	→	01C3 ǃ latin letter retroflex click
- 	 	→	203C ‼ double exclamation mark
- 	 	→	203D ‽ interrobang
- 	 	→	2762 ❢ heavy exclamation mark ornament
-0022	 " 	QUOTATION MARK
- 	 	•	neutral (vertical), used as opening or closing quotation mark
- 	 	•	preferred characters in English for paired quotation marks are 201C “ & 201D ”
- 	 	•	05F4 ‎״‎ is preferred for gershayim when writing Hebrew
- 	 	→	02BA ʺ modifier letter double prime
- 	 	→	030B ◌̋ combining double acute accent
- 	 	→	030E ◌̎ combining double vertical line above
- 	 	→	05F4 ‎״‎ hebrew punctuation gershayim
- 	 	→	2033 ″ double prime
- 	 	→	3003 〃 ditto mark
-0023	 # 	NUMBER SIGN
- 	 	=	pound sign, hash, crosshatch, octothorpe
- 	 	→	2114 ℔ l b bar symbol
- 	 	→	2317 ⌗ viewdata square
- 	 	→	266F ♯ music sharp sign
-0024	 $ 	DOLLAR SIGN
- 	 	=	milréis, escudo
- 	 	•	used for many peso currencies in Latin America and elsewhere
- 	 	•	glyph may have one or two vertical bars
- 	 	•	other currency symbol characters start at 20A0 ₠
- 	 	→	00A4 ¤ currency sign
- 	 	→	20B1 ₱ peso sign
- 	 	→	1F4B2 💲 heavy dollar sign
-0025	 % 	PERCENT SIGN
- 	 	→	066A ٪ arabic percent sign
- 	 	→	2030 ‰ per mille sign
- 	 	→	2031 ‱ per ten thousand sign
- 	 	→	2052 ⁒ commercial minus sign
-0026	 & 	AMPERSAND
- 	 	→	204A ⁊ tironian sign et
- 	 	→	214B ⅋ turned ampersand
- 	 	→	1F674 🙴 heavy ampersand ornament
-0027	 ' 	APOSTROPHE
- 	 	=	apostrophe-quote (1.0)
- 	 	=	APL quote
- 	 	•	neutral (vertical) glyph with mixed usage
- 	 	•	2019 ’ is preferred for apostrophe
- 	 	•	preferred characters in English for paired quotation marks are 2018 ‘ & 2019 ’
- 	 	•	05F3 ‎׳‎ is preferred for geresh when writing Hebrew
- 	 	→	02B9 ʹ modifier letter prime
- 	 	→	02BC ʼ modifier letter apostrophe
- 	 	→	02C8 ˈ modifier letter vertical line
- 	 	→	0301 ◌́ combining acute accent
- 	 	→	05F3 ‎׳‎ hebrew punctuation geresh
- 	 	→	2032 ′ prime
- 	 	→	A78C ꞌ latin small letter saltillo
-0028	 ( 	LEFT PARENTHESIS
- 	 	=	opening parenthesis (1.0)
-0029	 ) 	RIGHT PARENTHESIS
- 	 	=	closing parenthesis (1.0)
- 	 	•	see discussion on semantics of paired bracketing characters
-002A	 * 	ASTERISK
- 	 	=	star (on phone keypads)
- 	 	→	066D ‎٭‎ arabic five pointed star
- 	 	→	204E ⁎ low asterisk
- 	 	→	2217 ∗ asterisk operator
- 	 	→	26B9 ⚹ sextile
- 	 	→	2731 ✱ heavy asterisk
-002B	 + 	PLUS SIGN
- 	 	→	2795 ➕ heavy plus sign
-002C	 , 	COMMA
- 	 	=	decimal separator
- 	 	→	060C ، arabic comma
- 	 	→	201A ‚ single low-9 quotation mark
- 	 	→	2E41 ⹁ reversed comma
- 	 	→	2E4C ⹌ medieval comma
- 	 	→	3001 、 ideographic comma
-002D	 - 	HYPHEN-MINUS
- 	 	=	hyphen or minus sign
- 	 	•	used for either hyphen or minus sign
- 	 	→	2010 ‐ hyphen
- 	 	→	2011 ‑ non-breaking hyphen
- 	 	→	2012 ‒ figure dash
- 	 	→	2013 – en dash
- 	 	→	2043 ⁃ hyphen bullet
- 	 	→	2212 − minus sign
- 	 	→	10191 𐆑 roman uncia sign
-002E	 . 	FULL STOP
- 	 	=	period, dot, decimal point
- 	 	•	may be rendered as a raised decimal point in old style numbers
- 	 	→	06D4 ‎۔‎ arabic full stop
- 	 	→	2E3C ⸼ stenographic full stop
- 	 	→	3002 。 ideographic full stop
-002F	 / 	SOLIDUS
- 	 	=	slash, virgule
- 	 	→	01C0 ǀ latin letter dental click
- 	 	→	0338 ◌̸ combining long solidus overlay
- 	 	→	2044 ⁄ fraction slash
- 	 	→	2215 ∕ division slash
- 	 	→	2E4A ⹊ dotted solidus
+0020     ␣  SPACE
+0021     !  EXCLAMATION MARK =   factorial =   bang
+0022     "  QUOTATION MARK
+0023     #  NUMBER SIGN =   pound sign, hash, crosshatch, octothorpe
+0024     $  DOLLAR SIGN =   milréis, escudo
+0025     %  PERCENT SIGN
+0026     &  AMPERSAND
+0027     '  APOSTROPHE
+0028     (  LEFT PARENTHESIS =   opening parenthesis (1.0)
+0029     )  RIGHT PARENTHESIS =   closing parenthesis (1.0)
+002A     *  ASTERISK =   star (on phone keypads)
+002B     +  PLUS SIGN
+002C     ,  COMMA =   decimal separator
+002D     -  HYPHEN-MINUS =   hyphen or minus sign
+002E     .  FULL STOP =   period, dot, decimal point
+002F     /  SOLIDUS =   slash, virgule
+
 ASCII digits
-0030	 0 	DIGIT ZERO
-0031	 1 	DIGIT ONE
-0032	 2 	DIGIT TWO
-0033	 3 	DIGIT THREE
-0034	 4 	DIGIT FOUR
-0035	 5 	DIGIT FIVE
-0036	 6 	DIGIT SIX
-0037	 7 	DIGIT SEVEN
-0038	 8 	DIGIT EIGHT
-0039	 9 	DIGIT NINE
+0030     0  DIGIT ZERO
+0031     1  DIGIT ONE
+0032     2  DIGIT TWO
+0033     3  DIGIT THREE
+0034     4  DIGIT FOUR
+0035     5  DIGIT FIVE
+0036     6  DIGIT SIX
+0037     7  DIGIT SEVEN
+0038     8  DIGIT EIGHT
+0039     9  DIGIT NINE
+
 ASCII punctuation and symbols
-003A	 : 	COLON
- 	 	•	also used to denote division or scale; for that mathematical use 2236 ∶ is preferred
- 	 	→	0589 ։ armenian full stop
- 	 	→	05C3 ‎׃‎ hebrew punctuation sof pasuq
- 	 	→	2236 ∶ ratio
- 	 	→	A789 ꞉ modifier letter colon
-003B	 ; 	SEMICOLON
- 	 	•	this, and not 037E ;, is the preferred character for 'Greek question mark'
- 	 	→	037E ; greek question mark
- 	 	→	061B ‎؛‎ arabic semicolon
- 	 	→	204F ⁏ reversed semicolon
-003C	 < 	LESS-THAN SIGN
- 	 	→	2039 ‹ single left-pointing angle quotation mark
- 	 	→	2329 〈 left-pointing angle bracket
- 	 	→	27E8 ⟨ mathematical left angle bracket
- 	 	→	3008 〈 left angle bracket
-003D	 = 	EQUALS SIGN
- 	 	•	other related characters: 2241 ≁-2263 ≣
- 	 	→	2260 ≠ not equal to
- 	 	→	2261 ≡ identical to
- 	 	→	A78A ꞊ modifier letter short equals sign
- 	 	→	10190 𐆐 roman sextans sign
-003E	 > 	GREATER-THAN SIGN
- 	 	→	203A › single right-pointing angle quotation mark
- 	 	→	232A 〉 right-pointing angle bracket
- 	 	→	27E9 ⟩ mathematical right angle bracket
- 	 	→	3009 〉 right angle bracket
-003F	 ? 	QUESTION MARK
- 	 	→	00BF ¿ inverted question mark
- 	 	→	037E ; greek question mark
- 	 	→	061F ‎؟‎ arabic question mark
- 	 	→	203D ‽ interrobang
- 	 	→	2048 ⁈ question exclamation mark
- 	 	→	2049 ⁉ exclamation question mark
-0040	 @ 	COMMERCIAL AT
- 	 	=	at sign
-Uppercase Latin alphabet
-0041	 A 	LATIN CAPITAL LETTER A
- 	 	↓	0061 a latin small letter a
-0042	 B 	LATIN CAPITAL LETTER B
- 	 	→	212C ℬ script capital b
- 	 	↓	0062 b latin small letter b
-0043	 C 	LATIN CAPITAL LETTER C
- 	 	→	2102 ℂ double-struck capital c
- 	 	→	212D ℭ black-letter capital c
- 	 	↓	0063 c latin small letter c
-0044	 D 	LATIN CAPITAL LETTER D
- 	 	↓	0064 d latin small letter d
-0045	 E 	LATIN CAPITAL LETTER E
- 	 	→	2107 ℇ euler constant
- 	 	→	2130 ℰ script capital e
- 	 	↓	0065 e latin small letter e
-0046	 F 	LATIN CAPITAL LETTER F
- 	 	→	2131 ℱ script capital f
- 	 	→	2132 Ⅎ turned capital f
- 	 	↓	0066 f latin small letter f
-0047	 G 	LATIN CAPITAL LETTER G
- 	 	↓	0067 g latin small letter g
-0048	 H 	LATIN CAPITAL LETTER H
- 	 	→	210B ℋ script capital h
- 	 	→	210C ℌ black-letter capital h
- 	 	→	210D ℍ double-struck capital h
- 	 	↓	0068 h latin small letter h
-0049	 I 	LATIN CAPITAL LETTER I
- 	 	•	Turkish and Azerbaijani use 0131 ı for lowercase
- 	 	→	0130 İ latin capital letter i with dot above
- 	 	→	0406 І cyrillic capital letter byelorussian-ukrainian i
- 	 	→	04C0 Ӏ cyrillic letter palochka
- 	 	→	2110 ℐ script capital i
- 	 	→	2111 ℑ black-letter capital i
- 	 	→	2160 Ⅰ roman numeral one
- 	 	↓	0069 i latin small letter i
-004A	 J 	LATIN CAPITAL LETTER J
- 	 	↓	006A j latin small letter j
-004B	 K 	LATIN CAPITAL LETTER K
- 	 	→	212A K kelvin sign
- 	 	↓	006B k latin small letter k
-004C	 L 	LATIN CAPITAL LETTER L
- 	 	→	2112 ℒ script capital l
- 	 	↓	006C l latin small letter l
-004D	 M 	LATIN CAPITAL LETTER M
- 	 	→	2133 ℳ script capital m
- 	 	↓	006D m latin small letter m
-004E	 N 	LATIN CAPITAL LETTER N
- 	 	→	2115 ℕ double-struck capital n
- 	 	↓	006E n latin small letter n
-004F	 O 	LATIN CAPITAL LETTER O
- 	 	↓	006F o latin small letter o
-0050	 P 	LATIN CAPITAL LETTER P
- 	 	→	2119 ℙ double-struck capital p
- 	 	↓	0070 p latin small letter p
-0051	 Q 	LATIN CAPITAL LETTER Q
- 	 	→	211A ℚ double-struck capital q
- 	 	↓	0071 q latin small letter q
-0052	 R 	LATIN CAPITAL LETTER R
- 	 	→	211B ℛ script capital r
- 	 	→	211C ℜ black-letter capital r
- 	 	→	211D ℝ double-struck capital r
- 	 	↓	0072 r latin small letter r
-0053	 S 	LATIN CAPITAL LETTER S
- 	 	↓	0073 s latin small letter s
-0054	 T 	LATIN CAPITAL LETTER T
- 	 	↓	0074 t latin small letter t
-0055	 U 	LATIN CAPITAL LETTER U
- 	 	↓	0075 u latin small letter u
-0056	 V 	LATIN CAPITAL LETTER V
- 	 	→	2164 Ⅴ roman numeral five
- 	 	↓	0076 v latin small letter v
-0057	 W 	LATIN CAPITAL LETTER W
- 	 	↓	0077 w latin small letter w
-0058	 X 	LATIN CAPITAL LETTER X
- 	 	↓	0078 x latin small letter x
-0059	 Y 	LATIN CAPITAL LETTER Y
- 	 	↓	0079 y latin small letter y
-005A	 Z 	LATIN CAPITAL LETTER Z
- 	 	→	2124 ℤ double-struck capital z
- 	 	→	2128 ℨ black-letter capital z
- 	 	↓	007A z latin small letter z
+003A     :  COLON
+003B     ;  SEMICOLON
+003C     <  LESS-THAN SIGN
+003D     =  EQUALS SIGN
+003E     >  GREATER-THAN SIGN
+003F     ?  QUESTION MARK
+0040     @  COMMERCIAL AT
+0041     A  LATIN CAPITAL LETTER A
+0042     B  LATIN CAPITAL LETTER B
+0043     C  LATIN CAPITAL LETTER C
+0044     D  LATIN CAPITAL LETTER D
+0045     E  LATIN CAPITAL LETTER E
+0046     F  LATIN CAPITAL LETTER F
+0047     G  LATIN CAPITAL LETTER G
+0048     H  LATIN CAPITAL LETTER H
+0049     I  LATIN CAPITAL LETTER I
+004A     J  LATIN CAPITAL LETTER J
+004B     K  LATIN CAPITAL LETTER K
+004C     L  LATIN CAPITAL LETTER L
+004D     M  LATIN CAPITAL LETTER M
+004E     N  LATIN CAPITAL LETTER N
+004F     O  LATIN CAPITAL LETTER O
+0050     P  LATIN CAPITAL LETTER P
+0051     Q  LATIN CAPITAL LETTER Q
+0052     R  LATIN CAPITAL LETTER R
+0053     S  LATIN CAPITAL LETTER S
+0054     T  LATIN CAPITAL LETTER T
+0055     U  LATIN CAPITAL LETTER U
+0056     V  LATIN CAPITAL LETTER V
+0057     W  LATIN CAPITAL LETTER W
+0058     X  LATIN CAPITAL LETTER X
+0059     Y  LATIN CAPITAL LETTER Y
+005A     Z  LATIN CAPITAL LETTER Z
+
 ASCII punctuation and symbols
-005B	 [ 	LEFT SQUARE BRACKET
- 	 	=	opening square bracket (1.0)
- 	 	•	other bracket characters: 27E6 ⟦-27EB ⟫, 2983 ⦃-2998 ⦘, 3008 〈-301B 〛
-005C	 \ 	REVERSE SOLIDUS
- 	 	=	backslash
- 	 	→	20E5 ◌⃥ combining reverse solidus overlay
- 	 	→	2216 ∖ set minus
-005D	 ] 	RIGHT SQUARE BRACKET
- 	 	=	closing square bracket (1.0)
-005E	 ^ 	CIRCUMFLEX ACCENT
- 	 	•	this is a spacing character
- 	 	→	02C4 ˄ modifier letter up arrowhead
- 	 	→	02C6 ˆ modifier letter circumflex accent
- 	 	→	0302 ◌̂ combining circumflex accent
- 	 	→	2038 ‸ caret
- 	 	→	2303 ⌃ up arrowhead
-005F	 _ 	LOW LINE
- 	 	=	spacing underscore (1.0)
- 	 	•	this is a spacing character
- 	 	→	02CD ˍ modifier letter low macron
- 	 	→	0331 ◌̱ combining macron below
- 	 	→	0332 ◌̲ combining low line
- 	 	→	2017 ‗ double low line
-0060	 ` 	GRAVE ACCENT
- 	 	•	this is a spacing character
- 	 	→	02CB ˋ modifier letter grave accent
- 	 	→	0300 ◌̀ combining grave accent
- 	 	→	2035 ‵ reversed prime
+005B     [  LEFT SQUARE BRACKET =   opening square bracket (1.0)
+005C     \  REVERSE SOLIDUS =   backslash
+005D     ]  RIGHT SQUARE BRACKET =   closing square bracket (1.0)
+005E     ^  CIRCUMFLEX ACCENT
+005F     _  LOW LINE =   spacing underscore (1.0)
+0060     `  GRAVE ACCENT
+
 Lowercase Latin alphabet
-0061	 a 	LATIN SMALL LETTER A
- 	 	↑	0041 A latin capital letter a
-0062	 b 	LATIN SMALL LETTER B
- 	 	↑	0042 B latin capital letter b
-0063	 c 	LATIN SMALL LETTER C
- 	 	↑	0043 C latin capital letter c
-0064	 d 	LATIN SMALL LETTER D
- 	 	↑	0044 D latin capital letter d
-0065	 e 	LATIN SMALL LETTER E
- 	 	→	212E ℮ estimated symbol
- 	 	→	212F ℯ script small e
- 	 	↑	0045 E latin capital letter e
-0066	 f 	LATIN SMALL LETTER F
- 	 	↑	0046 F latin capital letter f
-0067	 g 	LATIN SMALL LETTER G
- 	 	→	0261 ɡ latin small letter script g
- 	 	→	210A ℊ script small g
- 	 	↑	0047 G latin capital letter g
-0068	 h 	LATIN SMALL LETTER H
- 	 	→	04BB һ cyrillic small letter shha
- 	 	→	210E ℎ planck constant
- 	 	↑	0048 H latin capital letter h
-0069	 i 	LATIN SMALL LETTER I
- 	 	•	Turkish and Azerbaijani use 0130 İ for uppercase
- 	 	→	0131 ı latin small letter dotless i
- 	 	→	1D6A4 𝚤 mathematical italic small dotless i
- 	 	↑	0049 I latin capital letter i
-006A	 j 	LATIN SMALL LETTER J
- 	 	→	0237 ȷ latin small letter dotless j
- 	 	→	1D6A5 𝚥 mathematical italic small dotless j
- 	 	↑	004A J latin capital letter j
-006B	 k 	LATIN SMALL LETTER K
- 	 	↑	004B K latin capital letter k
-006C	 l 	LATIN SMALL LETTER L
- 	 	→	2113 ℓ script small l
- 	 	→	1D4C1 𝓁 mathematical script small l
- 	 	↑	004C L latin capital letter l
-006D	 m 	LATIN SMALL LETTER M
- 	 	↑	004D M latin capital letter m
-006E	 n 	LATIN SMALL LETTER N
- 	 	→	207F ⁿ superscript latin small letter n
- 	 	↑	004E N latin capital letter n
-006F	 o 	LATIN SMALL LETTER O
- 	 	→	2134 ℴ script small o
- 	 	↑	004F O latin capital letter o
-0070	 p 	LATIN SMALL LETTER P
- 	 	↑	0050 P latin capital letter p
-0071	 q 	LATIN SMALL LETTER Q
- 	 	↑	0051 Q latin capital letter q
-0072	 r 	LATIN SMALL LETTER R
- 	 	↑	0052 R latin capital letter r
-0073	 s 	LATIN SMALL LETTER S
- 	 	↑	0053 S latin capital letter s
-0074	 t 	LATIN SMALL LETTER T
- 	 	↑	0054 T latin capital letter t
-0075	 u 	LATIN SMALL LETTER U
- 	 	↑	0055 U latin capital letter u
-0076	 v 	LATIN SMALL LETTER V
- 	 	↑	0056 V latin capital letter v
-0077	 w 	LATIN SMALL LETTER W
- 	 	↑	0057 W latin capital letter w
-0078	 x 	LATIN SMALL LETTER X
- 	 	↑	0058 X latin capital letter x
-0079	 y 	LATIN SMALL LETTER Y
- 	 	↑	0059 Y latin capital letter y
-007A	 z 	LATIN SMALL LETTER Z
- 	 	→	01B6 ƶ latin small letter z with stroke
- 	 	↑	005A Z latin capital letter z
+0061     a  LATIN SMALL LETTER A
+0062     b  LATIN SMALL LETTER B
+0063     c  LATIN SMALL LETTER C
+0064     d  LATIN SMALL LETTER D
+0065     e  LATIN SMALL LETTER E
+0066     f  LATIN SMALL LETTER F
+0067     g  LATIN SMALL LETTER G
+0068     h  LATIN SMALL LETTER H
+0069     i  LATIN SMALL LETTER I
+006A     j  LATIN SMALL LETTER J
+006B     k  LATIN SMALL LETTER K
+006C     l  LATIN SMALL LETTER L
+006D     m  LATIN SMALL LETTER M
+006E     n  LATIN SMALL LETTER N
+006F     o  LATIN SMALL LETTER O
+0070     p  LATIN SMALL LETTER P
+0071     q  LATIN SMALL LETTER Q
+0072     r  LATIN SMALL LETTER R
+0073     s  LATIN SMALL LETTER S
+0074     t  LATIN SMALL LETTER T
+0075     u  LATIN SMALL LETTER U
+0076     v  LATIN SMALL LETTER V
+0077     w  LATIN SMALL LETTER W
+0078     x  LATIN SMALL LETTER X
+0079     y  LATIN SMALL LETTER Y
+007A     z  LATIN SMALL LETTER Z
+
 ASCII punctuation and symbols
-007B	 { 	LEFT CURLY BRACKET
- 	 	=	opening curly bracket (1.0)
- 	 	=	left brace
-007C	 | 	VERTICAL LINE
- 	 	=	vertical bar
- 	 	•	used in pairs to indicate absolute value
- 	 	→	01C0 ǀ latin letter dental click
- 	 	→	05C0 ‎׀‎ hebrew punctuation paseq
- 	 	→	2223 ∣ divides
- 	 	→	2758 ❘ light vertical bar
-007D	 } 	RIGHT CURLY BRACKET
- 	 	=	closing curly bracket (1.0)
- 	 	=	right brace
-007E	 ~ 	TILDE
- 	 	•	this is a spacing character
- 	 	→	02DC ˜ small tilde
- 	 	→	0303 ◌̃ combining tilde
- 	 	→	2053 ⁓ swung dash
- 	 	→	223C ∼ tilde operator
- 	 	→	FF5E ～ fullwidth tilde
+007B     {  LEFT CURLY BRACKET =   opening curly bracket (1.0) =   left brace
+007C     |  VERTICAL LINE =   vertical bar
+007D     }  RIGHT CURLY BRACKET
+        =   closing curly bracket (1.0)
+        =   right brace
+007E     ~  TILDE
+        •   this is a spacing character
+        →   02DC ˜ small tilde
+        →   0303 ◌̃ combining tilde
+        →   2053 ⁓ swung dash
+        →   223C ∼ tilde operator
+        →   FF5E ～ fullwidth tilde
 Control character
-007F	 ␡ 	<CONTROL>
- 	 	=	DELETE
+007F     ␡  <CONTROL>
+        =   DELETE
 
 
 C1 Controls and Latin-1 Supplement
 C1 controls
 Alias names are those for ISO/IEC 6429:1992.
-0080	  	<CONTROL>
-0081	  	<CONTROL>
-0082	  	<CONTROL>
- 	 	=	BREAK PERMITTED HERE
- 	 	→	200B ⬚ zero width space
-0083	  	<CONTROL>
- 	 	=	NO BREAK HERE
- 	 	→	2060 ⬚ word joiner
-0084	  	<CONTROL>
- 	 	•	formerly known as INDEX
-0085	 ␣ 	<CONTROL>
- 	 	=	NEXT LINE (NEL)
-0086	  	<CONTROL>
- 	 	=	START OF SELECTED AREA
-0087	  	<CONTROL>
- 	 	=	END OF SELECTED AREA
-0088	  	<CONTROL>
- 	 	=	CHARACTER TABULATION SET
-0089	  	<CONTROL>
- 	 	=	CHARACTER TABULATION WITH JUSTIFICATION
-008A	  	<CONTROL>
- 	 	=	LINE TABULATION SET
-008B	  	<CONTROL>
- 	 	=	PARTIAL LINE FORWARD
-008C	  	<CONTROL>
- 	 	=	PARTIAL LINE BACKWARD
-008D	  	<CONTROL>
- 	 	=	REVERSE LINE FEED
-008E	  	<CONTROL>
- 	 	=	SINGLE SHIFT TWO
-008F	  	<CONTROL>
- 	 	=	SINGLE SHIFT THREE
-0090	  	<CONTROL>
- 	 	=	DEVICE CONTROL STRING
-0091	  	<CONTROL>
- 	 	=	PRIVATE USE ONE
-0092	  	<CONTROL>
- 	 	=	PRIVATE USE TWO
-0093	  	<CONTROL>
- 	 	=	SET TRANSMIT STATE
-0094	  	<CONTROL>
- 	 	=	CANCEL CHARACTER
-0095	  	<CONTROL>
- 	 	=	MESSAGE WAITING
-0096	  	<CONTROL>
- 	 	=	START OF GUARDED AREA
-0097	  	<CONTROL>
- 	 	=	END OF GUARDED AREA
-0098	  	<CONTROL>
- 	 	=	START OF STRING
-0099	  	<CONTROL>
-009A	  	<CONTROL>
- 	 	=	SINGLE CHARACTER INTRODUCER
-009B	  	<CONTROL>
- 	 	=	CONTROL SEQUENCE INTRODUCER
-009C	  	<CONTROL>
- 	 	=	STRING TERMINATOR
-009D	  	<CONTROL>
- 	 	=	OPERATING SYSTEM COMMAND
-009E	  	<CONTROL>
- 	 	=	PRIVACY MESSAGE
-009F	  	<CONTROL>
- 	 	=	APPLICATION PROGRAM COMMAND
+0080        <CONTROL>
+0081        <CONTROL>
+0082        <CONTROL>
+        =   BREAK PERMITTED HERE
+        →   200B ⬚ zero width space
+0083        <CONTROL>
+        =   NO BREAK HERE
+        →   2060 ⬚ word joiner
+0084        <CONTROL>
+        •   formerly known as INDEX
+0085     ␣  <CONTROL>
+        =   NEXT LINE (NEL)
+0086        <CONTROL>
+        =   START OF SELECTED AREA
+0087        <CONTROL>
+        =   END OF SELECTED AREA
+0088        <CONTROL>
+        =   CHARACTER TABULATION SET
+0089        <CONTROL>
+        =   CHARACTER TABULATION WITH JUSTIFICATION
+008A        <CONTROL>
+        =   LINE TABULATION SET
+008B        <CONTROL>
+        =   PARTIAL LINE FORWARD
+008C        <CONTROL>
+        =   PARTIAL LINE BACKWARD
+008D        <CONTROL>
+        =   REVERSE LINE FEED
+008E        <CONTROL>
+        =   SINGLE SHIFT TWO
+008F        <CONTROL>
+        =   SINGLE SHIFT THREE
+0090        <CONTROL>
+        =   DEVICE CONTROL STRING
+0091        <CONTROL>
+        =   PRIVATE USE ONE
+0092        <CONTROL>
+        =   PRIVATE USE TWO
+0093        <CONTROL>
+        =   SET TRANSMIT STATE
+0094        <CONTROL>
+        =   CANCEL CHARACTER
+0095        <CONTROL>
+        =   MESSAGE WAITING
+0096        <CONTROL>
+        =   START OF GUARDED AREA
+0097        <CONTROL>
+        =   END OF GUARDED AREA
+0098        <CONTROL>
+        =   START OF STRING
+0099        <CONTROL>
+009A        <CONTROL>
+        =   SINGLE CHARACTER INTRODUCER
+009B        <CONTROL>
+        =   CONTROL SEQUENCE INTRODUCER
+009C        <CONTROL>
+        =   STRING TERMINATOR
+009D        <CONTROL>
+        =   OPERATING SYSTEM COMMAND
+009E        <CONTROL>
+        =   PRIVACY MESSAGE
+009F        <CONTROL>
+        =   APPLICATION PROGRAM COMMAND
 Latin-1 punctuation and symbols
 Based on ISO/IEC 8859-1 (aka Latin-1) from here.
-00A0	 ␣ 	NO-BREAK SPACE
- 	 	•	commonly abbreviated as NBSP
- 	 	→	0020 ␣ space
- 	 	→	2007 ␣ figure space
- 	 	→	202F ␣ narrow no-break space
- 	 	→	2060 ⬚ word joiner
- 	 	→	FEFF ⬚ zero width no-break space
- 	 	≈	<noBreak> 0020 ␣
-00A1	 ¡ 	INVERTED EXCLAMATION MARK
- 	 	•	Spanish, Asturian, Galician
- 	 	→	0021 ! exclamation mark
-00A2	 ¢ 	CENT SIGN
-00A3	 £ 	POUND SIGN
- 	 	=	pound sterling, Irish punt, Italian lira, Turkish lira, etc.
- 	 	→	20A4 ₤ lira sign
- 	 	→	20BA ₺ turkish lira sign
- 	 	→	10192 𐆒 roman semuncia sign
-00A4	 ¤ 	CURRENCY SIGN
- 	 	•	other currency symbol characters: 20A0 ₠-20BF ₿
- 	 	→	0024 $ dollar sign
-00A5	 ¥ 	YEN SIGN
- 	 	=	yuan sign
- 	 	•	glyph may have one or two crossbars, but official symbol in Japan and China has two
-00A6	 ¦ 	BROKEN BAR
- 	 	=	broken vertical bar (1.0)
- 	 	=	parted rule (in typography)
-00A7	 § 	SECTION SIGN
- 	 	•	paragraph sign in some European usage
-00A8	 ¨ 	DIAERESIS
- 	 	•	this is a spacing character
- 	 	→	0308 ◌̈ combining diaeresis
- 	 	≈	0020 ␣ 0308 ◌̈
-00A9	 © 	COPYRIGHT SIGN
- 	 	→	2117 ℗ sound recording copyright
- 	 	→	24B8 Ⓒ circled latin capital letter c
- 	 	→	1F12F 🄯 copyleft symbol
-00AA	 ª 	FEMININE ORDINAL INDICATOR
- 	 	•	Spanish
- 	 	≈	<super> 0061 a
-00AB	 « 	LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
- 	 	=	left guillemet
- 	 	=	chevrons (in typography)
- 	 	•	usually opening, sometimes closing
- 	 	→	226A ≪ much less-than
- 	 	→	300A 《 left double angle bracket
-00AC	 ¬ 	NOT SIGN
- 	 	=	angled dash (in typography)
- 	 	→	2310 ⌐ reversed not sign
-00AD	 ⬚ 	SOFT HYPHEN
- 	 	=	discretionary hyphen
- 	 	•	commonly abbreviated as SHY
-00AE	 ® 	REGISTERED SIGN
- 	 	=	registered trade mark sign (1.0)
- 	 	→	24C7 Ⓡ circled latin capital letter r
-00AF	 ¯ 	MACRON
- 	 	=	overline, APL overbar
- 	 	•	this is a spacing character
- 	 	→	02C9 ˉ modifier letter macron
- 	 	→	0304 ◌̄ combining macron
- 	 	→	0305 ◌̅ combining overline
- 	 	≈	0020 ␣ 0304 ◌̄
-00B0	 ° 	DEGREE SIGN
- 	 	•	this is a spacing character
- 	 	→	02DA ˚ ring above
- 	 	→	030A ◌̊ combining ring above
- 	 	→	2070 ⁰ superscript zero
- 	 	→	2218 ∘ ring operator
-00B1	 ± 	PLUS-MINUS SIGN
- 	 	→	2213 ∓ minus-or-plus sign
-00B2	 ² 	SUPERSCRIPT TWO
- 	 	=	squared
- 	 	•	other superscript digit characters: 2070 ⁰-2079 ⁹
- 	 	→	00B9 ¹ superscript one
- 	 	≈	<super> 0032 2
-00B3	 ³ 	SUPERSCRIPT THREE
- 	 	=	cubed
- 	 	→	00B9 ¹ superscript one
- 	 	≈	<super> 0033 3
-00B4	 ´ 	ACUTE ACCENT
- 	 	•	this is a spacing character
- 	 	→	02B9 ʹ modifier letter prime
- 	 	→	02CA ˊ modifier letter acute accent
- 	 	→	0301 ◌́ combining acute accent
- 	 	→	2032 ′ prime
- 	 	≈	0020 ␣ 0301 ◌́
-00B5	 µ 	MICRO SIGN
- 	 	≈	03BC μ greek small letter mu
- 	 	↑	039C Μ greek capital letter mu
- 	 	↔	03BC μ greek small letter mu
-00B6	 ¶ 	PILCROW SIGN
- 	 	=	paragraph sign
- 	 	•	section sign in some European usage
- 	 	→	204B ⁋ reversed pilcrow sign
- 	 	→	2761 ❡ curved stem paragraph sign ornament
- 	 	→	2E3F ⸿ capitulum
-00B7	 · 	MIDDLE DOT
- 	 	=	midpoint (in typography)
- 	 	=	Georgian comma
- 	 	=	Greek middle dot (ano teleia)
- 	 	•	also used as a raised decimal point or to denote multiplication; for multiplication 22C5 ⋅ is preferred
- 	 	→	0387 · greek ano teleia
- 	 	→	16EB ᛫ runic single punctuation
- 	 	→	2022 • bullet
- 	 	→	2024 ․ one dot leader
- 	 	→	2027 ‧ hyphenation point
- 	 	→	2219 ∙ bullet operator
- 	 	→	22C5 ⋅ dot operator
- 	 	→	2E31 ⸱ word separator middle dot
- 	 	→	2E33 ⸳ raised dot
- 	 	→	30FB ・ katakana middle dot
- 	 	→	A78F ꞏ latin letter sinological dot
-00B8	 ¸ 	CEDILLA
- 	 	•	this is a spacing character
- 	 	•	other spacing accent characters: 02D8 ˘-02DB ˛
- 	 	→	0327 ◌̧ combining cedilla
- 	 	≈	0020 ␣ 0327 ◌̧
-00B9	 ¹ 	SUPERSCRIPT ONE
- 	 	→	00B2 ² superscript two
- 	 	→	00B3 ³ superscript three
- 	 	≈	<super> 0031 1
-00BA	 º 	MASCULINE ORDINAL INDICATOR
- 	 	•	Spanish
- 	 	≈	<super> 006F o
-00BB	 » 	RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
- 	 	=	right guillemet
- 	 	•	usually closing, sometimes opening
- 	 	→	226B ≫ much greater-than
- 	 	→	300B 》 right double angle bracket
+00A0     ␣  NO-BREAK SPACE
+        •   commonly abbreviated as NBSP
+        →   0020 ␣ space
+        →   2007 ␣ figure space
+        →   202F ␣ narrow no-break space
+        →   2060 ⬚ word joiner
+        →   FEFF ⬚ zero width no-break space
+        ≈   <noBreak> 0020 ␣
+00A1     ¡  INVERTED EXCLAMATION MARK
+        •   Spanish, Asturian, Galician
+        →   0021 ! exclamation mark
+00A2     ¢  CENT SIGN
+00A3     £  POUND SIGN
+        =   pound sterling, Irish punt, Italian lira, Turkish lira, etc.
+        →   20A4 ₤ lira sign
+        →   20BA ₺ turkish lira sign
+        →   10192 𐆒 roman semuncia sign
+00A4     ¤  CURRENCY SIGN
+        •   other currency symbol characters: 20A0 ₠-20BF ₿
+        →   0024 $ dollar sign
+00A5     ¥  YEN SIGN
+        =   yuan sign
+        •   glyph may have one or two crossbars, but official symbol in Japan and China has two
+00A6     ¦  BROKEN BAR
+        =   broken vertical bar (1.0)
+        =   parted rule (in typography)
+00A7     §  SECTION SIGN
+        •   paragraph sign in some European usage
+00A8     ¨  DIAERESIS
+        •   this is a spacing character
+        →   0308 ◌̈ combining diaeresis
+        ≈   0020 ␣ 0308 ◌̈
+00A9     ©  COPYRIGHT SIGN
+        →   2117 ℗ sound recording copyright
+        →   24B8 Ⓒ circled latin capital letter c
+        →   1F12F 🄯 copyleft symbol
+00AA     ª  FEMININE ORDINAL INDICATOR
+        •   Spanish
+        ≈   <super> 0061 a
+00AB     «  LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+        =   left guillemet
+        =   chevrons (in typography)
+        •   usually opening, sometimes closing
+        →   226A ≪ much less-than
+        →   300A 《 left double angle bracket
+00AC     ¬  NOT SIGN
+        =   angled dash (in typography)
+        →   2310 ⌐ reversed not sign
+00AD     ⬚  SOFT HYPHEN
+        =   discretionary hyphen
+        •   commonly abbreviated as SHY
+00AE     ®  REGISTERED SIGN
+        =   registered trade mark sign (1.0)
+        →   24C7 Ⓡ circled latin capital letter r
+00AF     ¯  MACRON
+        =   overline, APL overbar
+        •   this is a spacing character
+        →   02C9 ˉ modifier letter macron
+        →   0304 ◌̄ combining macron
+        →   0305 ◌̅ combining overline
+        ≈   0020 ␣ 0304 ◌̄
+00B0     °  DEGREE SIGN
+        •   this is a spacing character
+        →   02DA ˚ ring above
+        →   030A ◌̊ combining ring above
+        →   2070 ⁰ superscript zero
+        →   2218 ∘ ring operator
+00B1     ±  PLUS-MINUS SIGN
+        →   2213 ∓ minus-or-plus sign
+00B2     ²  SUPERSCRIPT TWO
+        =   squared
+        •   other superscript digit characters: 2070 ⁰-2079 ⁹
+        →   00B9 ¹ superscript one
+        ≈   <super> 0032 2
+00B3     ³  SUPERSCRIPT THREE
+        =   cubed
+        →   00B9 ¹ superscript one
+        ≈   <super> 0033 3
+00B4     ´  ACUTE ACCENT
+        •   this is a spacing character
+        →   02B9 ʹ modifier letter prime
+        →   02CA ˊ modifier letter acute accent
+        →   0301 ◌́ combining acute accent
+        →   2032 ′ prime
+        ≈   0020 ␣ 0301 ◌́
+00B5     µ  MICRO SIGN
+        ≈   03BC μ greek small letter mu
+        ↑   039C Μ greek capital letter mu
+        ↔   03BC μ greek small letter mu
+00B6     ¶  PILCROW SIGN
+        =   paragraph sign
+        •   section sign in some European usage
+        →   204B ⁋ reversed pilcrow sign
+        →   2761 ❡ curved stem paragraph sign ornament
+        →   2E3F ⸿ capitulum
+00B7     ·  MIDDLE DOT
+        =   midpoint (in typography)
+        =   Georgian comma
+        =   Greek middle dot (ano teleia)
+        •   also used as a raised decimal point or to denote multiplication; for multiplication 22C5 ⋅ is preferred
+        →   0387 · greek ano teleia
+        →   16EB ᛫ runic single punctuation
+        →   2022 • bullet
+        →   2024 ․ one dot leader
+        →   2027 ‧ hyphenation point
+        →   2219 ∙ bullet operator
+        →   22C5 ⋅ dot operator
+        →   2E31 ⸱ word separator middle dot
+        →   2E33 ⸳ raised dot
+        →   30FB ・ katakana middle dot
+        →   A78F ꞏ latin letter sinological dot
+00B8     ¸  CEDILLA
+        •   this is a spacing character
+        •   other spacing accent characters: 02D8 ˘-02DB ˛
+        →   0327 ◌̧ combining cedilla
+        ≈   0020 ␣ 0327 ◌̧
+00B9     ¹  SUPERSCRIPT ONE
+        →   00B2 ² superscript two
+        →   00B3 ³ superscript three
+        ≈   <super> 0031 1
+00BA     º  MASCULINE ORDINAL INDICATOR
+        •   Spanish
+        ≈   <super> 006F o
+00BB     »  RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+        =   right guillemet
+        •   usually closing, sometimes opening
+        →   226B ≫ much greater-than
+        →   300B 》 right double angle bracket
 Vulgar fractions
 The fraction bar for these may be rendered horizontally or at a slant. For other fraction characters, see 2150-215E.
-00BC	 ¼ 	VULGAR FRACTION ONE QUARTER
- 	 	≈	<fraction> 0031 1 2044 ⁄ 0034 4
-00BD	 ½ 	VULGAR FRACTION ONE HALF
- 	 	≈	<fraction> 0031 1 2044 ⁄ 0032 2
-00BE	 ¾ 	VULGAR FRACTION THREE QUARTERS
- 	 	≈	<fraction> 0033 3 2044 ⁄ 0034 4
+00BC     ¼  VULGAR FRACTION ONE QUARTER
+        ≈   <fraction> 0031 1 2044 ⁄ 0034 4
+00BD     ½  VULGAR FRACTION ONE HALF
+        ≈   <fraction> 0031 1 2044 ⁄ 0032 2
+00BE     ¾  VULGAR FRACTION THREE QUARTERS
+        ≈   <fraction> 0033 3 2044 ⁄ 0034 4
 Punctuation
-00BF	 ¿ 	INVERTED QUESTION MARK
- 	 	=	turned question mark
- 	 	•	Spanish
- 	 	→	003F ? question mark
- 	 	→	2E2E ⸮ reversed question mark
+00BF     ¿  INVERTED QUESTION MARK
+        =   turned question mark
+        •   Spanish
+        →   003F ? question mark
+        →   2E2E ⸮ reversed question mark
 Letters
-00C0	 À 	LATIN CAPITAL LETTER A WITH GRAVE
- 	 	≡	0041 A 0300 ◌̀
- 	 	↓	00E0 à latin small letter a with grave
-00C1	 Á 	LATIN CAPITAL LETTER A WITH ACUTE
- 	 	≡	0041 A 0301 ◌́
- 	 	↓	00E1 á latin small letter a with acute
-00C2	 Â 	LATIN CAPITAL LETTER A WITH CIRCUMFLEX
- 	 	≡	0041 A 0302 ◌̂
- 	 	↓	00E2 â latin small letter a with circumflex
-00C3	 Ã 	LATIN CAPITAL LETTER A WITH TILDE
- 	 	≡	0041 A 0303 ◌̃
- 	 	↓	00E3 ã latin small letter a with tilde
-00C4	 Ä 	LATIN CAPITAL LETTER A WITH DIAERESIS
- 	 	≡	0041 A 0308 ◌̈
- 	 	↓	00E4 ä latin small letter a with diaeresis
-00C5	 Å 	LATIN CAPITAL LETTER A WITH RING ABOVE
- 	 	→	212B Å angstrom sign
- 	 	≡	0041 A 030A ◌̊
- 	 	↓	00E5 å latin small letter a with ring above
-00C6	 Æ 	LATIN CAPITAL LETTER AE
- 	 	=	latin capital ligature ae (1.1)
- 	 	↓	00E6 æ latin small letter ae
-00C7	 Ç 	LATIN CAPITAL LETTER C WITH CEDILLA
- 	 	≡	0043 C 0327 ◌̧
- 	 	↓	00E7 ç latin small letter c with cedilla
-00C8	 È 	LATIN CAPITAL LETTER E WITH GRAVE
- 	 	≡	0045 E 0300 ◌̀
- 	 	↓	00E8 è latin small letter e with grave
-00C9	 É 	LATIN CAPITAL LETTER E WITH ACUTE
- 	 	≡	0045 E 0301 ◌́
- 	 	↓	00E9 é latin small letter e with acute
-00CA	 Ê 	LATIN CAPITAL LETTER E WITH CIRCUMFLEX
- 	 	≡	0045 E 0302 ◌̂
- 	 	↓	00EA ê latin small letter e with circumflex
-00CB	 Ë 	LATIN CAPITAL LETTER E WITH DIAERESIS
- 	 	≡	0045 E 0308 ◌̈
- 	 	↓	00EB ë latin small letter e with diaeresis
-00CC	 Ì 	LATIN CAPITAL LETTER I WITH GRAVE
- 	 	≡	0049 I 0300 ◌̀
- 	 	↓	00EC ì latin small letter i with grave
-00CD	 Í 	LATIN CAPITAL LETTER I WITH ACUTE
- 	 	≡	0049 I 0301 ◌́
- 	 	↓	00ED í latin small letter i with acute
-00CE	 Î 	LATIN CAPITAL LETTER I WITH CIRCUMFLEX
- 	 	≡	0049 I 0302 ◌̂
- 	 	↓	00EE î latin small letter i with circumflex
-00CF	 Ï 	LATIN CAPITAL LETTER I WITH DIAERESIS
- 	 	≡	0049 I 0308 ◌̈
- 	 	↓	00EF ï latin small letter i with diaeresis
-00D0	 Ð 	LATIN CAPITAL LETTER ETH
- 	 	•	lowercase is 00F0 ð
- 	 	→	0110 Đ latin capital letter d with stroke
- 	 	→	0189 Ɖ latin capital letter african d
- 	 	↓	00F0 ð latin small letter eth
-00D1	 Ñ 	LATIN CAPITAL LETTER N WITH TILDE
- 	 	≡	004E N 0303 ◌̃
- 	 	↓	00F1 ñ latin small letter n with tilde
-00D2	 Ò 	LATIN CAPITAL LETTER O WITH GRAVE
- 	 	≡	004F O 0300 ◌̀
- 	 	↓	00F2 ò latin small letter o with grave
-00D3	 Ó 	LATIN CAPITAL LETTER O WITH ACUTE
- 	 	≡	004F O 0301 ◌́
- 	 	↓	00F3 ó latin small letter o with acute
-00D4	 Ô 	LATIN CAPITAL LETTER O WITH CIRCUMFLEX
- 	 	≡	004F O 0302 ◌̂
- 	 	↓	00F4 ô latin small letter o with circumflex
-00D5	 Õ 	LATIN CAPITAL LETTER O WITH TILDE
- 	 	≡	004F O 0303 ◌̃
- 	 	↓	00F5 õ latin small letter o with tilde
-00D6	 Ö 	LATIN CAPITAL LETTER O WITH DIAERESIS
- 	 	≡	004F O 0308 ◌̈
- 	 	↓	00F6 ö latin small letter o with diaeresis
+00C0     À  LATIN CAPITAL LETTER A WITH GRAVE
+        ≡   0041 A 0300 ◌̀
+        ↓   00E0 à latin small letter a with grave
+00C1     Á  LATIN CAPITAL LETTER A WITH ACUTE
+        ≡   0041 A 0301 ◌́
+        ↓   00E1 á latin small letter a with acute
+00C2     Â  LATIN CAPITAL LETTER A WITH CIRCUMFLEX
+        ≡   0041 A 0302 ◌̂
+        ↓   00E2 â latin small letter a with circumflex
+00C3     Ã  LATIN CAPITAL LETTER A WITH TILDE
+        ≡   0041 A 0303 ◌̃
+        ↓   00E3 ã latin small letter a with tilde
+00C4     Ä  LATIN CAPITAL LETTER A WITH DIAERESIS
+        ≡   0041 A 0308 ◌̈
+        ↓   00E4 ä latin small letter a with diaeresis
+00C5     Å  LATIN CAPITAL LETTER A WITH RING ABOVE
+        →   212B Å angstrom sign
+        ≡   0041 A 030A ◌̊
+        ↓   00E5 å latin small letter a with ring above
+00C6     Æ  LATIN CAPITAL LETTER AE
+        =   latin capital ligature ae (1.1)
+        ↓   00E6 æ latin small letter ae
+00C7     Ç  LATIN CAPITAL LETTER C WITH CEDILLA
+        ≡   0043 C 0327 ◌̧
+        ↓   00E7 ç latin small letter c with cedilla
+00C8     È  LATIN CAPITAL LETTER E WITH GRAVE
+        ≡   0045 E 0300 ◌̀
+        ↓   00E8 è latin small letter e with grave
+00C9     É  LATIN CAPITAL LETTER E WITH ACUTE
+        ≡   0045 E 0301 ◌́
+        ↓   00E9 é latin small letter e with acute
+00CA     Ê  LATIN CAPITAL LETTER E WITH CIRCUMFLEX
+        ≡   0045 E 0302 ◌̂
+        ↓   00EA ê latin small letter e with circumflex
+00CB     Ë  LATIN CAPITAL LETTER E WITH DIAERESIS
+        ≡   0045 E 0308 ◌̈
+        ↓   00EB ë latin small letter e with diaeresis
+00CC     Ì  LATIN CAPITAL LETTER I WITH GRAVE
+        ≡   0049 I 0300 ◌̀
+        ↓   00EC ì latin small letter i with grave
+00CD     Í  LATIN CAPITAL LETTER I WITH ACUTE
+        ≡   0049 I 0301 ◌́
+        ↓   00ED í latin small letter i with acute
+00CE     Î  LATIN CAPITAL LETTER I WITH CIRCUMFLEX
+        ≡   0049 I 0302 ◌̂
+        ↓   00EE î latin small letter i with circumflex
+00CF     Ï  LATIN CAPITAL LETTER I WITH DIAERESIS
+        ≡   0049 I 0308 ◌̈
+        ↓   00EF ï latin small letter i with diaeresis
+00D0     Ð  LATIN CAPITAL LETTER ETH
+        •   lowercase is 00F0 ð
+        →   0110 Đ latin capital letter d with stroke
+        →   0189 Ɖ latin capital letter african d
+        ↓   00F0 ð latin small letter eth
+00D1     Ñ  LATIN CAPITAL LETTER N WITH TILDE
+        ≡   004E N 0303 ◌̃
+        ↓   00F1 ñ latin small letter n with tilde
+00D2     Ò  LATIN CAPITAL LETTER O WITH GRAVE
+        ≡   004F O 0300 ◌̀
+        ↓   00F2 ò latin small letter o with grave
+00D3     Ó  LATIN CAPITAL LETTER O WITH ACUTE
+        ≡   004F O 0301 ◌́
+        ↓   00F3 ó latin small letter o with acute
+00D4     Ô  LATIN CAPITAL LETTER O WITH CIRCUMFLEX
+        ≡   004F O 0302 ◌̂
+        ↓   00F4 ô latin small letter o with circumflex
+00D5     Õ  LATIN CAPITAL LETTER O WITH TILDE
+        ≡   004F O 0303 ◌̃
+        ↓   00F5 õ latin small letter o with tilde
+00D6     Ö  LATIN CAPITAL LETTER O WITH DIAERESIS
+        ≡   004F O 0308 ◌̈
+        ↓   00F6 ö latin small letter o with diaeresis
 Mathematical operator
-00D7	 × 	MULTIPLICATION SIGN
- 	 	=	z notation Cartesian product
- 	 	→	2715 ✕ multiplication x
- 	 	→	274C ❌ cross mark
- 	 	→	2A2F ⨯ vector or cross product
+00D7     ×  MULTIPLICATION SIGN
+        =   z notation Cartesian product
+        →   2715 ✕ multiplication x
+        →   274C ❌ cross mark
+        →   2A2F ⨯ vector or cross product
 Letters
-00D8	 Ø 	LATIN CAPITAL LETTER O WITH STROKE
- 	 	=	o slash
- 	 	→	2205 ∅ empty set
- 	 	↓	00F8 ø latin small letter o with stroke
-00D9	 Ù 	LATIN CAPITAL LETTER U WITH GRAVE
- 	 	≡	0055 U 0300 ◌̀
- 	 	↓	00F9 ù latin small letter u with grave
-00DA	 Ú 	LATIN CAPITAL LETTER U WITH ACUTE
- 	 	≡	0055 U 0301 ◌́
- 	 	↓	00FA ú latin small letter u with acute
-00DB	 Û 	LATIN CAPITAL LETTER U WITH CIRCUMFLEX
- 	 	≡	0055 U 0302 ◌̂
- 	 	↓	00FB û latin small letter u with circumflex
-00DC	 Ü 	LATIN CAPITAL LETTER U WITH DIAERESIS
- 	 	≡	0055 U 0308 ◌̈
- 	 	↓	00FC ü latin small letter u with diaeresis
-00DD	 Ý 	LATIN CAPITAL LETTER Y WITH ACUTE
- 	 	≡	0059 Y 0301 ◌́
- 	 	↓	00FD ý latin small letter y with acute
-00DE	 Þ 	LATIN CAPITAL LETTER THORN
- 	 	↓	00FE þ latin small letter thorn
-00DF	 ß 	LATIN SMALL LETTER SHARP S
- 	 	=	Eszett
- 	 	•	German
- 	 	•	not used in Swiss High German
- 	 	•	uppercase is "SS" or 1E9E ẞ
- 	 	•	typographically the glyph for this character can be based on a ligature of 017F ſ with either 0073 s or with an old-style glyph for 007A z (the latter similar in appearance to 0292 ʒ). Both forms exist interchangeably today.
- 	 	→	03B2 β greek small letter beta
- 	 	↑	0053 S + 0053 S
- 	 	↕	0053 S + 0073 s
- 	 	↔	0073 s + 0073 s
-00E0	 à 	LATIN SMALL LETTER A WITH GRAVE
- 	 	≡	0061 a 0300 ◌̀
- 	 	↑	00C0 À latin capital letter a with grave
-00E1	 á 	LATIN SMALL LETTER A WITH ACUTE
- 	 	≡	0061 a 0301 ◌́
- 	 	↑	00C1 Á latin capital letter a with acute
-00E2	 â 	LATIN SMALL LETTER A WITH CIRCUMFLEX
- 	 	≡	0061 a 0302 ◌̂
- 	 	↑	00C2 Â latin capital letter a with circumflex
-00E3	 ã 	LATIN SMALL LETTER A WITH TILDE
- 	 	•	Portuguese
- 	 	≡	0061 a 0303 ◌̃
- 	 	↑	00C3 Ã latin capital letter a with tilde
-00E4	 ä 	LATIN SMALL LETTER A WITH DIAERESIS
- 	 	≡	0061 a 0308 ◌̈
- 	 	↑	00C4 Ä latin capital letter a with diaeresis
-00E5	 å 	LATIN SMALL LETTER A WITH RING ABOVE
- 	 	•	Danish, Norwegian, Swedish, Walloon
- 	 	≡	0061 a 030A ◌̊
- 	 	↑	00C5 Å latin capital letter a with ring above
-00E6	 æ 	LATIN SMALL LETTER AE
- 	 	=	latin small ligature ae (1.1)
- 	 	=	ash (from Old English æsc)
- 	 	•	Danish, Norwegian, Icelandic, Faroese, Old English, French, IPA
- 	 	→	0153 œ latin small ligature oe
- 	 	→	04D5 ӕ cyrillic small ligature a ie
- 	 	↑	00C6 Æ latin capital letter ae
-00E7	 ç 	LATIN SMALL LETTER C WITH CEDILLA
- 	 	≡	0063 c 0327 ◌̧
- 	 	↑	00C7 Ç latin capital letter c with cedilla
-00E8	 è 	LATIN SMALL LETTER E WITH GRAVE
- 	 	≡	0065 e 0300 ◌̀
- 	 	↑	00C8 È latin capital letter e with grave
-00E9	 é 	LATIN SMALL LETTER E WITH ACUTE
- 	 	≡	0065 e 0301 ◌́
- 	 	↑	00C9 É latin capital letter e with acute
-00EA	 ê 	LATIN SMALL LETTER E WITH CIRCUMFLEX
- 	 	≡	0065 e 0302 ◌̂
- 	 	↑	00CA Ê latin capital letter e with circumflex
-00EB	 ë 	LATIN SMALL LETTER E WITH DIAERESIS
- 	 	≡	0065 e 0308 ◌̈
- 	 	↑	00CB Ë latin capital letter e with diaeresis
-00EC	 ì 	LATIN SMALL LETTER I WITH GRAVE
- 	 	•	Italian, Malagasy
- 	 	≡	0069 i 0300 ◌̀
- 	 	↑	00CC Ì latin capital letter i with grave
-00ED	 í 	LATIN SMALL LETTER I WITH ACUTE
- 	 	≡	0069 i 0301 ◌́
- 	 	↑	00CD Í latin capital letter i with acute
-00EE	 î 	LATIN SMALL LETTER I WITH CIRCUMFLEX
- 	 	≡	0069 i 0302 ◌̂
- 	 	↑	00CE Î latin capital letter i with circumflex
-00EF	 ï 	LATIN SMALL LETTER I WITH DIAERESIS
- 	 	≡	0069 i 0308 ◌̈
- 	 	↑	00CF Ï latin capital letter i with diaeresis
-00F0	 ð 	LATIN SMALL LETTER ETH
- 	 	•	Icelandic, Faroese, Old English, IPA
- 	 	•	uppercase is 00D0 Ð
- 	 	→	03B4 δ greek small letter delta
- 	 	→	2202 ∂ partial differential
- 	 	↑	00D0 Ð latin capital letter eth
-00F1	 ñ 	LATIN SMALL LETTER N WITH TILDE
- 	 	≡	006E n 0303 ◌̃
- 	 	↑	00D1 Ñ latin capital letter n with tilde
-00F2	 ò 	LATIN SMALL LETTER O WITH GRAVE
- 	 	≡	006F o 0300 ◌̀
- 	 	↑	00D2 Ò latin capital letter o with grave
-00F3	 ó 	LATIN SMALL LETTER O WITH ACUTE
- 	 	≡	006F o 0301 ◌́
- 	 	↑	00D3 Ó latin capital letter o with acute
-00F4	 ô 	LATIN SMALL LETTER O WITH CIRCUMFLEX
- 	 	≡	006F o 0302 ◌̂
- 	 	↑	00D4 Ô latin capital letter o with circumflex
-00F5	 õ 	LATIN SMALL LETTER O WITH TILDE
- 	 	•	Portuguese, Estonian, Livonian
- 	 	≡	006F o 0303 ◌̃
- 	 	↑	00D5 Õ latin capital letter o with tilde
-00F6	 ö 	LATIN SMALL LETTER O WITH DIAERESIS
- 	 	≡	006F o 0308 ◌̈
- 	 	↑	00D6 Ö latin capital letter o with diaeresis
+00D8     Ø  LATIN CAPITAL LETTER O WITH STROKE
+        =   o slash
+        →   2205 ∅ empty set
+        ↓   00F8 ø latin small letter o with stroke
+00D9     Ù  LATIN CAPITAL LETTER U WITH GRAVE
+        ≡   0055 U 0300 ◌̀
+        ↓   00F9 ù latin small letter u with grave
+00DA     Ú  LATIN CAPITAL LETTER U WITH ACUTE
+        ≡   0055 U 0301 ◌́
+        ↓   00FA ú latin small letter u with acute
+00DB     Û  LATIN CAPITAL LETTER U WITH CIRCUMFLEX
+        ≡   0055 U 0302 ◌̂
+        ↓   00FB û latin small letter u with circumflex
+00DC     Ü  LATIN CAPITAL LETTER U WITH DIAERESIS
+        ≡   0055 U 0308 ◌̈
+        ↓   00FC ü latin small letter u with diaeresis
+00DD     Ý  LATIN CAPITAL LETTER Y WITH ACUTE
+        ≡   0059 Y 0301 ◌́
+        ↓   00FD ý latin small letter y with acute
+00DE     Þ  LATIN CAPITAL LETTER THORN
+        ↓   00FE þ latin small letter thorn
+00DF     ß  LATIN SMALL LETTER SHARP S
+        =   Eszett
+        •   German
+        •   not used in Swiss High German
+        •   uppercase is "SS" or 1E9E ẞ
+        •   typographically the glyph for this character can be based on a ligature of 017F ſ with either 0073 s or with an old-style glyph for 007A z (the latter similar in appearance to 0292 ʒ). Both forms exist interchangeably today.
+        →   03B2 β greek small letter beta
+        ↑   0053 S + 0053 S
+        ↕   0053 S + 0073 s
+        ↔   0073 s + 0073 s
+00E0     à  LATIN SMALL LETTER A WITH GRAVE
+        ≡   0061 a 0300 ◌̀
+        ↑   00C0 À latin capital letter a with grave
+00E1     á  LATIN SMALL LETTER A WITH ACUTE
+        ≡   0061 a 0301 ◌́
+        ↑   00C1 Á latin capital letter a with acute
+00E2     â  LATIN SMALL LETTER A WITH CIRCUMFLEX
+        ≡   0061 a 0302 ◌̂
+        ↑   00C2 Â latin capital letter a with circumflex
+00E3     ã  LATIN SMALL LETTER A WITH TILDE
+        •   Portuguese
+        ≡   0061 a 0303 ◌̃
+        ↑   00C3 Ã latin capital letter a with tilde
+00E4     ä  LATIN SMALL LETTER A WITH DIAERESIS
+        ≡   0061 a 0308 ◌̈
+        ↑   00C4 Ä latin capital letter a with diaeresis
+00E5     å  LATIN SMALL LETTER A WITH RING ABOVE
+        •   Danish, Norwegian, Swedish, Walloon
+        ≡   0061 a 030A ◌̊
+        ↑   00C5 Å latin capital letter a with ring above
+00E6     æ  LATIN SMALL LETTER AE
+        =   latin small ligature ae (1.1)
+        =   ash (from Old English æsc)
+        •   Danish, Norwegian, Icelandic, Faroese, Old English, French, IPA
+        →   0153 œ latin small ligature oe
+        →   04D5 ӕ cyrillic small ligature a ie
+        ↑   00C6 Æ latin capital letter ae
+00E7     ç  LATIN SMALL LETTER C WITH CEDILLA
+        ≡   0063 c 0327 ◌̧
+        ↑   00C7 Ç latin capital letter c with cedilla
+00E8     è  LATIN SMALL LETTER E WITH GRAVE
+        ≡   0065 e 0300 ◌̀
+        ↑   00C8 È latin capital letter e with grave
+00E9     é  LATIN SMALL LETTER E WITH ACUTE
+        ≡   0065 e 0301 ◌́
+        ↑   00C9 É latin capital letter e with acute
+00EA     ê  LATIN SMALL LETTER E WITH CIRCUMFLEX
+        ≡   0065 e 0302 ◌̂
+        ↑   00CA Ê latin capital letter e with circumflex
+00EB     ë  LATIN SMALL LETTER E WITH DIAERESIS
+        ≡   0065 e 0308 ◌̈
+        ↑   00CB Ë latin capital letter e with diaeresis
+00EC     ì  LATIN SMALL LETTER I WITH GRAVE
+        •   Italian, Malagasy
+        ≡   0069 i 0300 ◌̀
+        ↑   00CC Ì latin capital letter i with grave
+00ED     í  LATIN SMALL LETTER I WITH ACUTE
+        ≡   0069 i 0301 ◌́
+        ↑   00CD Í latin capital letter i with acute
+00EE     î  LATIN SMALL LETTER I WITH CIRCUMFLEX
+        ≡   0069 i 0302 ◌̂
+        ↑   00CE Î latin capital letter i with circumflex
+00EF     ï  LATIN SMALL LETTER I WITH DIAERESIS
+        ≡   0069 i 0308 ◌̈
+        ↑   00CF Ï latin capital letter i with diaeresis
+00F0     ð  LATIN SMALL LETTER ETH
+        •   Icelandic, Faroese, Old English, IPA
+        •   uppercase is 00D0 Ð
+        →   03B4 δ greek small letter delta
+        →   2202 ∂ partial differential
+        ↑   00D0 Ð latin capital letter eth
+00F1     ñ  LATIN SMALL LETTER N WITH TILDE
+        ≡   006E n 0303 ◌̃
+        ↑   00D1 Ñ latin capital letter n with tilde
+00F2     ò  LATIN SMALL LETTER O WITH GRAVE
+        ≡   006F o 0300 ◌̀
+        ↑   00D2 Ò latin capital letter o with grave
+00F3     ó  LATIN SMALL LETTER O WITH ACUTE
+        ≡   006F o 0301 ◌́
+        ↑   00D3 Ó latin capital letter o with acute
+00F4     ô  LATIN SMALL LETTER O WITH CIRCUMFLEX
+        ≡   006F o 0302 ◌̂
+        ↑   00D4 Ô latin capital letter o with circumflex
+00F5     õ  LATIN SMALL LETTER O WITH TILDE
+        •   Portuguese, Estonian, Livonian
+        ≡   006F o 0303 ◌̃
+        ↑   00D5 Õ latin capital letter o with tilde
+00F6     ö  LATIN SMALL LETTER O WITH DIAERESIS
+        ≡   006F o 0308 ◌̈
+        ↑   00D6 Ö latin capital letter o with diaeresis
 Mathematical operator
-00F7	 ÷ 	DIVISION SIGN
- 	 	=	obelus
- 	 	•	occasionally used as an alternate, more visually distinct version of 2212 − or 2011 ‑ in some contexts
- 	 	•	historically used as a punctuation mark to denote questionable passages in manuscripts
- 	 	→	070B ‎܋‎ syriac harklean obelus
- 	 	→	2052 ⁒ commercial minus sign
- 	 	→	2212 − minus sign
- 	 	→	2215 ∕ division slash
- 	 	→	2223 ∣ divides
- 	 	→	2236 ∶ ratio
- 	 	→	2797 ➗ heavy division sign
+00F7     ÷  DIVISION SIGN
+        =   obelus
+        •   occasionally used as an alternate, more visually distinct version of 2212 − or 2011 ‑ in some contexts
+        •   historically used as a punctuation mark to denote questionable passages in manuscripts
+        →   070B ‎܋‎ syriac harklean obelus
+        →   2052 ⁒ commercial minus sign
+        →   2212 − minus sign
+        →   2215 ∕ division slash
+        →   2223 ∣ divides
+        →   2236 ∶ ratio
+        →   2797 ➗ heavy division sign
 Letters
-00F8	 ø 	LATIN SMALL LETTER O WITH STROKE
- 	 	=	o slash
- 	 	•	Danish, Norwegian, Faroese, IPA
- 	 	→	2300 ⌀ diameter sign
- 	 	↑	00D8 Ø latin capital letter o with stroke
-00F9	 ù 	LATIN SMALL LETTER U WITH GRAVE
- 	 	•	French, Italian
- 	 	≡	0075 u 0300 ◌̀
- 	 	↑	00D9 Ù latin capital letter u with grave
-00FA	 ú 	LATIN SMALL LETTER U WITH ACUTE
- 	 	≡	0075 u 0301 ◌́
- 	 	↑	00DA Ú latin capital letter u with acute
-00FB	 û 	LATIN SMALL LETTER U WITH CIRCUMFLEX
- 	 	≡	0075 u 0302 ◌̂
- 	 	↑	00DB Û latin capital letter u with circumflex
-00FC	 ü 	LATIN SMALL LETTER U WITH DIAERESIS
- 	 	≡	0075 u 0308 ◌̈
- 	 	↑	00DC Ü latin capital letter u with diaeresis
-00FD	 ý 	LATIN SMALL LETTER Y WITH ACUTE
- 	 	•	Czech, Slovak, Icelandic, Faroese, Welsh, Malagasy
- 	 	≡	0079 y 0301 ◌́
- 	 	↑	00DD Ý latin capital letter y with acute
-00FE	 þ 	LATIN SMALL LETTER THORN
- 	 	•	Icelandic, Old English, phonetics
- 	 	•	Runic letter borrowed into Latin script
- 	 	→	16A6 ᚦ runic letter thurisaz thurs thorn
- 	 	↑	00DE Þ latin capital letter thorn
-00FF	 ÿ 	LATIN SMALL LETTER Y WITH DIAERESIS
- 	 	•	French, medieval Hungarian orthography
- 	 	•	uppercase is 0178 Ÿ
- 	 	≡	0079 y 0308 ◌̈
- 	 	↑	0178 Ÿ latin capital letter y with diaeresis
+00F8     ø  LATIN SMALL LETTER O WITH STROKE
+        =   o slash
+        •   Danish, Norwegian, Faroese, IPA
+        →   2300 ⌀ diameter sign
+        ↑   00D8 Ø latin capital letter o with stroke
+00F9     ù  LATIN SMALL LETTER U WITH GRAVE
+        •   French, Italian
+        ≡   0075 u 0300 ◌̀
+        ↑   00D9 Ù latin capital letter u with grave
+00FA     ú  LATIN SMALL LETTER U WITH ACUTE
+        ≡   0075 u 0301 ◌́
+        ↑   00DA Ú latin capital letter u with acute
+00FB     û  LATIN SMALL LETTER U WITH CIRCUMFLEX
+        ≡   0075 u 0302 ◌̂
+        ↑   00DB Û latin capital letter u with circumflex
+00FC     ü  LATIN SMALL LETTER U WITH DIAERESIS
+        ≡   0075 u 0308 ◌̈
+        ↑   00DC Ü latin capital letter u with diaeresis
+00FD     ý  LATIN SMALL LETTER Y WITH ACUTE
+        •   Czech, Slovak, Icelandic, Faroese, Welsh, Malagasy
+        ≡   0079 y 0301 ◌́
+        ↑   00DD Ý latin capital letter y with acute
+00FE     þ  LATIN SMALL LETTER THORN
+        •   Icelandic, Old English, phonetics
+        •   Runic letter borrowed into Latin script
+        →   16A6 ᚦ runic letter thurisaz thurs thorn
+        ↑   00DE Þ latin capital letter thorn
+00FF     ÿ  LATIN SMALL LETTER Y WITH DIAERESIS
+        •   French, medieval Hungarian orthography
+        •   uppercase is 0178 Ÿ
+        ≡   0079 y 0308 ◌̈
+        ↑   0178 Ÿ latin capital letter y with diaeresis
 
 16A0 ᚠ RUNIC LETTER FEHU FEOH FE F
 16A1 ᚡ RUNIC LETTER V
@@ -1319,6 +1034,316 @@ Map from ARIB STD B24
 26FD ⛽ FUEL PUMP
 26FE ⛾ CUP ON BLACK SQUARE
 26FF ⛿ WHITE FLAG WITH HORIZONTAL MIDDLE BLACK STRIPE
+
+Miscellaneous
+2700	 ✀ 	BLACK SAFETY SCISSORS
+ 	 	•	forms a pair with 2704 ✄ white scissors
+2701	 ✁ 	UPPER BLADE SCISSORS
+2702	 ✂ 	BLACK SCISSORS
+2703	 ✃ 	LOWER BLADE SCISSORS
+2704	 ✄ 	WHITE SCISSORS
+2705	 ✅ 	WHITE HEAVY CHECK MARK
+ 	 	→	2714 ✔ heavy check mark
+2706	 ✆ 	TELEPHONE LOCATION SIGN
+ 	 	→	2121 ℡ telephone sign
+ 	 	→	1F4DE 📞 telephone receiver
+2707	 ✇ 	TAPE DRIVE
+2708	 ✈ 	AIRPLANE
+ 	 	→	1F6E7 🛧 up-pointing airplane
+2709	 ✉ 	ENVELOPE
+ 	 	=	sealed envelope
+ 	 	→	1F4E8 📨 incoming envelope
+ 	 	→	1F582 🖂 back of envelope
+270A	 ✊ 	RAISED FIST
+ 	 	=	rock in Rock, Paper, Scissors game
+ 	 	→	1F44A 👊 fisted hand sign
+270B	 ✋ 	RAISED HAND
+ 	 	=	paper in Rock, Paper, Scissors game
+ 	 	→	1F44B 👋 waving hand sign
+ 	 	→	1F590 🖐 raised hand with fingers splayed
+270C	 ✌ 	VICTORY HAND
+ 	 	=	scissors in Rock, Paper, Scissors game
+ 	 	→	1F594 🖔 reversed victory hand
+270D	 ✍ 	WRITING HAND
+ 	 	→	1F58E 🖎 left writing hand
+270E	 ✎ 	LOWER RIGHT PENCIL
+ 	 	→	1F589 🖉 lower left pencil
+270F	 ✏ 	PENCIL
+2710	 ✐ 	UPPER RIGHT PENCIL
+2711	 ✑ 	WHITE NIB
+ 	 	→	1F58B 🖋 lower left fountain pen
+2712	 ✒ 	BLACK NIB
+2713	 ✓ 	CHECK MARK
+ 	 	→	221A √ square root
+ 	 	→	1F5F8 🗸 light check mark
+2714	 ✔ 	HEAVY CHECK MARK
+2715	 ✕ 	MULTIPLICATION X
+ 	 	→	00D7 × multiplication sign
+ 	 	→	2573 ╳ box drawings light diagonal cross
+2716	 ✖ 	HEAVY MULTIPLICATION X
+2717	 ✗ 	BALLOT X
+ 	 	→	2613 ☓ saltire
+ 	 	→	1F5F4 🗴 ballot script x
+2718	 ✘ 	HEAVY BALLOT X
+ 	 	→	1F5F6 🗶 ballot bold script x
+Crosses
+2719	 ✙ 	OUTLINED GREEK CROSS
+271A	 ✚ 	HEAVY GREEK CROSS
+ 	 	→	1F7A5 🞥 very bold greek cross
+271B	 ✛ 	OPEN CENTRE CROSS
+271C	 ✜ 	HEAVY OPEN CENTRE CROSS
+271D	 ✝ 	LATIN CROSS
+271E	 ✞ 	SHADOWED WHITE LATIN CROSS
+ 	 	→	1F546 🕆 white latin cross
+271F	 ✟ 	OUTLINED LATIN CROSS
+2720	 ✠ 	MALTESE CROSS
+ 	 	•	historically, the Maltese cross took many forms; the shape shown in the Zapf Dingbats is similar to one known as the Cross Formée
+ 	 	→	1F902 🤂 circled cross formee
+Stars and asterisks
+2721	 ✡ 	STAR OF DAVID
+ 	 	→	1F52F 🔯 six pointed star with middle dot
+2722	 ✢ 	FOUR TEARDROP-SPOKED ASTERISK
+2723	 ✣ 	FOUR BALLOON-SPOKED ASTERISK
+2724	 ✤ 	HEAVY FOUR BALLOON-SPOKED ASTERISK
+2725	 ✥ 	FOUR CLUB-SPOKED ASTERISK
+2726	 ✦ 	BLACK FOUR POINTED STAR
+ 	 	→	2BCC ⯌ light four pointed black cusp
+ 	 	→	1F7C6 🟆 four pointed black star
+2727	 ✧ 	WHITE FOUR POINTED STAR
+ 	 	→	2BCE ⯎ white four pointed cusp
+2728	 ✨ 	SPARKLES
+2729	 ✩ 	STRESS OUTLINED WHITE STAR
+ 	 	→	2606 ☆ white star
+272A	 ✪ 	CIRCLED WHITE STAR
+272B	 ✫ 	OPEN CENTRE BLACK STAR
+272C	 ✬ 	BLACK CENTRE WHITE STAR
+272D	 ✭ 	OUTLINED BLACK STAR
+272E	 ✮ 	HEAVY OUTLINED BLACK STAR
+272F	 ✯ 	PINWHEEL STAR
+2730	 ✰ 	SHADOWED WHITE STAR
+2731	 ✱ 	HEAVY ASTERISK
+ 	 	→	002A * asterisk
+ 	 	→	1F7B8 🞸 heavy six spoked asterisk
+2732	 ✲ 	OPEN CENTRE ASTERISK
+2733	 ✳ 	EIGHT SPOKED ASTERISK
+ 	 	→	1F7BB 🞻 light eight spoked asterisk
+2734	 ✴ 	EIGHT POINTED BLACK STAR
+2735	 ✵ 	EIGHT POINTED PINWHEEL STAR
+ 	 	→	1F7D1 🟑 heavy eight pointed pinwheel star
+2736	 ✶ 	SIX POINTED BLACK STAR
+ 	 	→	26B9 ⚹ sextile
+2737	 ✷ 	EIGHT POINTED RECTILINEAR BLACK STAR
+ 	 	→	1F7CE 🟎 medium eight pointed black star
+2738	 ✸ 	HEAVY EIGHT POINTED RECTILINEAR BLACK STAR
+ 	 	→	1F7CF 🟏 heavy eight pointed black star
+2739	 ✹ 	TWELVE POINTED BLACK STAR
+273A	 ✺ 	SIXTEEN POINTED ASTERISK
+ 	 	=	starburst
+273B	 ✻ 	TEARDROP-SPOKED ASTERISK
+273C	 ✼ 	OPEN CENTRE TEARDROP-SPOKED ASTERISK
+273D	 ✽ 	HEAVY TEARDROP-SPOKED ASTERISK
+Fleurons
+273E	 ✾ 	SIX PETALLED BLACK AND WHITE FLORETTE
+273F	 ✿ 	BLACK FLORETTE
+2740	 ❀ 	WHITE FLORETTE
+ 	 	→	1F3F5 🏵 rosette
+ 	 	→	1F4AE 💮 white flower
+2741	 ❁ 	EIGHT PETALLED OUTLINED BLACK FLORETTE
+ 	 	→	1F3F6 🏶 black rosette
+Stars, asterisks and snowflakes
+2742	 ❂ 	CIRCLED OPEN CENTRE EIGHT POINTED STAR
+2743	 ❃ 	HEAVY TEARDROP-SPOKED PINWHEEL ASTERISK
+2744	 ❄ 	SNOWFLAKE
+2745	 ❅ 	TIGHT TRIFOLIATE SNOWFLAKE
+2746	 ❆ 	HEAVY CHEVRON SNOWFLAKE
+2747	 ❇ 	SPARKLE
+2748	 ❈ 	HEAVY SPARKLE
+2749	 ❉ 	BALLOON-SPOKED ASTERISK
+ 	 	=	jack
+274A	 ❊ 	EIGHT TEARDROP-SPOKED PROPELLER ASTERISK
+274B	 ❋ 	HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK
+ 	 	=	turbofan
+Miscellaneous
+274C	 ❌ 	CROSS MARK
+ 	 	•	forms a game tally pair with 2B55 ⭕
+ 	 	→	00D7 × multiplication sign
+ 	 	→	1F5D9 🗙 cancellation x
+274D	 ❍ 	SHADOWED WHITE CIRCLE
+ 	 	→	1F53E 🔾 lower right shadowed white circle
+274E	 ❎ 	NEGATIVE SQUARED CROSS MARK
+274F	 ❏ 	LOWER RIGHT DROP-SHADOWED WHITE SQUARE
+2750	 ❐ 	UPPER RIGHT DROP-SHADOWED WHITE SQUARE
+2751	 ❑ 	LOWER RIGHT SHADOWED WHITE SQUARE
+2752	 ❒ 	UPPER RIGHT SHADOWED WHITE SQUARE
+2753	 ❓ 	BLACK QUESTION MARK ORNAMENT
+2754	 ❔ 	WHITE QUESTION MARK ORNAMENT
+2755	 ❕ 	WHITE EXCLAMATION MARK ORNAMENT
+2756	 ❖ 	BLACK DIAMOND MINUS WHITE X
+2757	 ❗ 	HEAVY EXCLAMATION MARK SYMBOL
+ 	 	=	obstacles on the road, ARIB STD B24
+2758	 ❘ 	LIGHT VERTICAL BAR
+ 	 	→	007C | vertical line
+2759	 ❙ 	MEDIUM VERTICAL BAR
+275A	 ❚ 	HEAVY VERTICAL BAR
+Punctuation mark ornaments
+275B	 ❛ 	HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+ 	 	→	2018 ‘ left single quotation mark
+275C	 ❜ 	HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT
+ 	 	→	2019 ’ right single quotation mark
+275D	 ❝ 	HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
+ 	 	→	201C “ left double quotation mark
+ 	 	→	1F676 🙶 sans-serif heavy double turned comma quotation mark ornament
+275E	 ❞ 	HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT
+ 	 	→	201D ” right double quotation mark
+ 	 	→	1F677 🙷 sans-serif heavy double comma quotation mark ornament
+275F	 ❟ 	HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT
+ 	 	→	201A ‚ single low-9 quotation mark
+2760	 ❠ 	HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT
+ 	 	→	201E „ double low-9 quotation mark
+ 	 	→	1F678 🙸 sans-serif heavy low double comma quotation mark ornament
+2761	 ❡ 	CURVED STEM PARAGRAPH SIGN ORNAMENT
+ 	 	→	00B6 ¶ pilcrow sign
+2762	 ❢ 	HEAVY EXCLAMATION MARK ORNAMENT
+ 	 	→	0021 ! exclamation mark
+2763	 ❣ 	HEAVY HEART EXCLAMATION MARK ORNAMENT
+2764	 ❤ 	HEAVY BLACK HEART
+ 	 	•	displayed with a red color when used in emoji style
+ 	 	→	2665 ♥ black heart suit
+ 	 	→	1F5A4 🖤 black heart
+ 	 	→	1F90D 🤍 white heart
+2765	 ❥ 	ROTATED HEAVY BLACK HEART BULLET
+Fleurons
+2766	 ❦ 	FLORAL HEART
+ 	 	=	Aldus leaf
+2767	 ❧ 	ROTATED FLORAL HEART BULLET
+ 	 	=	hedera, ivy leaf
+ 	 	→	2619 ☙ reversed rotated floral heart bullet
+ 	 	→	1F65B 🙛 south east pointing vine leaf
+Ornamental brackets
+2768	 ❨ 	MEDIUM LEFT PARENTHESIS ORNAMENT
+ 	 	→	0028 ( left parenthesis
+2769	 ❩ 	MEDIUM RIGHT PARENTHESIS ORNAMENT
+ 	 	→	0029 ) right parenthesis
+276A	 ❪ 	MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT
+276B	 ❫ 	MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT
+276C	 ❬ 	MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT
+ 	 	→	2329 〈 left-pointing angle bracket
+276D	 ❭ 	MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT
+ 	 	→	232A 〉 right-pointing angle bracket
+276E	 ❮ 	HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT
+ 	 	→	2039 ‹ single left-pointing angle quotation mark
+276F	 ❯ 	HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT
+ 	 	→	203A › single right-pointing angle quotation mark
+2770	 ❰ 	HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT
+2771	 ❱ 	HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT
+2772	 ❲ 	LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
+ 	 	→	3014 〔 left tortoise shell bracket
+2773	 ❳ 	LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
+ 	 	→	3015 〕 right tortoise shell bracket
+2774	 ❴ 	MEDIUM LEFT CURLY BRACKET ORNAMENT
+ 	 	→	007B { left curly bracket
+2775	 ❵ 	MEDIUM RIGHT CURLY BRACKET ORNAMENT
+ 	 	→	007D } right curly bracket
+Dingbat circled digits
+2776	 ❶ 	DINGBAT NEGATIVE CIRCLED DIGIT ONE
+2777	 ❷ 	DINGBAT NEGATIVE CIRCLED DIGIT TWO
+2778	 ❸ 	DINGBAT NEGATIVE CIRCLED DIGIT THREE
+2779	 ❹ 	DINGBAT NEGATIVE CIRCLED DIGIT FOUR
+277A	 ❺ 	DINGBAT NEGATIVE CIRCLED DIGIT FIVE
+277B	 ❻ 	DINGBAT NEGATIVE CIRCLED DIGIT SIX
+277C	 ❼ 	DINGBAT NEGATIVE CIRCLED DIGIT SEVEN
+277D	 ❽ 	DINGBAT NEGATIVE CIRCLED DIGIT EIGHT
+277E	 ❾ 	DINGBAT NEGATIVE CIRCLED DIGIT NINE
+277F	 ❿ 	DINGBAT NEGATIVE CIRCLED NUMBER TEN
+2780	 ➀ 	DINGBAT CIRCLED SANS-SERIF DIGIT ONE
+2781	 ➁ 	DINGBAT CIRCLED SANS-SERIF DIGIT TWO
+2782	 ➂ 	DINGBAT CIRCLED SANS-SERIF DIGIT THREE
+2783	 ➃ 	DINGBAT CIRCLED SANS-SERIF DIGIT FOUR
+2784	 ➄ 	DINGBAT CIRCLED SANS-SERIF DIGIT FIVE
+2785	 ➅ 	DINGBAT CIRCLED SANS-SERIF DIGIT SIX
+2786	 ➆ 	DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN
+2787	 ➇ 	DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT
+2788	 ➈ 	DINGBAT CIRCLED SANS-SERIF DIGIT NINE
+2789	 ➉ 	DINGBAT CIRCLED SANS-SERIF NUMBER TEN
+278A	 ➊ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE
+278B	 ➋ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TWO
+278C	 ➌ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT THREE
+278D	 ➍ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FOUR
+278E	 ➎ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FIVE
+278F	 ➏ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SIX
+2790	 ➐ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SEVEN
+2791	 ➑ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT
+2792	 ➒ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE
+2793	 ➓ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN
+Dingbat arrow
+2794	 ➔ 	HEAVY WIDE-HEADED RIGHTWARDS ARROW
+ 	 	→	1F872 🡲 wide-headed rightwards medium barb arrow
+Heavy variants of arithmetic symbols
+2795	 ➕ 	HEAVY PLUS SIGN
+ 	 	→	002B + plus sign
+2796	 ➖ 	HEAVY MINUS SIGN
+ 	 	→	2212 − minus sign
+2797	 ➗ 	HEAVY DIVISION SIGN
+ 	 	→	00F7 ÷ division sign
+Dingbat arrows
+2798	 ➘ 	HEAVY SOUTH EAST ARROW
+2799	 ➙ 	HEAVY RIGHTWARDS ARROW
+279A	 ➚ 	HEAVY NORTH EAST ARROW
+279B	 ➛ 	DRAFTING POINT RIGHTWARDS ARROW
+279C	 ➜ 	HEAVY ROUND-TIPPED RIGHTWARDS ARROW
+279D	 ➝ 	TRIANGLE-HEADED RIGHTWARDS ARROW
+279E	 ➞ 	HEAVY TRIANGLE-HEADED RIGHTWARDS ARROW
+279F	 ➟ 	DASHED TRIANGLE-HEADED RIGHTWARDS ARROW
+27A0	 ➠ 	HEAVY DASHED TRIANGLE-HEADED RIGHTWARDS ARROW
+27A1	 ➡ 	BLACK RIGHTWARDS ARROW
+ 	 	•	fonts may harmonize this glyph with the style for other black arrows
+ 	 	→	2B05 ⬅ leftwards black arrow
+ 	 	→	2B95 ⮕ rightwards black arrow
+27A2	 ➢ 	THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD
+ 	 	→	2B9A ⮚ three-d top-lighted rightwards equilateral arrowhead
+27A3	 ➣ 	THREE-D BOTTOM-LIGHTED RIGHTWARDS ARROWHEAD
+27A4	 ➤ 	BLACK RIGHTWARDS ARROWHEAD
+ 	 	→	2B9E ⮞ black rightwards equilateral arrowhead
+27A5	 ➥ 	HEAVY BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW
+ 	 	→	2BA9 ⮩ black curved downwards and rightwards arrow
+27A6	 ➦ 	HEAVY BLACK CURVED UPWARDS AND RIGHTWARDS ARROW
+ 	 	→	2BAB ⮫ black curved upwards and rightwards arrow
+27A7	 ➧ 	SQUAT BLACK RIGHTWARDS ARROW
+ 	 	→	1F842 🡂 rightwards heavy compressed arrow
+27A8	 ➨ 	HEAVY CONCAVE-POINTED BLACK RIGHTWARDS ARROW
+27A9	 ➩ 	RIGHT-SHADED WHITE RIGHTWARDS ARROW
+ 	 	→	1F8A5 🢥 rightwards right-shaded white arrow
+27AA	 ➪ 	LEFT-SHADED WHITE RIGHTWARDS ARROW
+ 	 	→	1F8A7 🢧 rightwards left-shaded white arrow
+27AB	 ➫ 	BACK-TILTED SHADOWED WHITE RIGHTWARDS ARROW
+ 	 	→	1F8A9 🢩 rightwards back-tilted shadowed white arrow
+27AC	 ➬ 	FRONT-TILTED SHADOWED WHITE RIGHTWARDS ARROW
+ 	 	→	1F8AB 🢫 rightwards front-tilted shadowed white arrow
+27AD	 ➭ 	HEAVY LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
+27AE	 ➮ 	HEAVY UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
+27AF	 ➯ 	NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
+ 	 	→	1F89A 🢚 rightwards arrow with notched tail
+Miscellaneous
+27B0	 ➰ 	CURLY LOOP
+ 	 	=	kururi
+Dingbat arrows
+27B1	 ➱ 	NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
+27B2	 ➲ 	CIRCLED HEAVY WHITE RIGHTWARDS ARROW
+27B3	 ➳ 	WHITE-FEATHERED RIGHTWARDS ARROW
+27B4	 ➴ 	BLACK-FEATHERED SOUTH EAST ARROW
+27B5	 ➵ 	BLACK-FEATHERED RIGHTWARDS ARROW
+27B6	 ➶ 	BLACK-FEATHERED NORTH EAST ARROW
+27B7	 ➷ 	HEAVY BLACK-FEATHERED SOUTH EAST ARROW
+27B8	 ➸ 	HEAVY BLACK-FEATHERED RIGHTWARDS ARROW
+27B9	 ➹ 	HEAVY BLACK-FEATHERED NORTH EAST ARROW
+27BA	 ➺ 	TEARDROP-BARBED RIGHTWARDS ARROW
+27BB	 ➻ 	HEAVY TEARDROP-SHANKED RIGHTWARDS ARROW
+27BC	 ➼ 	WEDGE-TAILED RIGHTWARDS ARROW
+27BD	 ➽ 	HEAVY WEDGE-TAILED RIGHTWARDS ARROW
+27BE	 ➾ 	OPEN-OUTLINED RIGHTWARDS ARROW
+Miscellaneous
+27BF	 ➿ 	DOUBLE CURLY LOOP
+
 
 2B1C ⬜ white large square
 
