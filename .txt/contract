@@ -1,5 +1,7 @@
 Related: block, chain, CityCoin, DAO, fintech, lens, solidity
 
+https://blog.slock.it/analyzing-solidity-smart-contracts-with-piet-6db33a733e79
+
 OpenLaw.io
 Law.MIT.edu
 COALA.global >>Coalition of Automated Legal Applications
@@ -14,10 +16,9 @@ Smart Contracts are legal instruments written in specialized programming languag
   Flint
   LLL
   Obsidian IEEEXplore.IEEE.org/document/7965268 >>Obsidian: A Safer Blockchain Programming Language
-  EVM  The Ethereum Virtual Machine 'executes'
-
-  Holo
-  NEO
+  EVM  The Ethereum Virtual Machine 'interprets' or 'executes' Solidity
+  Holo - maybe not the language name
+  NEO - um
 
 ==Dev tools
 dapparatus

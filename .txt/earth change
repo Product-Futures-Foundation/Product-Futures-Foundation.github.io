@@ -1,23 +1,27 @@
 = EARTH CHANGE
 
 == Who am I?
-Hi, I'm Patrick Anderson, long-time software engineer now designing systems
-that align ecology with economy.
+Hi, I'm Patrick Anderson, long-time software engineer,
+now designing systems that align ecology with economy.
 
 My team is creating a new way to organize material production
-to change the flow of commerce toward regenerative abundance.
+to change the flow of commerce towards regenerative abundance.
 
-We are designing a token
-and a DAO interface to acquire and manage
+We are designing a token and a DAO to acquire and manage
 the sources and skills required for the production
 of critical goods and services such as food and housing.
 
-I am excited to be here today with the Food Sovereignty DAOStack group
-to explain how we can secure the property and promises
-needed to get this food party started!
+I'm excited to be here today with the Food Sovereignty DAOStack group
+to explain how we can get this food party started!
 
 == How does it work?
-When you invest, you become a co-owner in the sources required for that production
+Potential members commit either work or money toward
+future production through the DAO interface.
+
+Once enough money and work commitments are recorded,
+we buy the sources, such as land, tools, water-rights.
+
+Members become co-owners in the sources required for that production
 and accept the product itself as the natural return on that investment.
 
 >> When the consumers are owners there is no sale.
@@ -25,53 +29,30 @@ and accept the product itself as the natural return on that investment.
 >> when you co-own a forest, you co-own the fruit.
 >> You own the outputs because you own the inputs.
 
-== How does it start?
-Potential members commit either work or money toward future production
-through the DAO interface
-
-Once all money and work commitments are recorded, we buy the sources.
-
-Each member owns only as much sources as they buy, and only as much of
-the product as their percentage for each round of production.
 
 == Timeline
-Future products are sold to buy Sources required to begin production.
-Some of these Sources are sold for commitments to work in the future.
+Future products are sold to buy sources required to begin production.
+Some of these sources are sold for commitments to work in the future.
 Owners accept the Product itself as the natural return on investment.
 Owners sell Surplus Product but some profit becomes payer investment.
 
-== Phases
-=== PREBOOT
 Search real estate listings to meet the many requirements such as minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
-
-Ask workers and other investor where they prefer to build.
 
 Finalize parcel selection and begin minting tokens representing those sources.
 
-=== BOOT
-Start real crowdfunding campaign and begin selling tokens to workers and other investors.
+Sell tokens to workers and other investors.
 
 Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
 
-
-=== START
-Somehow reach agreement over the general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
+Reach agreement over the general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
 
 Purchase land, tools and startup supplies, including primary bulk food ingredients such as bushels of grains, legumes, raw potatoes, bales of herbs and spices etc. to cook large, cheap but nutritious shared meals and begin soap and cloth making.
 
 Any worker may move onsite immediately, but will likely be in tents with temporary sanitation facilities and cafeteria style dining while the first shared structures are built and support systems are established.
 
-=== STASIS
-City supports Tier0 quality of life without external trade.
+City supports a basic quality of life without external trade.
 Begin building private structures such as tiny houses.
-Install slow-maturing plants and animals with uses beyond food.
-
-=== SOVEREIGN
-City supports Tier1 quality of life without external trade.
-
-=== SURPLUS
-City produces more than it consumes.
-
+Install slower maturing plants and animals.
 
 == What are the rules?
 . Money becomes Sources: Consumers gain sources when they buy future products.
@@ -106,6 +87,15 @@ This is a generalization of economic imputation.
 Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued Source Titles, or to buy Source Titles being offered for sale by other owners.
 
 This causes all users to incrementally gain the property ownership in the sources required to finally also control the production they need and receive those products at cost.
+
+== Invitation
+​We are looking for people to manage food production, and other supporting services such as food preparation etc.
+
+We also need developers to help write the Solidity contracts and the DAO to mint the coin and facilitate future planning.
+
+Here is a prototype https://Rinkeby.Aragon.org/#/earthchange
+
+Send any questions or proposals to Patrick-T-Anderson@gmail.com
 
 
 == Definitions
@@ -195,7 +185,7 @@ Investment Types (3 ways to pay)
  from other owners and pay more than the real costs of production.
  Owners selling surplus are required to buy ECTs with
  some of their profits, and vest ownership of those titles to you,
- the payer. //[[How should we determine the minimum percentage?]]
+ the payer.
 
 Potential users pre-pay to purchase land, water-rights, tools, plants, animals, etc. required to create basic goods and services they need such as food, shelter, cloth, soap, medicine, sanitation, basic health care including dentistry, optometry, etc.
 
@@ -215,7 +205,7 @@ In this way we treat profit as misallocated property that is 'reflected' back to
 
 
 == Strategy
-Attract middle-income Consumers to pre-pay for organic products and earth-friendly services.
+Attract middle-income Consumers to pre-pay for organic goods and services.
 
 Use part of the funds to buy cheap agricultural land without mortgage.
 Use part of the funds to buy tools, plants, animals, water rights.
@@ -227,38 +217,31 @@ Occupy that land with tents to begin planting and building.
 If we qualify as non-profit we might avoid Property taxes.
 Each Investor (whether money or work) becomes a co-owner.
 
-If you want the studio apartment, a 5 minute shower, and very simple meals, you will not need to commit very much of your future labor.
+If you want the studio apartment, 3 minute showers, and very simple meals, you will not need to commit very much of your future labor.
 
-If you want a 3-bedroom house, shares in the clubhouse and more elaborate meals, you will need to commit more of your future labor in order to compensate others for the extra work and land and tools required for that production.
-
-The DAO does not pay wages in the traditional sense, but the worker *already owns* most of the goods and services he needs, so does not need to pass tokens.
-
-We do not sell the Products (except Surplus) because all of that output is in the correct hands (is owned by those who will consume it) even before it is produced.
-
-Investors become co-owners according to the value they commit as measured by the others in that group.
-
-Each co-owner of Property is the co-owner of Products even before production is complete.  You might say they each own their portion of all *potential* Products.  You do not buy the Product from the Earth Change DAO, but instead just claim that which is already yours.
+If you want a 3-bedroom house, shares in the clubhouse and more elaborate meals, you will need to commit more of your future labor (or more valuable labor) in order to compensate others for the extra work and land and tools required for that production.
 
 For example, if you like milk and honey, then you will eventually want co-ownership in cattle and bees and all other property such as land, barns, food crops, tools, etc. used to house and feed those organisms, and the things needed to create *those* inputs, recursively, through the entire tree of production.
 
 Hybrid Option: Attract traditional Venture Capitalists, and pay them a % of profit when selling surplus.
 
-
 == Workflow
+=== DAO Interface
+. Define a new product [Teach the DAO which sources are required for that production.]
+. Buy a future product. [Prepay for a product and receive source ownership.]
+. Sell a future product. [This is how you commit future work.  You must 'qualify' to access the sources of that production.  Source owners may impose any arbitrary requirement for access.]
+
+=== Use cases
 Vision of a future product is proposed.
 Engineering constraints are enforced to find a realistic implementation or variation.
 The scale and level of vertical integration are estimated, balancing more immediate needs with longer term goals.
-A 'recipe' for that production is written, listing the required Sources and Skills.
-ECTs are issued against those Sources.
+A 'recipe' for that production is written, listing the required sources and skills.
+ECTs are issued against those sources.
 Some of these ECTs are sold to purchase the real estate and tools and plants and animals on the open market.
-The rest of these ECTs are sold to secure the Skills as work commitments.
-Once we have all the commitments of Sources and Skills, we can begin production.
+The rest of these ECTs are sold to secure the work commitments.
+Once we have all the commitments of sources and skills, we can begin production.
 
 After the first round of production, Products are distributed to each investor based on their percentage of ownership.
-
-Owners with surplus Product may sell to non-owners to cover costs of production and Profit may be collected from the non-owners (as much as the market will bear), but some of that profit must be treated as that payer's investment, causing them to gain ECTs.
-
-Workers are consumers who receive ownership in the Sources required to produce the Products they need.
 
 For example, "Dental Ensurance" requires co-ownership in the land and capital needed to perform dentistry combined with promises of future labor from a qualified Dentist to fix your teeth in return for you working on his behalf somewhere else in the city, or on behalf of somebody else who will work on his behalf, and so on, to any depth.
 
@@ -269,7 +252,7 @@ A functional Earth Change system will require enough "Horizontal Diversity" to a
 Vertical Integration increases local sovereignty by reducing the need to gather and spend external tokens. For example, we might buy feed for our chickens and cattle at first, but will also grow those plants to avoid the need to buy in the future.  We won't co-own mines or factories right away, so will just buy off-the-shelf tools while we are 'booting'.
 
 =Notes
-Thus we use property ownership in Sources to "pre-distribute" products to those who can predict they will need them.
+We use property ownership in the INPUTS to "pre-distribute" the OUTPUTS to those who predicted they would need them.
 
 The usual transaction of consumer purchase is eliminated for those owners, for that product.  The price each pays as a consumer is exactly the costs each paid as a co-owner and profit is undefined since the final sale does not occur - it has been imputed.
 
@@ -279,21 +262,20 @@ Owners may sell surplus, and profit should be collected to inhibit middle-men, b
 
 To increase utilization, Product Tickets could be designed to automatically enter auction and be sold before expiration.
 
-Each owner must periodically cross-commit the inputs required for the ongoing costs of production for all of the outputs they expect, else lose some of that ownership to compensate co-owners for those costs.
+Each owner must periodically cross-commit the inputs required for the ongoing costs of production for all of the outputs they expect, else lose some of that ownership to compensate other co-owners for those costs.
 
-For example, each co-owner of a dentist office must cross-commit the sources and promises needed to keep that office operational.
+For example, each co-owner of a dentist office must cross-commit the sources and skills needed to keep the office operational.
 
-This usually just means you will commit to work somewhere in the system to buy the products you need, with the DAO resolving all the details about the Sources and Skills required for that production.
+This usually just means you will commit to work somewhere in the system to buy the products you need, with the DAO resolving all the details about the sources and skills required for that production.
 
-Products that are not yet produced on-site must be purchased from external vendors while we also try to buy the sources of those products so we move closer toward productive sovereignty.
+Products that are not yet produced on-site must be purchased from external vendors while we also try to buy the sources of those products to vertically integrate and move closer toward productive sovereignty.
 
-For example, you might buy feed for cattle and chickens at first, would also begin growing those plants to localize that production.
+For example, we might buy feed for cattle and chickens at first,
+but would also start growing those plants to localize that production.
 
 The initial boot-up phase may require workers live in tents as they build the first permanent structures and prepare cafeteria meals from bulk purchases until the agriculture is productive enough.
 
 We can eventually grow all the inputs required for food, soap, cloth, medicine, and building materials on site, but this could take years for some products so initially must buy off-the-shelf solutions for sanitation, shelter, food, clothing, first-aid, etc.
-
-
 
 == Potential Partners:
 OneCommunityGlobal.org >>FOR THE HIGHEST GOOD OF ALL
@@ -397,10 +379,4 @@ KickStarter.com/projects/712902160/76969456/preview
 Facebook.com/job_opening/1249675101854603
 LeanStack.com/app/projects/471143/canvases/568658
 app.gitbook.com/@earth-change
-
-
-DAO interface:
-. Define a new product [Teach the DAO the sources required for that production.]
-. Buy a future product. [Prepay for a product and receive source ownership.]
-. Sell a future product. [This is how you commit future work.  You must 'qualify' to access the sources of that production.  Source owners may impose any arbitrary requirement for access.]
 
