@@ -1,6 +1,6 @@
-;;; lens.el --- Focus on text. -*- emacs-lisp -*-
+;;; lens.el --- Clear Code Kit -*- emacs-lisp -*-
 
-;; Copyright (C) 2013->∞ Product Futures Foundation
+;; Copyright (🄯) 2013->∞ Product Futures Foundation
 
 ;;  This program is free software: you can
 ;;  redistribute it and/or modify it under the
@@ -20,10 +20,21 @@
 ;;  Affero General Public License along with this
 ;;  program.  If not, see http://GNU.org/licenses
 
+;; LENS is a Language to Enable  Natural Systems
+;; language to describe so-called smart contracts
+;; using terms 
+;; which trys to insure all users understand how they
 
-;;; LENS
-;; Link plain-text documents without markup.
-;; Preserve whitespace and guess formatting.
+;;; Version:
+;; .01 new
+;; .02 cleanup
+;; .03 do not link to self
+;;; Todo:
+;; .04 Redirect to external when 1st char in file is URL
+;; .05 Resolve file-system links before generating hrefs
+;; .06 Insure most doc input varieties work fairly well
+;; .07 Color and link source code of every language
+;; .08 Rewrite in TreeNotation
 
 ;;  Header: =, ==, ===, ====
 ;;  Shell: $, #
@@ -50,11 +61,9 @@
 ;; While editing that file in Emacs, run  M-x lens
 ;; Output is written to  ~/doc/profit.htm
 
-
 ;;; Limitations
 ;; Filenames should be all lowercase but
 ;; will match any case variation in text.
-
 
 ;;;  Main entry points
 ;; `lens', `lens-mode', `lens-make-page'
@@ -63,23 +72,12 @@
 ;;  In `lens-mode': RET or `mouse-2' at
 ;;  beginning of term visits that file.
 
-;; `lens-mode' keys:
+;; Keys:
 ;; f5       `lens-mode-rebuild-mode'
 ;; C-cC-c   `lens-make-page'
 ;; C-cC-p   Preview generated HTML of this source file
 ;; RET      Follow link
 ;; C-m      Insert line-feed
-
-
-;;; Version:
-;; .01 new
-;; .02 cleanup
-;; .03 do not link to self
-;;; Todo:
-;; .04 external URLs
-;; .05 do not create term.htm for file-system links
-;; .06 
-
 
 ;;; Customizations:
 (defcustom lens-external nil "List of links to external sites.")
@@ -120,9 +118,9 @@ All terms less than this match only at the beginning of words (using `\\b')")
 (defun lens-shortest-inner (term)
   (if (< (length term) lens-shortest-inner)
 	  (if (<= (length term) 2)
-		  (concat "\\b" (regexp-quote term) "\\b") ;;find tiny terms only if they stand alone
-		(concat "\\b" (regexp-quote term))) ;;find short terms only at beginning of word
-	(regexp-quote term)))					 ;;Term otherwise
+		  (concat "[[:blank:]\n]*" (regexp-quote term) "[[:blank:]\n]*") ;;find tiny terms only if they stand alone
+		(concat "[[:blank:]\n]*" (regexp-quote term))) ;;find short terms only at beginning of word
+	(regexp-quote term))) ;;Term otherwise
 
 ;;This doesn't really recurse yet, but it really should be a collection of files and directories to allow posting of .files etc.
 (defun lens-recurse (process-file)
@@ -169,8 +167,10 @@ All terms less than this match only at the beginning of words (using `\\b')")
 
 		 ;;  		 ("^.*?:" "<span class=\"h4\">\\&" "</span>");anything followed by a : is a title?
 
-         ("^Related:"  "<span class=\"rel\">\\&" "</span>")
- 		 ;;("^Related:.*"  "<small>\\&"  "</small>")
+         ;; This is at the top of some pages.  Maybe migrate to bottom.
+         ("^[Related\\|See]:"  "<span class=\"rel\">\\&" "</span>")
+
+ 		 ("^//" "<span class=\"cmnt\">\\&" "</span>")
 
          ;; This is date markup for the diary
 		 ("^[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}:"  "<hr/><span class=\"date\">\\&</span>")
@@ -218,7 +218,7 @@ All terms less than this match only at the beginning of words (using `\\b')")
 		 ;;see `lens-implicit-HTTP'
          ("\\(\\([a-zA-Z0-9_-]\\)+\\.\\)+\\([a-zA-Z][a-zA-Z]\\)[^])}>:,; \t\n]*"
           ;("\\(\\([a-zA-Z0-9_-]\\)+\\.\\)+[^])}>:,; \t\n\j]*"
-		  "<a class=\"ext\" href=\"http://\\&\">\\&</a>")
+		  "<a class=\"ext\" href=\"https://\\&\">\\&</a>")
 
 		 ;;XML entities
 		 ("<" "&lt;")
@@ -261,7 +261,6 @@ All terms less than this match only at the beginning of words (using `\\b')")
              (format-time-string
               "%I:%M:%S \n"
 			  lens-started)
-
 			 "and finished at "
              (format-time-string
               "%I:%M:%S"

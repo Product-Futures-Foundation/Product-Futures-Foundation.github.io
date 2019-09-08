@@ -1,2943 +1,1571 @@
-UNICODE.org/charts/nameslist
+See: unicode.new
 
-Alias names are those for ISO/IEC 6429:1992. Commonly used alternative aliases are also shown.
-0000     ␀  <CONTROL> =   NULL
-0001     ␁  <CONTROL> =   START OF HEADING
-0002     ␂  <CONTROL> =   START OF TEXT
-0003     ␃  <CONTROL> =   END OF TEXT
-0004     ␄  <CONTROL> =   END OF TRANSMISSION
-0005     ␅  <CONTROL> =   ENQUIRY
-0006     ␆  <CONTROL> =   ACKNOWLEDGE
-0007     ␇  <CONTROL> =   BELL
-0008     ␈  <CONTROL> =   BACKSPACE
-0009     ␉  <CONTROL> =   CHARACTER TABULATION =   horizontal tabulation (HT), tab
-000A     ␊  <CONTROL> =   LINE FEED (LF) =   new line (NL), end of line (EOL)
-000B     ␋  <CONTROL> =   LINE TABULATION =   vertical tabulation (VT)
-000C     ␌  <CONTROL> =   FORM FEED (FF)
-000D     ␍  <CONTROL> =   CARRIAGE RETURN (CR)
-000E     ␎  <CONTROL> =   SHIFT OUT •   known as LOCKING-SHIFT ONE in 8-bit environments
-000F     ␏  <CONTROL> =   SHIFT IN •   known as LOCKING-SHIFT ZERO in 8-bit environments
-0010     ␐  <CONTROL> =   DATA LINK ESCAPE
-0011     ␑  <CONTROL> =   DEVICE CONTROL ONE
-0012     ␒  <CONTROL> =   DEVICE CONTROL TWO
-0013     ␓  <CONTROL> =   DEVICE CONTROL THREE
-0014     ␔  <CONTROL> =   DEVICE CONTROL FOUR
-0015     ␕  <CONTROL> =   NEGATIVE ACKNOWLEDGE
-0016     ␖  <CONTROL> =   SYNCHRONOUS IDLE
-0017     ␗  <CONTROL> =   END OF TRANSMISSION BLOCK
-0018     ␘  <CONTROL> =   CANCEL
-0019     ␙  <CONTROL> =   END OF MEDIUM
-001A     ␚  <CONTROL> =   SUBSTITUTE
-001B     ␛  <CONTROL> =   ESCAPE
-001C     ␜  <CONTROL> =   INFORMATION SEPARATOR FOUR =   file separator (FS)
-001D     ␝  <CONTROL> =   INFORMATION SEPARATOR THREE =   group separator (GS)
-001E     ␞  <CONTROL> =   INFORMATION SEPARATOR TWO =   record separator (RS)
-001F     ␟  <CONTROL> =   INFORMATION SEPARATOR ONE =   unit separator (US)
+CONTROL = ISO/IEC 6429:1992
+␀␁␂␃␄␅␆␇␈␉␊␋␌␍␎␏␐␑␒␓␔␕␖␗␘␙␚␛␜␝␞␟␡
 
-ASCII punctuation and symbols
-Based on ISO/IEC 646.
-0020     ␣  SPACE
-0021     !  EXCLAMATION MARK =   factorial =   bang
-0022     "  QUOTATION MARK
-0023     #  NUMBER SIGN =   pound sign, hash, crosshatch, octothorpe
-0024     $  DOLLAR SIGN =   milréis, escudo
-0025     %  PERCENT SIGN
-0026     &  AMPERSAND
-0027     '  APOSTROPHE
-0028     (  LEFT PARENTHESIS =   opening parenthesis (1.0)
-0029     )  RIGHT PARENTHESIS =   closing parenthesis (1.0)
-002A     *  ASTERISK =   star (on phone keypads)
-002B     +  PLUS SIGN
-002C     ,  COMMA =   decimal separator
-002D     -  HYPHEN-MINUS =   hyphen or minus sign
-002E     .  FULL STOP =   period, dot, decimal point
-002F     /  SOLIDUS =   slash, virgule
+Latin-1 punctuation and symbols: ISO/IEC 8859-1
+␣¡¢£¤¥¦§¨©ª«¬⬚®¯°±²³´µ¶·¸¹º»¼½¾¿
 
-ASCII digits
-0030     0  DIGIT ZERO
-0031     1  DIGIT ONE
-0032     2  DIGIT TWO
-0033     3  DIGIT THREE
-0034     4  DIGIT FOUR
-0035     5  DIGIT FIVE
-0036     6  DIGIT SIX
-0037     7  DIGIT SEVEN
-0038     8  DIGIT EIGHT
-0039     9  DIGIT NINE
+Latin
+ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß
+àáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ
 
-ASCII punctuation and symbols
-003A     :  COLON
-003B     ;  SEMICOLON
-003C     <  LESS-THAN SIGN
-003D     =  EQUALS SIGN
-003E     >  GREATER-THAN SIGN
-003F     ?  QUESTION MARK
-0040     @  COMMERCIAL AT
-0041     A  LATIN CAPITAL LETTER A
-0042     B  LATIN CAPITAL LETTER B
-0043     C  LATIN CAPITAL LETTER C
-0044     D  LATIN CAPITAL LETTER D
-0045     E  LATIN CAPITAL LETTER E
-0046     F  LATIN CAPITAL LETTER F
-0047     G  LATIN CAPITAL LETTER G
-0048     H  LATIN CAPITAL LETTER H
-0049     I  LATIN CAPITAL LETTER I
-004A     J  LATIN CAPITAL LETTER J
-004B     K  LATIN CAPITAL LETTER K
-004C     L  LATIN CAPITAL LETTER L
-004D     M  LATIN CAPITAL LETTER M
-004E     N  LATIN CAPITAL LETTER N
-004F     O  LATIN CAPITAL LETTER O
-0050     P  LATIN CAPITAL LETTER P
-0051     Q  LATIN CAPITAL LETTER Q
-0052     R  LATIN CAPITAL LETTER R
-0053     S  LATIN CAPITAL LETTER S
-0054     T  LATIN CAPITAL LETTER T
-0055     U  LATIN CAPITAL LETTER U
-0056     V  LATIN CAPITAL LETTER V
-0057     W  LATIN CAPITAL LETTER W
-0058     X  LATIN CAPITAL LETTER X
-0059     Y  LATIN CAPITAL LETTER Y
-005A     Z  LATIN CAPITAL LETTER Z
+Latin Extended-A
+ĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉ
+ŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ
 
-ASCII punctuation and symbols
-005B     [  LEFT SQUARE BRACKET =   opening square bracket (1.0)
-005C     \  REVERSE SOLIDUS =   backslash
-005D     ]  RIGHT SQUARE BRACKET =   closing square bracket (1.0)
-005E     ^  CIRCUMFLEX ACCENT
-005F     _  LOW LINE =   spacing underscore (1.0)
-0060     `  GRAVE ACCENT
+Latin Extended-B Non-European and historic Latin
+ƀƁƂƃƄƅƆƇƈƉƊƋƌƍƎƏƐƑƒƓƔƕƖƗƘƙƚƛƜƝƞƟƠơƢƣƤƥƦƧƨƩƪƫƬƭƮƯưƱƲƳƴƵƶ
+ƷƸƹƺƻƼƽƾƿǀǁǂǃǄǅǆǇǈǉǊǋǌ
 
-Lowercase Latin alphabet
-0061     a  LATIN SMALL LETTER A
-0062     b  LATIN SMALL LETTER B
-0063     c  LATIN SMALL LETTER C
-0064     d  LATIN SMALL LETTER D
-0065     e  LATIN SMALL LETTER E
-0066     f  LATIN SMALL LETTER F
-0067     g  LATIN SMALL LETTER G
-0068     h  LATIN SMALL LETTER H
-0069     i  LATIN SMALL LETTER I
-006A     j  LATIN SMALL LETTER J
-006B     k  LATIN SMALL LETTER K
-006C     l  LATIN SMALL LETTER L
-006D     m  LATIN SMALL LETTER M
-006E     n  LATIN SMALL LETTER N
-006F     o  LATIN SMALL LETTER O
-0070     p  LATIN SMALL LETTER P
-0071     q  LATIN SMALL LETTER Q
-0072     r  LATIN SMALL LETTER R
-0073     s  LATIN SMALL LETTER S
-0074     t  LATIN SMALL LETTER T
-0075     u  LATIN SMALL LETTER U
-0076     v  LATIN SMALL LETTER V
-0077     w  LATIN SMALL LETTER W
-0078     x  LATIN SMALL LETTER X
-0079     y  LATIN SMALL LETTER Y
-007A     z  LATIN SMALL LETTER Z
+Pinyin diacritic-vowel combinations
+ǍǎǏǐǑǒǓǔǕǖǗǘǙǚǛǜǝǞǟǠǡǢǣǤǥǦǧǨǩǪǫǬǭǮǯǰǱǲǳ
+ǴǵǶǷǸǹǺǻǼǽǾǿȀȁȂȃȄȅȆȇȈȉȊȋȌȍȎȏȐȑȒȓȔȕȖȗȘșȚțȜȝ
+ȞȟȠȡȢȣȤȥȦȧȨȩȪȫȬȭȮȯȰȱȲȳȴȵȶȷȸȹȺȻȼȽȾȿɀɁɂɃɄɅɆɇɈɉɊɋɌɍɎɏ
 
-ASCII punctuation and symbols
-007B     {  LEFT CURLY BRACKET =   opening curly bracket (1.0) =   left brace
-007C     |  VERTICAL LINE =   vertical bar
-007D     }  RIGHT CURLY BRACKET
-        =   closing curly bracket (1.0)
-        =   right brace
-007E     ~  TILDE
-        •   this is a spacing character
-        →   02DC ˜ small tilde
-        →   0303 ◌̃ combining tilde
-        →   2053 ⁓ swung dash
-        →   223C ∼ tilde operator
-        →   FF5E ～ fullwidth tilde
-Control character
-007F     ␡  <CONTROL>
-        =   DELETE
+IPA Extensions
+ɐɑɒɓɔɕɖɗɘəɚɛɜɝɞɟɠɡɢɣɤɥɦɧɨɩɪɫɬɭɮɯɰɱ
+ɲɳɴɵɶɷɸɹɺɻɼɽɾɿʀʁʂʃʄʅʆʇʈʉʊʋʌʍʎʏʐʑʒʓ
+ʔʕʖʗʘʙʚʛʜʝʞʟʠʡʢʣʤʥʦʧʨʩʪʫʬʭʮʯ
 
+Latin superscript modifier letters
+ʰʱʲʳʴʵʶʷʸ
 
-C1 Controls and Latin-1 Supplement
-C1 controls
-Alias names are those for ISO/IEC 6429:1992.
-0080        <CONTROL>
-0081        <CONTROL>
-0082        <CONTROL>
-        =   BREAK PERMITTED HERE
-        →   200B ⬚ zero width space
-0083        <CONTROL>
-        =   NO BREAK HERE
-        →   2060 ⬚ word joiner
-0084        <CONTROL>
-        •   formerly known as INDEX
-0085     ␣  <CONTROL>
-        =   NEXT LINE (NEL)
-0086        <CONTROL>
-        =   START OF SELECTED AREA
-0087        <CONTROL>
-        =   END OF SELECTED AREA
-0088        <CONTROL>
-        =   CHARACTER TABULATION SET
-0089        <CONTROL>
-        =   CHARACTER TABULATION WITH JUSTIFICATION
-008A        <CONTROL>
-        =   LINE TABULATION SET
-008B        <CONTROL>
-        =   PARTIAL LINE FORWARD
-008C        <CONTROL>
-        =   PARTIAL LINE BACKWARD
-008D        <CONTROL>
-        =   REVERSE LINE FEED
-008E        <CONTROL>
-        =   SINGLE SHIFT TWO
-008F        <CONTROL>
-        =   SINGLE SHIFT THREE
-0090        <CONTROL>
-        =   DEVICE CONTROL STRING
-0091        <CONTROL>
-        =   PRIVATE USE ONE
-0092        <CONTROL>
-        =   PRIVATE USE TWO
-0093        <CONTROL>
-        =   SET TRANSMIT STATE
-0094        <CONTROL>
-        =   CANCEL CHARACTER
-0095        <CONTROL>
-        =   MESSAGE WAITING
-0096        <CONTROL>
-        =   START OF GUARDED AREA
-0097        <CONTROL>
-        =   END OF GUARDED AREA
-0098        <CONTROL>
-        =   START OF STRING
-0099        <CONTROL>
-009A        <CONTROL>
-        =   SINGLE CHARACTER INTRODUCER
-009B        <CONTROL>
-        =   CONTROL SEQUENCE INTRODUCER
-009C        <CONTROL>
-        =   STRING TERMINATOR
-009D        <CONTROL>
-        =   OPERATING SYSTEM COMMAND
-009E        <CONTROL>
-        =   PRIVACY MESSAGE
-009F        <CONTROL>
-        =   APPLICATION PROGRAM COMMAND
-Latin-1 punctuation and symbols
-Based on ISO/IEC 8859-1 (aka Latin-1) from here.
-00A0     ␣  NO-BREAK SPACE
-        •   commonly abbreviated as NBSP
-        →   0020 ␣ space
-        →   2007 ␣ figure space
-        →   202F ␣ narrow no-break space
-        →   2060 ⬚ word joiner
-        →   FEFF ⬚ zero width no-break space
-        ≈   <noBreak> 0020 ␣
-00A1     ¡  INVERTED EXCLAMATION MARK
-        •   Spanish, Asturian, Galician
-        →   0021 ! exclamation mark
-00A2     ¢  CENT SIGN
-00A3     £  POUND SIGN
-        =   pound sterling, Irish punt, Italian lira, Turkish lira, etc.
-        →   20A4 ₤ lira sign
-        →   20BA ₺ turkish lira sign
-        →   10192 𐆒 roman semuncia sign
-00A4     ¤  CURRENCY SIGN
-        •   other currency symbol characters: 20A0 ₠-20BF ₿
-        →   0024 $ dollar sign
-00A5     ¥  YEN SIGN
-        =   yuan sign
-        •   glyph may have one or two crossbars, but official symbol in Japan and China has two
-00A6     ¦  BROKEN BAR
-        =   broken vertical bar (1.0)
-        =   parted rule (in typography)
-00A7     §  SECTION SIGN
-        •   paragraph sign in some European usage
-00A8     ¨  DIAERESIS
-        •   this is a spacing character
-        →   0308 ◌̈ combining diaeresis
-        ≈   0020 ␣ 0308 ◌̈
-00A9     ©  COPYRIGHT SIGN
-        →   2117 ℗ sound recording copyright
-        →   24B8 Ⓒ circled latin capital letter c
-        →   1F12F 🄯 copyleft symbol
-00AA     ª  FEMININE ORDINAL INDICATOR
-        •   Spanish
-        ≈   <super> 0061 a
-00AB     «  LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
-        =   left guillemet
-        =   chevrons (in typography)
-        •   usually opening, sometimes closing
-        →   226A ≪ much less-than
-        →   300A 《 left double angle bracket
-00AC     ¬  NOT SIGN
-        =   angled dash (in typography)
-        →   2310 ⌐ reversed not sign
-00AD     ⬚  SOFT HYPHEN
-        =   discretionary hyphen
-        •   commonly abbreviated as SHY
-00AE     ®  REGISTERED SIGN
-        =   registered trade mark sign (1.0)
-        →   24C7 Ⓡ circled latin capital letter r
-00AF     ¯  MACRON
-        =   overline, APL overbar
-        •   this is a spacing character
-        →   02C9 ˉ modifier letter macron
-        →   0304 ◌̄ combining macron
-        →   0305 ◌̅ combining overline
-        ≈   0020 ␣ 0304 ◌̄
-00B0     °  DEGREE SIGN
-        •   this is a spacing character
-        →   02DA ˚ ring above
-        →   030A ◌̊ combining ring above
-        →   2070 ⁰ superscript zero
-        →   2218 ∘ ring operator
-00B1     ±  PLUS-MINUS SIGN
-        →   2213 ∓ minus-or-plus sign
-00B2     ²  SUPERSCRIPT TWO
-        =   squared
-        •   other superscript digit characters: 2070 ⁰-2079 ⁹
-        →   00B9 ¹ superscript one
-        ≈   <super> 0032 2
-00B3     ³  SUPERSCRIPT THREE
-        =   cubed
-        →   00B9 ¹ superscript one
-        ≈   <super> 0033 3
-00B4     ´  ACUTE ACCENT
-        •   this is a spacing character
-        →   02B9 ʹ modifier letter prime
-        →   02CA ˊ modifier letter acute accent
-        →   0301 ◌́ combining acute accent
-        →   2032 ′ prime
-        ≈   0020 ␣ 0301 ◌́
-00B5     µ  MICRO SIGN
-        ≈   03BC μ greek small letter mu
-        ↑   039C Μ greek capital letter mu
-        ↔   03BC μ greek small letter mu
-00B6     ¶  PILCROW SIGN
-        =   paragraph sign
-        •   section sign in some European usage
-        →   204B ⁋ reversed pilcrow sign
-        →   2761 ❡ curved stem paragraph sign ornament
-        →   2E3F ⸿ capitulum
-00B7     ·  MIDDLE DOT
-        =   midpoint (in typography)
-        =   Georgian comma
-        =   Greek middle dot (ano teleia)
-        •   also used as a raised decimal point or to denote multiplication; for multiplication 22C5 ⋅ is preferred
-        →   0387 · greek ano teleia
-        →   16EB ᛫ runic single punctuation
-        →   2022 • bullet
-        →   2024 ․ one dot leader
-        →   2027 ‧ hyphenation point
-        →   2219 ∙ bullet operator
-        →   22C5 ⋅ dot operator
-        →   2E31 ⸱ word separator middle dot
-        →   2E33 ⸳ raised dot
-        →   30FB ・ katakana middle dot
-        →   A78F ꞏ latin letter sinological dot
-00B8     ¸  CEDILLA
-        •   this is a spacing character
-        •   other spacing accent characters: 02D8 ˘-02DB ˛
-        →   0327 ◌̧ combining cedilla
-        ≈   0020 ␣ 0327 ◌̧
-00B9     ¹  SUPERSCRIPT ONE
-        →   00B2 ² superscript two
-        →   00B3 ³ superscript three
-        ≈   <super> 0031 1
-00BA     º  MASCULINE ORDINAL INDICATOR
-        •   Spanish
-        ≈   <super> 006F o
-00BB     »  RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
-        =   right guillemet
-        •   usually closing, sometimes opening
-        →   226B ≫ much greater-than
-        →   300B 》 right double angle bracket
-Vulgar fractions
-The fraction bar for these may be rendered horizontally or at a slant. For other fraction characters, see 2150-215E.
-00BC     ¼  VULGAR FRACTION ONE QUARTER
-        ≈   <fraction> 0031 1 2044 ⁄ 0034 4
-00BD     ½  VULGAR FRACTION ONE HALF
-        ≈   <fraction> 0031 1 2044 ⁄ 0032 2
-00BE     ¾  VULGAR FRACTION THREE QUARTERS
-        ≈   <fraction> 0033 3 2044 ⁄ 0034 4
-Punctuation
-00BF     ¿  INVERTED QUESTION MARK
-        =   turned question mark
-        •   Spanish
-        →   003F ? question mark
-        →   2E2E ⸮ reversed question mark
-Letters
-00C0     À  LATIN CAPITAL LETTER A WITH GRAVE
-        ≡   0041 A 0300 ◌̀
-        ↓   00E0 à latin small letter a with grave
-00C1     Á  LATIN CAPITAL LETTER A WITH ACUTE
-        ≡   0041 A 0301 ◌́
-        ↓   00E1 á latin small letter a with acute
-00C2     Â  LATIN CAPITAL LETTER A WITH CIRCUMFLEX
-        ≡   0041 A 0302 ◌̂
-        ↓   00E2 â latin small letter a with circumflex
-00C3     Ã  LATIN CAPITAL LETTER A WITH TILDE
-        ≡   0041 A 0303 ◌̃
-        ↓   00E3 ã latin small letter a with tilde
-00C4     Ä  LATIN CAPITAL LETTER A WITH DIAERESIS
-        ≡   0041 A 0308 ◌̈
-        ↓   00E4 ä latin small letter a with diaeresis
-00C5     Å  LATIN CAPITAL LETTER A WITH RING ABOVE
-        →   212B Å angstrom sign
-        ≡   0041 A 030A ◌̊
-        ↓   00E5 å latin small letter a with ring above
-00C6     Æ  LATIN CAPITAL LETTER AE
-        =   latin capital ligature ae (1.1)
-        ↓   00E6 æ latin small letter ae
-00C7     Ç  LATIN CAPITAL LETTER C WITH CEDILLA
-        ≡   0043 C 0327 ◌̧
-        ↓   00E7 ç latin small letter c with cedilla
-00C8     È  LATIN CAPITAL LETTER E WITH GRAVE
-        ≡   0045 E 0300 ◌̀
-        ↓   00E8 è latin small letter e with grave
-00C9     É  LATIN CAPITAL LETTER E WITH ACUTE
-        ≡   0045 E 0301 ◌́
-        ↓   00E9 é latin small letter e with acute
-00CA     Ê  LATIN CAPITAL LETTER E WITH CIRCUMFLEX
-        ≡   0045 E 0302 ◌̂
-        ↓   00EA ê latin small letter e with circumflex
-00CB     Ë  LATIN CAPITAL LETTER E WITH DIAERESIS
-        ≡   0045 E 0308 ◌̈
-        ↓   00EB ë latin small letter e with diaeresis
-00CC     Ì  LATIN CAPITAL LETTER I WITH GRAVE
-        ≡   0049 I 0300 ◌̀
-        ↓   00EC ì latin small letter i with grave
-00CD     Í  LATIN CAPITAL LETTER I WITH ACUTE
-        ≡   0049 I 0301 ◌́
-        ↓   00ED í latin small letter i with acute
-00CE     Î  LATIN CAPITAL LETTER I WITH CIRCUMFLEX
-        ≡   0049 I 0302 ◌̂
-        ↓   00EE î latin small letter i with circumflex
-00CF     Ï  LATIN CAPITAL LETTER I WITH DIAERESIS
-        ≡   0049 I 0308 ◌̈
-        ↓   00EF ï latin small letter i with diaeresis
-00D0     Ð  LATIN CAPITAL LETTER ETH
-        •   lowercase is 00F0 ð
-        →   0110 Đ latin capital letter d with stroke
-        →   0189 Ɖ latin capital letter african d
-        ↓   00F0 ð latin small letter eth
-00D1     Ñ  LATIN CAPITAL LETTER N WITH TILDE
-        ≡   004E N 0303 ◌̃
-        ↓   00F1 ñ latin small letter n with tilde
-00D2     Ò  LATIN CAPITAL LETTER O WITH GRAVE
-        ≡   004F O 0300 ◌̀
-        ↓   00F2 ò latin small letter o with grave
-00D3     Ó  LATIN CAPITAL LETTER O WITH ACUTE
-        ≡   004F O 0301 ◌́
-        ↓   00F3 ó latin small letter o with acute
-00D4     Ô  LATIN CAPITAL LETTER O WITH CIRCUMFLEX
-        ≡   004F O 0302 ◌̂
-        ↓   00F4 ô latin small letter o with circumflex
-00D5     Õ  LATIN CAPITAL LETTER O WITH TILDE
-        ≡   004F O 0303 ◌̃
-        ↓   00F5 õ latin small letter o with tilde
-00D6     Ö  LATIN CAPITAL LETTER O WITH DIAERESIS
-        ≡   004F O 0308 ◌̈
-        ↓   00F6 ö latin small letter o with diaeresis
-Mathematical operator
-00D7     ×  MULTIPLICATION SIGN
-        =   z notation Cartesian product
-        →   2715 ✕ multiplication x
-        →   274C ❌ cross mark
-        →   2A2F ⨯ vector or cross product
-Letters
-00D8     Ø  LATIN CAPITAL LETTER O WITH STROKE
-        =   o slash
-        →   2205 ∅ empty set
-        ↓   00F8 ø latin small letter o with stroke
-00D9     Ù  LATIN CAPITAL LETTER U WITH GRAVE
-        ≡   0055 U 0300 ◌̀
-        ↓   00F9 ù latin small letter u with grave
-00DA     Ú  LATIN CAPITAL LETTER U WITH ACUTE
-        ≡   0055 U 0301 ◌́
-        ↓   00FA ú latin small letter u with acute
-00DB     Û  LATIN CAPITAL LETTER U WITH CIRCUMFLEX
-        ≡   0055 U 0302 ◌̂
-        ↓   00FB û latin small letter u with circumflex
-00DC     Ü  LATIN CAPITAL LETTER U WITH DIAERESIS
-        ≡   0055 U 0308 ◌̈
-        ↓   00FC ü latin small letter u with diaeresis
-00DD     Ý  LATIN CAPITAL LETTER Y WITH ACUTE
-        ≡   0059 Y 0301 ◌́
-        ↓   00FD ý latin small letter y with acute
-00DE     Þ  LATIN CAPITAL LETTER THORN
-        ↓   00FE þ latin small letter thorn
-00DF     ß  LATIN SMALL LETTER SHARP S
-        =   Eszett
-        •   German
-        •   not used in Swiss High German
-        •   uppercase is "SS" or 1E9E ẞ
-        •   typographically the glyph for this character can be based on a ligature of 017F ſ with either 0073 s or with an old-style glyph for 007A z (the latter similar in appearance to 0292 ʒ). Both forms exist interchangeably today.
-        →   03B2 β greek small letter beta
-        ↑   0053 S + 0053 S
-        ↕   0053 S + 0073 s
-        ↔   0073 s + 0073 s
-00E0     à  LATIN SMALL LETTER A WITH GRAVE
-        ≡   0061 a 0300 ◌̀
-        ↑   00C0 À latin capital letter a with grave
-00E1     á  LATIN SMALL LETTER A WITH ACUTE
-        ≡   0061 a 0301 ◌́
-        ↑   00C1 Á latin capital letter a with acute
-00E2     â  LATIN SMALL LETTER A WITH CIRCUMFLEX
-        ≡   0061 a 0302 ◌̂
-        ↑   00C2 Â latin capital letter a with circumflex
-00E3     ã  LATIN SMALL LETTER A WITH TILDE
-        •   Portuguese
-        ≡   0061 a 0303 ◌̃
-        ↑   00C3 Ã latin capital letter a with tilde
-00E4     ä  LATIN SMALL LETTER A WITH DIAERESIS
-        ≡   0061 a 0308 ◌̈
-        ↑   00C4 Ä latin capital letter a with diaeresis
-00E5     å  LATIN SMALL LETTER A WITH RING ABOVE
-        •   Danish, Norwegian, Swedish, Walloon
-        ≡   0061 a 030A ◌̊
-        ↑   00C5 Å latin capital letter a with ring above
-00E6     æ  LATIN SMALL LETTER AE
-        =   latin small ligature ae (1.1)
-        =   ash (from Old English æsc)
-        •   Danish, Norwegian, Icelandic, Faroese, Old English, French, IPA
-        →   0153 œ latin small ligature oe
-        →   04D5 ӕ cyrillic small ligature a ie
-        ↑   00C6 Æ latin capital letter ae
-00E7     ç  LATIN SMALL LETTER C WITH CEDILLA
-        ≡   0063 c 0327 ◌̧
-        ↑   00C7 Ç latin capital letter c with cedilla
-00E8     è  LATIN SMALL LETTER E WITH GRAVE
-        ≡   0065 e 0300 ◌̀
-        ↑   00C8 È latin capital letter e with grave
-00E9     é  LATIN SMALL LETTER E WITH ACUTE
-        ≡   0065 e 0301 ◌́
-        ↑   00C9 É latin capital letter e with acute
-00EA     ê  LATIN SMALL LETTER E WITH CIRCUMFLEX
-        ≡   0065 e 0302 ◌̂
-        ↑   00CA Ê latin capital letter e with circumflex
-00EB     ë  LATIN SMALL LETTER E WITH DIAERESIS
-        ≡   0065 e 0308 ◌̈
-        ↑   00CB Ë latin capital letter e with diaeresis
-00EC     ì  LATIN SMALL LETTER I WITH GRAVE
-        •   Italian, Malagasy
-        ≡   0069 i 0300 ◌̀
-        ↑   00CC Ì latin capital letter i with grave
-00ED     í  LATIN SMALL LETTER I WITH ACUTE
-        ≡   0069 i 0301 ◌́
-        ↑   00CD Í latin capital letter i with acute
-00EE     î  LATIN SMALL LETTER I WITH CIRCUMFLEX
-        ≡   0069 i 0302 ◌̂
-        ↑   00CE Î latin capital letter i with circumflex
-00EF     ï  LATIN SMALL LETTER I WITH DIAERESIS
-        ≡   0069 i 0308 ◌̈
-        ↑   00CF Ï latin capital letter i with diaeresis
-00F0     ð  LATIN SMALL LETTER ETH
-        •   Icelandic, Faroese, Old English, IPA
-        •   uppercase is 00D0 Ð
-        →   03B4 δ greek small letter delta
-        →   2202 ∂ partial differential
-        ↑   00D0 Ð latin capital letter eth
-00F1     ñ  LATIN SMALL LETTER N WITH TILDE
-        ≡   006E n 0303 ◌̃
-        ↑   00D1 Ñ latin capital letter n with tilde
-00F2     ò  LATIN SMALL LETTER O WITH GRAVE
-        ≡   006F o 0300 ◌̀
-        ↑   00D2 Ò latin capital letter o with grave
-00F3     ó  LATIN SMALL LETTER O WITH ACUTE
-        ≡   006F o 0301 ◌́
-        ↑   00D3 Ó latin capital letter o with acute
-00F4     ô  LATIN SMALL LETTER O WITH CIRCUMFLEX
-        ≡   006F o 0302 ◌̂
-        ↑   00D4 Ô latin capital letter o with circumflex
-00F5     õ  LATIN SMALL LETTER O WITH TILDE
-        •   Portuguese, Estonian, Livonian
-        ≡   006F o 0303 ◌̃
-        ↑   00D5 Õ latin capital letter o with tilde
-00F6     ö  LATIN SMALL LETTER O WITH DIAERESIS
-        ≡   006F o 0308 ◌̈
-        ↑   00D6 Ö latin capital letter o with diaeresis
-Mathematical operator
-00F7     ÷  DIVISION SIGN
-        =   obelus
-        •   occasionally used as an alternate, more visually distinct version of 2212 − or 2011 ‑ in some contexts
-        •   historically used as a punctuation mark to denote questionable passages in manuscripts
-        →   070B ‎܋‎ syriac harklean obelus
-        →   2052 ⁒ commercial minus sign
-        →   2212 − minus sign
-        →   2215 ∕ division slash
-        →   2223 ∣ divides
-        →   2236 ∶ ratio
-        →   2797 ➗ heavy division sign
-Letters
-00F8     ø  LATIN SMALL LETTER O WITH STROKE
-        =   o slash
-        •   Danish, Norwegian, Faroese, IPA
-        →   2300 ⌀ diameter sign
-        ↑   00D8 Ø latin capital letter o with stroke
-00F9     ù  LATIN SMALL LETTER U WITH GRAVE
-        •   French, Italian
-        ≡   0075 u 0300 ◌̀
-        ↑   00D9 Ù latin capital letter u with grave
-00FA     ú  LATIN SMALL LETTER U WITH ACUTE
-        ≡   0075 u 0301 ◌́
-        ↑   00DA Ú latin capital letter u with acute
-00FB     û  LATIN SMALL LETTER U WITH CIRCUMFLEX
-        ≡   0075 u 0302 ◌̂
-        ↑   00DB Û latin capital letter u with circumflex
-00FC     ü  LATIN SMALL LETTER U WITH DIAERESIS
-        ≡   0075 u 0308 ◌̈
-        ↑   00DC Ü latin capital letter u with diaeresis
-00FD     ý  LATIN SMALL LETTER Y WITH ACUTE
-        •   Czech, Slovak, Icelandic, Faroese, Welsh, Malagasy
-        ≡   0079 y 0301 ◌́
-        ↑   00DD Ý latin capital letter y with acute
-00FE     þ  LATIN SMALL LETTER THORN
-        •   Icelandic, Old English, phonetics
-        •   Runic letter borrowed into Latin script
-        →   16A6 ᚦ runic letter thurisaz thurs thorn
-        ↑   00DE Þ latin capital letter thorn
-00FF     ÿ  LATIN SMALL LETTER Y WITH DIAERESIS
-        •   French, medieval Hungarian orthography
-        •   uppercase is 0178 Ÿ
-        ≡   0079 y 0308 ◌̈
-        ↑   0178 Ÿ latin capital letter y with diaeresis
+Medieval superscript letter diacritics
+ͣͤͥͦͧͨͩͪͫͬͭͮͯ
 
-16A0 ᚠ RUNIC LETTER FEHU FEOH FE F
-16A1 ᚡ RUNIC LETTER V
-16A2 ᚢ RUNIC LETTER URUZ UR U
-16A3 ᚣ RUNIC LETTER YR
-16A4 ᚤ RUNIC LETTER Y
-16A5 ᚥ RUNIC LETTER W
-16A6 ᚦ RUNIC LETTER THURISAZ THURS THORN
-16A7 ᚧ RUNIC LETTER ETH
-16A8 ᚨ RUNIC LETTER ANSUZ A
-16A9 ᚩ RUNIC LETTER OS O
-16AA ᚪ RUNIC LETTER AC A
-16AB ᚫ RUNIC LETTER AESC
-16AC ᚬ RUNIC LETTER LONG-BRANCH-OSS O
-16AD ᚭ RUNIC LETTER SHORT-TWIG-OSS O
-16AE ᚮ RUNIC LETTER O
-16AF ᚯ RUNIC LETTER OE
-16B0 ᚰ RUNIC LETTER ON
-16B1 ᚱ RUNIC LETTER RAIDO RAD REID R
-16B2 ᚲ RUNIC LETTER KAUNA
-16B3 ᚳ RUNIC LETTER CEN
-16B4 ᚴ RUNIC LETTER KAUN K
-16B5 ᚵ RUNIC LETTER G
-16B6 ᚶ RUNIC LETTER ENG
-16B7 ᚷ RUNIC LETTER GEBO GYFU G
-16B8 ᚸ RUNIC LETTER GAR
-16B9 ᚹ RUNIC LETTER WUNJO WYNN W
-16BA ᚺ RUNIC LETTER HAGLAZ H
-16BB ᚻ RUNIC LETTER HAEGL H
-16BC ᚼ RUNIC LETTER LONG-BRANCH-HAGALL H
-16BD ᚽ RUNIC LETTER SHORT-TWIG-HAGALL H
-16BE ᚾ RUNIC LETTER NAUDIZ NYD NAUD N
-16BF ᚿ RUNIC LETTER SHORT-TWIG-NAUD N
-16C0 ᛀ RUNIC LETTER DOTTED-N
-16C1 ᛁ RUNIC LETTER ISAZ IS ISS I
-16C2 ᛂ RUNIC LETTER E
-16C3 ᛃ RUNIC LETTER JERAN J
-16C4 ᛄ RUNIC LETTER GER
-16C5 ᛅ RUNIC LETTER LONG-BRANCH-AR AE
-16C6 ᛆ RUNIC LETTER SHORT-TWIG-AR A
-16C7 ᛇ RUNIC LETTER IWAZ EOH
-16C8 ᛈ RUNIC LETTER PERTHO PEORTH P
-16C9 ᛉ RUNIC LETTER ALGIZ EOLHX
-16CA ᛊ RUNIC LETTER SOWILO S
-16CB ᛋ RUNIC LETTER SIGEL LONG-BRANCH-SOL S
-16CC ᛌ RUNIC LETTER SHORT-TWIG-SOL S
-16CD ᛍ RUNIC LETTER C
-16CE ᛎ RUNIC LETTER Z
-16CF ᛏ RUNIC LETTER TIWAZ TIR TYR T
-16D0 ᛐ RUNIC LETTER SHORT-TWIG-TYR T
-16D1 ᛑ RUNIC LETTER D
-16D2 ᛒ RUNIC LETTER BERKANAN BEORC BJARKAN B
-16D3 ᛓ RUNIC LETTER SHORT-TWIG-BJARKAN B
-16D4 ᛔ RUNIC LETTER DOTTED-P
-16D5 ᛕ RUNIC LETTER OPEN-P
-16D6 ᛖ RUNIC LETTER EHWAZ EH E
-16D7 ᛗ RUNIC LETTER MANNAZ MAN M
-16D8 ᛘ RUNIC LETTER LONG-BRANCH-MADR M
-16D9 ᛙ RUNIC LETTER SHORT-TWIG-MADR M
-16DA ᛚ RUNIC LETTER LAUKAZ LAGU LOGR L
-16DB ᛛ RUNIC LETTER DOTTED-L
-16DC ᛜ RUNIC LETTER INGWAZ
-16DD ᛝ RUNIC LETTER ING
-16DE ᛞ RUNIC LETTER DAGAZ DAEG D
-16DF ᛟ RUNIC LETTER OTHALAN ETHEL O
-16E0 ᛠ RUNIC LETTER EAR
-16E1 ᛡ RUNIC LETTER IOR
-16E2 ᛢ RUNIC LETTER CWEORTH
-16E3 ᛣ RUNIC LETTER CALC
-16E4 ᛤ RUNIC LETTER CEALC
-16E5 ᛥ RUNIC LETTER STAN
-16E6 ᛦ RUNIC LETTER LONG-BRANCH-YR
-16E7 ᛧ RUNIC LETTER SHORT-TWIG-YR
-16E8 ᛨ RUNIC LETTER ICELANDIC-YR
-16E9 ᛩ RUNIC LETTER Q
-16EA ᛪ RUNIC LETTER X
-16EB ᛫ RUNIC SINGLE PUNCTUATION
-16EC ᛬ RUNIC MULTIPLE PUNCTUATION
-16ED ᛭ RUNIC CROSS PUNCTUATION
-16EE ᛮ RUNIC ARLAUG SYMBOL • golden number 17
-16EF ᛯ RUNIC TVIMADUR SYMBOL • golden number 18
-16F0 ᛰ RUNIC BELGTHOR SYMBOL • golden number 19
-16F1 ᛱ RUNIC LETTER K Tolkienian
-16F2 ᛲ RUNIC LETTER SH Tolkienian
-16F3 ᛳ RUNIC LETTER OO Tolkienian
-16F4 ᛴ RUNIC LETTER FRANKS CASKET OS
-16F5 ᛵ RUNIC LETTER FRANKS CASKET IS
-16F6 ᛶ RUNIC LETTER FRANKS CASKET EH
-16F7 ᛷ RUNIC LETTER FRANKS CASKET AC
-16F8 ᛸ RUNIC LETTER FRANKS CASKET AESC
-
-Geometric Shapes
-25A0 ■ BLACK SQUARE
-25A1 □ WHITE SQUARE
-25A2 ▢ WHITE SQUARE WITH ROUNDED CORNERS
-25A3 ▣ WHITE SQUARE CONTAINING BLACK SMALL SQUARE
-25A4 ▤ SQUARE WITH HORIZONTAL FILL
-25A5 ▥ SQUARE WITH VERTICAL FILL
-25A6 ▦ SQUARE WITH ORTHOGONAL CROSSHATCH FILL
-25A7 ▧ SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL
-25A8 ▨ SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL
-25A9 ▩ SQUARE WITH DIAGONAL CROSSHATCH FILL
-25AA ▪ BLACK SMALL SQUARE
-25AB ▫ WHITE SMALL SQUARE
-
-Weather
-2600 ☀ BLACK SUN WITH RAYS
-2601 ☁ CLOUD
-2602 ☂ UMBRELLA
-2603 ☃ SNOWMAN
-2604 ☄ COMET
-2605 ★ BLACK STAR
-2606 ☆ WHITE STAR
-2607 ☇ LIGHTNING
-2608 ☈ THUNDERSTORM
-2609 ☉ SUN
-260A ☊ ASCENDING NODE
-260B ☋ DESCENDING NODE
-260C ☌ CONJUNCTION
-260D ☍ OPPOSITION
-
-Miscellaneous
-260E ☎ BLACK TELEPHONE
-260F ☏ WHITE TELEPHONE
-2610 ☐ BALLOT BOX
-2611 ☑ BALLOT BOX WITH CHECK
-2612 ☒ BALLOT BOX WITH X
-2613 ☓ SALTIRE
-2614 ☔ UMBRELLA WITH RAIN DROPS
-2615 ☕ HOT BEVERAGE
-2616 ☖ WHITE SHOGI PIECE
-2617 ☗ BLACK SHOGI PIECE
-2618 ☘ SHAMROCK
-2619 ☙ REVERSED ROTATED FLORAL HEART BULLET
-261A ☚ BLACK LEFT POINTING INDEX
-261B ☛ BLACK RIGHT POINTING INDEX
-261C ☜ WHITE LEFT POINTING INDEX
-261D ☝ WHITE UP POINTING INDEX
-261E ☞ WHITE RIGHT POINTING INDEX
-261F ☟ WHITE DOWN POINTING INDEX
-
-Warning signs
-2620 ☠ SKULL AND CROSSBONES
-2621 ☡ CAUTION SIGN
-2622 ☢ RADIOACTIVE SIGN
-2623 ☣ BIOHAZARD SIGN
-
-Medical and healing
-2624 ☤ CADUCEUS
-2625 ☥ ANKH
-
-Religious and political
-2626 ☦ ORTHODOX CROSS
-2627 ☧ CHI RHO
-2628 ☨ CROSS OF LORRAINE
-2629 ☩ CROSS OF JERUSALEM
-262A ☪ STAR AND CRESCENT
-262B ☫ FARSI
-262C ☬ ADI SHAKTI
-262D ☭ HAMMER AND SICKLE
-262E ☮ PEACE
-262F ☯ YIN YANG
-
-Yijing trigram
-2630 ☰ TRIGRAM FOR HEAVEN
-2631 ☱ TRIGRAM FOR LAKE
-2632 ☲ TRIGRAM FOR FIRE
-2633 ☳ TRIGRAM FOR THUNDER
-2634 ☴ TRIGRAM FOR WIND
-2635 ☵ TRIGRAM FOR WATER
-2636 ☶ TRIGRAM FOR MOUNTAIN
-2637 ☷ TRIGRAM FOR EARTH
-
-Miscellaneous
-2638 ☸ WHEEL OF DHARMA
-
-Emoticons → 1F600
-2639 ☹ WHITE FROWNING FACE
-263A ☺ WHITE SMILING FACE
-263B ☻ BLACK SMILING FACE
-
-Astrology → 2648
-263C ☼ WHITE SUN WITH RAYS
-263D ☽ FIRST QUARTER MOON
-263E ☾ LAST QUARTER MOON
-263F ☿ MERCURY
-2640 ♀ FEMALE SIGN
-2641 ♁ EARTH
-2642 ♂ MALE SIGN
-2643 ♃ JUPITER
-2644 ♄ SATURN
-2645 ♅ URANUS
-2646 ♆ NEPTUNE
-2647 ♇ PLUTO
-
-Zodiac → 1F400
-2648 ♈ ARIES
-2649 ♉ TAURUS
-264A ♊ GEMINI
-264B ♋ CANCER
-264C ♌ LEO
-264D ♍ VIRGO
-264E ♎ LIBRA
-264F ♏ SCORPIUS
-2650 ♐ SAGITTARIUS
-2651 ♑ CAPRICORN
-2652 ♒ AQUARIUS
-2653 ♓ PISCES
-
-Chess → 1FA00
-2654 ♔ WHITE CHESS KING
-2655 ♕ WHITE CHESS QUEEN
-2656 ♖ WHITE CHESS ROOK
-2657 ♗ WHITE CHESS BISHOP
-2658 ♘ WHITE CHESS KNIGHT
-2659 ♙ WHITE CHESS PAWN
-265A ♚ BLACK CHESS KING
-265B ♛ BLACK CHESS QUEEN
-265C ♜ BLACK CHESS ROOK
-265D ♝ BLACK CHESS BISHOP
-265E ♞ BLACK CHESS KNIGHT
-265F ♟ BLACK CHESS PAWN
-
-Playing card
-2660 ♠ BLACK SPADE SUIT
-2661 ♡ WHITE HEART SUIT
-2662 ♢ WHITE DIAMOND SUIT
-2663 ♣ BLACK CLUB SUIT
-2664 ♤ WHITE SPADE SUIT
-2665 ♥ BLACK HEART SUIT
-2666 ♦ BLACK DIAMOND SUIT
-2667 ♧ WHITE CLUB SUIT
-
-2668 ♨ HOT SPRINGS
-2669 ♩ QUARTER NOTE
-266A ♪ EIGHTH NOTE
-266B ♫ BEAMED EIGHTH NOTES
-266C ♬ BEAMED SIXTEENTH NOTES
-266D ♭ MUSIC FLAT SIGN
-266E ♮ MUSIC NATURAL SIGN
-266F ♯ MUSIC SHARP SIGN
-
-2670 ♰ WEST SYRIAC CROSS
-2671 ♱ EAST SYRIAC CROSS
-2672 ♲ UNIVERSAL RECYCLING
-2673 ♳ RECYCLING FOR TYPE-1 PLASTICS
-2674 ♴ RECYCLING FOR TYPE-2 PLASTICS
-2675 ♵ RECYCLING FOR TYPE-3 PLASTICS
-2676 ♶ RECYCLING FOR TYPE-4 PLASTICS
-2677 ♷ RECYCLING FOR TYPE-5 PLASTICS
-2678 ♸ RECYCLING FOR TYPE-6 PLASTICS
-2679 ♹ RECYCLING FOR TYPE-7 PLASTICS
-267A ♺ RECYCLING FOR GENERIC MATERIALS
-267B ♻ BLACK UNIVERSAL RECYCLING
-267C ♼ RECYCLED PAPER
-267D ♽ PARTIALLY-RECYCLED PAPER
-267E ♾ PERMANENT PAPER SIGN
-267F ♿ WHEELCHAIR
-
-Dice
-2680 ⚀ DIE FACE-1
-2681 ⚁ DIE FACE-2
-2682 ⚂ DIE FACE-3
-2683 ⚃ DIE FACE-4
-2684 ⚄ DIE FACE-5
-2685 ⚅ DIE FACE-6
-
-2686 ⚆ WHITE CIRCLE WITH DOT RIGHT
-2687 ⚇ WHITE CIRCLE WITH TWO DOTS
-2688 ⚈ BLACK CIRCLE WITH WHITE DOT RIGHT
-2689 ⚉ BLACK CIRCLE WITH TWO WHITE DOTS
-
-268A ⚊ MONOGRAM FOR YANG
-268B ⚋ MONOGRAM FOR YIN
-268C ⚌ DIGRAM FOR GREATER YANG
-268D ⚍ DIGRAM FOR LESSER YIN
-268E ⚎ DIGRAM FOR LESSER YANG
-268F ⚏ DIGRAM FOR GREATER YIN
-
-Dictionary and map
-2690 ⚐ WHITE FLAG
-2691 ⚑ BLACK FLAG
-2692 ⚒ HAMMER AND PICK
-2693 ⚓ ANCHOR
-2694 ⚔ CROSSED SWORDS
-2695 ⚕ STAFF OF AESCULAPIUS
-2696 ⚖ SCALES
-2697 ⚗ ALEMBIC
-2698 ⚘ FLOWER
-2699 ⚙ GEAR
-269A ⚚ STAFF OF HERMES
-269B ⚛ ATOM
-
-Miscellaneous
-269C ⚜ FLEUR-DE-LIS
-269D ⚝ OUTLINED WHITE STAR
-
-Symbols for closed captioning from ARIB STD B24
-269E ⚞ THREE LINES CONVERGING RIGHT
-269F ⚟ THREE LINES CONVERGING LEFT
-
-Miscellaneous
-26A0 ⚠ WARNING SIGN
-26A1 ⚡ HIGH VOLTAGE SIGN
-
-Gender
-26A2 ⚢ DOUBLED FEMALE SIGN
-26A3 ⚣ DOUBLED MALE SIGN
-26A4 ⚤ INTERLOCKED FEMALE AND MALE SIGN
-26A5 ⚥ MALE AND FEMALE SIGN
-26A6 ⚦ MALE WITH STROKE SIGN
-26A7 ⚧ MALE WITH STROKE AND MALE AND FEMALE SIGN
-26A8 ⚨ VERTICAL MALE WITH STROKE SIGN
-26A9 ⚩ HORIZONTAL MALE WITH STROKE SIGN
-
-Circles
-26AA ⚪ MEDIUM WHITE CIRCLE
-26AB ⚫ MEDIUM BLACK CIRCLE
-26AC ⚬ MEDIUM SMALL WHITE CIRCLE
-
-Genealogical
-26AD ⚭ MARRIAGE
-26AE ⚮ DIVORCE
-26AF ⚯ UNMARRIED PARTNERSHIP
-26B0 ⚰ COFFIN
-26B1 ⚱ FUNERAL URN
-
-Gender
-26B2 ⚲ NEUTER
-
-Astrological signs
-26B3 ⚳ CERES
-26B4 ⚴ PALLAS
-26B5 ⚵ JUNO
-26B6 ⚶ VESTA
-26B7 ⚷ CHIRON
-26B8 ⚸ BLACK MOON LILITH
-
-Astrological aspects
-26B9 ⚹ SEXTILE
-26BA ⚺ SEMISEXTILE
-26BB ⚻ QUINCUNX
-26BC ⚼ SESQUIQUADRATE
-
-Sport
-26BD ⚽ SOCCER BALL
-26BE ⚾ BASEBALL
-
-Miscellaneous from ARIB STD B24
-26BF ⚿ SQUARED KEY
-
-Symbols for draughts and checkers
-26C0 ⛀ WHITE DRAUGHTS MAN
-26C1 ⛁ WHITE DRAUGHTS KING
-26C2 ⛂ BLACK DRAUGHTS MAN
-26C3 ⛃ BLACK DRAUGHTS KING
-
-Weather from ARIB STD B24
-26C4 ⛄ SNOWMAN WITHOUT SNOW
-26C5 ⛅ SUN BEHIND CLOUD
-26C6 ⛆ RAIN
-26C7 ⛇ BLACK SNOWMAN
-26C8 ⛈ THUNDER CLOUD AND RAIN
-
-Game from ARIB STD B24
-26C9 ⛉ TURNED WHITE SHOGI PIECE
-26CA ⛊ TURNED BLACK SHOGI PIECE
-26CB ⛋ WHITE DIAMOND IN SQUARE
-
-Traffic signs from ARIB STD B24
-26CC ⛌ CROSSING LANES
-26CD ⛍ DISABLED CAR
-
-Zodiac
-26CE ⛎ OPHIUCHUS
-
-Traffic signs from ARIB STD B24
-26CF ⛏ PICK
-26D0 ⛐ CAR SLIDING
-26D1 ⛑ HELMET WITH WHITE CROSS
-26D2 ⛒ CIRCLED CROSSING LANES
-26D3 ⛓ CHAINS
-26D4 ⛔ NO ENTRY
-26D5 ⛕ ALTERNATE ONE-WAY LEFT WAY TRAFFIC
-26D6 ⛖ BLACK TWO-WAY LEFT WAY TRAFFIC
-26D7 ⛗ WHITE TWO-WAY LEFT WAY TRAFFIC
-26D8 ⛘ BLACK LEFT LANE MERGE
-26D9 ⛙ WHITE LEFT LANE MERGE
-26DA ⛚ DRIVE SLOW SIGN
-26DB ⛛ HEAVY WHITE DOWN-POINTING TRIANGLE
-26DC ⛜ LEFT CLOSED ENTRY
-26DD ⛝ SQUARED SALTIRE
-26DE ⛞ FALLING DIAGONAL IN WHITE CIRCLE IN BLACK SQUARE
-26DF ⛟ BLACK TRUCK
-26E0 ⛠ RESTRICTED LEFT ENTRY-1
-26E1 ⛡ RESTRICTED LEFT ENTRY-2
-
-Astronomical
-26E2 ⛢ ASTRONOMICAL FOR URANUS
-
-Map from ARIB STD B24
-26E3 ⛣ HEAVY CIRCLE WITH STROKE AND TWO DOTS ABOVE
-
-Occult
-26E4 ⛤ PENTAGRAM
-26E5 ⛥ RIGHT-HANDED INTERLACED PENTAGRAM
-26E6 ⛦ LEFT-HANDED INTERLACED PENTAGRAM
-26E7 ⛧ INVERTED PENTAGRAM
-
-Map from ARIB STD B24
-26E8 ⛨ BLACK CROSS ON SHIELD
-26E9 ⛩ SHINTO SHRINE
-26EA ⛪ CHURCH
-26EB ⛫ CASTLE
-26EC ⛬ HISTORIC SITE
-26ED ⛭ GEAR WITHOUT HUB
-26EE ⛮ GEAR WITH HANDLES
-26EF ⛯ MAP FOR LIGHTHOUSE
-26F0 ⛰ MOUNTAIN
-26F1 ⛱ UMBRELLA ON GROUND
-26F2 ⛲ FOUNTAIN
-26F3 ⛳ FLAG IN HOLE
-26F4 ⛴ FERRY
-26F5 ⛵ SAILBOAT
-26F6 ⛶ SQUARE FOUR CORNERS
-26F7 ⛷ SKIER
-26F8 ⛸ ICE SKATE
-26F9 ⛹ PERSON WITH BALL
-26FA ⛺ TENT
-26FB ⛻ JAPANESE BANK
-26FC ⛼ HEADSTONE GRAVEYARD
-26FD ⛽ FUEL PUMP
-26FE ⛾ CUP ON BLACK SQUARE
-26FF ⛿ WHITE FLAG WITH HORIZONTAL MIDDLE BLACK STRIPE
-
-Miscellaneous
-2700	 ✀ 	BLACK SAFETY SCISSORS
- 	 	•	forms a pair with 2704 ✄ white scissors
-2701	 ✁ 	UPPER BLADE SCISSORS
-2702	 ✂ 	BLACK SCISSORS
-2703	 ✃ 	LOWER BLADE SCISSORS
-2704	 ✄ 	WHITE SCISSORS
-2705	 ✅ 	WHITE HEAVY CHECK MARK
- 	 	→	2714 ✔ heavy check mark
-2706	 ✆ 	TELEPHONE LOCATION SIGN
- 	 	→	2121 ℡ telephone sign
- 	 	→	1F4DE 📞 telephone receiver
-2707	 ✇ 	TAPE DRIVE
-2708	 ✈ 	AIRPLANE
- 	 	→	1F6E7 🛧 up-pointing airplane
-2709	 ✉ 	ENVELOPE
- 	 	=	sealed envelope
- 	 	→	1F4E8 📨 incoming envelope
- 	 	→	1F582 🖂 back of envelope
-270A	 ✊ 	RAISED FIST
- 	 	=	rock in Rock, Paper, Scissors game
- 	 	→	1F44A 👊 fisted hand sign
-270B	 ✋ 	RAISED HAND
- 	 	=	paper in Rock, Paper, Scissors game
- 	 	→	1F44B 👋 waving hand sign
- 	 	→	1F590 🖐 raised hand with fingers splayed
-270C	 ✌ 	VICTORY HAND
- 	 	=	scissors in Rock, Paper, Scissors game
- 	 	→	1F594 🖔 reversed victory hand
-270D	 ✍ 	WRITING HAND
- 	 	→	1F58E 🖎 left writing hand
-270E	 ✎ 	LOWER RIGHT PENCIL
- 	 	→	1F589 🖉 lower left pencil
-270F	 ✏ 	PENCIL
-2710	 ✐ 	UPPER RIGHT PENCIL
-2711	 ✑ 	WHITE NIB
- 	 	→	1F58B 🖋 lower left fountain pen
-2712	 ✒ 	BLACK NIB
-2713	 ✓ 	CHECK MARK
- 	 	→	221A √ square root
- 	 	→	1F5F8 🗸 light check mark
-2714	 ✔ 	HEAVY CHECK MARK
-2715	 ✕ 	MULTIPLICATION X
- 	 	→	00D7 × multiplication sign
- 	 	→	2573 ╳ box drawings light diagonal cross
-2716	 ✖ 	HEAVY MULTIPLICATION X
-2717	 ✗ 	BALLOT X
- 	 	→	2613 ☓ saltire
- 	 	→	1F5F4 🗴 ballot script x
-2718	 ✘ 	HEAVY BALLOT X
- 	 	→	1F5F6 🗶 ballot bold script x
-Crosses
-2719	 ✙ 	OUTLINED GREEK CROSS
-271A	 ✚ 	HEAVY GREEK CROSS
- 	 	→	1F7A5 🞥 very bold greek cross
-271B	 ✛ 	OPEN CENTRE CROSS
-271C	 ✜ 	HEAVY OPEN CENTRE CROSS
-271D	 ✝ 	LATIN CROSS
-271E	 ✞ 	SHADOWED WHITE LATIN CROSS
- 	 	→	1F546 🕆 white latin cross
-271F	 ✟ 	OUTLINED LATIN CROSS
-2720	 ✠ 	MALTESE CROSS
- 	 	•	historically, the Maltese cross took many forms; the shape shown in the Zapf Dingbats is similar to one known as the Cross Formée
- 	 	→	1F902 🤂 circled cross formee
-Stars and asterisks
-2721	 ✡ 	STAR OF DAVID
- 	 	→	1F52F 🔯 six pointed star with middle dot
-2722	 ✢ 	FOUR TEARDROP-SPOKED ASTERISK
-2723	 ✣ 	FOUR BALLOON-SPOKED ASTERISK
-2724	 ✤ 	HEAVY FOUR BALLOON-SPOKED ASTERISK
-2725	 ✥ 	FOUR CLUB-SPOKED ASTERISK
-2726	 ✦ 	BLACK FOUR POINTED STAR
- 	 	→	2BCC ⯌ light four pointed black cusp
- 	 	→	1F7C6 🟆 four pointed black star
-2727	 ✧ 	WHITE FOUR POINTED STAR
- 	 	→	2BCE ⯎ white four pointed cusp
-2728	 ✨ 	SPARKLES
-2729	 ✩ 	STRESS OUTLINED WHITE STAR
- 	 	→	2606 ☆ white star
-272A	 ✪ 	CIRCLED WHITE STAR
-272B	 ✫ 	OPEN CENTRE BLACK STAR
-272C	 ✬ 	BLACK CENTRE WHITE STAR
-272D	 ✭ 	OUTLINED BLACK STAR
-272E	 ✮ 	HEAVY OUTLINED BLACK STAR
-272F	 ✯ 	PINWHEEL STAR
-2730	 ✰ 	SHADOWED WHITE STAR
-2731	 ✱ 	HEAVY ASTERISK
- 	 	→	002A * asterisk
- 	 	→	1F7B8 🞸 heavy six spoked asterisk
-2732	 ✲ 	OPEN CENTRE ASTERISK
-2733	 ✳ 	EIGHT SPOKED ASTERISK
- 	 	→	1F7BB 🞻 light eight spoked asterisk
-2734	 ✴ 	EIGHT POINTED BLACK STAR
-2735	 ✵ 	EIGHT POINTED PINWHEEL STAR
- 	 	→	1F7D1 🟑 heavy eight pointed pinwheel star
-2736	 ✶ 	SIX POINTED BLACK STAR
- 	 	→	26B9 ⚹ sextile
-2737	 ✷ 	EIGHT POINTED RECTILINEAR BLACK STAR
- 	 	→	1F7CE 🟎 medium eight pointed black star
-2738	 ✸ 	HEAVY EIGHT POINTED RECTILINEAR BLACK STAR
- 	 	→	1F7CF 🟏 heavy eight pointed black star
-2739	 ✹ 	TWELVE POINTED BLACK STAR
-273A	 ✺ 	SIXTEEN POINTED ASTERISK
- 	 	=	starburst
-273B	 ✻ 	TEARDROP-SPOKED ASTERISK
-273C	 ✼ 	OPEN CENTRE TEARDROP-SPOKED ASTERISK
-273D	 ✽ 	HEAVY TEARDROP-SPOKED ASTERISK
-Fleurons
-273E	 ✾ 	SIX PETALLED BLACK AND WHITE FLORETTE
-273F	 ✿ 	BLACK FLORETTE
-2740	 ❀ 	WHITE FLORETTE
- 	 	→	1F3F5 🏵 rosette
- 	 	→	1F4AE 💮 white flower
-2741	 ❁ 	EIGHT PETALLED OUTLINED BLACK FLORETTE
- 	 	→	1F3F6 🏶 black rosette
-Stars, asterisks and snowflakes
-2742	 ❂ 	CIRCLED OPEN CENTRE EIGHT POINTED STAR
-2743	 ❃ 	HEAVY TEARDROP-SPOKED PINWHEEL ASTERISK
-2744	 ❄ 	SNOWFLAKE
-2745	 ❅ 	TIGHT TRIFOLIATE SNOWFLAKE
-2746	 ❆ 	HEAVY CHEVRON SNOWFLAKE
-2747	 ❇ 	SPARKLE
-2748	 ❈ 	HEAVY SPARKLE
-2749	 ❉ 	BALLOON-SPOKED ASTERISK
- 	 	=	jack
-274A	 ❊ 	EIGHT TEARDROP-SPOKED PROPELLER ASTERISK
-274B	 ❋ 	HEAVY EIGHT TEARDROP-SPOKED PROPELLER ASTERISK
- 	 	=	turbofan
-Miscellaneous
-274C	 ❌ 	CROSS MARK
- 	 	•	forms a game tally pair with 2B55 ⭕
- 	 	→	00D7 × multiplication sign
- 	 	→	1F5D9 🗙 cancellation x
-274D	 ❍ 	SHADOWED WHITE CIRCLE
- 	 	→	1F53E 🔾 lower right shadowed white circle
-274E	 ❎ 	NEGATIVE SQUARED CROSS MARK
-274F	 ❏ 	LOWER RIGHT DROP-SHADOWED WHITE SQUARE
-2750	 ❐ 	UPPER RIGHT DROP-SHADOWED WHITE SQUARE
-2751	 ❑ 	LOWER RIGHT SHADOWED WHITE SQUARE
-2752	 ❒ 	UPPER RIGHT SHADOWED WHITE SQUARE
-2753	 ❓ 	BLACK QUESTION MARK ORNAMENT
-2754	 ❔ 	WHITE QUESTION MARK ORNAMENT
-2755	 ❕ 	WHITE EXCLAMATION MARK ORNAMENT
-2756	 ❖ 	BLACK DIAMOND MINUS WHITE X
-2757	 ❗ 	HEAVY EXCLAMATION MARK SYMBOL
- 	 	=	obstacles on the road, ARIB STD B24
-2758	 ❘ 	LIGHT VERTICAL BAR
- 	 	→	007C | vertical line
-2759	 ❙ 	MEDIUM VERTICAL BAR
-275A	 ❚ 	HEAVY VERTICAL BAR
-Punctuation mark ornaments
-275B	 ❛ 	HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
- 	 	→	2018 ‘ left single quotation mark
-275C	 ❜ 	HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT
- 	 	→	2019 ’ right single quotation mark
-275D	 ❝ 	HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
- 	 	→	201C “ left double quotation mark
- 	 	→	1F676 🙶 sans-serif heavy double turned comma quotation mark ornament
-275E	 ❞ 	HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT
- 	 	→	201D ” right double quotation mark
- 	 	→	1F677 🙷 sans-serif heavy double comma quotation mark ornament
-275F	 ❟ 	HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT
- 	 	→	201A ‚ single low-9 quotation mark
-2760	 ❠ 	HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT
- 	 	→	201E „ double low-9 quotation mark
- 	 	→	1F678 🙸 sans-serif heavy low double comma quotation mark ornament
-2761	 ❡ 	CURVED STEM PARAGRAPH SIGN ORNAMENT
- 	 	→	00B6 ¶ pilcrow sign
-2762	 ❢ 	HEAVY EXCLAMATION MARK ORNAMENT
- 	 	→	0021 ! exclamation mark
-2763	 ❣ 	HEAVY HEART EXCLAMATION MARK ORNAMENT
-2764	 ❤ 	HEAVY BLACK HEART
- 	 	•	displayed with a red color when used in emoji style
- 	 	→	2665 ♥ black heart suit
- 	 	→	1F5A4 🖤 black heart
- 	 	→	1F90D 🤍 white heart
-2765	 ❥ 	ROTATED HEAVY BLACK HEART BULLET
-Fleurons
-2766	 ❦ 	FLORAL HEART
- 	 	=	Aldus leaf
-2767	 ❧ 	ROTATED FLORAL HEART BULLET
- 	 	=	hedera, ivy leaf
- 	 	→	2619 ☙ reversed rotated floral heart bullet
- 	 	→	1F65B 🙛 south east pointing vine leaf
-Ornamental brackets
-2768	 ❨ 	MEDIUM LEFT PARENTHESIS ORNAMENT
- 	 	→	0028 ( left parenthesis
-2769	 ❩ 	MEDIUM RIGHT PARENTHESIS ORNAMENT
- 	 	→	0029 ) right parenthesis
-276A	 ❪ 	MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT
-276B	 ❫ 	MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT
-276C	 ❬ 	MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT
- 	 	→	2329 〈 left-pointing angle bracket
-276D	 ❭ 	MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT
- 	 	→	232A 〉 right-pointing angle bracket
-276E	 ❮ 	HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT
- 	 	→	2039 ‹ single left-pointing angle quotation mark
-276F	 ❯ 	HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT
- 	 	→	203A › single right-pointing angle quotation mark
-2770	 ❰ 	HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT
-2771	 ❱ 	HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT
-2772	 ❲ 	LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
- 	 	→	3014 〔 left tortoise shell bracket
-2773	 ❳ 	LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
- 	 	→	3015 〕 right tortoise shell bracket
-2774	 ❴ 	MEDIUM LEFT CURLY BRACKET ORNAMENT
- 	 	→	007B { left curly bracket
-2775	 ❵ 	MEDIUM RIGHT CURLY BRACKET ORNAMENT
- 	 	→	007D } right curly bracket
-Dingbat circled digits
-2776	 ❶ 	DINGBAT NEGATIVE CIRCLED DIGIT ONE
-2777	 ❷ 	DINGBAT NEGATIVE CIRCLED DIGIT TWO
-2778	 ❸ 	DINGBAT NEGATIVE CIRCLED DIGIT THREE
-2779	 ❹ 	DINGBAT NEGATIVE CIRCLED DIGIT FOUR
-277A	 ❺ 	DINGBAT NEGATIVE CIRCLED DIGIT FIVE
-277B	 ❻ 	DINGBAT NEGATIVE CIRCLED DIGIT SIX
-277C	 ❼ 	DINGBAT NEGATIVE CIRCLED DIGIT SEVEN
-277D	 ❽ 	DINGBAT NEGATIVE CIRCLED DIGIT EIGHT
-277E	 ❾ 	DINGBAT NEGATIVE CIRCLED DIGIT NINE
-277F	 ❿ 	DINGBAT NEGATIVE CIRCLED NUMBER TEN
-2780	 ➀ 	DINGBAT CIRCLED SANS-SERIF DIGIT ONE
-2781	 ➁ 	DINGBAT CIRCLED SANS-SERIF DIGIT TWO
-2782	 ➂ 	DINGBAT CIRCLED SANS-SERIF DIGIT THREE
-2783	 ➃ 	DINGBAT CIRCLED SANS-SERIF DIGIT FOUR
-2784	 ➄ 	DINGBAT CIRCLED SANS-SERIF DIGIT FIVE
-2785	 ➅ 	DINGBAT CIRCLED SANS-SERIF DIGIT SIX
-2786	 ➆ 	DINGBAT CIRCLED SANS-SERIF DIGIT SEVEN
-2787	 ➇ 	DINGBAT CIRCLED SANS-SERIF DIGIT EIGHT
-2788	 ➈ 	DINGBAT CIRCLED SANS-SERIF DIGIT NINE
-2789	 ➉ 	DINGBAT CIRCLED SANS-SERIF NUMBER TEN
-278A	 ➊ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ONE
-278B	 ➋ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TWO
-278C	 ➌ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT THREE
-278D	 ➍ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FOUR
-278E	 ➎ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT FIVE
-278F	 ➏ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SIX
-2790	 ➐ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT SEVEN
-2791	 ➑ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT
-2792	 ➒ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE
-2793	 ➓ 	DINGBAT NEGATIVE CIRCLED SANS-SERIF NUMBER TEN
-Dingbat arrow
-2794	 ➔ 	HEAVY WIDE-HEADED RIGHTWARDS ARROW
- 	 	→	1F872 🡲 wide-headed rightwards medium barb arrow
-Heavy variants of arithmetic symbols
-2795	 ➕ 	HEAVY PLUS SIGN
- 	 	→	002B + plus sign
-2796	 ➖ 	HEAVY MINUS SIGN
- 	 	→	2212 − minus sign
-2797	 ➗ 	HEAVY DIVISION SIGN
- 	 	→	00F7 ÷ division sign
-Dingbat arrows
-2798	 ➘ 	HEAVY SOUTH EAST ARROW
-2799	 ➙ 	HEAVY RIGHTWARDS ARROW
-279A	 ➚ 	HEAVY NORTH EAST ARROW
-279B	 ➛ 	DRAFTING POINT RIGHTWARDS ARROW
-279C	 ➜ 	HEAVY ROUND-TIPPED RIGHTWARDS ARROW
-279D	 ➝ 	TRIANGLE-HEADED RIGHTWARDS ARROW
-279E	 ➞ 	HEAVY TRIANGLE-HEADED RIGHTWARDS ARROW
-279F	 ➟ 	DASHED TRIANGLE-HEADED RIGHTWARDS ARROW
-27A0	 ➠ 	HEAVY DASHED TRIANGLE-HEADED RIGHTWARDS ARROW
-27A1	 ➡ 	BLACK RIGHTWARDS ARROW
- 	 	•	fonts may harmonize this glyph with the style for other black arrows
- 	 	→	2B05 ⬅ leftwards black arrow
- 	 	→	2B95 ⮕ rightwards black arrow
-27A2	 ➢ 	THREE-D TOP-LIGHTED RIGHTWARDS ARROWHEAD
- 	 	→	2B9A ⮚ three-d top-lighted rightwards equilateral arrowhead
-27A3	 ➣ 	THREE-D BOTTOM-LIGHTED RIGHTWARDS ARROWHEAD
-27A4	 ➤ 	BLACK RIGHTWARDS ARROWHEAD
- 	 	→	2B9E ⮞ black rightwards equilateral arrowhead
-27A5	 ➥ 	HEAVY BLACK CURVED DOWNWARDS AND RIGHTWARDS ARROW
- 	 	→	2BA9 ⮩ black curved downwards and rightwards arrow
-27A6	 ➦ 	HEAVY BLACK CURVED UPWARDS AND RIGHTWARDS ARROW
- 	 	→	2BAB ⮫ black curved upwards and rightwards arrow
-27A7	 ➧ 	SQUAT BLACK RIGHTWARDS ARROW
- 	 	→	1F842 🡂 rightwards heavy compressed arrow
-27A8	 ➨ 	HEAVY CONCAVE-POINTED BLACK RIGHTWARDS ARROW
-27A9	 ➩ 	RIGHT-SHADED WHITE RIGHTWARDS ARROW
- 	 	→	1F8A5 🢥 rightwards right-shaded white arrow
-27AA	 ➪ 	LEFT-SHADED WHITE RIGHTWARDS ARROW
- 	 	→	1F8A7 🢧 rightwards left-shaded white arrow
-27AB	 ➫ 	BACK-TILTED SHADOWED WHITE RIGHTWARDS ARROW
- 	 	→	1F8A9 🢩 rightwards back-tilted shadowed white arrow
-27AC	 ➬ 	FRONT-TILTED SHADOWED WHITE RIGHTWARDS ARROW
- 	 	→	1F8AB 🢫 rightwards front-tilted shadowed white arrow
-27AD	 ➭ 	HEAVY LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
-27AE	 ➮ 	HEAVY UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
-27AF	 ➯ 	NOTCHED LOWER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
- 	 	→	1F89A 🢚 rightwards arrow with notched tail
-Miscellaneous
-27B0	 ➰ 	CURLY LOOP
- 	 	=	kururi
-Dingbat arrows
-27B1	 ➱ 	NOTCHED UPPER RIGHT-SHADOWED WHITE RIGHTWARDS ARROW
-27B2	 ➲ 	CIRCLED HEAVY WHITE RIGHTWARDS ARROW
-27B3	 ➳ 	WHITE-FEATHERED RIGHTWARDS ARROW
-27B4	 ➴ 	BLACK-FEATHERED SOUTH EAST ARROW
-27B5	 ➵ 	BLACK-FEATHERED RIGHTWARDS ARROW
-27B6	 ➶ 	BLACK-FEATHERED NORTH EAST ARROW
-27B7	 ➷ 	HEAVY BLACK-FEATHERED SOUTH EAST ARROW
-27B8	 ➸ 	HEAVY BLACK-FEATHERED RIGHTWARDS ARROW
-27B9	 ➹ 	HEAVY BLACK-FEATHERED NORTH EAST ARROW
-27BA	 ➺ 	TEARDROP-BARBED RIGHTWARDS ARROW
-27BB	 ➻ 	HEAVY TEARDROP-SHANKED RIGHTWARDS ARROW
-27BC	 ➼ 	WEDGE-TAILED RIGHTWARDS ARROW
-27BD	 ➽ 	HEAVY WEDGE-TAILED RIGHTWARDS ARROW
-27BE	 ➾ 	OPEN-OUTLINED RIGHTWARDS ARROW
-Miscellaneous
-27BF	 ➿ 	DOUBLE CURLY LOOP
-
-
-2B1C ⬜ white large square
-
-Weather, landscape, and sky
-1F300 🌀 CYCLONE
-1F301 🌁 FOGGY
-1F302 🌂 CLOSED UMBRELLA
-1F303 🌃 NIGHT WITH STARS
-1F304 🌄 SUNRISE OVER MOUNTAINS
-1F305 🌅 SUNRISE
-1F306 🌆 CITYSCAPE AT DUSK
-1F307 🌇 SUNSET OVER BUILDINGS
-1F308 🌈 RAINBOW
-1F309 🌉 BRIDGE AT NIGHT
-1F30A 🌊 WATER WAVE
-1F30B 🌋 VOLCANO
-1F30C 🌌 MILKY WAY
-
-Globe
-1F30D 🌍 EARTH GLOBE EUROPE-AFRICA
-1F30E 🌎 EARTH GLOBE AMERICAS
-1F30F 🌏 EARTH GLOBE ASIA-AUSTRALIA
-1F310 🌐 GLOBE WITH MERIDIANS
-
-1F311 🌑 NEW MOON
-1F312 🌒 WAXING CRESCENT MOON
-1F313 🌓 FIRST QUARTER MOON
-1F314 🌔 WAXING GIBBOUS MOON
-1F315 🌕 FULL MOON
-1F316 🌖 WANING GIBBOUS MOON
-1F317 🌗 LAST QUARTER MOON
-1F318 🌘 WANING CRESCENT MOON
-1F319 🌙 CRESCENT MOON
-1F31A 🌚 NEW MOON WITH FACE
-1F31B 🌛 FIRST QUARTER MOON WITH FACE
-1F31C 🌜 LAST QUARTER MOON WITH FACE
-1F31D 🌝 FULL MOON WITH FACE
-1F31E 🌞 SUN WITH FACE
-1F31F 🌟 GLOWING STAR
-1F320 🌠 SHOOTING STAR
-
-Weather
-1F321 🌡 THERMOMETER
-1F322 🌢 BLACK DROPLET
-1F323 🌣 WHITE SUN
-1F324 🌤 WHITE SUN WITH SMALL CLOUD
-1F325 🌥 WHITE SUN BEHIND CLOUD
-1F326 🌦 WHITE SUN BEHIND CLOUD WITH RAIN
-1F327 🌧 CLOUD WITH RAIN
-1F328 🌨 CLOUD WITH SNOW
-1F329 🌩 CLOUD WITH LIGHTNING
-1F32A 🌪 CLOUD WITH TORNADO
-1F32B 🌫 FOG
-1F32C 🌬 WIND BLOWING FACE
-
-Food
-1F32D 🌭 HOT DOG
-1F32E 🌮 TACO
-1F32F 🌯 BURRITO
-
-Plant
-1F330 🌰 CHESTNUT
-1F331 🌱 SEEDLING
-1F332 🌲 EVERGREEN TREE
-1F333 🌳 DECIDUOUS TREE
-1F334 🌴 PALM TREE
-1F335 🌵 CACTUS
-1F336 🌶 HOT PEPPER
-1F337 🌷 TULIP
-1F338 🌸 CHERRY BLOSSOM
-1F339 🌹 ROSE
-1F33A 🌺 HIBISCUS
-1F33B 🌻 SUNFLOWER
-1F33C 🌼 BLOSSOM
-1F33D 🌽 EAR OF MAIZE
-1F33E 🌾 EAR OF RICE
-1F33F 🌿 HERB
-1F340 🍀 FOUR LEAF CLOVER
-1F341 🍁 MAPLE LEAF
-1F342 🍂 FALLEN LEAF
-1F343 🍃 LEAF FLUTTERING IN WIND
-1F344 🍄 MUSHROOM
-
-Fruit and vegetable
-1F345 🍅 TOMATO
-1F346 🍆 AUBERGINE
-1F347 🍇 GRAPES
-1F348 🍈 MELON
-1F349 🍉 WATERMELON
-1F34A 🍊 TANGERINE
-1F34B 🍋 LEMON
-1F34C 🍌 BANANA
-1F34D 🍍 PINEAPPLE
-1F34E 🍎 RED APPLE
-1F34F 🍏 GREEN APPLE
-1F350 🍐 PEAR
-1F351 🍑 PEACH
-1F352 🍒 CHERRIES
-1F353 🍓 STRAWBERRY
-
-Food
-1F354 🍔 HAMBURGER
-1F355 🍕 SLICE OF PIZZA
-1F356 🍖 MEAT ON BONE
-1F357 🍗 POULTRY LEG
-1F358 🍘 RICE CRACKER
-1F359 🍙 RICE BALL
-1F35A 🍚 COOKED RICE
-1F35B 🍛 CURRY AND RICE
-1F35C 🍜 STEAMING BOWL
-1F35D 🍝 SPAGHETTI
-1F35E 🍞 BREAD
-1F35F 🍟 FRENCH FRIES
-1F360 🍠 ROASTED SWEET POTATO
-1F361 🍡 DANGO
-1F362 🍢 ODEN
-1F363 🍣 SUSHI
-1F364 🍤 FRIED SHRIMP
-1F365 🍥 FISH CAKE WITH SWIRL DESIGN
-1F366 🍦 SOFT ICE CREAM
-1F367 🍧 SHAVED ICE
-1F368 🍨 ICE CREAM
-1F369 🍩 DOUGHNUT
-1F36A 🍪 COOKIE
-1F36B 🍫 CHOCOLATE BAR
-1F36C 🍬 CANDY
-1F36D 🍭 LOLLIPOP
-1F36E 🍮 CUSTARD
-1F36F 🍯 HONEY POT
-1F370 🍰 SHORTCAKE
-1F371 🍱 BENTO BOX
-1F372 🍲 POT OF FOOD
-1F373 🍳 COOKING
-1F374 🍴 FORK AND KNIFE
-
-Beverage
-1F375 🍵 TEACUP WITHOUT HANDLE
-1F376 🍶 SAKE BOTTLE AND CUP
-1F377 🍷 WINE GLASS
-1F378 🍸 COCKTAIL GLASS
-1F379 🍹 TROPICAL DRINK
-1F37A 🍺 BEER MUG
-1F37B 🍻 CLINKING BEER MUGS
-1F37C 🍼 BABY BOTTLE
-1F37D 🍽 FORK AND KNIFE WITH PLATE
-1F37E 🍾 BOTTLE WITH POPPING CORK
-1F37F 🍿 POPCORN
-
-Celebration
-1F380 🎀 RIBBON
-1F381 🎁 WRAPPED PRESENT
-1F382 🎂 BIRTHDAY CAKE
-1F383 🎃 JACK-O-LANTERN
-1F384 🎄 CHRISTMAS TREE
-1F385 🎅 FATHER CHRISTMAS
-1F386 🎆 FIREWORKS
-1F387 🎇 FIREWORK SPARKLER
-1F388 🎈 BALLOON
-1F389 🎉 PARTY POPPER
-1F38A 🎊 CONFETTI BALL
-1F38B 🎋 TANABATA TREE
-1F38C 🎌 CROSSED FLAGS
-1F38D 🎍 PINE DECORATION
-1F38E 🎎 JAPANESE DOLLS
-1F38F 🎏 CARP STREAMER
-1F390 🎐 WIND CHIME
-1F391 🎑 MOON VIEWING CEREMONY
-1F392 🎒 SCHOOL SATCHEL
-1F393 🎓 GRADUATION CAP
-1F394 🎔 HEART WITH TIP ON THE LEFT
-1F395 🎕 BOUQUET OF FLOWERS
-1F396 🎖 MILITARY MEDAL
-1F397 🎗 REMINDER RIBBON
-
-Entertainment
-1F398 🎘 MUSICAL KEYBOARD WITH JACKS
-1F399 🎙 STUDIO MICROPHONE
-1F39A 🎚 LEVEL SLIDER
-1F39B 🎛 CONTROL KNOBS
-1F39C 🎜 BEAMED ASCENDING MUSICAL NOTES
-1F39D 🎝 BEAMED DESCENDING MUSICAL NOTES
-1F39E 🎞 FILM FRAMES
-1F39F 🎟 ADMISSION TICKETS
-1F3A0 🎠 CAROUSEL HORSE
-1F3A1 🎡 FERRIS WHEEL
-1F3A2 🎢 ROLLER COASTER
-1F3A3 🎣 FISHING POLE AND FISH
-1F3A4 🎤 MICROPHONE
-1F3A5 🎥 MOVIE CAMERA
-1F3A6 🎦 CINEMA
-1F3A7 🎧 HEADPHONE
-1F3A8 🎨 ARTIST PALETTE
-1F3A9 🎩 TOP HAT
-1F3AA 🎪 CIRCUS TENT
-1F3AB 🎫 TICKET
-1F3AC 🎬 CLAPPER BOARD
-1F3AD 🎭 PERFORMING ARTS
-
-Game
-1F3AE 🎮 VIDEO GAME
-1F3AF 🎯 DIRECT HIT
-1F3B0 🎰 SLOT MACHINE
-1F3B1 🎱 BILLIARDS
-1F3B2 🎲 GAME DIE
-1F3B3 🎳 BOWLING
-1F3B4 🎴 FLOWER PLAYING CARDS
-
-Musical
-1F3B5 🎵 MUSICAL NOTE
-1F3B6 🎶 MULTIPLE MUSICAL NOTES
-1F3B7 🎷 SAXOPHONE
-1F3B8 🎸 GUITAR
-1F3B9 🎹 MUSICAL KEYBOARD
-1F3BA 🎺 TRUMPET
-1F3BB 🎻 VIOLIN
-1F3BC 🎼 MUSICAL SCORE
-
-Sport
-1F3BD 🎽 RUNNING SHIRT WITH SASH
-1F3BE 🎾 TENNIS RACQUET AND BALL
-1F3BF 🎿 SKI AND SKI BOOT
-1F3C0 🏀 BASKETBALL AND HOOP
-1F3C1 🏁 CHEQUERED FLAG
-1F3C2 🏂 SNOWBOARDER
-1F3C3 🏃 RUNNER
-1F3C4 🏄 SURFER
-1F3C5 🏅 SPORTS MEDAL
-1F3C6 🏆 TROPHY
-1F3C7 🏇 HORSE RACING
-1F3C8 🏈 AMERICAN FOOTBALL
-1F3C9 🏉 RUGBY FOOTBALL
-1F3CA 🏊 SWIMMER
-1F3CB 🏋 WEIGHT LIFTER
-1F3CC 🏌 GOLFER
-1F3CD 🏍 RACING MOTORCYCLE
-1F3CE 🏎 RACING CAR
-1F3CF 🏏 CRICKET BAT AND BALL
-1F3D0 🏐 VOLLEYBALL
-1F3D1 🏑 FIELD HOCKEY STICK AND BALL
-1F3D2 🏒 ICE HOCKEY STICK AND PUCK
-1F3D3 🏓 TABLE TENNIS PADDLE AND BALL
-
-Building and map
-1F3D4 🏔 SNOW CAPPED MOUNTAIN
-1F3D5 🏕 CAMPING
-1F3D6 🏖 BEACH WITH UMBRELLA
-1F3D7 🏗 BUILDING CONSTRUCTION
-1F3D8 🏘 HOUSE BUILDINGS
-1F3D9 🏙 CITYSCAPE
-1F3DA 🏚 DERELICT HOUSE BUILDING
-1F3DB 🏛 CLASSICAL BUILDING
-1F3DC 🏜 DESERT
-1F3DD 🏝 DESERT ISLAND
-1F3DE 🏞 NATIONAL PARK
-1F3DF 🏟 STADIUM
-1F3E0 🏠 HOUSE BUILDING
-1F3E1 🏡 HOUSE WITH GARDEN
-1F3E2 🏢 OFFICE BUILDING
-1F3E3 🏣 JAPANESE POST OFFICE
-1F3E4 🏤 EUROPEAN POST OFFICE
-1F3E5 🏥 HOSPITAL
-1F3E6 🏦 BANK
-1F3E7 🏧 AUTOMATED TELLER MACHINE
-1F3E8 🏨 HOTEL
-1F3E9 🏩 LOVE HOTEL
-1F3EA 🏪 CONVENIENCE STORE
-1F3EB 🏫 SCHOOL
-1F3EC 🏬 DEPARTMENT STORE
-1F3ED 🏭 FACTORY
-1F3EE 🏮 IZAKAYA LANTERN
-1F3EF 🏯 JAPANESE CASTLE
-1F3F0 🏰 EUROPEAN CASTLE
-
-Flag
-1F3F1 🏱 WHITE PENNANT
-1F3F2 🏲 BLACK PENNANT
-1F3F3 🏳 WAVING WHITE FLAG
-1F3F4 🏴 WAVING BLACK FLAG
-
-Rosettes
-1F3F5 🏵 ROSETTE
-1F3F6 🏶 BLACK ROSETTE
-
-Miscellaneous
-1F3F7 🏷 LABEL
-
-Sport
-1F3F8 🏸 BADMINTON RACQUET AND SHUTTLECOCK
-1F3F9 🏹 BOW AND ARROW
-
-Miscellaneous
-1F3FA 🏺 AMPHORA
-
-Emoji modifiers
-1F3FB 🏻 EMOJI MODIFIER FITZPATRICK TYPE-1-2
-1F3FC 🏼 EMOJI MODIFIER FITZPATRICK TYPE-3
-1F3FD 🏽 EMOJI MODIFIER FITZPATRICK TYPE-4
-1F3FE 🏾 EMOJI MODIFIER FITZPATRICK TYPE-5
-1F3FF 🏿 EMOJI MODIFIER FITZPATRICK TYPE-6
-
-Animal
-1F400 🐀 RAT
-1F401 🐁 MOUSE
-1F402 🐂 OX
-1F403 🐃 WATER BUFFALO
-1F404 🐄 COW
-1F405 🐅 TIGER
-1F406 🐆 LEOPARD
-1F407 🐇 RABBIT
-1F408 🐈 CAT
-1F409 🐉 DRAGON
-1F40A 🐊 CROCODILE
-1F40B 🐋 WHALE
-1F40C 🐌 SNAIL
-1F40D 🐍 SNAKE
-1F40E 🐎 HORSE
-1F40F 🐏 RAM
-1F410 🐐 GOAT
-1F411 🐑 SHEEP
-1F412 🐒 MONKEY
-1F413 🐓 ROOSTER
-1F414 🐔 CHICKEN
-1F415 🐕 DOG
-1F416 🐖 PIG
-1F417 🐗 BOAR
-1F418 🐘 ELEPHANT
-1F419 🐙 OCTOPUS
-1F41A 🐚 SPIRAL SHELL
-1F41B 🐛 BUG
-1F41C 🐜 ANT
-1F41D 🐝 HONEYBEE
-1F41E 🐞 LADY BEETLE
-1F41F 🐟 FISH
-1F420 🐠 TROPICAL FISH
-1F421 🐡 BLOWFISH
-1F422 🐢 TURTLE
-1F423 🐣 HATCHING CHICK
-1F424 🐤 BABY CHICK
-1F425 🐥 FRONT-FACING BABY CHICK
-1F426 🐦 BIRD
-1F427 🐧 PENGUIN
-1F428 🐨 KOALA
-1F429 🐩 POODLE
-1F42A 🐪 DROMEDARY CAMEL
-1F42B 🐫 BACTRIAN CAMEL
-1F42C 🐬 DOLPHIN
-
-Animal faces
-1F42D 🐭 MOUSE FACE
-1F42E 🐮 COW FACE
-1F42F 🐯 TIGER FACE
-1F430 🐰 RABBIT FACE
-1F431 🐱 CAT FACE
-1F432 🐲 DRAGON FACE
-1F433 🐳 SPOUTING WHALE
-1F434 🐴 HORSE FACE
-1F435 🐵 MONKEY FACE
-1F436 🐶 DOG FACE
-1F437 🐷 PIG FACE
-1F438 🐸 FROG FACE
-1F439 🐹 HAMSTER FACE
-1F43A 🐺 WOLF FACE
-1F43B 🐻 BEAR FACE
-1F43C 🐼 PANDA FACE
-1F43D 🐽 PIG NOSE
-
-Animal
-1F43E 🐾 PAW PRINTS
-1F43F 🐿 CHIPMUNK
-
-Facial parts
-1F440 👀 EYES
-1F441 👁 EYE
-1F442 👂 EAR
-1F443 👃 NOSE
-1F444 👄 MOUTH
-1F445 👅 TONGUE
-
-Hand
-1F446 👆 WHITE UP POINTING BACKHAND INDEX
-1F447 👇 WHITE DOWN POINTING BACKHAND INDEX
-1F448 👈 WHITE LEFT POINTING BACKHAND INDEX
-1F449 👉 WHITE RIGHT POINTING BACKHAND INDEX
-1F44A 👊 FISTED HAND SIGN
-1F44B 👋 WAVING HAND SIGN
-1F44C 👌 OK HAND SIGN
-1F44D 👍 THUMBS UP SIGN
-1F44E 👎 THUMBS DOWN SIGN
-1F44F 👏 CLAPPING HANDS SIGN
-1F450 👐 OPEN HANDS SIGN
-
-Clothing and accessories
-1F451 👑 CROWN
-1F452 👒 WOMANS HAT
-1F453 👓 EYEGLASSES
-1F454 👔 NECKTIE
-1F455 👕 T-SHIRT
-1F456 👖 JEANS
-1F457 👗 DRESS
-1F458 👘 KIMONO
-1F459 👙 BIKINI
-1F45A 👚 WOMANS CLOTHES
-1F45B 👛 PURSE
-1F45C 👜 HANDBAG
-1F45D 👝 POUCH
-1F45E 👞 MANS SHOE
-1F45F 👟 ATHLETIC SHOE
-1F460 👠 HIGH-HEELED SHOE
-1F461 👡 WOMANS SANDAL
-1F462 👢 WOMANS BOOTS
-1F463 👣 FOOTPRINTS
-
-Portrait and role
-1F464 👤 BUST IN SILHOUETTE
-1F465 👥 BUSTS IN SILHOUETTE
-1F466 👦 BOY
-1F467 👧 GIRL
-1F468 👨 MAN
-1F469 👩 WOMAN
-1F46A 👪 FAMILY
-1F46B 👫 MAN AND WOMAN HOLDING HANDS
-1F46C 👬 TWO MEN HOLDING HANDS
-1F46D 👭 TWO WOMEN HOLDING HANDS
-1F46E 👮 POLICE OFFICER
-1F46F 👯 WOMAN WITH BUNNY EARS
-1F470 👰 BRIDE WITH VEIL
-1F471 👱 PERSON WITH BLOND HAIR
-1F472 👲 MAN WITH GUA PI MAO
-1F473 👳 MAN WITH TURBAN
-1F474 👴 OLDER MAN
-1F475 👵 OLDER WOMAN
-1F476 👶 BABY
-1F477 👷 CONSTRUCTION WORKER
-
-Fairy tale
-1F478 👸 PRINCESS
-1F479 👹 JAPANESE OGRE
-1F47A 👺 JAPANESE GOBLIN
-1F47B 👻 GHOST
-1F47C 👼 BABY ANGEL
-1F47D 👽 EXTRATERRESTRIAL ALIEN
-1F47E 👾 ALIEN MONSTER
-1F47F 👿 IMP
-1F480 💀 SKULL
-
-Role
-1F481 💁 INFORMATION DESK PERSON
-1F482 💂 GUARDSMAN
-1F483 💃 DANCER
-
-Personal care
-1F484 💄 LIPSTICK
-1F485 💅 NAIL POLISH
-1F486 💆 FACE MASSAGE
-1F487 💇 HAIRCUT
-1F488 💈 BARBER POLE
-
-Medical
-1F489 💉 SYRINGE
-1F48A 💊 PILL
-
-Romance
-1F48B 💋 KISS MARK
-1F48C 💌 LOVE LETTER
-1F48D 💍 RING
-1F48E 💎 GEM STONE
-1F48F 💏 KISS
-1F490 💐 BOUQUET
-1F491 💑 COUPLE WITH HEART
-1F492 💒 WEDDING
-
-Heart
-1F493 💓 BEATING HEART
-1F494 💔 BROKEN HEART
-1F495 💕 TWO HEARTS
-1F496 💖 SPARKLING HEART
-1F497 💗 GROWING HEART
-1F498 💘 HEART WITH ARROW
-1F499 💙 BLUE HEART
-1F49A 💚 GREEN HEART
-1F49B 💛 YELLOW HEART
-1F49C 💜 PURPLE HEART
-1F49D 💝 HEART WITH RIBBON
-1F49E 💞 REVOLVING HEARTS
-1F49F 💟 HEART DECORATION
-
-Comic style
-1F4A0 💠 DIAMOND SHAPE WITH A DOT INSIDE
-1F4A1 💡 ELECTRIC LIGHT BULB
-1F4A2 💢 ANGER
-1F4A3 💣 BOMB
-1F4A4 💤 SLEEPING
-1F4A5 💥 COLLISION
-1F4A6 💦 SPLASHING SWEAT
-1F4A7 💧 DROPLET
-1F4A8 💨 DASH
-1F4A9 💩 PILE OF POO
-1F4AA 💪 FLEXED BICEPS
-1F4AB 💫 DIZZY
-1F4AC 💬 SPEECH BALLOON
-1F4AD 💭 THOUGHT BALLOON
-
-Japanese school grade
-1F4AE 💮 WHITE FLOWER
-1F4AF 💯 HUNDRED POINTS
-
-Money
-1F4B0 💰 MONEY BAG
-1F4B1 💱 CURRENCY EXCHANGE
-1F4B2 💲 HEAVY DOLLAR SIGN
-1F4B3 💳 CREDIT CARD
-1F4B4 💴 BANKNOTE WITH YEN SIGN
-1F4B5 💵 BANKNOTE WITH DOLLAR SIGN
-1F4B6 💶 BANKNOTE WITH EURO SIGN
-1F4B7 💷 BANKNOTE WITH POUND SIGN
-1F4B8 💸 MONEY WITH WINGS
-1F4B9 💹 CHART WITH UPWARDS TREND AND YEN SIGN
-
-Office
-1F4BA 💺 SEAT
-1F4BB 💻 PERSONAL COMPUTER
-1F4BC 💼 BRIEFCASE
-1F4BD 💽 MINIDISC
-1F4BE 💾 FLOPPY DISK
-1F4BF 💿 OPTICAL DISC
-1F4C0 📀 DVD
-1F4C1 📁 FILE FOLDER
-1F4C2 📂 OPEN FILE FOLDER
-1F4C3 📃 PAGE WITH CURL
-1F4C4 📄 PAGE FACING UP
-1F4C5 📅 CALENDAR
-1F4C6 📆 TEAR-OFF CALENDAR
-1F4C7 📇 CARD INDEX
-1F4C8 📈 CHART WITH UPWARDS TREND
-1F4C9 📉 CHART WITH DOWNWARDS TREND
-1F4CA 📊 BAR CHART
-1F4CB 📋 CLIPBOARD
-1F4CC 📌 PUSHPIN
-1F4CD 📍 ROUND PUSHPIN
-1F4CE 📎 PAPERCLIP
-1F4CF 📏 STRAIGHT RULER
-1F4D0 📐 TRIANGULAR RULER
-1F4D1 📑 BOOKMARK TABS
-1F4D2 📒 LEDGER
-1F4D3 📓 NOTEBOOK
-1F4D4 📔 NOTEBOOK WITH DECORATIVE COVER
-1F4D5 📕 CLOSED BOOK
-1F4D6 📖 OPEN BOOK
-1F4D7 📗 GREEN BOOK
-1F4D8 📘 BLUE BOOK
-1F4D9 📙 ORANGE BOOK
-1F4DA 📚 BOOKS
-1F4DB 📛 NAME BADGE
-1F4DC 📜 SCROLL
-
-Communication
-1F4DD 📝 MEMO
-1F4DE 📞 TELEPHONE RECEIVER
-1F4DF 📟 PAGER
-1F4E0 📠 FAX MACHINE
-1F4E1 📡 SATELLITE ANTENNA
-1F4E2 📢 PUBLIC ADDRESS LOUDSPEAKER
-1F4E3 📣 CHEERING MEGAPHONE
-1F4E4 📤 OUTBOX TRAY
-1F4E5 📥 INBOX TRAY
-1F4E6 📦 PACKAGE
-1F4E7 📧 E-MAIL
-1F4E8 📨 INCOMING ENVELOPE
-1F4E9 📩 ENVELOPE WITH DOWNWARDS ARROW ABOVE
-1F4EA 📪 CLOSED MAILBOX WITH LOWERED FLAG
-1F4EB 📫 CLOSED MAILBOX WITH RAISED FLAG
-1F4EC 📬 OPEN MAILBOX WITH RAISED FLAG
-1F4ED 📭 OPEN MAILBOX WITH LOWERED FLAG
-1F4EE 📮 POSTBOX
-1F4EF 📯 POSTAL HORN
-1F4F0 📰 NEWSPAPER
-1F4F1 📱 MOBILE PHONE
-1F4F2 📲 MOBILE PHONE WITH RIGHTWARDS ARROW AT LEFT
-1F4F3 📳 VIBRATION MODE
-1F4F4 📴 MOBILE PHONE OFF
-1F4F5 📵 NO MOBILE PHONES
-1F4F6 📶 ANTENNA WITH BARS
-
-Audio and video
-1F4F7 📷 CAMERA
-1F4F8 📸 CAMERA WITH FLASH
-1F4F9 📹 VIDEO CAMERA
-1F4FA 📺 TELEVISION
-1F4FB 📻 RADIO
-1F4FC 📼 VIDEOCASSETTE
-1F4FD 📽 FILM PROJECTOR
-1F4FE 📾 PORTABLE STEREO
-
-Religious
-1F4FF 📿 PRAYER BEADS
-
-User interface
-1F500 🔀 TWISTED RIGHTWARDS ARROWS
-1F501 🔁 CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS
-1F502 🔂 CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY
-1F503 🔃 CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS
-1F504 🔄 ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS
-1F505 🔅 LOW BRIGHTNESS
-1F506 🔆 HIGH BRIGHTNESS
-1F507 🔇 SPEAKER WITH CANCELLATION STROKE
-1F508 🔈 SPEAKER
-1F509 🔉 SPEAKER WITH ONE SOUND WAVE
-1F50A 🔊 SPEAKER WITH THREE SOUND WAVES
-1F50B 🔋 BATTERY
-1F50C 🔌 ELECTRIC PLUG
-1F50D 🔍 LEFT-POINTING MAGNIFYING GLASS
-1F50E 🔎 RIGHT-POINTING MAGNIFYING GLASS
-1F50F 🔏 LOCK WITH INK PEN
-1F510 🔐 CLOSED LOCK WITH KEY
-1F511 🔑 KEY
-1F512 🔒 LOCK
-1F513 🔓 OPEN LOCK
-1F514 🔔 BELL
-1F515 🔕 BELL WITH CANCELLATION STROKE
-1F516 🔖 BOOKMARK
-1F517 🔗 LINK
-1F518 🔘 RADIO BUTTON
-
-Words with arrows
-1F519 🔙 BACK WITH LEFTWARDS ARROW ABOVE
-1F51A 🔚 END WITH LEFTWARDS ARROW ABOVE
-1F51B 🔛 ON WITH EXCLAMATION MARK WITH LEFT RIGHT ARROW ABOVE
-1F51C 🔜 SOON WITH RIGHTWARDS ARROW ABOVE
-1F51D 🔝 TOP WITH UPWARDS ARROW ABOVE
-
-Enclosed alphanumeric
-1F51E 🔞 NO ONE UNDER EIGHTEEN
-1F51F 🔟 KEYCAP TEN
-
-User interface input status
-1F520 🔠 INPUT FOR LATIN CAPITAL LETTERS
-1F521 🔡 INPUT FOR LATIN SMALL LETTERS
-1F522 🔢 INPUT FOR NUMBERS
-1F523 🔣 INPUT FOR
-1F524 🔤 INPUT FOR LATIN LETTERS
-
-Tool
-1F525 🔥 FIRE
-1F526 🔦 ELECTRIC TORCH
-1F527 🔧 WRENCH
-1F528 🔨 HAMMER
-1F529 🔩 NUT AND BOLT
-1F52A 🔪 HOCHO
-1F52B 🔫 PISTOL
-1F52C 🔬 MICROSCOPE
-1F52D 🔭 TELESCOPE
-1F52E 🔮 CRYSTAL BALL
-
-Miscellaneous
-1F52F 🔯 SIX POINTED STAR WITH MIDDLE DOT
-1F530 🔰 JAPANESE FOR BEGINNER
-1F531 🔱 TRIDENT EMBLEM
-
-Geometric shapes
-1F532 🔲 BLACK SQUARE BUTTON
-1F533 🔳 WHITE SQUARE BUTTON
-1F534 🔴 LARGE RED CIRCLE
-1F535 🔵 LARGE BLUE CIRCLE
-1F536 🔶 LARGE ORANGE DIAMOND
-1F537 🔷 LARGE BLUE DIAMOND
-1F538 🔸 SMALL ORANGE DIAMOND
-1F539 🔹 SMALL BLUE DIAMOND
-
-User interface
-1F53A 🔺 UP-POINTING RED TRIANGLE
-1F53B 🔻 DOWN-POINTING RED TRIANGLE
-1F53C 🔼 UP-POINTING SMALL RED TRIANGLE
-1F53D 🔽 DOWN-POINTING SMALL RED TRIANGLE
-
-Shadowed geometric shapes
-1F53E 🔾 LOWER RIGHT SHADOWED WHITE CIRCLE
-1F53F 🔿 UPPER RIGHT SHADOWED WHITE CIRCLE
-
-Religious
-1F540 🕀 CIRCLED CROSS POMMEE
-1F541 🕁 CROSS POMMEE WITH HALF-CIRCLE BELOW
-1F542 🕂 CROSS POMMEE
-1F543 🕃 NOTCHED LEFT SEMICIRCLE WITH THREE DOTS
-1F544 🕄 NOTCHED RIGHT SEMICIRCLE WITH THREE DOTS
-1F545 🕅 FOR MARKS CHAPTER
-1F546 🕆 WHITE LATIN CROSS
-1F547 🕇 HEAVY LATIN CROSS
-1F548 🕈 CELTIC CROSS
-1F549 🕉 OM
-1F54A 🕊 DOVE OF PEACE
-1F54B 🕋 KAABA
-1F54C 🕌 MOSQUE
-1F54D 🕍 SYNAGOGUE
-1F54E 🕎 MENORAH WITH NINE BRANCHES
-
-Miscellaneous
-1F54F 🕏 BOWL OF HYGIEIA
-
-Clock face
-1F550 🕐 CLOCK FACE ONE OCLOCK
-1F551 🕑 CLOCK FACE TWO OCLOCK
-1F552 🕒 CLOCK FACE THREE OCLOCK
-1F553 🕓 CLOCK FACE FOUR OCLOCK
-1F554 🕔 CLOCK FACE FIVE OCLOCK
-1F555 🕕 CLOCK FACE SIX OCLOCK
-1F556 🕖 CLOCK FACE SEVEN OCLOCK
-1F557 🕗 CLOCK FACE EIGHT OCLOCK
-1F558 🕘 CLOCK FACE NINE OCLOCK
-1F559 🕙 CLOCK FACE TEN OCLOCK
-1F55A 🕚 CLOCK FACE ELEVEN OCLOCK
-1F55B 🕛 CLOCK FACE TWELVE OCLOCK
-1F55C 🕜 CLOCK FACE ONE-THIRTY
-1F55D 🕝 CLOCK FACE TWO-THIRTY
-1F55E 🕞 CLOCK FACE THREE-THIRTY
-1F55F 🕟 CLOCK FACE FOUR-THIRTY
-1F560 🕠 CLOCK FACE FIVE-THIRTY
-1F561 🕡 CLOCK FACE SIX-THIRTY
-1F562 🕢 CLOCK FACE SEVEN-THIRTY
-1F563 🕣 CLOCK FACE EIGHT-THIRTY
-1F564 🕤 CLOCK FACE NINE-THIRTY
-1F565 🕥 CLOCK FACE TEN-THIRTY
-1F566 🕦 CLOCK FACE ELEVEN-THIRTY
-1F567 🕧 CLOCK FACE TWELVE-THIRTY
-
-Communication
-1F568 🕨 RIGHT SPEAKER
-1F569 🕩 RIGHT SPEAKER WITH ONE SOUND WAVE
-1F56A 🕪 RIGHT SPEAKER WITH THREE SOUND WAVES
-1F56B 🕫 BULLHORN
-1F56C 🕬 BULLHORN WITH SOUND WAVES
-
-Miscellaneous
-1F56D 🕭 RINGING BELL
-1F56E 🕮 BOOK
-1F56F 🕯 CANDLE
-1F570 🕰 MANTELPIECE CLOCK
-1F571 🕱 BLACK SKULL AND CROSSBONES
-1F572 🕲 NO PIRACY
-1F573 🕳 HOLE
-1F574 🕴 MAN IN BUSINESS SUIT LEVITATING
-1F575 🕵 SLEUTH OR SPY
-1F576 🕶 DARK SUNGLASSES
-
-Animal
-1F577 🕷 SPIDER
-1F578 🕸 SPIDER WEB
-
-Game
-1F579 🕹 JOYSTICK
-
-Role
-1F57A 🕺 MAN DANCING
-
-Communication
-1F57B 🕻 LEFT HAND TELEPHONE RECEIVER
-1F57C 🕼 TELEPHONE RECEIVER WITH PAGE
-1F57D 🕽 RIGHT HAND TELEPHONE RECEIVER
-1F57E 🕾 WHITE TOUCHTONE TELEPHONE
-1F57F 🕿 BLACK TOUCHTONE TELEPHONE
-1F580 🖀 TELEPHONE ON TOP OF MODEM
-1F581 🖁 CLAMSHELL MOBILE PHONE
-1F582 🖂 BACK OF ENVELOPE
-1F583 🖃 STAMPED ENVELOPE
-1F584 🖄 ENVELOPE WITH LIGHTNING
-1F585 🖅 FLYING ENVELOPE
-1F586 🖆 PEN OVER STAMPED ENVELOPE
-1F587 🖇 LINKED PAPERCLIPS
-1F588 🖈 BLACK PUSHPIN
-1F589 🖉 LOWER LEFT PENCIL
-1F58A 🖊 LOWER LEFT BALLPOINT PEN
-1F58B 🖋 LOWER LEFT FOUNTAIN PEN
-1F58C 🖌 LOWER LEFT PAINTBRUSH
-1F58D 🖍 LOWER LEFT CRAYON
-
-Hand
-1F58E 🖎 LEFT WRITING HAND
-1F58F 🖏 TURNED OK HAND SIGN
-1F590 🖐 RAISED HAND WITH FINGERS SPLAYED
-1F591 🖑 REVERSED RAISED HAND WITH FINGERS SPLAYED
-1F592 🖒 REVERSED THUMBS UP SIGN
-1F593 🖓 REVERSED THUMBS DOWN SIGN
-1F594 🖔 REVERSED VICTORY HAND
-1F595 🖕 REVERSED HAND WITH MIDDLE FINGER EXTENDED
-1F596 🖖 RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS
-1F597 🖗 WHITE DOWN POINTING LEFT HAND INDEX
-1F598 🖘 SIDEWAYS WHITE LEFT POINTING INDEX
-1F599 🖙 SIDEWAYS WHITE RIGHT POINTING INDEX
-1F59A 🖚 SIDEWAYS BLACK LEFT POINTING INDEX
-1F59B 🖛 SIDEWAYS BLACK RIGHT POINTING INDEX
-1F59C 🖜 BLACK LEFT POINTING BACKHAND INDEX
-1F59D 🖝 BLACK RIGHT POINTING BACKHAND INDEX
-1F59E 🖞 SIDEWAYS WHITE UP POINTING INDEX
-1F59F 🖟 SIDEWAYS WHITE DOWN POINTING INDEX
-1F5A0 🖠 SIDEWAYS BLACK UP POINTING INDEX
-1F5A1 🖡 SIDEWAYS BLACK DOWN POINTING INDEX
-1F5A2 🖢 BLACK UP POINTING BACKHAND INDEX
-1F5A3 🖣 BLACK DOWN POINTING BACKHAND INDEX
-
-Heart
-1F5A4 🖤 BLACK HEART
-
-Computer
-1F5A5 🖥 DESKTOP COMPUTER
-1F5A6 🖦 KEYBOARD AND MOUSE
-1F5A7 🖧 THREE NETWORKED COMPUTERS
-1F5A8 🖨 PRINTER
-1F5A9 🖩 POCKET CALCULATOR
-1F5AA 🖪 BLACK HARD SHELL FLOPPY DISK
-1F5AB 🖫 WHITE HARD SHELL FLOPPY DISK
-1F5AC 🖬 SOFT SHELL FLOPPY DISK
-1F5AD 🖭 TAPE CARTRIDGE
-1F5AE 🖮 WIRED KEYBOARD
-1F5AF 🖯 ONE BUTTON MOUSE
-1F5B0 🖰 TWO BUTTON MOUSE
-1F5B1 🖱 THREE BUTTON MOUSE
-1F5B2 🖲 TRACKBALL
-1F5B3 🖳 OLD PERSONAL COMPUTER
-1F5B4 🖴 HARD DISK
-1F5B5 🖵 SCREEN
-1F5B6 🖶 PRINTER ICON
-1F5B7 🖷 FAX ICON
-1F5B8 🖸 OPTICAL DISC ICON
-
-Office
-1F5B9 🖹 DOCUMENT WITH TEXT
-1F5BA 🖺 DOCUMENT WITH TEXT AND PICTURE
-1F5BB 🖻 DOCUMENT WITH PICTURE
-1F5BC 🖼 FRAME WITH PICTURE
-1F5BD 🖽 FRAME WITH TILES
-1F5BE 🖾 FRAME WITH AN X
-
-User interface
-1F5BF 🖿 BLACK FOLDER
-1F5C0 🗀 FOLDER
-1F5C1 🗁 OPEN FOLDER
-1F5C2 🗂 CARD INDEX DIVIDERS
-1F5C3 🗃 CARD FILE BOX
-1F5C4 🗄 FILE CABINET
-1F5C5 🗅 EMPTY NOTE
-1F5C6 🗆 EMPTY NOTE PAGE
-1F5C7 🗇 EMPTY NOTE PAD
-1F5C8 🗈 NOTE
-1F5C9 🗉 NOTE PAGE
-1F5CA 🗊 NOTE PAD
-1F5CB 🗋 EMPTY DOCUMENT
-1F5CC 🗌 EMPTY PAGE
-1F5CD 🗍 EMPTY PAGES
-1F5CE 🗎 DOCUMENT
-1F5CF 🗏 PAGE
-1F5D0 🗐 PAGES
-1F5D1 🗑 WASTEBASKET
-1F5D2 🗒 SPIRAL NOTE PAD
-1F5D3 🗓 SPIRAL CALENDAR PAD
-1F5D4 🗔 DESKTOP WINDOW
-1F5D5 🗕 MINIMIZE
-1F5D6 🗖 MAXIMIZE
-1F5D7 🗗 OVERLAP
-1F5D8 🗘 CLOCKWISE RIGHT AND LEFT SEMICIRCLE ARROWS
-1F5D9 🗙 CANCELLATION X
-1F5DA 🗚 INCREASE FONT SIZE
-1F5DB 🗛 DECREASE FONT SIZE
-1F5DC 🗜 COMPRESSION
-1F5DD 🗝 OLD KEY
-
-Miscellaneous
-1F5DE 🗞 ROLLED-UP NEWSPAPER
-1F5DF 🗟 PAGE WITH CIRCLED TEXT
-1F5E0 🗠 STOCK CHART
-
-Rating
-1F5E1 🗡 DAGGER KNIFE
-1F5E2 🗢 LIPS
-1F5E3 🗣 SPEAKING HEAD IN SILHOUETTE
-
-Sound
-1F5E4 🗤 THREE RAYS ABOVE
-1F5E5 🗥 THREE RAYS BELOW
-1F5E6 🗦 THREE RAYS LEFT
-1F5E7 🗧 THREE RAYS RIGHT
-
-Bubble
-1F5E8 🗨 LEFT SPEECH BUBBLE
-1F5E9 🗩 RIGHT SPEECH BUBBLE
-1F5EA 🗪 TWO SPEECH BUBBLES
-1F5EB 🗫 THREE SPEECH BUBBLES
-1F5EC 🗬 LEFT THOUGHT BUBBLE
-1F5ED 🗭 RIGHT THOUGHT BUBBLE
-1F5EE 🗮 LEFT ANGER BUBBLE
-1F5EF 🗯 RIGHT ANGER BUBBLE
-1F5F0 🗰 MOOD BUBBLE
-1F5F1 🗱 LIGHTNING MOOD BUBBLE
-1F5F2 🗲 LIGHTNING MOOD
-
-Ballot
-1F5F3 🗳 BALLOT BOX WITH BALLOT
-1F5F4 🗴 BALLOT SCRIPT X
-1F5F5 🗵 BALLOT BOX WITH SCRIPT X
-1F5F6 🗶 BALLOT BOLD SCRIPT X
-1F5F7 🗷 BALLOT BOX WITH BOLD SCRIPT X
-1F5F8 🗸 LIGHT CHECK MARK
-1F5F9 🗹 BALLOT BOX WITH BOLD CHECK
-
-Map
-1F5FA 🗺 WORLD MAP
-
-Cultural
-1F5FB 🗻 MOUNT FUJI
-1F5FC 🗼 TOKYO TOWER
-1F5FD 🗽 STATUE OF LIBERTY
-1F5FE 🗾 SILHOUETTE OF JAPAN
-1F5FF 🗿 MOYAI
-
-Emoji, Emoticon
-1F600 😀 GRINNING FACE
-1F601 😁 GRINNING FACE WITH SMILING EYES
-1F602 😂 FACE WITH TEARS OF JOY
-1F603 😃 SMILING FACE WITH OPEN MOUTH
-1F604 😄 SMILING FACE WITH OPEN MOUTH AND SMILING EYES
-1F605 😅 SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
-1F606 😆 SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
-1F607 😇 SMILING FACE WITH HALO
-1F608 😈 SMILING FACE WITH HORNS
-1F609 😉 WINKING FACE
-1F60A 😊 SMILING FACE WITH SMILING EYES
-1F60B 😋 FACE SAVOURING DELICIOUS FOOD
-1F60C 😌 RELIEVED FACE
-1F60D 😍 SMILING FACE WITH HEART-SHAPED EYES
-1F60E 😎 SMILING FACE WITH SUNGLASSES
-1F60F 😏 SMIRKING FACE
-1F610 😐 NEUTRAL FACE
-1F611 😑 EXPRESSIONLESS FACE
-1F612 😒 UNAMUSED FACE
-1F613 😓 FACE WITH COLD SWEAT
-1F614 😔 PENSIVE FACE
-1F615 😕 CONFUSED FACE
-1F616 😖 CONFOUNDED FACE
-1F617 😗 KISSING FACE
-1F618 😘 FACE THROWING A KISS
-1F619 😙 KISSING FACE WITH SMILING EYES
-1F61A 😚 KISSING FACE WITH CLOSED EYES
-1F61B 😛 FACE WITH STUCK-OUT TONGUE
-1F61C 😜 FACE WITH STUCK-OUT TONGUE AND WINKING EYE
-1F61D 😝 FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
-1F61E 😞 DISAPPOINTED FACE
-1F61F 😟 WORRIED FACE
-1F620 😠 ANGRY FACE
-1F621 😡 POUTING FACE
-1F622 😢 CRYING FACE
-1F623 😣 PERSEVERING FACE
-1F624 😤 FACE WITH LOOK OF TRIUMPH
-1F625 😥 DISAPPOINTED BUT RELIEVED FACE
-1F626 😦 FROWNING FACE WITH OPEN MOUTH
-1F627 😧 ANGUISHED FACE
-1F628 😨 FEARFUL FACE
-1F629 😩 WEARY FACE
-1F62A 😪 SLEEPY FACE
-1F62B 😫 TIRED FACE
-1F62C 😬 GRIMACING FACE
-1F62D 😭 LOUDLY CRYING FACE
-1F62E 😮 FACE WITH OPEN MOUTH
-1F62F 😯 HUSHED FACE
-1F630 😰 FACE WITH OPEN MOUTH AND COLD SWEAT
-1F631 😱 FACE SCREAMING IN FEAR
-1F632 😲 ASTONISHED FACE
-1F633 😳 FLUSHED FACE
-1F634 😴 SLEEPING FACE
-1F635 😵 DIZZY FACE
-1F636 😶 FACE WITHOUT MOUTH
-1F637 😷 FACE WITH MEDICAL MASK
-
-Cat faces
-1F638 😸 GRINNING CAT FACE WITH SMILING EYES
-1F639 😹 CAT FACE WITH TEARS OF JOY
-1F63A 😺 SMILING CAT FACE WITH OPEN MOUTH
-1F63B 😻 SMILING CAT FACE WITH HEART-SHAPED EYES
-1F63C 😼 CAT FACE WITH WRY SMILE
-1F63D 😽 KISSING CAT FACE WITH CLOSED EYES
-1F63E 😾 POUTING CAT FACE
-1F63F 😿 CRYING CAT FACE
-1F640 🙀 WEARY CAT FACE
-
-Faces
-1F641 🙁 SLIGHTLY FROWNING FACE
-1F642 🙂 SLIGHTLY SMILING FACE
-1F643 🙃 UPSIDE-DOWN FACE
-1F644 🙄 FACE WITH ROLLING EYES
-
-Gesture
-1F645 🙅 FACE WITH NO GOOD GESTURE
-1F646 🙆 FACE WITH OK GESTURE
-1F647 🙇 PERSON BOWING DEEPLY
-1F648 🙈 SEE-NO-EVIL MONKEY
-1F649 🙉 HEAR-NO-EVIL MONKEY
-1F64A 🙊 SPEAK-NO-EVIL MONKEY
-1F64B 🙋 HAPPY PERSON RAISING ONE HAND
-1F64C 🙌 PERSON RAISING BOTH HANDS IN CELEBRATION
-1F64D 🙍 PERSON FROWNING
-1F64E 🙎 PERSON WITH POUTING FACE
-1F64F 🙏 PERSON WITH FOLDED HANDS
-
-= ----------------------------------------------------------------
-Vehicles
-1F680 🚀 ROCKET
-1F681 🚁 HELICOPTER
-1F682 🚂 STEAM LOCOMOTIVE
-1F683 🚃 RAILWAY CAR
-1F684 🚄 HIGH-SPEED TRAIN
-1F685 🚅 HIGH-SPEED TRAIN WITH BULLET NOSE
-1F686 🚆 TRAIN
-1F687 🚇 METRO
-1F688 🚈 LIGHT RAIL
-1F689 🚉 STATION
-1F68A 🚊 TRAM
-1F68B 🚋 TRAM CAR
-1F68C 🚌 BUS
-1F68D 🚍 ONCOMING BUS
-1F68E 🚎 TROLLEYBUS
-1F68F 🚏 BUS STOP
-1F690 🚐 MINIBUS
-1F691 🚑 AMBULANCE
-1F692 🚒 FIRE ENGINE
-1F693 🚓 POLICE CAR
-1F694 🚔 ONCOMING POLICE CAR
-1F695 🚕 TAXI
-1F696 🚖 ONCOMING TAXI
-1F697 🚗 AUTOMOBILE
-1F698 🚘 ONCOMING AUTOMOBILE
-1F699 🚙 RECREATIONAL VEHICLE
-1F69A 🚚 DELIVERY TRUCK
-1F69B 🚛 ARTICULATED LORRY
-1F69C 🚜 TRACTOR
-1F69D 🚝 MONORAIL
-1F69E 🚞 MOUNTAIN RAILWAY
-1F69F 🚟 SUSPENSION RAILWAY
-1F6A0 🚠 MOUNTAIN CABLEWAY
-1F6A1 🚡 AERIAL TRAMWAY
-1F6A2 🚢 SHIP
-1F6A3 🚣 ROWBOAT
-1F6A4 🚤 SPEEDBOAT
-
-Traffic signs
-1F6A5 🚥 HORIZONTAL TRAFFIC LIGHT
-1F6A6 🚦 VERTICAL TRAFFIC LIGHT
-1F6A7 🚧 CONSTRUCTION SIGN
-1F6A8 🚨 POLICE CARS REVOLVING LIGHT
-
-Signage and other
-1F6A9 🚩 TRIANGULAR FLAG ON POST
-1F6AA 🚪 DOOR
-1F6AB 🚫 NO ENTRY SIGN
-1F6AC 🚬 SMOKING
-1F6AD 🚭 NO SMOKING
-1F6AE 🚮 PUT LITTER IN ITS PLACE
-1F6AF 🚯 DO NOT LITTER
-1F6B0 🚰 POTABLE WATER
-1F6B1 🚱 NON-POTABLE WATER
-1F6B2 🚲 BICYCLE
-1F6B3 🚳 NO BICYCLES
-1F6B4 🚴 BICYCLIST
-1F6B5 🚵 MOUNTAIN BICYCLIST
-1F6B6 🚶 PEDESTRIAN
-1F6B7 🚷 NO PEDESTRIANS
-1F6B8 🚸 CHILDREN CROSSING
-1F6B9 🚹 MENS
-1F6BA 🚺 WOMENS
-1F6BB 🚻 RESTROOM
-1F6BC 🚼 BABY
-1F6BD 🚽 TOILET
-1F6BE 🚾 WATER CLOSET
-1F6BF 🚿 SHOWER
-1F6C0 🛀 BATH
-1F6C1 🛁 BATHTUB
-1F6C2 🛂 PASSPORT CONTROL
-1F6C3 🛃 CUSTOMS
-1F6C4 🛄 BAGGAGE CLAIM
-1F6C5 🛅 LEFT LUGGAGE
-1F6C6 🛆 TRIANGLE WITH ROUNDED CORNERS
-1F6C7 🛇 PROHIBITED SIGN
-1F6C8 🛈 CIRCLED INFORMATION SOURCE
-1F6C9 🛉 BOYS
-1F6CA 🛊 GIRLS
-
-Accommodation → 1F378
-1F6CB 🛋 COUCH AND LAMP
-1F6CC 🛌 SLEEPING ACCOMMODATION
-1F6CD 🛍 SHOPPING BAGS
-1F6CE 🛎 BELLHOP BELL
-1F6CF 🛏 BED
-
-Signage and other
-1F6D0 🛐 PLACE OF WORSHIP
-1F6D1 🛑 OCTAGONAL SIGN
-1F6D2 🛒 SHOPPING TROLLEY
-
-Map
-1F6D3 🛓 STUPA
-1F6D4 🛔 PAGODA
-1F6D5 🛕 HINDU TEMPLE
-
-Miscellaneous
-1F6E0 🛠 HAMMER AND WRENCH
-1F6E1 🛡 SHIELD
-1F6E2 🛢 OIL DRUM
-1F6E3 🛣 MOTORWAY
-1F6E4 🛤 RAILWAY TRACK
-
-Vehicles
-1F6E5 🛥 MOTOR BOAT
-1F6E6 🛦 UP-POINTING MILITARY AIRPLANE
-1F6E7 🛧 UP-POINTING AIRPLANE
-1F6E8 🛨 UP-POINTING SMALL AIRPLANE
-1F6E9 🛩 SMALL AIRPLANE
-1F6EA 🛪 NORTHEAST-POINTING AIRPLANE
-1F6EB 🛫 AIRPLANE DEPARTURE
-1F6EC 🛬 AIRPLANE ARRIVING
-1F6F0 🛰 SATELLITE
-1F6F1 🛱 ONCOMING FIRE ENGINE
-1F6F2 🛲 DIESEL LOCOMOTIVE
-1F6F3 🛳 PASSENGER SHIP
-1F6F4 🛴 SCOOTER
-1F6F5 🛵 MOTOR SCOOTER
-1F6F6 🛶 CANOE
-1F6F7 🛷 SLED
-1F6F8 🛸 FLYING SAUCER
-1F6F9 🛹 SKATEBOARD
-1F6FA 🛺 AUTO RICKSHAW
-1F6FB 🛻
-1F6FC 🛼
-1F6FD 🛽
-1F6FE 🛾
-1F6FF 🛿
-
-
-1F780 🞀 BLACK LEFT-POINTING ISOSCELES RIGHT TRIANGLE
-1F781 🞁 BLACK UP-POINTING ISOSCELES RIGHT TRIANGLE
-1F782 🞂 BLACK RIGHT-POINTING ISOSCELES RIGHT TRIANGLE
-1F783 🞃 BLACK DOWN-POINTING ISOSCELES RIGHT TRIANGLE
-
-Circles
-1F784 🞄 BLACK SLIGHTLY SMALL CIRCLE
-1F785 🞅 MEDIUM BOLD WHITE CIRCLE
-1F786 🞆 BOLD WHITE CIRCLE
-1F787 🞇 HEAVY WHITE CIRCLE
-1F788 🞈 VERY HEAVY WHITE CIRCLE
-1F789 🞉 EXTREMELY HEAVY WHITE CIRCLE
-1F78A 🞊 WHITE CIRCLE CONTAINING BLACK SMALL CIRCLE
-1F78B 🞋 ROUND TARGET
+Greek and Coptic Archaic letters
+ͰͱͲͳʹ͵Ͷͷͺͻͼͽ;Ϳ΄΅Ά·ΈΉΊΌΎΏΐ
+ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ
+αβγδεζηθικλμνξοπρςστυφχψω
+ϊϋόύώϏϐϑϒϓϔϕϖϗ
+ΪΫάέήίΰ
+ϘϙϚϛϜϝϞϟϠϡ
+ϢϣϤϥϦϧϨϩϪϫϬϭϮϯϰϱϲϳϴϵ϶ϷϸϹϺϻϼϽϾϿ
+
+Cyrillic extensions
+ЀЁЂЃЄЅІЇЈЉЊЋЌЍЎЏBАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ
+абвгдежзийклмнопрстуфхцчшщъыьэюя
+CѐёђѓєѕіїјљњћќѝўџHѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵѶѷ
+
+ѸѹHѺѻѼѽѾѿҀҁH҂EҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұҲҳҴҵҶҷҸҹҺһ
+ҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎӏӐӑӒӓӔӕӖӗӘәӚӛӜӝӞӟӠӡӢӣӤӥӦӧӨөӪӫӬӭӮӯӰӱӲӳӴӵӶӷӸӹAӺӻӼӽӾӿ
+
+Runes/Runic
+ᚠᚡᚢᚣᚤᚥᚦᚧᚨᚩᚪᚫᚬᚭᚮᚯᚰᚱᚲᚳᚴᚵᚶᚷᚸᚹᚺᚻᚼᚽᚾᚿᛀᛁᛂᛃᛄᛅᛆᛇᛈᛉ
+ᛊᛋᛌᛍᛎᛏᛐᛑᛒᛓᛔᛕᛖᛗᛘᛙᛚᛛᛜᛝᛞᛟᛠᛡᛢᛣᛤᛥᛦᛧᛨᛩᛪ
+᛫᛬᛭ᛮᛯᛰᛱᛲᛳᛴᛵᛶᛷᛸ
+
+ᴀᴁᴂᴃᴄᴅᴆᴇᴈᴉᴊᴋᴌᴍᴎᴏᴐᴑᴒᴓᴔᴕᴖᴗᴘᴙᴚᴛᴜᴝᴞᴟᴠᴡᴢᴣᴤᴥᴦᴧᴨᴩᴪᴫ
+ᴬᴭᴮᴯᴰᴱᴲᴳᴴᴵᴶᴷᴸᴹᴺᴻᴼᴽᴾᴿᵀᵁᵂ
+ᵃᵄᵅᵆᵇᵈᵉᵊᵋᵌᵍᵎᵏᵐᵑᵒᵓᵔᵕᵖᵗᵘᵙᵚᵛ
+ᵜ
+ᵝᵞᵟᵠᵡ
+ᵢᵣᵤᵥ
+ᵦᵧᵨᵩᵪ
+ᵫᵬᵭᵮᵯᵰᵱᵲᵳᵴᵵᵶᵷᵸᵹᵺᵻᵼᵽᵾᵿ
+
+ᶀᶁᶂᶃᶄᶅᶆᶇᶈᶉᶊᶋᶌᶍᶎᶏᶐᶑᶒᶓᶔᶕᶖᶗᶘᶙᶚ
+ᶛᶜᶝᶞᶟᶠᶡᶢᶣᶤᶥᶦᶧᶨᶩᶪᶫᶬᶭᶮᶯᶰᶱᶲᶳᶴᶵᶶᶷᶸᶹᶺᶻᶼᶽᶾᶿ
+
+᷐᷎᷂᷊᷏᷹᷽᷿᷷᷸᷀᷁᷃᷄᷅᷆᷇᷈᷉᷋᷌᷑᷒ᷓᷔᷕᷖᷗᷘᷙᷚᷛᷜᷝᷞᷟᷠᷡᷢᷣᷤᷥᷦᷧᷨᷩᷪᷫᷬᷭᷮᷯᷰᷱᷲᷳᷴ᷵᷻᷾᷶᷼᷍
+
+ḀḁḂḃḄḅḆḇḈḉḊḋḌḍḎḏḐḑḒḓḔḕḖḗḘḙḚḛḜḝḞḟḠḡḢḣḤḥḦḧḨḩḪḫḬḭḮḯḰḱḲḳḴḵḶḷḸḹḺḻḼḽḾḿṀṁṂṃ
+ṄṅṆṇṈṉṊṋṌṍṎṏṐṑṒṓṔṕṖṗṘṙṚṛṜṝṞṟṠṡṢṣṤṥṦṧṨṩṪṫṬṭṮṯṰṱṲṳṴṵṶṷṸṹṺṻṼṽṾṿẀẁẂẃẄẅẆẇẈẉẊẋẌẍẎẏẐẑẒẓẔẕ
+
+ẖẗẘẙẚẛẜẝẞẟ
+ẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹỺỻỼỽỾỿ
+
+x1F00
+ἀἁἂἃἄἅἆἇἈἉἊἋἌἍἎἏἐἑἒἓἔἕἘἙἚἛἜἝἠἡἢἣἤἥἦἧἨἩἪἫἬἭἮἯἰἱἲἳἴἵἶἷ
+ἸἹἺἻἼἽἾἿὀὁὂὃὄὅὈὉὊὋὌὍὐὑὒὓὔὕὖὗὙὛὝὟὠὡὢὣὤὥὦὧὨὩὪὫὬὭὮὯ
+ὰάὲέὴήὶίὸόὺύὼώᾀᾁᾂᾃᾄᾅᾆᾇᾈᾉᾊᾋᾌᾍᾎᾏᾐᾑᾒᾓᾔᾕᾖᾗᾘᾙᾚᾛᾜᾝᾞᾟᾠᾡᾢᾣᾤᾥᾦᾧᾨᾩᾪᾫᾬᾭᾮᾯᾰᾱᾲᾳᾴᾶᾷ
+ᾸᾹᾺΆᾼ᾽ι᾿῀῁ῂῃῄῆῇῈΈῊΉῌ῍῎῏ῐῑῒΐῖῗῘῙῚΊ῝῞῟ῠῡῢΰῤῥῦῧῨῩῪΎῬ῭΅`ῲῳῴῶῷῸΌῺΏῼ´῾
+
+x2000
+␣␣␣␣␣␣␣␣␣␣␣⬚⬚⬚⬚⬚‐‑‒–—―‖‗‘’‚‛“”„‟†‡•‣․‥…‧␣␣⬚⬚⬚⬚⬚␣‰‱′″‴‵‶‷‸‹›※‼‽‾‿⁀⁁⁂⁃⁄⁅⁆⁇⁈⁉⁊⁋⁌⁍⁎⁏⁐⁑⁒⁓⁔⁕⁖⁗⁘⁙⁚⁛⁜⁝⁞␣⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚^␣␣␣␣␣␣␣␣␣␣␣⬚⬚⬚⬚⬚‐‑‒–—―‖‗‘’‚‛“”„‟†‡•‣․‥…‧␣␣⬚⬚⬚⬚⬚␣‰‱′″‴‵‶‷‸‹›※‼‽‾‿⁀⁁⁂⁃⁄⁅⁆⁇⁈⁉⁊⁋⁌⁍⁎⁏⁐⁑⁒⁓⁔⁕⁖⁗⁘⁙⁚⁛⁜⁝⁞␣⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚⬚
+
+x2070 superscripts
+⁰ⁱ██⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁿ
+
+subscripts
+₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎ₐₑₒₓₔₕₖₗₘₙₚₛₜ
+
+Currency
+₠₡₢₣₤₥₦₧₨₩₪₫€₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽₾₿
+
+Diacritics
+⃐ ⃑ ⃒ ⃓ ⃔ ⃕ ⃖ ⃗ ⃘ ⃙ ⃚ ⃛ ⃜ ⃝ ⃞ ⃟ ⃠ ⃡ ⃢ ⃣ ⃤ ⃥ ⃦ ⃧ ⃨ ⃩ ⃪ ⃫ ⃬ ⃭ ⃮ ⃯ ⃰
+
+℀℁ℂ℃℄℅℆ℇ℈℉
+
+ℊℋℌℍℎℏℐℑℒℓ℔ℕ№℗℘ℙℚℛℜℝ℞℟
+℠℡™
+℣ℤ℥Ω℧ℨ℩KÅℬℭ℮ℯℰℱℲℳℴ
+
+Hebrew letterlike math symbols
+ℵℶℷℸℹ℺
+
+x213B
+℻
+
+ℼℽℾℿ⅀⅁⅂⅃⅄ⅅⅆⅇⅈⅉ
+
+Additional letterlike symbols
+⅊⅋⅌⅍ⅎ⅏
+
+Fractions
+⅟⅐⅑⅒
+↉⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞
+↊↋
+
+Roman numerals
+ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫⅬⅭⅮⅯⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅺⅻⅼⅽⅾⅿↀↁↂↃↄↅↆↇↈ
+
+Arrows
+←↑→↓↔↕↖↗↘↙↚↛↜↝↞↟↠↡↢↣↤↥↦↧↨↩↪↫↬↭↮
+↯↰↱↲↳↴↵↶↷↸↹↺↻
+↼↽↾↿⇀⇁⇂⇃⇄⇅⇆⇇⇈⇉⇊⇋⇌
+⇍⇎⇏⇐⇑⇒⇓⇔⇕⇖⇗⇘⇙⇚⇛
+⇜⇝⇞⇟⇠⇡⇢⇣⇤⇥
+⇦⇧⇨⇩⇪⇫⇬⇭⇮⇯⇰
+⇱⇲⇳⇴⇵⇶
+⇷⇸⇹⇺⇻⇼⇽⇾⇿
+
+x2200
+Math
+∀∁∂∃∄∅∆∇∈∉∊∋∌∍∎∏∐∑−∓∔∕∖∗∘∙√∛∜∝∞∟∠∡∢∣∤∥∦∧∨∩∪∫∬∭∮∯∰∱∲∳∴∵∶∷∸∹∺∻∼∽∾∿≀≁≂≃≄≅≆≇≈≉≊≋≌≍≎≏≐≑≒≓≔≕≖≗≘≙≚≛≜≝≞≟≠≡≢≣≤≥≦≧≨≩≪≫≬≭≮≯≰≱≲≳≴≵≶≷≸≹≺≻≼≽≾≿⊀⊁⊂⊃⊄⊅⊆⊇⊈⊉⊊⊋⊌⊍⊎⊏⊐⊑⊒⊓⊔⊕⊖⊗⊘⊙⊚⊛⊜⊝⊞⊟⊠⊡⊢⊣⊤⊥⊦⊧⊨⊩⊪⊫⊬⊭⊮⊯⊰⊱⊲⊳⊴⊵⊶⊷⊸⊹⊺⊻⊼⊽⊾⊿⋀⋁⋂⋃⋄⋅⋆⋇⋈⋉⋊⋋⋌⋍⋎⋏⋐⋑⋒⋓⋔⋕⋖⋗⋘⋙⋚⋛⋜⋝⋞⋟⋠⋡⋢⋣⋤⋥⋦⋧⋨⋩⋪⋫⋬⋭⋮⋯⋰⋱⋲⋳⋴⋵⋶⋷⋸⋹⋺⋻⋼⋽⋾⋿
+
+x2300
+Miscellaneous technical
+⌀⌁⌂⌃⌄⌅⌆⌇⌈⌉⌊⌋⌌⌍⌎⌏⌐⌑⌒⌓⌔⌕⌖⌗⌘⌙
+⌚⌛⌜⌝⌞⌟
+⌠
+⌡
+⌢⌣⌤⌥⌦⌧⌨〈〉⌫⌬
+
+Drafting symbols
+⌭⌮⌯⌰⌱⌲⌳⌴⌵
+
+APL
+⌶⌷⌸⌹⌺⌻⌼⌽⌾⌿⍀⍁⍂⍃⍄⍅⍆⍇⍈⍉⍊⍋⍌⍍⍎⍏⍐⍑⍒⍓⍔⍕⍖⍗⍘⍙⍚⍛⍜⍝⍞⍟⍠⍡⍢⍣⍤⍥⍦⍧⍨⍩⍪
+⍫⍬⍭⍮⍯⍰⍱⍲⍳⍴⍵⍶⍷⍸⍹⍺⍻⍼⍽⍾⍿⎀⎁⎂⎃⎄⎅⎆⎇⎈⎉⎊⎋⎌⎍⎎⎏⎐⎑⎒⎓⎔⎕
+
+Keyboard symbols from ISO 9995-7
+⎖⎗⎘⎙⎚
+
+Bracket pieces
+⎛ LEFT PARENTHESIS UPPER HOOK
+⎜ LEFT PARENTHESIS EXTENSION
+⎝ LEFT PARENTHESIS LOWER HOOK
+⎞ RIGHT PARENTHESIS UPPER HOOK
+⎟ RIGHT PARENTHESIS EXTENSION
+⎠ RIGHT PARENTHESIS LOWER HOOK
+⎡ LEFT SQUARE BRACKET UPPER CORNER
+⎢ LEFT SQUARE BRACKET EXTENSION
+⎣ LEFT SQUARE BRACKET LOWER CORNER
+⎤ RIGHT SQUARE BRACKET UPPER CORNER
+⎥ RIGHT SQUARE BRACKET EXTENSION
+⎦ RIGHT SQUARE BRACKET LOWER CORNER
+⎧ LEFT CURLY BRACKET UPPER HOOK
+⎨ LEFT CURLY BRACKET MIDDLE PIECE
+⎩ LEFT CURLY BRACKET LOWER HOOK
+⎪ CURLY BRACKET EXTENSION
+⎫ RIGHT CURLY BRACKET UPPER HOOK
+⎬ RIGHT CURLY BRACKET MIDDLE PIECE
+⎭ RIGHT CURLY BRACKET LOWER HOOK
+⎮ INTEGRAL EXTENSION
+⎯ HORIZONTAL LINE EXTENSION
+⎰ UPPER LEFT OR LOWER RIGHT CURLY BRACKET SECTION
+⎱ UPPER RIGHT OR LOWER LEFT CURLY BRACKET SECTION
+
+⎲ SUMMATION TOP
+⎳ SUMMATION BOTTOM
+
+Horizontal brackets
+⎴⎵⎶⎷⎸⎹⎺⎻⎼⎽⎾⎿⏀⏁⏂⏃⏄⏅⏆⏇⏈⏉⏊⏋⏌⏍⏎⏏⏐
+
+Metrical symbols
+⏑⏒⏓⏔⏕⏖⏗⏘⏙
+
+Electrotechnical symbols
+⏚⏛
+
+Horizontal brackets
+⏜⏝⏞⏟⏠⏡⏢⏣⏤⏥⏦⏧
+⏨
+⏩⏪⏫⏬⏭⏮⏯
+⏰⏱⏲⏳
+⏴⏵⏶⏷⏸⏹⏺
+
+⏻⏼⏽⏾
+
+⏿ OBSERVER EYE
+
+x2500
+Numbers [some of these cut/paste from other places]
+⓪①②③④⑤⑥⑦⑧⑨⑩
+⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳
+⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇
+⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛
+⒜⒝⒞⒟⒠⒡⒢⒣⒤⒥⒦⒧⒨⒩⒪⒫⒬⒭⒮⒯⒰⒱⒲⒳⒴⒵
+ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ
+ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ
+
+➀➁➂➃➄➅➆➇➈➉
+⓵⓶⓷⓸⓹⓺⓻⓼⓽⓾
+⓿❶❷❸❹❺❻❼❽❾❿
+➊➋➌➍➎➏➐➑➒➓
+⓫⓬⓭⓮⓯⓰⓱⓲⓳⓴
 
 Squares
-1F78C 🞌 BLACK TINY SQUARE
-1F78D 🞍 BLACK SLIGHTLY SMALL SQUARE
-1F78E 🞎 LIGHT WHITE SQUARE
-1F78F 🞏 MEDIUM WHITE SQUARE
-1F790 🞐 BOLD WHITE SQUARE
-1F791 🞑 HEAVY WHITE SQUARE
-1F792 🞒 VERY HEAVY WHITE SQUARE
-1F793 🞓 EXTREMELY HEAVY WHITE SQUARE
-1F794 🞔 WHITE SQUARE CONTAINING BLACK VERY SMALL SQUARE
-1F795 🞕 WHITE SQUARE CONTAINING BLACK MEDIUM SQUARE
-1F796 🞖 SQUARE TARGET
+■□▢▣▤▥▦▧▨▩▪▫⬜
 
-Diamonds
-1F797 🞗 BLACK TINY DIAMOND
-1F798 🞘 BLACK VERY SMALL DIAMOND
-1F799 🞙 BLACK MEDIUM SMALL DIAMOND
-1F79A 🞚 WHITE DIAMOND CONTAINING BLACK VERY SMALL DIAMOND
-1F79B 🞛 WHITE DIAMOND CONTAINING BLACK MEDIUM DIAMOND
-1F79C 🞜 DIAMOND TARGET
+Weather
+☀ BLACK SUN RAYS
+☁ CLOUD
+☂ UMBRELLA
+☃ SNOWMAN
+☄ COMET
+★ BLACK STAR
+☆ WHITE STAR
+☇ LIGHTNING
+☈ THUNDERSTORM
+☉ SUN
+☊ ASCENDING NODE
+☋ DESCENDING NODE
+☌ CONJUNCTION
+☍ OPPOSITION
 
-Lozenges
-1F79D 🞝 BLACK TINY LOZENGE
-1F79E 🞞 BLACK VERY SMALL LOZENGE
-1F79F 🞟 BLACK MEDIUM SMALL LOZENGE
-1F7A0 🞠 WHITE LOZENGE CONTAINING BLACK SMALL LOZENGE
+Miscellaneous
+☎☏ PHONE
+☐☑☒ BALLOT
+☓ SALTIRE
+☔ UMBRELLA RAIN DROPS
+☕ HOT BEVERAGE
+☖ WHITE SHOGI PIECE
+☗ BLACK SHOGI PIECE
+☘ SHAMROCK
+☙ REVERSED ROTATED FLORAL HEART BULLET
 
-Greek crosses
-1F7A1 🞡 THIN GREEK CROSS
-1F7A2 🞢 LIGHT GREEK CROSS
-1F7A3 🞣 MEDIUM GREEK CROSS
-1F7A4 🞤 BOLD GREEK CROSS
-1F7A5 🞥 VERY BOLD GREEK CROSS
-1F7A6 🞦 VERY HEAVY GREEK CROSS
-1F7A7 🞧 EXTREMELY HEAVY GREEK CROSS
+fingers/hands
+☚☛☜☝☞☟
 
-Saltires
-1F7A8 🞨 THIN SALTIRE
-1F7A9 🞩 LIGHT SALTIRE
-1F7AA 🞪 MEDIUM SALTIRE
-1F7AB 🞫 BOLD SALTIRE
-1F7AC 🞬 HEAVY SALTIRE
-1F7AD 🞭 VERY HEAVY SALTIRE
-1F7AE 🞮 EXTREMELY HEAVY SALTIRE
+Warning
+☠☡☢☣
 
-Five spoked asterisks
-1F7AF 🞯 LIGHT FIVE SPOKED ASTERISK
-1F7B0 🞰 MEDIUM FIVE SPOKED ASTERISK
-1F7B1 🞱 BOLD FIVE SPOKED ASTERISK
-1F7B2 🞲 HEAVY FIVE SPOKED ASTERISK
-1F7B3 🞳 VERY HEAVY FIVE SPOKED ASTERISK
-1F7B4 🞴 EXTREMELY HEAVY FIVE SPOKED ASTERISK
+Medical and healing
+☤ CADUCEUS
+☥ ANKH
 
-Six spoked asterisks
-1F7B5 🞵 LIGHT SIX SPOKED ASTERISK
-1F7B6 🞶 MEDIUM SIX SPOKED ASTERISK
-1F7B7 🞷 BOLD SIX SPOKED ASTERISK
-1F7B8 🞸 HEAVY SIX SPOKED ASTERISK
-1F7B9 🞹 VERY HEAVY SIX SPOKED ASTERISK
-1F7BA 🞺 EXTREMELY HEAVY SIX SPOKED ASTERISK
-Eight spoked asterisks
-1F7BB 🞻 LIGHT EIGHT SPOKED ASTERISK
-1F7BC 🞼 MEDIUM EIGHT SPOKED ASTERISK
-1F7BD 🞽 BOLD EIGHT SPOKED ASTERISK
-1F7BE 🞾 HEAVY EIGHT SPOKED ASTERISK
-1F7BF 🞿 VERY HEAVY EIGHT SPOKED ASTERISK
-Three pointed stars
-1F7C0 🟀 LIGHT THREE POINTED BLACK STAR
-1F7C1 🟁 MEDIUM THREE POINTED BLACK STAR
-1F7C2 🟂 THREE POINTED BLACK STAR
-1F7C3 🟃 MEDIUM THREE POINTED PINWHEEL STAR
-Four pointed stars
-1F7C4 🟄 LIGHT FOUR POINTED BLACK STAR
-1F7C5 🟅 MEDIUM FOUR POINTED BLACK STAR
-1F7C6 🟆 FOUR POINTED BLACK STAR
-1F7C7 🟇 MEDIUM FOUR POINTED PINWHEEL STAR
-1F7C8 🟈 REVERSE LIGHT FOUR POINTED PINWHEEL STAR
+Religious and political
+☦ ORTHODOX CROSS
+☧ CHI RHO
+☨ CROSS OF LORRAINE
+☩ CROSS OF JERUSALEM
+☪ STAR AND CRESCENT
+☫ FARSI
+☬ ADI SHAKTI
+☭ HAMMER AND SICKLE
+☮ PEACE
+☯ YIN YANG
 
-Five pointed stars
-1F7C9 🟉 LIGHT FIVE POINTED BLACK STAR
-1F7CA 🟊 HEAVY FIVE POINTED BLACK STAR
+Miscellaneous
+☸ WHEEL OF DHARMA
 
-Six pointed stars
-1F7CB 🟋 MEDIUM SIX POINTED BLACK STAR
-1F7CC 🟌 HEAVY SIX POINTED BLACK STAR
-1F7CD 🟍 SIX POINTED PINWHEEL STAR
-Eight pointed stars
-Constitute a set as follows: 2735, 1F7CE-1F7D1
-1F7CE 🟎 MEDIUM EIGHT POINTED BLACK STAR
-1F7CF 🟏 HEAVY EIGHT POINTED BLACK STAR
-1F7D0 🟐 VERY HEAVY EIGHT POINTED BLACK STAR
-1F7D1 🟑 HEAVY EIGHT POINTED PINWHEEL STAR
-Twelve pointed stars
-Constitute a set as follows: 1F7D2, 2739, 1F7D3, and 1F7D4
-1F7D2 🟒 LIGHT TWELVE POINTED BLACK STAR
-1F7D3 🟓 HEAVY TWELVE POINTED BLACK STAR
-1F7D4 🟔 HEAVY TWELVE POINTED PINWHEEL STAR
-Go stone markers
-1F7D5 🟕 CIRCLED TRIANGLE
-1F7D6 🟖 NEGATIVE CIRCLED TRIANGLE
-1F7D7 🟗 CIRCLED SQUARE
-1F7D8 🟘 NEGATIVE CIRCLED SQUARE
-Colored circles
-For use with emoji. Constitute a set as follows: 26AA, 26AB, 1F534, 1F535, 1F7E0-1F7E4
-1F7E0 🟠 LARGE ORANGE CIRCLE
-1F7E1 🟡 LARGE YELLOW CIRCLE
-1F7E2 🟢 LARGE GREEN CIRCLE
-1F7E3 🟣 LARGE PURPLE CIRCLE
-1F7E4 🟤 LARGE BROWN CIRCLE
-Colored squares
-For use with emoji. Constitute a set as follows: 2B1C, 2B1B, 1F7E5-1F7EB
-1F7E5 🟥 LARGE RED SQUARE
-1F7E6 🟦 LARGE BLUE SQUARE
-1F7E7 🟧 LARGE ORANGE SQUARE
-1F7E8 🟨 LARGE YELLOW SQUARE
-1F7E9 🟩 LARGE GREEN SQUARE
-1F7EA 🟪 LARGE PURPLE SQUARE
-1F7EB 🟫 LARGE BROWN SQUARE
+Emoticons
+☹ WHITE FROWNING FACE
+☺ WHITE SMILING FACE
+☻ BLACK SMILING FACE
 
-= ----------------------------------------------------------------
-Typicon
-1F900 🤀 CIRCLED CROSS FORMEE WITH FOUR DOTS
-1F901 🤁 CIRCLED CROSS FORMEE WITH TWO DOTS
-1F902 🤂 CIRCLED CROSS FORMEE
-1F903 🤃 LEFT HALF CIRCLE WITH FOUR DOTS
-1F904 🤄 LEFT HALF CIRCLE WITH THREE DOTS
-1F905 🤅 LEFT HALF CIRCLE WITH TWO DOTS
-1F906 🤆 LEFT HALF CIRCLE WITH DOT
-1F907 🤇 LEFT HALF CIRCLE
-1F908 🤈 DOWNWARD FACING HOOK
-1F909 🤉 DOWNWARD FACING NOTCHED HOOK
-1F90A 🤊 DOWNWARD FACING HOOK WITH DOT
-1F90B 🤋 DOWNWARD FACING NOTCHED HOOK WITH DOT
+☼ WHITE SUN RAYS
+☽ FIRST QUARTER MOON
+☾ LAST QUARTER MOON
 
-Hearts
-1F90D 🤍 WHITE HEART
-1F90E 🤎 BROWN HEART
+☿ MERCURY
+♀ VENUS/FEMALE
+♁ EARTH
+♂ MARS/MALE
+♃ JUPITER
+♄ SATURN
+♅ URANUS
+♆ NEPTUNE
+♇ PLUTO
 
-Hand
-1F90F 🤏 PINCHING HAND
+Zodiac
+♈ ARIES
+♉ TAURUS
+♊ GEMINI
+♋ CANCER
+♌ LEO
+♍ VIRGO
+♎ LIBRA
+♏ SCORPIUS
+♐ SAGITTARIUS
+♑ CAPRICORN
+♒ AQUARIUS
+♓ PISCES
 
-Faces
-1F910 🤐 ZIPPER-MOUTH FACE
-1F911 🤑 MONEY-MOUTH FACE
-1F912 🤒 FACE WITH THERMOMETER
-1F913 🤓 NERD FACE
-1F914 🤔 THINKING FACE
-1F915 🤕 FACE WITH HEAD-BANDAGE
-1F916 🤖 ROBOT FACE
-1F917 🤗 HUGGING FACE
+Chess
+♔♕♖♗♘♙
+♚♛♜♝♞♟
 
-Hand
-1F918 🤘 SIGN OF THE HORNS
-1F919 🤙 CALL ME HAND
-1F91A 🤚 RAISED BACK OF HAND
-1F91B 🤛 LEFT-FACING FIST
-1F91C 🤜 RIGHT-FACING FIST
-1F91D 🤝 HANDSHAKE
-1F91E 🤞 HAND WITH INDEX AND MIDDLE FINGERS CROSSED
-1F91F 🤟 I LOVE YOU HAND SIGN
+Playing cards
+♠♡♢♣
+♤♥♦♧
 
-Faces
-1F920 🤠 FACE WITH COWBOY HAT
-1F921 🤡 CLOWN FACE
-1F922 🤢 NAUSEATED FACE
-1F923 🤣 ROLLING ON THE FLOOR LAUGHING
-1F924 🤤 DROOLING FACE
-1F925 🤥 LYING FACE
-1F926 🤦 FACE PALM
-1F927 🤧 SNEEZING FACE
-1F928 🤨 FACE WITH ONE EYEBROW RAISED
-1F929 🤩 GRINNING FACE WITH STAR EYES
-1F92A 🤪 GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE
-1F92B 🤫 FACE WITH FINGER COVERING CLOSED LIPS
-1F92C 🤬 SERIOUS FACE WITH COVERING MOUTH
-1F92D 🤭 SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH
-1F92E 🤮 FACE WITH OPEN MOUTH VOMITING
-1F92F 🤯 SHOCKED FACE WITH EXPLODING HEAD
+♨ HOT SPRINGS
 
-Portrait and role
-1F930 🤰 PREGNANT WOMAN
-1F931 🤱 BREAST-FEEDING
-1F932 🤲 PALMS UP TOGETHER
-1F933 🤳 SELFIE
-1F934 🤴 PRINCE
-1F935 🤵 MAN IN TUXEDO
-1F936 🤶 MOTHER CHRISTMAS
-1F937 🤷 SHRUG
+Music
+♩♪♫♬♭♮♯
+
+♰ WEST SYRIAC CROSS
+♱ EAST SYRIAC CROSS
+
+RECYCLING
+♲♳♴♵♶♷♸♹
+♺♻♼♽
+♾
+♿
+
+Dice
+⚀⚁⚂⚃⚄⚅
+
+Circles with dots
+⚆⚇⚈⚉
+
+Yin/Yang
+⚊⚋⚌⚍⚎⚏
+
+Dictionary and map
+⚐ WHITE FLAG
+⚑ BLACK FLAG
+⚒ HAMMER AND PICK
+⚓ ANCHOR
+⚔ CROSSED SWORDS
+⚕ STAFF OF AESCULAPIUS
+⚖ SCALES
+⚗ ALEMBIC
+⚘ FLOWER
+⚙ GEAR
+⚚ STAFF OF HERMES
+⚛ ATOM
+
+Miscellaneous
+⚜ FLEUR-DE-LIS
+⚝ OUTLINED WHITE STAR
+
+Symbols for closed captioning from ARIB STD B24
+⚞ THREE LINES CONVERGING RIGHT
+⚟ THREE LINES CONVERGING LEFT
+
+Miscellaneous
+⚠ WARNING SIGN
+⚡ HIGH VOLTAGE SIGN
+
+Gender
+⚢ DOUBLED FEMALE SIGN
+⚣ DOUBLED MALE SIGN
+⚤ INTERLOCKED FEMALE AND MALE SIGN
+⚥ MALE AND FEMALE SIGN
+⚦ MALE STROKE SIGN
+⚧ MALE STROKE AND MALE AND FEMALE SIGN
+⚨ VERTICAL MALE STROKE SIGN
+⚩ HORIZONTAL MALE STROKE SIGN
+
+Circles
+⚪ MEDIUM WHITE CIRCLE
+⚫ MEDIUM BLACK CIRCLE
+⚬ MEDIUM SMALL WHITE CIRCLE
+
+Genealogical
+⚭ MARRIAGE
+⚮ DIVORCE
+⚯ UNMARRIED PARTNERSHIP
+⚰ COFFIN
+⚱ FUNERAL URN
+
+Gender
+⚲ NEUTER
+
+Astrological signs
+⚳ CERES
+⚴ PALLAS
+⚵ JUNO
+⚶ VESTA
+⚷ CHIRON
+⚸ BLACK MOON LILITH
+
+Astrological aspects
+⚹ SEXTILE
+⚺ SEMISEXTILE
+⚻ QUINCUNX
+⚼ SESQUIQUADRATE
 
 Sport
-1F938 🤸 PERSON DOING CARTWHEEL
-1F939 🤹 JUGGLING
-1F93A 🤺 FENCER
-1F93B 🤻 MODERN PENTATHLON
-1F93C 🤼 WRESTLERS
-1F93D 🤽 WATER POLO
-1F93E 🤾 HANDBALL
-1F93F 🤿 DIVING MASK
+⚽ SOCCER BALL
+⚾ BASEBALL
 
-Miscellaneous
-1F940 🥀 WILTED FLOWER
-1F941 🥁 DRUM WITH DRUMSTICKS
-1F942 🥂 CLINKING GLASSES
-1F943 🥃 TUMBLER GLASS
-1F944 🥄 SPOON
-1F945 🥅 GOAL NET
-1F946 🥆 RIFLE
-1F947 🥇 FIRST PLACE MEDAL
-1F948 🥈 SECOND PLACE MEDAL
-1F949 🥉 THIRD PLACE MEDAL
-1F94A 🥊 BOXING GLOVE
-1F94B 🥋 MARTIAL ARTS UNIFORM
-1F94C 🥌 CURLING STONE
-1F94D 🥍 LACROSSE STICK AND BALL
-1F94E 🥎 SOFTBALL
-1F94F 🥏 FLYING DISC
+Miscellaneous from ARIB STD B24
+⚿ SQUARED KEY
 
-Food
-1F950 🥐 CROISSANT
-1F951 🥑 AVOCADO
-1F952 🥒 CUCUMBER
-1F953 🥓 BACON
-1F954 🥔 POTATO
-1F955 🥕 CARROT
-1F956 🥖 BAGUETTE BREAD
-1F957 🥗 GREEN SALAD
-1F958 🥘 SHALLOW PAN OF FOOD
-1F959 🥙 STUFFED FLATBREAD
-1F95A 🥚 EGG
-1F95B 🥛 GLASS OF MILK
-1F95C 🥜 PEANUTS
-1F95D 🥝 KIWIFRUIT
-1F95E 🥞 PANCAKES
-1F95F 🥟 DUMPLING
-1F960 🥠 FORTUNE COOKIE
-1F961 🥡 TAKEOUT BOX
-1F962 🥢 CHOPSTICKS
-1F963 🥣 BOWL WITH SPOON
-1F964 🥤 CUP WITH STRAW
-1F965 🥥 COCONUT
-1F966 🥦 BROCCOLI
-1F967 🥧 PIE
-1F968 🥨 PRETZEL
-1F969 🥩 CUT OF MEAT
-1F96A 🥪 SANDWICH
-1F96B 🥫 CANNED FOOD
-1F96C 🥬 LEAFY GREEN
-1F96D 🥭 MANGO
-1F96E 🥮 MOON CAKE
-1F96F 🥯 BAGEL
+Symbols for draughts and checkers
+⛀ WHITE DRAUGHTS MAN
+⛁ WHITE DRAUGHTS KING
+⛂ BLACK DRAUGHTS MAN
+⛃ BLACK DRAUGHTS KING
 
-Faces
-1F970 🥰 SMILING FACE WITH SMILING EYES AND THREE HEARTS
-1F971 🥱 YAWNING FACE
-1F973 🥳 FACE WITH PARTY HORN AND PARTY HAT
-1F974 🥴 FACE WITH UNEVEN EYES AND WAVY MOUTH
-1F975 🥵 OVERHEATED FACE
-1F976 🥶 FREEZING FACE
-1F97A 🥺 FACE WITH PLEADING EYES
+Weather from ARIB STD B24
+⛄ SNOWMAN WITHOUT SNOW
+⛅ SUN BEHIND CLOUD
+⛆ RAIN
+⛇ BLACK SNOWMAN
+⛈ THUNDER CLOUD AND RAIN
 
-Clothing
-1F97B 🥻 SARI
-1F97C 🥼 LAB COAT
-1F97D 🥽 GOGGLES
-1F97E 🥾 HIKING BOOT
-1F97F 🥿 FLAT SHOE
+Game from ARIB STD B24
+⛉ TURNED WHITE SHOGI PIECE
+⛊ TURNED BLACK SHOGI PIECE
+⛋ WHITE DIAMOND IN SQUARE
+
+Traffic signs from ARIB STD B24
+⛌ CROSSING LANES
+⛍ DISABLED CAR
+
+Zodiac
+⛎ OPHIUCHUS
+
+Traffic signs from ARIB STD B24
+⛏ PICK
+⛐ CAR SLIDING
+⛑ HELMET WHITE CROSS
+⛒ CIRCLED CROSSING LANES
+⛓ CHAINS
+⛔ NO ENTRY
+⛕ ALTERNATE ONE-WAY LEFT WAY TRAFFIC
+⛖ BLACK TWO-WAY LEFT WAY TRAFFIC
+⛗ WHITE TWO-WAY LEFT WAY TRAFFIC
+⛘ BLACK LEFT LANE MERGE
+⛙ WHITE LEFT LANE MERGE
+⛚ DRIVE SLOW SIGN
+⛛ HEAVY WHITE DOWN-POINTING TRIANGLE
+⛜ LEFT CLOSED ENTRY
+⛝ SQUARED SALTIRE
+⛞ FALLING DIAGONAL IN WHITE CIRCLE IN BLACK SQUARE
+⛟ BLACK TRUCK
+⛠ RESTRICTED LEFT ENTRY-1
+⛡ RESTRICTED LEFT ENTRY-2
+
+⛢⛣
+
+⛤⛥⛦⛧
+
+⛨ BLACK CROSS ON SHIELD
+⛩ SHINTO SHRINE
+⛪ CHURCH
+⛫ CASTLE
+⛬ HISTORIC SITE
+⛭ GEAR WITHOUT HUB
+⛮ GEAR HANDLES
+⛯ MAP FOR LIGHTHOUSE
+⛰ MOUNTAIN
+⛱ UMBRELLA ON GROUND
+⛲ FOUNTAIN
+⛳ FLAG IN HOLE
+⛴ FERRY
+⛵ SAILBOAT
+⛶ SQUARE FOUR CORNERS
+⛷ SKIER
+⛸ ICE SKATE
+⛹ PERSON BALL
+⛺ TENT
+⛻ JAPANESE BANK
+⛼ HEADSTONE GRAVEYARD
+⛽ FUEL PUMP
+⛾ CUP ON BLACK SQUARE
+⛿ WHITE FLAG HORIZONTAL MIDDLE BLACK STRIPE
+✀ BLACK SAFETY SCISSORS
+
+✁ UPPER BLADE SCISSORS
+✂ BLACK SCISSORS
+✃ LOWER BLADE SCISSORS
+✄ WHITE SCISSORS
+✅ WHITE HEAVY CHECK MARK
+✆ TELEPHONE LOCATION SIGN
+✇ TAPE DRIVE
+✈ AIRPLANE
+✉ ENVELOPE
+✊ RAISED FIST
+✋ RAISED HAND
+✌ VICTORY HAND
+✍ WRITING HAND
+✎ LOWER RIGHT PENCIL
+✏ PENCIL
+✐ UPPER RIGHT PENCIL
+✑ WHITE NIB
+✒ BLACK NIB
+
+✓✔
+✕✖✗✘
+✙✚✛✜
+✝✞✟✠
+
+Stars/Asterix
+✡✢✣✤✥✦✧✨
+✩✪✫✬✭✮✯✰
+✱✲✳✴✵✶✷✸✹✺
+✻✼✽✾✿❀❁❂❃❄❅❆❇❈❉❊❋❌
+❍❎❏❐❑❒❓❔❕❖❗❘❙❚
+❛❜❝❞❟❠
+
+Hearts
+❡❢❣❤❥❦❧
+❨❩❪❫❬❭❮❯❰❱❲❳❴❵
+
+Arrows
+➔➕➖➗➘➙➚➛➜➝➞➟➠➡➢➣➤➥➦➧➨➩➪➫➬➭➮➯➰➱➲➳➴➵➶➷➸➹➺➻➼➽➾➿
+
+Supplemental Mathematical Operators
+⨀⨁⨂⨃⨄⨅⨆⨇⨈⨉⨊⨋⨌⨍⨎⨏⨐⨑⨒⨓⨔⨕⨖⨗⨘⨙⨚⨛⨜⨝⨞⨟⨠⨡⨢⨣⨤⨥⨦⨧⨨⨩⨪⨫⨬⨭⨮⨯⨰⨱⨲⨳⨴⨵⨶⨷⨸⨹⨺⨻
+⨼⨽⨾⨿⩀⩁⩂⩃⩄⩅⩆⩇⩈⩉⩊⩋⩌⩍⩎⩏⩐L⩑⩒⩓⩔⩕⩖⩗⩘⩙⩚⩛⩜⩝⩞⩟⩠⩡⩢⩣⩤⩥⩦⩧⩨⩩⩪⩫⩬⩭⩮⩯⩰⩱⩲⩳⩴⩵⩶⩷⩸
+⩹⩺⩻⩼⩽⩾⩿⪀⪁⪂⪃⪄⪅⪆⪇⪈⪉⪊⪋⪌⪍⪎⪏⪐⪑⪒⪓⪔⪕⪖⪗⪘⪙⪚⪛⪜⪝⪞⪟⪠⪡⪢⪣⪤⪥⪦⪧⪨⪩⪪⪫⪬⪭⪮
+⪯⪰⪱⪲⪳⪴⪵⪶⪷⪸⪹⪺⪻⪼⪽⪾⪿⫀⫁⫂⫃⫄⫅⫆⫇⫈⫉⫊⫋⫌⫍⫎⫏⫐⫑⫒⫓⫔⫕⫖⫗⫘⫙⫚⫛⫝̸⫝
+⫞⫟⫠⫡⫢⫣⫤⫥⫦⫧⫨⫩⫪⫫⫬⫭⫮⫯⫰⫱⫲⫳⫴⫵⫶⫷⫸⫹⫺⫻⫼⫽⫾⫿
+
+Yijing Hexagram Symbols
+䷀䷁䷂䷃䷄䷅䷆䷇䷈䷉䷊䷋䷌䷍䷎䷏䷐䷑䷒䷓䷔䷕䷖䷗䷘䷙䷚䷛䷜䷝䷞䷟䷠䷡䷢䷣䷤䷥䷦䷧䷨䷩䷪䷫䷬䷭䷮䷯䷰䷱䷲䷳䷴䷵䷶䷷䷸䷹䷺䷻䷼䷽䷾䷿
+
+Yi radicals
+꒐꒑꒒꒓꒔꒕꒖꒗꒘꒙꒚꒛꒜꒝꒞꒟꒠꒡꒢꒣꒤꒥꒦꒧꒨꒩꒪꒫꒬꒭꒮꒯꒰꒱꒲꒳꒴꒵꒶꒷꒸꒹꒺꒻꒼꒽꒾꒿꓀꓁꓂꓃꓄꓅꓆
+
+Lisu
+ꓐꓑꓒꓓꓔꓕꓖꓗꓘꓙꓚꓛꓜꓝꓞꓟꓠꓡꓢꓣꓤꓥꓦꓧꓨꓩꓪꓫꓬꓭVꓮꓯꓰꓱꓲꓳꓴꓵꓶꓷTꓸꓹꓺꓻꓼꓽP꓾꓿
+
+Vai Syllables in -ee
+ꔀꔁꔂꔃꔄꔅꔆꔇꔈꔉꔊꔋꔌꔍꔎꔏꔐꔑꔒꔓꔔꔕꔖꔗꔘꔙꔚꔛꔜꔝꔞꔟꔠꔡꔢꔣ
+
+Syllables in -i
+ꔤꔥꔦꔧꔨꔩꔪꔫꔬꔭꔮꔯꔰꔱꔲꔳꔴꔵꔶꔷꔸꔹꔺꔻꔼꔽꔾꔿꕀꕁꕂꕃꕄꕅꕆꕇꕈ
+
+Syllables in -a
+ꕉꕊꕋꕌꕍꕎꕏꕐꕑꕒꕓꕔꕕꕖꕗꕘꕙꕚꕛꕜꕝꕞꕟꕠꕡꕢꕣꕤꕥꕦꕧꕨꕩꕪꕫꕬꕭꕮꕯꕰ
+
+Syllables in -oo
+ꕱꕲꕳꕴꕵꕶꕷꕸꕹꕺꕻꕼꕽꕾꕿꖀꖁꖂꖃꖄꖅꖆꖇꖈꖉꖊꖋꖌꖍꖎꖏꖐꖑꖒꖓꖔ
+
+Syllables in -u
+ꖕꖖꖗꖘꖙꖚꖛꖜꖝꖞꖟꖠꖡꖢꖣꖤꖥꖦꖧꖨꖩꖪꖫꖬꖭꖮꖯꖰꖱꖲꖳꖴꖵꖶꖷꖸꖹ
+
+Syllables in -o
+ꖺꖻꖼꖽꖾꖿꗀꗁꗂꗃꗄꗅꗆꗇꗈꗉꗊꗋꗌꗍꗎꗏꗐꗑꗒꗓꗔꗕꗖꗗꗘꗙꗚꗛꗜꗝꗞꗟꗠ
+
+Syllables in -e
+ꗡꗢꗣꗤꗥꗦꗧꗨꗩꗪꗫꗬꗭꗮꗯꗰꗱꗲꗳꗴꗵꗶꗷꗸꗹꗺꗻꗼꗽꗾꗿꘀꘁꘂꘃꘄꘅꘆꘇꘈꘉꘊꘋꘌ꘍꘎꘏ꘐꘑꘒꘓꘔꘕꘖꘗꘘꘙꘚꘛꘜꘝꘞꘟ꘠꘡꘢꘣꘤꘥꘦꘧꘨꘩ꘪꘫ
+
+Cyrillic Extended-B Letters for Old Cyrillic
+ꙀꙁꙂꙃꙄꙅꙆꙇꙈꙉꙊꙋꙌꙍꙎꙏꙐꙑꙒꙓꙔꙕꙖꙗꙘꙙꙚꙛꙜꙝꙞꙟꙠꙡꙢꙣꙤꙥꙦꙧꙨꙩꙪꙫꙬꙭꙮ
+ACP꙳CP꙾MꙿL
+ꚀꚁꚂꚃꚄꚅꚆꚇꚈꚉꚊꚋꚌꚍꚎꚏꚐꚑꚒꚓꚔꚕꚖꚗLꚘꚙꚚꚛIꚜꚝC
+
+Latin Extended-D Additions for UPA
+꜠꜡ꜢꜣꜤꜥꜦꜧꜨꜩꜪꜫꜬꜭꜮꜯꜰꜱ
+ꜲꜳꜴꜵꜶꜷꜸꜹꜺꜻꜼꜽꜾꜿꝀꝁꝂꝃꝄꝅꝆꝇꝈꝉꝊꝋꝌꝍꝎꝏꝐꝑꝒꝓꝔꝕꝖꝗꝘꝙꝚꝛꝜꝝꝞꝟꝠꝡꝢꝣꝤꝥꝦꝧꝨꝩꝪꝫꝬꝭꝮꝯꝰ
+ꝱꝲꝳꝴꝵꝶꝷꝸ
+ꝹꝺꝻꝼꝽꝾꝿꞀꞁꞂꞃꞄꞅꞆꞇ
+ꞈ꞉꞊ꞋꞌꞍꞎꞏꞐꞑ
+ꞒꞓꞔꞕꞖꞗꞘꞙꞚꞛꞜꞝꞞꞟꞠꞡꞢꞣꞤꞥꞦꞧꞨꞩꞪꞫꞬꞭꞮꞯꞰꞱꞲꞳꞴꞵꞶꞷꞸꞹ
+
+Letters for Ugaritic and Egyptological transliteration
+ꞺꞻꞼꞽꞾꞿꟂꟃꟄꟅꟆꟷꟸꟹꟺꟻꟼꟽꟾꟿ
+
+Phaistos Disc
+𐇐 PEDESTRIAN
+𐇑 PLUMED HEAD
+𐇒 TATTOOED HEAD
+𐇓 CAPTIVE
+𐇔 CHILD
+𐇕 WOMAN
+𐇖 HELMET
+𐇗 GAUNTLET
+𐇘 TIARA
+𐇙 ARROW
+𐇚 BOW
+𐇛 SHIELD
+𐇜 CLUB
+𐇝 MANACLES
+𐇞 MATTOCK
+𐇟 SAW
+𐇠 LID
+𐇡 BOOMERANG
+𐇢 CARPENTRY PLANE
+𐇣 DOLIUM
+𐇤 COMB
+𐇥 SLING
+𐇦 COLUMN
+𐇧 BEEHIVE
+𐇨 SHIP
+𐇩 HORN
+𐇪 HIDE
+𐇫 BULLS LEG
+𐇬 CAT
+𐇭 RAM
+𐇮 EAGLE
+𐇯 DOVE
+𐇰 TUNNY
+𐇱 BEE
+𐇲 PLANE TREE
+𐇳 VINE
+𐇴 PAPYRUS
+𐇵 ROSETTE
+𐇶 LILY
+𐇷 OX BACK
+𐇸 FLUTE
+𐇹 GRATER
+𐇺 STRAINER
+𐇻 SMALL AXE
+𐇼 WAVY BAND
+𐇽 OBLIQUE STROKE
+
+Old Italic
+𐌀𐌁𐌂𐌃𐌄𐌅𐌆𐌇𐌈𐌉𐌊𐌋𐌌𐌍𐌎𐌏𐌐𐌑𐌒𐌓𐌔𐌕𐌖𐌗𐌘𐌙𐌚𐌛𐌜𐌝𐌞𐌟𐌠𐌡𐌢𐌣𐌭𐌮𐌯
+
+Weather, landscape, and sky
+🌀 CYCLONE
+🌁 FOGGY
+🌂 CLOSED UMBRELLA
+🌃 NIGHT STARS
+🌄 SUNRISE OVER MOUNTAINS
+🌅 SUNRISE
+🌆 CITYSCAPE AT DUSK
+🌇 SUNSET OVER BUILDINGS
+🌈 RAINBOW
+🌉 BRIDGE AT NIGHT
+🌊 WATER WAVE
+🌋 VOLCANO
+🌌 MILKY WAY
+🌍 EARTH GLOBE EUROPE-AFRICA
+🌎 EARTH GLOBE AMERICAS
+🌏 EARTH GLOBE ASIA-AUSTRALIA
+🌐 GLOBE MERIDIANS
+MOON
+🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜🌝
+🌞 SUN FACE
+🌟🌠 STAR
+🌡 THERMOMETER
+🌢 DROPLET
+🌣🌤🌥🌦🌧🌨🌩🌪 SUN/CLOUD
+🌫 FOG
+🌬 WIND
+
+Food and plant
+🌭 HOT DOG
+🌮 TACO
+🌯 BURRITO
+🌰 CHESTNUT
+🌱 SEEDLING
+🌲 EVERGREEN TREE
+🌳
+🌴 PALM TREE
+🌵 CACTUS
+🌶 HOT PEPPER
+🌷 TULIP
+🌸 CHERRY BLOSSOM
+🌹 ROSE
+🌺 HIBISCUS
+🌻 SUNFLOWER
+🌼 BLOSSOM
+🌽 EAR OF MAIZE
+🌾 EAR OF RICE
+
+LEAF
+🌿🍀🍁🍂🍃
+
+🍄 MUSHROOM
+🍅 TOMATO
+🍆 EGGPLANT/AUBERGINE
+🍇 GRAPES
+🍈 MELON
+🍉 WATERMELON
+🍊 TANGERINE
+🍋 LEMON
+🍌 BANANA
+🍍 PINEAPPLE
+🍎 RED APPLE
+🍏 GREEN APPLE
+🍐 PEAR
+🍑 PEACH
+🍒 CHERRIES
+🍓 STRAWBERRY
+🍔 HAMBURGER
+🍕 SLICE OF PIZZA
+🍖 MEAT ON BONE
+🍗 POULTRY LEG
+🍘 RICE CRACKER
+🍙 RICE BALL
+🍚 COOKED RICE
+🍛 CURRY AND RICE
+🍜 STEAMING BOWL
+🍝 SPAGHETTI
+🍞 BREAD
+🍟 FRENCH FRIES
+🍠 ROASTED SWEET POTATO
+🍡 DANGO
+🍢 ODEN
+🍣 SUSHI
+🍤 FRIED SHRIMP
+🍥 FISH CAKE SWIRL DESIGN
+🍦 SOFT ICE CREAM
+🍧 SHAVED ICE
+🍨 ICE CREAM
+🍩 DOUGHNUT
+🍪 COOKIE
+🍫 CHOCOLATE BAR
+🍬 CANDY
+🍭 LOLLIPOP
+🍮 CUSTARD
+🍯 HONEY POT
+🍰 SHORTCAKE
+🍱 BENTO BOX
+🍲 POT OF FOOD
+🍳 COOKING
+🍴 FORK AND KNIFE
+🍵 TEACUP WITHOUT HANDLE
+🍶 SAKE BOTTLE AND CUP
+🍷 WINE GLASS
+🍸 COCKTAIL GLASS
+🍹 TROPICAL DRINK
+🍺 BEER MUG
+🍻 CLINKING BEER MUGS
+🍼 BABY BOTTLE
+🍽 FORK AND KNIFE PLATE
+🍾 BOTTLE POPPING CORK
+🍿 POPCORN
+
+CELEBRATION
+🎀 RIBBON
+🎁 WRAPPED PRESENT
+🎂 BIRTHDAY CAKE
+🎃 JACK-O-LANTERN
+🎄 CHRISTMAS TREE
+🎅 FATHER CHRISTMAS
+🎆 FIREWORKS
+🎇 FIREWORK SPARKLER
+🎈 BALLOON
+🎉 PARTY POPPER
+🎊 CONFETTI BALL
+🎋 TANABATA TREE
+🎌 CROSSED FLAGS
+🎍 PINE DECORATION
+🎎 JAPANESE DOLLS
+🎏 CARP STREAMER
+🎐 WIND CHIME
+🎑 MOON VIEWING CEREMONY
+🎒 SCHOOL SATCHEL
+🎓 GRADUATION CAP
+🎔 HEART TIP ON THE LEFT
+🎕 BOUQUET OF FLOWERS
+🎖 MILITARY MEDAL
+🎗 REMINDER RIBBON
+
+Entertainment
+🎘 MUSICAL KEYBOARD JACKS
+🎙 STUDIO MICROPHONE
+🎚 LEVEL SLIDER
+🎛 CONTROL KNOBS
+🎜 BEAMED ASCENDING MUSICAL NOTES
+🎝 BEAMED DESCENDING MUSICAL NOTES
+🎞 FILM FRAMES
+🎟 ADMISSION TICKETS
+🎠 CAROUSEL HORSE
+🎡 FERRIS WHEEL
+🎢 ROLLER COASTER
+🎣 FISHING POLE AND FISH
+🎤 MICROPHONE
+🎥 MOVIE CAMERA
+🎦 CINEMA
+🎧 HEADPHONE
+🎨 ARTIST PALETTE
+🎩 TOP HAT
+🎪 CIRCUS TENT
+🎫 TICKET
+🎬 CLAPPER BOARD
+🎭 PERFORMING ARTS
+
+Game
+🎮 VIDEO GAME
+🎯 DIRECT HIT
+🎰 SLOT MACHINE
+🎱 BILLIARDS
+🎲 GAME DIE
+🎳 BOWLING
+🎴 FLOWER PLAYING CARDS
+
+Music
+🎵🎶🎷🎸🎹🎺🎻🎼
+
+Sport
+🎽 RUNNING SHIRT SASH
+🎾 TENNIS RACQUET AND BALL
+🎿 SKI AND SKI BOOT
+🏀 BASKETBALL AND HOOP
+🏁 CHEQUERED FLAG
+🏂 SNOWBOARDER
+🏃 RUNNER
+🏄 SURFER
+🏅 SPORTS MEDAL
+🏆 TROPHY
+🏇 HORSE RACING
+🏈 AMERICAN FOOTBALL
+🏉 RUGBY FOOTBALL
+🏊 SWIMMER
+🏋 WEIGHT LIFTER
+🏌 GOLFER
+🏍 RACING MOTORCYCLE
+🏎 RACING CAR
+🏏 CRICKET BAT AND BALL
+🏐 VOLLEYBALL
+🏑 FIELD HOCKEY STICK AND BALL
+🏒 ICE HOCKEY STICK AND PUCK
+🏓 TABLE TENNIS PADDLE AND BALL
+
+Building and map
+🏔 SNOW CAPPED MOUNTAIN
+🏕 CAMPING
+🏖 BEACH UMBRELLA
+🏗 BUILDING CONSTRUCTION
+🏘 HOUSE BUILDINGS
+🏙 CITYSCAPE
+🏚 DERELICT HOUSE BUILDING
+🏛 CLASSICAL BUILDING
+🏜 DESERT
+🏝 DESERT ISLAND
+🏞 NATIONAL PARK
+🏟 STADIUM
+🏠 HOUSE BUILDING
+🏡 HOUSE GARDEN
+🏢 OFFICE BUILDING
+🏣 JAPANESE POST OFFICE
+🏤 EUROPEAN POST OFFICE
+🏥 HOSPITAL
+🏦 BANK
+🏧 AUTOMATED TELLER MACHINE
+🏨 HOTEL
+🏩 LOVE HOTEL
+🏪 CONVENIENCE STORE
+🏫 SCHOOL
+🏬 DEPARTMENT STORE
+🏭 FACTORY
+🏮 IZAKAYA LANTERN
+🏯 JAPANESE CASTLE
+🏰 EUROPEAN CASTLE
+🏱 WHITE PENNANT
+🏲 BLACK PENNANT
+🏳 WAVING WHITE FLAG
+🏴 WAVING BLACK FLAG
+🏵 ROSETTE
+🏶 BLACK ROSETTE
+🏷 LABEL
+🏸 BADMINTON RACQUET AND SHUTTLECOCK
+🏹 BOW AND ARROW
+🏺 AMPHORA
+
+Emoji FITZPATRICK modifiers
+🏻🏼🏽🏾🏿
 
 Animal
-1F980 🦀 CRAB
-1F981 🦁 LION FACE
-1F982 🦂 SCORPION
-1F983 🦃 TURKEY
-1F984 🦄 UNICORN FACE
-1F985 🦅 EAGLE
-1F986 🦆 DUCK
-1F987 🦇 BAT
-1F988 🦈 SHARK
-1F989 🦉 OWL
-1F98A 🦊 FOX FACE
-1F98B 🦋 BUTTERFLY
-1F98C 🦌 DEER
-1F98D 🦍 GORILLA
-1F98E 🦎 LIZARD
-1F98F 🦏 RHINOCEROS
-1F990 🦐 SHRIMP
-1F991 🦑 SQUID
-1F992 🦒 GIRAFFE FACE
-1F993 🦓 ZEBRA FACE
-1F994 🦔 HEDGEHOG
-1F995 🦕 SAUROPOD
-1F996 🦖 T-REX
-1F997 🦗 CRICKET
-1F998 🦘 KANGAROO
-1F999 🦙 LLAMA
-1F99A 🦚 PEACOCK
-1F99B 🦛 HIPPOPOTAMUS
-1F99C 🦜 PARROT
-1F99D 🦝 RACCOON
-1F99E 🦞 LOBSTER
-1F99F 🦟 MOSQUITO
-1F9A0 🦠 MICROBE
-1F9A1 🦡 BADGER
-1F9A2 🦢 SWAN
-1F9A5 🦥 SLOTH
-1F9A6 🦦 OTTER
-1F9A7 🦧 ORANGUTAN
-1F9A8 🦨 SKUNK
-1F9A9 🦩 FLAMINGO
-1F9AA 🦪 OYSTER
-1F9AB 🦫
-1F9AC 🦬
-1F9AD 🦭
+🐀🐁🐂🐃🐄🐅🐆🐇🐈🐉🐊🐋🐌🐍🐎🐏🐐🐑🐒🐓🐔🐕🐖🐗🐘
+🐙🐚🐛🐜🐝🐞🐟🐠🐡🐢🐣🐤🐥🐦🐧🐨🐩🐪🐫🐬
 
-Accessibility
-1F9AE 🦮 GUIDE DOG
-1F9AF 🦯 PROBING CANE
+Animal faces
+🐭🐮🐯🐰🐱🐲🐳🐴🐵🐶🐷🐸🐹🐺🐻🐼🐽🐾🐿
 
-1F9B0 🦰 EMOJI COMPONENT RED HAIR
-1F9B1 🦱 EMOJI COMPONENT CURLY HAIR
-1F9B2 🦲 EMOJI COMPONENT BALD
-1F9B3 🦳 EMOJI COMPONENT WHITE HAIR
+Facial/Face parts
+👀👁 👂👃👄👅
 
-Body parts
-1F9B4 🦴 BONE
-1F9B5 🦵 LEG
-1F9B6 🦶 FOOT
-1F9B7 🦷 TOOTH
+Hands
+👆👇👈👉👊👋👌👍👎👏👐
+
+Clothing and accessories
+👑👒👓👔
+👕👖👗👘👙👚
+👛👜👝
+👞👟👠👡👢👣
+👤👥
+👦👧👨👩
+👪👫👬👭
+👮👯👰👱👲👳👴👵👶👷
+
+Fairy tale
+👸👹👺👻👼👽👾👿💀
 
 Role
-1F9B8 🦸 SUPERHERO
-1F9B9 🦹 SUPERVILLAIN
+💁💂💃
+Personal care
+💄💅💆💇💈
 
-Accessibility
-1F9BA 🦺 SAFETY VEST
-1F9BB 🦻 EAR WITH HEARING AID
-1F9BC 🦼 MOTORIZED WHEELCHAIR
-1F9BD 🦽 MANUAL WHEELCHAIR
-1F9BE 🦾 MECHANICAL ARM
-1F9BF 🦿 MECHANICAL LEG
+Medical
+💉💊
 
-Food
-1F9C0 🧀 CHEESE WEDGE
-1F9C1 🧁 CUPCAKE
-1F9C2 🧂 SALT SHAKER
-1F9C3 🧃 BEVERAGE BOX
-1F9C4 🧄 GARLIC
-1F9C5 🧅 ONION
-1F9C6 🧆 FALAFEL
-1F9C7 🧇 WAFFLE
-1F9C8 🧈 BUTTER
-1F9C9 🧉 MATE DRINK
-1F9CA 🧊 ICE CUBE
-1F9CB 🧋
-1F9CC 🧌
+Romance
+💋💌💍💎💏💐💑💒
 
-Portrait and accessibility
-1F9CD 🧍 STANDING PERSON
-1F9CE 🧎 KNEELING PERSON
-1F9CF 🧏 DEAF PERSON
+Heart
+💓💔💕💖💗💘💙💚💛💜💝💞💟
 
-Portrait and role
-1F9D0 🧐 FACE WITH MONOCLE
-1F9D1 🧑 ADULT
-1F9D2 🧒 CHILD
-1F9D3 🧓 OLDER ADULT
-1F9D4 🧔 BEARDED PERSON
-1F9D5 🧕 PERSON WITH HEADSCARF
-1F9D6 🧖 PERSON IN STEAMY ROOM
-1F9D7 🧗 PERSON CLIMBING
-1F9D8 🧘 PERSON IN LOTUS POSITION
+Comic style
+💠💡💢💣💤
+💥💦💧💨💩💪
+💫💬💭
 
-Fantasy
-1F9D9 🧙 MAGE
-1F9DA 🧚 FAIRY
-1F9DB 🧛 VAMPIRE
-1F9DC 🧜 MERPERSON
-1F9DD 🧝 ELF
-1F9DE 🧞 GENIE
-1F9DF 🧟 ZOMBIE
+Japanese school grade
+💮💯
+
+Money
+💰💱💲💳💴💵💶💷💸💹
+
+Office
+💺💻💼
+💽💾💿📀
+📁📂📃📄📅📆📇📈📉📊📋
+📌📍📎📏📐
+📑📒📓📔📕📖📗📘📙📚📛📜
+
+Communication
+📝📞📟📠📡📢📣📤📥📦📧📨📩📪📫📬📭📮📯📰📱📲📳📴📵📶
+
+Audio and video
+📷📸📹📺📻📼📽📾
+
+📿 PRAYER BEADS
+
+User interface
+🔀🔁🔂🔃🔄🔅🔆🔇🔈🔉🔊
+🔋🔌🔍🔎
+🔏🔐🔑🔒🔓
+🔔🔕🔖🔗🔘
+
+Words with arrows
+🔙🔚🔛🔜🔝
+
+Enclosed alphanumeric
+🔞🔟
+
+User interface input status
+🔠🔡🔢🔣🔤
+
+Tool
+🔥🔦🔧🔨🔩🔪🔫🔬🔭🔮🔯🔰🔱
+
+🔲🔳🔴🔵🔶🔷🔸🔹🔺🔻🔼🔽
+
+🔾🔿🕀🕁🕂🕃🕄🕅🕆🕇🕈
+🕉🕊🕋🕌🕍🕎🕏
+
+Clock face
+🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙🕚🕛🕜🕝🕞🕟🕠🕡🕢🕣🕤🕥🕦🕧
+
+Communication
+🕨🕩🕪🕫🕬🕭
+🕮🕯🕰🕱🕲🕳
+🕴🕵🕶🕷🕸🕹🕺
+
+Communication
+🕻🕼🕽🕾🕿🖀🖁
+🖂🖃🖄🖅🖆
+🖇🖈🖉🖊🖋🖌🖍
+
+Hand
+🖎🖏🖐🖑🖒🖓🖔🖕🖖🖗
+🖘🖙🖚🖛🖜🖝
+🖞🖟🖠🖡🖢🖣
+
+Heart
+🖤 BLACK HEART
+
+Computer
+🖥🖦🖧🖨🖩🖪🖫🖬🖭
+🖮🖯🖰🖱🖲
+🖳🖴🖵🖶🖷🖸
+
+Office
+🖹🖺🖻🖼🖽🖾
+🖿🗀🗁🗂🗃🗄
+🗅🗆🗇🗈🗉🗊🗋🗌🗍🗎🗏🗐🗑
+🗒🗓🗔
+🗕🗖🗗🗘🗙🗚🗛
+🗜🗝
+🗞🗟🗠
+
+Rating
+🗡🗢🗣
+
+Sound
+🗤🗥🗦🗧
+
+Bubble
+🗨🗩🗪🗫🗬🗭🗮🗯🗰🗱🗲
+
+Ballot
+🗳🗴🗵🗶🗷🗸🗹
+
+Map
+🗺 WORLD MAP
+
+Cultural
+🗻 MOUNT FUJI
+🗼 TOKYO TOWER
+🗽 STATUE OF LIBERTY
+🗾 SILHOUETTE OF JAPAN
+🗿 MOYAI
+
+Emoji, Emoticon
+😀 GRINNING FACE
+😁 GRINNING FACE SMILING EYES
+😂 FACE TEARS OF JOY
+😃 SMILING FACE OPEN MOUTH
+😄 SMILING FACE OPEN MOUTH AND SMILING EYES
+😅 SMILING FACE OPEN MOUTH AND COLD SWEAT
+😆 SMILING FACE OPEN MOUTH AND TIGHTLY-CLOSED EYES
+😇 SMILING FACE HALO
+😈 SMILING FACE HORNS
+😉 WINKING FACE
+😊 SMILING FACE SMILING EYES
+😋 FACE SAVOURING DELICIOUS FOOD
+😌 RELIEVED FACE
+😍 SMILING FACE HEART-SHAPED EYES
+😎 SMILING FACE SUNGLASSES
+😏 SMIRKING FACE
+😐 NEUTRAL FACE
+😑 EXPRESSIONLESS FACE
+😒 UNAMUSED FACE
+😓 FACE COLD SWEAT
+😔 PENSIVE FACE
+😕 CONFUSED FACE
+😖 CONFOUNDED FACE
+😗 KISSING FACE
+😘 FACE THROWING A KISS
+😙 KISSING FACE SMILING EYES
+😚 KISSING FACE CLOSED EYES
+😛 FACE STUCK-OUT TONGUE
+😜 FACE STUCK-OUT TONGUE AND WINKING EYE
+😝 FACE STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
+😞 DISAPPOINTED FACE
+😟 WORRIED FACE
+😠 ANGRY FACE
+😡 POUTING FACE
+😢 CRYING FACE
+😣 PERSEVERING FACE
+😤 FACE LOOK OF TRIUMPH
+😥 DISAPPOINTED BUT RELIEVED FACE
+😦 FROWNING FACE OPEN MOUTH
+😧 ANGUISHED FACE
+😨 FEARFUL FACE
+😩 WEARY FACE
+😪 SLEEPY FACE
+😫 TIRED FACE
+😬 GRIMACING FACE
+😭 LOUDLY CRYING FACE
+😮 FACE OPEN MOUTH
+😯 HUSHED FACE
+😰 FACE OPEN MOUTH AND COLD SWEAT
+😱 FACE SCREAMING IN FEAR
+😲 ASTONISHED FACE
+😳 FLUSHED FACE
+😴 SLEEPING FACE
+😵 DIZZY FACE
+😶 FACE WITHOUT MOUTH
+😷 FACE MEDICAL MASK
+
+Cat faces
+😸 GRINNING CAT FACE SMILING EYES
+😹 CAT FACE TEARS OF JOY
+😺 SMILING CAT FACE OPEN MOUTH
+😻 SMILING CAT FACE HEART-SHAPED EYES
+😼 CAT FACE WRY SMILE
+😽 KISSING CAT FACE CLOSED EYES
+😾 POUTING CAT FACE
+😿 CRYING CAT FACE
+🙀 WEARY CAT FACE
+
+Faces
+🙁 SLIGHTLY FROWNING FACE
+🙂 SLIGHTLY SMILING FACE
+🙃 UPSIDE-DOWN FACE
+🙄 FACE ROLLING EYES
+
+Gesture
+🙅 FACE NO GOOD GESTURE
+🙆 FACE OK GESTURE
+🙇 PERSON BOWING DEEPLY
+🙈 SEE-NO-EVIL MONKEY
+🙉 HEAR-NO-EVIL MONKEY
+🙊 SPEAK-NO-EVIL MONKEY
+🙋 HAPPY PERSON RAISING ONE HAND
+🙌 PERSON RAISING BOTH HANDS IN CELEBRATION
+🙍 PERSON FROWNING
+🙎 PERSON POUTING FACE
+🙏 PERSON FOLDED HANDS
+Vehicles
+🚀 ROCKET
+🚁 HELICOPTER
+🚂 STEAM LOCOMOTIVE
+🚃 RAILWAY CAR
+🚄 HIGH-SPEED TRAIN
+🚅 HIGH-SPEED TRAIN BULLET NOSE
+🚆 TRAIN
+🚇 METRO
+🚈 LIGHT RAIL
+🚉 STATION
+🚊 TRAM
+🚋 TRAM CAR
+🚌 BUS
+🚍 ONCOMING BUS
+🚎 TROLLEYBUS
+🚏 BUS STOP
+🚐 MINIBUS
+🚑 AMBULANCE
+🚒 FIRE ENGINE
+🚓 POLICE CAR
+🚔 ONCOMING POLICE CAR
+🚕 TAXI
+🚖 ONCOMING TAXI
+🚗 AUTOMOBILE
+🚘 ONCOMING AUTOMOBILE
+🚙 RECREATIONAL VEHICLE
+🚚 DELIVERY TRUCK
+🚛 ARTICULATED LORRY
+🚜 TRACTOR
+🚝 MONORAIL
+🚞 MOUNTAIN RAILWAY
+🚟 SUSPENSION RAILWAY
+🚠 MOUNTAIN CABLEWAY
+🚡 AERIAL TRAMWAY
+🚢 SHIP
+🚣 ROWBOAT
+🚤 SPEEDBOAT
+
+Traffic signs
+🚥 HORIZONTAL TRAFFIC LIGHT
+🚦 VERTICAL TRAFFIC LIGHT
+🚧 CONSTRUCTION SIGN
+🚨 POLICE CARS REVOLVING LIGHT
+
+Signage and other
+🚩 TRIANGULAR FLAG ON POST
+🚪 DOOR
+🚫 NO ENTRY SIGN
+🚬 SMOKING
+🚭 NO SMOKING
+🚮 PUT LITTER IN ITS PLACE
+🚯 DO NOT LITTER
+🚰 POTABLE WATER
+🚱 NON-POTABLE WATER
+🚲 BICYCLE
+🚳 NO BICYCLES
+🚴 BICYCLIST
+🚵 MOUNTAIN BICYCLIST
+🚶 PEDESTRIAN
+🚷 NO PEDESTRIANS
+🚸 CHILDREN CROSSING
+🚹 MENS
+🚺 WOMENS
+🚻 RESTROOM
+🚼 BABY
+🚽 TOILET
+🚾 WATER CLOSET
+🚿 SHOWER
+🛀 BATH
+🛁 BATHTUB
+🛂 PASSPORT CONTROL
+🛃 CUSTOMS
+🛄 BAGGAGE CLAIM
+🛅 LEFT LUGGAGE
+🛆 TRIANGLE ROUNDED CORNERS
+🛇 PROHIBITED SIGN
+🛈 CIRCLED INFORMATION SOURCE
+🛉 BOYS
+🛊 GIRLS
+
+Accommodation → 1F378
+🛋 COUCH AND LAMP
+🛌 SLEEPING ACCOMMODATION
+🛍 SHOPPING BAGS
+🛎 BELLHOP BELL
+🛏 BED
+
+Signage and other
+🛐 PLACE OF WORSHIP
+🛑 OCTAGONAL SIGN
+🛒 SHOPPING TROLLEY
+
+Map
+🛓 STUPA
+🛔 PAGODA
+🛕 HINDU TEMPLE
 
 Miscellaneous
-1F9E0 🧠 BRAIN
-1F9E1 🧡 ORANGE HEART
-1F9E2 🧢 BILLED CAP
-1F9E3 🧣 SCARF
-1F9E4 🧤 GLOVES
-1F9E5 🧥 COAT
-1F9E6 🧦 SOCKS
+🛠 HAMMER AND WRENCH
+🛡 SHIELD
+🛢 OIL DRUM
+🛣 MOTORWAY
+🛤 RAILWAY TRACK
+
+Vehicles
+🛥 MOTOR BOAT
+🛦 UP-POINTING MILITARY AIRPLANE
+🛧 UP-POINTING AIRPLANE
+🛨 UP-POINTING SMALL AIRPLANE
+🛩 SMALL AIRPLANE
+🛪 NORTHEAST-POINTING AIRPLANE
+🛫 AIRPLANE DEPARTURE
+🛬 AIRPLANE ARRIVING
+🛰 SATELLITE
+🛱 ONCOMING FIRE ENGINE
+🛲 DIESEL LOCOMOTIVE
+🛳 PASSENGER SHIP
+🛴 SCOOTER
+🛵 MOTOR SCOOTER
+🛶 CANOE
+🛷 SLED
+🛸 FLYING SAUCER
+🛹 SKATEBOARD
+🛺 AUTO RICKSHAW
+🛻
+🛼
+🛽
+🛾
+🛿
+
+Arrows
+🞀🞁🞂🞃
+
+Circles
+🞄🞅🞆🞇🞈🞉🞊🞋
+
+Squares
+🞌🞍🞎🞏🞐🞑🞒🞓🞔🞕🞖
+
+Diamonds
+🞗🞘🞙🞚🞛🞜
+🞝🞞🞟🞠
+🞡🞢🞣🞤🞥🞦🞧
+🞨🞩🞪🞫🞬🞭🞮
+🞯🞰🞱🞲🞳🞴
+🞵🞶🞷🞸🞹🞺🞻🞼🞽🞾🞿
+3 🟀🟁🟂🟃
+4 🟄🟅🟆🟇🟈
+5 🟉🟊
+6 🟋🟌🟍
+8 🟎🟏🟐🟑
+12 🟒🟓🟔
+
+Go stone markers
+🟕🟖🟗🟘
+
+Colored circles
+🟠🟡🟢🟣🟤
+
+Squares
+🟥🟦🟧🟨🟩🟪🟫
+
+Typicon
+🤀 CIRCLED CROSS FORMEE FOUR DOTS
+🤁 CIRCLED CROSS FORMEE TWO DOTS
+🤂 CIRCLED CROSS FORMEE
+🤃 LEFT HALF CIRCLE FOUR DOTS
+🤄 LEFT HALF CIRCLE THREE DOTS
+🤅 LEFT HALF CIRCLE TWO DOTS
+🤆 LEFT HALF CIRCLE DOT
+🤇 LEFT HALF CIRCLE
+🤈 DOWNWARD FACING HOOK
+🤉 DOWNWARD FACING NOTCHED HOOK
+🤊 DOWNWARD FACING HOOK DOT
+🤋 DOWNWARD FACING NOTCHED HOOK DOT
+
+Hearts
+🤍 WHITE HEART
+🤎 BROWN HEART
+
+Hand
+🤏 PINCHING HAND
+
+Faces
+🤐 ZIPPER-MOUTH FACE
+🤑 MONEY-MOUTH FACE
+🤒 FACE THERMOMETER
+🤓 NERD FACE
+🤔 THINKING FACE
+🤕 FACE HEAD-BANDAGE
+🤖 ROBOT FACE
+🤗 HUGGING FACE
+
+Hand
+🤘 SIGN OF THE HORNS
+🤙 CALL ME HAND
+🤚 RAISED BACK OF HAND
+🤛 LEFT-FACING FIST
+🤜 RIGHT-FACING FIST
+🤝 HANDSHAKE
+🤞 HAND INDEX AND MIDDLE FINGERS CROSSED
+🤟 I LOVE YOU HAND SIGN
+
+Faces
+🤠 FACE COWBOY HAT
+🤡 CLOWN FACE
+🤢 NAUSEATED FACE
+🤣 ROLLING ON THE FLOOR LAUGHING
+🤤 DROOLING FACE
+🤥 LYING FACE
+🤦 FACE PALM
+🤧 SNEEZING FACE
+🤨 FACE ONE EYEBROW RAISED
+🤩 GRINNING FACE STAR EYES
+🤪 GRINNING FACE ONE LARGE AND ONE SMALL EYE
+🤫 FACE FINGER COVERING CLOSED LIPS
+🤬 SERIOUS FACE COVERING MOUTH
+🤭 SMILING FACE SMILING EYES AND HAND COVERING MOUTH
+🤮 FACE OPEN MOUTH VOMITING
+🤯 SHOCKED FACE EXPLODING HEAD
+
+Portrait and role
+🤰 PREGNANT WOMAN
+🤱 BREAST-FEEDING
+🤲 PALMS UP TOGETHER
+🤳 SELFIE
+🤴 PRINCE
+🤵 MAN IN TUXEDO
+🤶 MOTHER CHRISTMAS
+🤷 SHRUG
+
+Sport
+🤸 PERSON DOING CARTWHEEL
+🤹 JUGGLING
+🤺 FENCER
+🤻 MODERN PENTATHLON
+🤼 WRESTLERS
+🤽 WATER POLO
+🤾 HANDBALL
+🤿 DIVING MASK
+
+Miscellaneous
+🥀 WILTED FLOWER
+🥁 DRUM DRUMSTICKS
+🥂 CLINKING GLASSES
+🥃 TUMBLER GLASS
+🥄 SPOON
+🥅 GOAL NET
+🥆 RIFLE
+🥇 FIRST PLACE MEDAL
+🥈 SECOND PLACE MEDAL
+🥉 THIRD PLACE MEDAL
+🥊 BOXING GLOVE
+🥋 MARTIAL ARTS UNIFORM
+🥌 CURLING STONE
+🥍 LACROSSE STICK AND BALL
+🥎 SOFTBALL
+🥏 FLYING DISC
+
+Food
+🥐 CROISSANT
+🥑 AVOCADO
+🥒 CUCUMBER
+🥓 BACON
+🥔 POTATO
+🥕 CARROT
+🥖 BAGUETTE BREAD
+🥗 GREEN SALAD
+🥘 SHALLOW PAN OF FOOD
+🥙 STUFFED FLATBREAD
+🥚 EGG
+🥛 GLASS OF MILK
+🥜 PEANUTS
+🥝 KIWIFRUIT
+🥞 PANCAKES
+🥟 DUMPLING
+🥠 FORTUNE COOKIE
+🥡 TAKEOUT BOX
+🥢 CHOPSTICKS
+🥣 BOWL SPOON
+🥤 CUP STRAW
+🥥 COCONUT
+🥦 BROCCOLI
+🥧 PIE
+🥨 PRETZEL
+🥩 CUT OF MEAT
+🥪 SANDWICH
+🥫 CANNED FOOD
+🥬 LEAFY GREEN
+🥭 MANGO
+🥮 MOON CAKE
+🥯 BAGEL
+
+Faces
+🥰 SMILING FACE SMILING EYES AND THREE HEARTS
+🥱 YAWNING FACE
+🥳 FACE PARTY HORN AND PARTY HAT
+🥴 FACE UNEVEN EYES AND WAVY MOUTH
+🥵 OVERHEATED FACE
+🥶 FREEZING FACE
+🥺 FACE PLEADING EYES
+🥻 SARI
+🥼 LAB COAT
+🥽 GOGGLES
+🥾 HIKING BOOT
+🥿 FLAT SHOE
+🦀 CRAB
+🦁 LION FACE
+🦂 SCORPION
+🦃 TURKEY
+🦄 UNICORN FACE
+🦅 EAGLE
+🦆 DUCK
+🦇 BAT
+🦈 SHARK
+🦉 OWL
+🦊 FOX FACE
+🦋 BUTTERFLY
+🦌 DEER
+🦍 GORILLA
+🦎 LIZARD
+🦏 RHINOCEROS
+🦐 SHRIMP
+🦑 SQUID
+🦒 GIRAFFE FACE
+🦓 ZEBRA FACE
+🦔 HEDGEHOG
+🦕 SAUROPOD
+🦖 T-REX
+🦗 CRICKET
+🦘 KANGAROO
+🦙 LLAMA
+🦚 PEACOCK
+🦛 HIPPOPOTAMUS
+🦜 PARROT
+🦝 RACCOON
+🦞 LOBSTER
+🦟 MOSQUITO
+🦠 MICROBE
+🦡 BADGER
+🦢 SWAN
+🦥 SLOTH
+🦦 OTTER
+🦧 ORANGUTAN
+🦨 SKUNK
+🦩 FLAMINGO
+🦪 OYSTER
+🦫
+🦬
+🦭
+🦮 GUIDE DOG
+🦯 PROBING CANE
+🦰 EMOJI COMPONENT RED HAIR
+🦱 EMOJI COMPONENT CURLY HAIR
+🦲 EMOJI COMPONENT BALD
+🦳 EMOJI COMPONENT WHITE HAIR
+🦴 BONE
+🦵 LEG
+🦶 FOOT
+🦷 TOOTH
+🦸 SUPERHERO
+🦹 SUPERVILLAIN
+
+Accessibility
+🦺 SAFETY VEST
+🦻 EAR HEARING AID
+🦼 MOTORIZED WHEELCHAIR
+🦽 MANUAL WHEELCHAIR
+🦾 MECHANICAL ARM
+🦿 MECHANICAL LEG
+
+Food
+🧀 CHEESE WEDGE
+🧁 CUPCAKE
+🧂 SALT SHAKER
+🧃 BEVERAGE BOX
+🧄 GARLIC
+🧅 ONION
+🧆 FALAFEL
+🧇 WAFFLE
+🧈 BUTTER
+🧉 MATE DRINK
+🧊 ICE CUBE
+🧋
+🧌
+
+Portrait and accessibility
+🧍 STANDING PERSON
+🧎 KNEELING PERSON
+🧏 DEAF PERSON
+🧐 FACE MONOCLE
+🧑 ADULT
+🧒 CHILD
+🧓 OLDER ADULT
+🧔 BEARDED PERSON
+🧕 PERSON HEADSCARF
+🧖 PERSON IN STEAMY ROOM
+🧗 PERSON CLIMBING
+🧘 PERSON IN LOTUS POSITION
+🧙 MAGE
+🧚 FAIRY
+🧛 VAMPIRE
+🧜 MERPERSON
+🧝 ELF
+🧞 GENIE
+🧟 ZOMBIE
+🧠 BRAIN
+🧡 ORANGE HEART
+🧢 BILLED CAP
+🧣 SCARF
+🧤 GLOVES
+🧥 COAT
+🧦 SOCKS
 
 Activities
-1F9E7 🧧 RED GIFT ENVELOPE
-1F9E8 🧨 FIRECRACKER
-1F9E9 🧩 JIGSAW PUZZLE PIECE
+🧧 RED GIFT ENVELOPE
+🧨 FIRECRACKER
+🧩 JIGSAW PUZZLE PIECE
+🧪 TEST TUBE
+🧫 PETRI DISH
+🧬 DNA DOUBLE HELIX
+🧭 COMPASS
+🧮 ABACUS
+🧯 FIRE EXTINGUISHER
+🧰 TOOLBOX
+🧱 BRICK
+🧲 MAGNET
+🧳 LUGGAGE
+🧴 LOTION BOTTLE
+🧵 SPOOL OF THREAD
+🧶 BALL OF YARN
+🧷 SAFETY PIN
+🧸 TEDDY BEAR
+🧹 BROOM
+🧺 BASKET
+🧻 ROLL OF PAPER
+🧼 BAR OF SOAP
+🧽 SPONGE
+🧾 RECEIPT
+🧿 NAZAR AMULET
+🨀 CHESS KING
+🨁 CHESS QUEEN
+🨂 CHESS ROOK
+🨃 CHESS BISHOP
+🨄 CHESS KNIGHT
+🨅 CHESS PAWN
+🩰 BALLET SHOES
+🩱 ONE-PIECE SWIMSUIT
+🩲 BRIEFS
+🩳 SHORTS
+🩸 DROP OF BLOOD
+🩹 ADHESIVE BANDAGE
+🩺 STETHOSCOPE
+🪀 YO-YO
+🪁 KITE
+🪂 PARACHUTE
+🪐 RINGED PLANET
+🪑 CHAIR
+🪒 RAZOR
+🪓 AXE
+🪔 DIYA LAMP
+🪕 BANJO
 
-Objects
-1F9EA 🧪 TEST TUBE
-1F9EB 🧫 PETRI DISH
-1F9EC 🧬 DNA DOUBLE HELIX
-1F9ED 🧭 COMPASS
-1F9EE 🧮 ABACUS
-1F9EF 🧯 FIRE EXTINGUISHER
-1F9F0 🧰 TOOLBOX
-1F9F1 🧱 BRICK
-1F9F2 🧲 MAGNET
-1F9F3 🧳 LUGGAGE
-1F9F4 🧴 LOTION BOTTLE
-1F9F5 🧵 SPOOL OF THREAD
-1F9F6 🧶 BALL OF YARN
-1F9F7 🧷 SAFETY PIN
-1F9F8 🧸 TEDDY BEAR
-1F9F9 🧹 BROOM
-1F9FA 🧺 BASKET
-1F9FB 🧻 ROLL OF PAPER
-1F9FC 🧼 BAR OF SOAP
-1F9FD 🧽 SPONGE
-1F9FE 🧾 RECEIPT
-1F9FF 🧿 NAZAR AMULET
-
-Chess → 2654
-1FA00 🨀 NEUTRAL CHESS KING
-1FA01 🨁 NEUTRAL CHESS QUEEN
-1FA02 🨂 NEUTRAL CHESS ROOK
-1FA03 🨃 NEUTRAL CHESS BISHOP
-1FA04 🨄 NEUTRAL CHESS KNIGHT
-1FA05 🨅 NEUTRAL CHESS PAWN
-
-Clothing
-1FA70 🩰 BALLET SHOES
-1FA71 🩱 ONE-PIECE SWIMSUIT
-1FA72 🩲 BRIEFS
-1FA73 🩳 SHORTS
-
-Medical symbols
-1FA78 🩸 DROP OF BLOOD
-1FA79 🩹 ADHESIVE BANDAGE
-1FA7A 🩺 STETHOSCOPE
-
-Toys and sport symbols
-1FA80 🪀 YO-YO
-1FA81 🪁 KITE
-1FA82 🪂 PARACHUTE
-
-Miscellaneous objects
-1FA90 🪐 RINGED PLANET
-1FA91 🪑 CHAIR
-1FA92 🪒 RAZOR
-1FA93 🪓 AXE
-1FA94 🪔 DIYA LAMP
-1FA95 🪕 BANJO
+UNICODE.org/charts/nameslist

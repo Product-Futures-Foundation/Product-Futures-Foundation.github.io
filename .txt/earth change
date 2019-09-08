@@ -1,20 +1,11 @@
 = EARTH CHANGE
+Earth Change is a GNU way to organize material production
+to alter the flow of value towards regenerative abundance.
 
-== Who am I?
-Hi, I'm Patrick Anderson, long-time software engineer,
-now designing systems that align ecology with economy.
-
-My team is creating a new way to organize material production
-to change the flow of commerce towards regenerative abundance.
-
-We are designing a token and a DAO to acquire and manage
+We are building a token and DAO to acquire and manage
 the sources and skills required for the production
-of critical goods and services such as food and housing.
+of critical goods and services like food and home.
 
-I'm excited to be here today with the Food Sovereignty DAOStack group
-to explain how we can get this food party started!
-
-== How does it work?
 Potential members commit either work or money toward
 future production through the DAO interface.
 
@@ -28,7 +19,6 @@ and accept the product itself as the natural return on that investment.
 >> Just as when you own a tree, you own the fruit,
 >> when you co-own a forest, you co-own the fruit.
 >> You own the outputs because you own the inputs.
-
 
 == Timeline
 Future products are sold to buy sources required to begin production.
@@ -71,17 +61,12 @@ These crowdfunders pay with promises of future labor.
 Workers gain immediate access to sources which vest as work is complete.
 Vested sources become collateral to access even more valuable sources.
 
-
 === Sources become Product
 Source owners accept the product itself as the direct and natural return on investment, and so do not sell or buy the finished product (except surplus as explained below).
 
-The price each pays as a consumer is exactly the costs each paid as an source owner while the final sale is eliminated, leaving profit undefined.
+Instead of selling the product, it has been 'pre-distributed' to the consumer who predicted they would need it.  There is no sale because it is already the individuated property of that owner.
 
-Instead of selling the product to another consumer, the product has been pre-distributed to the consumer who predicted they would need it.  There is no sale because it is already the individuated property of that consumer+owner.
-
-This allows these groups to operate at zero profit even while all shareholders remain satisfied.  The numeric return is approximately the same as a For Profit investment but inverted in that the shareholder *avoids* paying profit for that product.
-
-This is a generalization of economic imputation.
+This allows these groups to operate at zero profit even while all those special shareholders who avoid paying profit for that product.
 
 === Profit becomes Sources
 Any owner may sell surplus product and even collect profit, but some of that profit must be invested for that very same paying user to buy newly issued Source Titles, or to buy Source Titles being offered for sale by other owners.
@@ -91,11 +76,9 @@ This causes all users to incrementally gain the property ownership in the source
 == Invitation
 ​We are looking for people to manage food production, and other supporting services such as food preparation etc.
 
-We also need developers to help write the Solidity contracts and the DAO to mint the coin and facilitate future planning.
+We also need developers to help write the Solidity contracts and the DAO to mint the coin and facilitate planning.
 
-Here is a prototype https://Rinkeby.Aragon.org/#/earthchange
-
-Send any questions or proposals to Patrick-T-Anderson@gmail.com
+Send questions or proposals to Patrick-T-Anderson@gmail.com
 
 
 == Definitions
