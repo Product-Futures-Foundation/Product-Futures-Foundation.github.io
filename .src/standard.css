@@ -1,4 +1,5 @@
 /* body {background:#eee; font-family:"Courier New";} */
+body {font-family:"Courier New";}
 
 /*
  * font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
@@ -21,8 +22,11 @@ span.shell {background:#ddd;}
 span.cmnt {background:#dfd;}
 span.type {background:#9bf;}
 
-a {color:#000; text-decoration:none;}
-a:hover, a:focus {color:#009;}
+/* all links */
+a {color:#000; text-decoration:underline dashed #CCF; ;}
+a:hover, a:focus {text-decoration:underline dashed #000;
+                  color:#FFF; background:#009;}
 
-a.ext {color:#009;}
-a.ext:hover, a.ext:focus {color:#606;}
+/* external links */
+a.ext {color:#009; text-decoration:none;}
+a.ext:hover, a.ext:focus {color:#FFF; background:#009;}
