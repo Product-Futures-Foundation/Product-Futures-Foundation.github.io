@@ -22,8 +22,7 @@
 
 ;; LENS is a Language to Enable  Natural Systems
 ;; language to describe so-called smart contracts
-;; using terms 
-;; which trys to insure all users understand how they
+;; simple enough for most anyone to understand.
 
 ;;; Version:
 ;; .01 new
@@ -168,7 +167,7 @@ All terms less than this match only at the beginning of words (using `\\b')")
 		 ;;  		 ("^.*?:" "<span class=\"h4\">\\&" "</span>");anything followed by a : is a title?
 
          ;; This is at the top of some pages.  Maybe migrate to bottom.
-         ("^[Related\\|See]:"  "<span class=\"rel\">\\&" "</span>")
+         ("^\\(Related\\|See\\)"  "<span class=\"rel\">\\&" "</span>")
 
  		 ("^//" "<span class=\"cmnt\">\\&" "</span>")
 
@@ -448,8 +447,8 @@ All terms less than this match only at the beginning of words (using `\\b')")
         (concat "\\(\\)\\("
 ;				lens-external "\\|"
 				lens-explicit-URL "\\|"
-				lens-implicit-HTTP "\\|"
-				lens-font-lock "zzzzzzzz\\)")))
+				lens-font-lock "\\|"
+				lens-implicit-HTTP "zzzzzzzz\\)")))
 ;; what a mess.
 
 

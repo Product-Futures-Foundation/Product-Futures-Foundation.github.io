@@ -1,5 +1,5 @@
 /* body {background:#eee; font-family:"Courier New";} */
-body {font-family:"Courier New";}
+body {background:#efefef; font-family:"Courier New";}
 
 /*
  * font-family:Menlo, Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;}
@@ -9,7 +9,7 @@ body {font-family:"Courier New";}
 /* #main {background:#ffa; border:1em solid #ff8;} */
 /* span.h1,span.h2,span.h3,span.h4 {background:#ccc;} */
 
-span.rel {background:#eef; color:#000;}
+/* span.rel {background:#eef; color:#000;} */
 span.date {background:#000; color:#fff;}
 
 /*
