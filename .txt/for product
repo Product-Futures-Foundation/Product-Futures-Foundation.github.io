@@ -1,9 +1,7 @@
-See for-product.lens
-
-The For Product model is defined below using the LENS contract language.
+// Written in the LENS smart contract language
 
 =Terms
-. Money becomes Sources: Consumers gain sources when they buy future products.
+. Money becomes Product: Prepay with money  future products at cost.
 . Promises become Sources: Workers gain sources as they fulfill work promises.
 . Sources become Product: Owners of sources are also owners of future products.
 . Profit becomes Sources: Consumers gain sources when they buy surplus products.

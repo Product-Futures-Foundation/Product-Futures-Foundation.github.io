@@ -1,6 +1,7 @@
-Related: For Product, Product Futures Foundation
+See: For Product, Product Futures Foundation, Product Ticket
+
+DEFINE: Product = Sources + Skills + Time
 
 Products are the goods and services created during production.
 
-Production requires sources and usually some work.
-
+Production usually requires Sources, Skills and Time.

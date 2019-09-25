@@ -1,14 +1,1 @@
-Related: token, title
-
-A Product Ticket is proof of ownership over a single product instance in a semi-fungible "serving size".
-
-A Product Ticket may have a window of validity, such as a start time, end time and other real-world constraints defined by the physical limitations of production.
-
-Examples:
-15 minutes of taxi service between 8am and 8pm.  Good until Dec 2099.
-
-One pint organic, grade AA honey.
-
-One night at hotel or apartment with queen bed, kitchen.
-
-
+See: Product Ticket, token, title

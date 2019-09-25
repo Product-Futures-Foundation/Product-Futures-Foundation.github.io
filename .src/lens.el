@@ -447,9 +447,8 @@ All terms less than this match only at the beginning of words (using `\\b')")
         (concat "\\(\\)\\("
 ;				lens-external "\\|"
 				lens-explicit-URL "\\|"
-				lens-font-lock "\\|"
-				lens-implicit-HTTP "zzzzzzzz\\)")))
-;; what a mess.
+				lens-implicit-HTTP "\\|"
+				lens-font-lock "zzzzzzzz\\)"))) ;; what a mess.
 
 
 (defun lens-follow ()
