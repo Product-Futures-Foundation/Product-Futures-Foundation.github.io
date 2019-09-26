@@ -1,61 +1,9 @@
-== New version at Docs.Google.com/document/d/1HEKUQOEp7h8fbPKk1WVJ1FZYJA5AJLNaG6WALxcqIWc
+= New version at Docs.Google.com/document/d/1HEKUQOEp7h8fbPKk1WVJ1FZYJA5AJLNaG6WALxcqIWc
 
 
-Earth Change is a GNU way to organize material production
-to alter the flow of value towards regenerative abundance.
-
-We are building a token and DAO to acquire and manage
-the sources and skills required for the production
-of critical goods and services like food and home.
-
-Potential members commit either work or money toward
-future production through the DAO interface.
-
-Once enough money and work commitments are recorded,
-we buy the sources, such as land, tools, water-rights.
-
-Members become co-owners in the sources required for that production
-and accept the product itself as the natural return on that investment.
-
->> When the consumers are owners there is no sale.
->> Just as when you own a tree, you own the fruit,
->> when you co-own a forest, you co-own the fruit.
->> You own the outputs because you own the inputs.
-
-== Timeline
-Future products are sold to buy sources required to begin production.
-These sources are sold for commitments to apply thuh required Skillz.
-Owners accept the Product itself as the natural return on investment.
-Owners sell Surplus Product but some profit becomes payer investment.
-
-Search real estate listings to meet the many requirements such as minimum size, maximum price, fitness for permaculture, zoning restrictions, water rights, mineral rights, taxes, fees, etc.
-
-Finalize parcel selection and begin minting earthChange Source Titles (ESTs) representing those Sources.
-
-Sell ESTs to future workers.  These ESTs vest as that work is completed.
-
-Reach some agreement over general structure of the city such as a central meeting place, major roads, nature preserves, strict borders, pollution restrictions, and any other constraints this group may decide to enforce upon itself.
-
-Purchase land, tools and startup supplies, including primary bulk food ingredients such as bushels of grains, legumes, raw potatoes, bales of herbs and spices etc. to cook large, cheap but nutritious shared meals and begin soap and cloth making.
-
-Workers may move onsite immediately, but may be in tents with temporary sanitation facilities while shared structures are built and support systems are established.
-
-City supports a basic quality of life without external trade.
-
-Begin building private structures such as tiny houses.
-
-Install slower maturing plants and animals.
 
 
-== Invitation
-​We are looking for people to manage food production, and other supporting services such as food preparation etc.
-
-We also need developers to help write the Solidity contracts and the DAO to mint the coin and facilitate planning.
-
-Send questions or proposals to Patrick-T-Anderson@gmail.com
-
-
-== Definitions
+== Notes
 === Products
 Each owner of Sources is owner of future Product in that same ratio.
 
@@ -100,7 +48,6 @@ Work is returned to it’s natural position as a problem to minimize instead of 
 Automation and robots can be used to safely reduce work in this scenario because each group only wants the results.
 
 A guild system could train and test workers and protect owners by insuring quality levels and spreading fulfillment risks across many workers.
-
 
 ===Profit
 Any owner may sell any amount of product at any price, but some percentage of that profit must be treated as the payer's investment by purchasing ESTs for that payer and giving those ESTs to that payer.
@@ -177,20 +124,22 @@ For example, if you like milk and honey, then you will eventually want co-owners
 Hybrid Option: Attract traditional Venture Capitalists, and pay them a % of profit when selling surplus.
 
 == Workflow
-=== DAO Interface
-. Define new product [Teach the DAO which sources are required for that production.]
-. Buy future product. [Prepay for a product and receive source ownership.]
-. Sell future product. [This is how you commit future work.  You must 'qualify' to access the sources of that production.  Source owners may impose any arbitrary access requirements.]
 
-=== Use cases
 Vision of a future product is proposed.
+
 Engineering constraints are enforced to find a realistic implementation or variation.
+
 The scale and level of vertical integration are estimated, balancing more immediate needs with longer term goals.
-A 'recipe' for that production is written, listing the required sources and skills.
-ESTs are issued against those sources.
-Some of these ESTs are sold to purchase the real estate and tools and plants and animals on the open market.
-The rest of these ESTs are sold to secure the work commitments.
-Once we have all the commitments of sources and skills, we can begin production.
+
+A 'recipe' for that production is written, listing the required Sources and Skills.
+
+ESTs are issued, each representing a portion of those Sources.
+
+Future products are then sold to purchase the real estate and tools and plants and animals on the open market.
+
+ESTs are sold to workers to secure the needed Skills.
+
+Once we have all the commitments of Sources and Skills, we can begin production.
 
 After the first round of production, Products are distributed to each investor based on their percentage of ownership.
 
@@ -215,7 +164,7 @@ To increase utilization, Product Tickets could be designed to automatically ente
 
 Each owner must periodically cross-commit the inputs required for the ongoing costs of production for all of the outputs they expect, else lose some of that ownership to compensate other co-owners for those costs.
 
-For example, each co-owner of a dentist office must cross-commit the sources and skills needed to keep the office operational.
+For example, each co-owner of a dentist office must cross-commit Sources or Skills needed to keep the office operational.
 
 This usually just means you will commit to work somewhere in the system to buy the products you need, with the DAO resolving all the details about the sources and skills required for that production.
 
