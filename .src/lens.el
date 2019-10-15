@@ -21,19 +21,23 @@
 ;;  program.  If not, see http://GNU.org/licenses
 
 ;; LENS is a Language to Enable  Natural Systems
-;; language to describe so-called smart contracts
-;; simple enough for most anyone to understand.
+;; to describe less-smart contracts simple enough
+;; for everyone to read, understand and write.
+
 
 ;;; Version:
 ;; .01 new
 ;; .02 cleanup
 ;; .03 do not link to self
 ;;; Todo:
-;; .04 Redirect to external when 1st char in file is URL
-;; .05 Resolve file-system links before generating hrefs
-;; .06 Insure most doc input varieties work fairly well
-;; .07 Color and link source code of every language
-;; .08 Rewrite in TreeNotation
+;; Redirect to external when 1st char in file is URL
+;; Resolve file-system links before generating hrefs
+;; Insure most doc input varieties work fairly well
+;; Color and link source code of every language
+;; Rewrite in TreeNotation
+;; Replace SPC with _ in URL.
+;; Redirect to URL when at BOF.
+;; Scrape other wikis for redirection lists.
 
 ;;  Header: =, ==, ===, ====
 ;;  Shell: $, #
@@ -167,7 +171,7 @@ All terms less than this match only at the beginning of words (using `\\b')")
 		 ;;  		 ("^.*?:" "<span class=\"h4\">\\&" "</span>");anything followed by a : is a title?
 
          ;; This is at the top of some pages.  Maybe migrate to bottom.
-         ("^\\(Related\\|See\\)"  "<span class=\"rel\">\\&" "</span>")
+         ("^\\(Related\\|See\\):"  "<span class=\"rel\">\\&" "</span>")
 
  		 ("^//" "<span class=\"cmnt\">\\&" "</span>")
 
