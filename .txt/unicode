@@ -241,7 +241,7 @@ Weather
 
 Miscellaneous
 ☎☏ PHONE
-☐☑☒ BALLOT
+☐☑☒ BALLOT, VOTE, CHECK
 ☓ SALTIRE
 ☔ UMBRELLA RAIN DROPS
 ☕ HOT BEVERAGE
@@ -843,8 +843,6 @@ Building and map
 🏝 DESERT ISLAND
 🏞 NATIONAL PARK
 🏟 STADIUM
-🏠 HOUSE BUILDING
-🏡 HOUSE GARDEN
 🏢 OFFICE BUILDING
 🏣 JAPANESE POST OFFICE
 🏤 EUROPEAN POST OFFICE
@@ -881,7 +879,7 @@ Animal
 Animal faces
 🐭🐮🐯🐰🐱🐲🐳🐴🐵🐶🐷🐸🐹🐺🐻🐼🐽🐾🐿
 
-Facial/Face parts
+Facial/Face parts: eye ear mouth nose
 👀👁 👂👃👄👅
 
 Hands
@@ -1002,7 +1000,8 @@ Rating
 🗡🗢🗣
 
 Sound
-🗤🗥🗦🗧
+🗤🗦🗧
+🗥
 
 Bubble
 🗨🗩🗪🗫🗬🗭🗮🗯🗰🗱🗲

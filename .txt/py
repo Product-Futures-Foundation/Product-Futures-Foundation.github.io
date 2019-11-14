@@ -1,3 +1,22 @@
+Anaconda.com
+$ bash Miniconda3-latest-Linux-x86_64.sh
+$ ln -s /home/user/miniconda3/bin/conda /home/user/bin/conda
+$ conda install spyder
+$ ~/miniconda3/bin/spyder
+
+github.com/lordmauve/pgzero, PyGame-Zero.ReadTheDocs.io
+$ conda install pgzero
+
+IDEs / Editors
+
+Thonny.org
+
+Pyzo.org
+$ if Debian: sudo apt-get install python3-pip python3-pyqt5
+$ if Fedora: sudo yum install python3-pip python3-qt5-devel
+$ pip3 install --user pyzo
+$ pyzo
+
 appjar.info >>The easiest way to create GUIs in Python.
 lawsie.github.io/guizero >>guizero is designed to allow new learners to quickly and easily create GUIs for their programs.
 github.com/PySimpleGUI/PySimpleGUI
