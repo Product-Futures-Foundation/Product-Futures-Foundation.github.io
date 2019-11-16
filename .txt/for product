@@ -54,20 +54,22 @@ Auto-completes when Product is defined, else calls SCREEN[Define Product].
 // This is how you prepay with work.
 BUTTON[Sell Future Product]: Sign agreement to complete future work.
 Auto-completes when Product is defined, else calls SCREEN[Define Product].
-▦ ↔ 📃✍ DAO auctions Source Titles▦, each representing 1_ft² of land ownership.
-🏡✅ → 🚿🥗🛏 → 👷 You own the Products of vested Sources without purchase.
+▦ ↔ 📃✍ DAO auctions Source Titles▦, each representing 1_ft² of land ownership, in return for signed work agreements.
 🏡 & 🚿🥗🛏 → 👷 You receive immediate access to some Sources and critical Products.
-📃✅ → ✅🤑 → 👷 As work is completed, external debt is resolved without paying interest.
-✅🤑 + 📃✅ = 🏡✅ → 👷 After debt is repaid, Sources vest as work is completed. Workers become consumer-owners.
+📃✅ → 🤑✅ → 👷 As work is completed, external debt paid by the DAO is resolved without paying interest.
+✅🤑 + 📃✅ → 🏡✅ → 👷 After debt is repaid, Sources vest as work is completed.
+🏡✅ → 🚿🥗🛏 → 👷 You own the Products of vested Sources without purchase.
+
 
 BUTTON[Buy Surplus Product]: Pay for Products with either work or money.
 Auto-completes when surplus is available, else calls SCREEN[Buy Future Product].
 🎫 ↔ 💰 DAO auctions Product Tickets🎫, each representing a surplus Product.
 💰 ↔ 🏡 DAO uses some of that profit to buy Sources for future production.
 💰 ↔ 🤑 DAO uses some of that profit to payoff external debt held by workers.
+🥑 ↔ 🎫 Each Product Ticket🎫 has a natural begin-time and expire-time.
 
 SCREEN[Define Product]: List Sources, Work and Time required to create some quantity and quality of Product.
-// For example, how many ft² of land, gallons of water, compost, work, and hours required to make one Avocado.
+// For example, how many ft² of land, gallons of water, compost, work, and time required to make one Avocado.
 // Shows templates for various product types, loose enough to allow new inventions.
 // Qualified workers must validate definition before it is offered as a future product.
 // Physical locations may be constrained in many ways, such as the climate required.
