@@ -1,44 +1,46 @@
-// Written in LENS, a pseudocode for smart contracts.
-// This file is licensed under the GNU AGPL v3 or later.
-// The For Product model changes why we fund, work and own
-// to resolve the conflict between abundance and finance.
+The For Product model changes how and why we work and own
+to resolve the conflict between abundance and finance.
 
-/// COMMENTARY
-// When we buy products
-// in the usual For Profit model,
-// we pay all the costs of production,
-// and also profit as ownership changes
-// for each step in the supply chain.
+Product Ticket🎫 represents some future good or service.
+Source Title▦ represents fractional ownership in land or a fixed asset.
+Work Agreement📃 represents contract obligation for a future service.
 
-// We can make businesses owned by the
-// consumers who need those products
-// so price and cost are the same.
+Users may:
+. Buy Product Tickets🎫 representing future products.
+. Sign Work Agreements📃 for Source Titles▦ which vest as work is complete.
+. Buy Product Tickets🎫 representing surplus products.
 
-// For example, if you own an avocado tree,
-// you own those avocados without purchase,
-// even if someone else or 🤖 does the work.
+The system must:
+Sell  Product Tickets🎫 to buy the sources to get production started.
+Grant limited source access to those who sign Work Agreements📃.  Issue expiring 🔑 here.
+Vest source ownership to those who complete Work Agreements📃.  Issue Source Titles▦ here.
+Sell surplus Product Tickets🎫 to buy more sources and onboard more workers.
+Use Source Titles▦ and Work Agreements📃 to pre-allocate goods and services.
 
-// This is a generalization of
-// Wikipedia.org/wiki/Imputed_rent
+== COMMENTARY
+We can make businesses owned by the
+consumers who need those products
+to regain control of production
+and make price equal cost.
 
-// By combining the roles
-// of consumer and owner,
-// purchase disappears,
-// and those profits with it.
+For example, if you own an avocado tree,
+you own those avocados without purchase,
+even if someone else or 🤖 does the work.
 
-// There is no profit
-// since the consumer
-// remains the owner.
+This is a generalization of Wikipedia.org/wiki/Imputed_rent
 
-// BTW: Every worker is a consumer.
+By combining the roles of consumer and owner,
+purchase disappears, and those profits with it.
 
-// From the perspective of a group, we can:
-// 1. Sell future products to buy property {land, tools, etc.} without debt.  This is just crowdfunding to supply workers with the property required for production.
-// 2. Buy future work in exchange for property.  Workers, and only workers, gain property ownership, without debt, as they complete work agreements.
-// 3. Use property ownership and work agreements to "pre-allocate" goods and services.  This creates a true insurance system.
-// 4. Sell surplus products to buy even more property without debt.  This is a profit-sharing strategy to supply workers with more property.
+When consumer is owner, there is no sale and no profit.
+Of course every worker is also a consumer.
+
+"""
 
 /// CODE
+// Written in LENS, a pseudocode for smart contracts.
+// This file is licensed under the GNU AGPL v3 or later.
+
 DEFINE[Work]: Human action.
 DEFINE[Sources]: Except for work, all the material and immaterial inputs required for production, such as land, water, tools, genetics, designs, radio spectrum, etc.
 DEFINE[Product]: Any good or service.
@@ -54,7 +56,7 @@ Auto-completes when Product is defined, else calls SCREEN[Define Product].
 // This is how you prepay with work.
 BUTTON[Sell Future Product]: Sign agreement to complete future work.
 Auto-completes when Product is defined, else calls SCREEN[Define Product].
-▦ ↔ 📃✍ DAO auctions Source Titles▦, each representing 1_ft² of land ownership, in return for signed work agreements.
+▦ ↔ 📃✍ DAO auctions Source Titles▦, each representing 1_ft² of land ownership, in return for signed Work Agreements📃.
 🏡 & 🚿🥗🛏 → 👷 You receive immediate access to some Sources and critical Products.
 📃✅ → 🤑✅ → 👷 As work is completed, external debt paid by the DAO is resolved without paying interest.
 ✅🤑 + 📃✅ → 🏡✅ → 👷 After debt is repaid, Sources vest as work is completed.
