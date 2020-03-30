@@ -1,4 +1,7 @@
-Related: code, coin, contract, data, lang, money, name, pointer, reference, symbol, text, ticket, title, unique number or phrase, word
+Related: $, code, coin, contract, data, lang, money, name, pointer, reference, symbol, text, ticket, title, unique number or phrase, word
 
-A token may point at value or debt or nothing at all.
-A title is a special token which points at property.
+Tokens may point at value or debt or nothing at all.
+
+Product Tickets🎫 represent future products and can be bought with traditional money.
+Work Agreements📃 are voluntary labor contracts which can buy Source Title▦ ownership.
+Source Titles▦ represent the land and tools required to produce those future products.

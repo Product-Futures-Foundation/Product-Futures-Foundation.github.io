@@ -1,7 +1,16 @@
-Value comes in many forms.
+=== Value Forms
 
-Use-Value is the usefulness of a product a consumer.
-Exchange-Value is another name for any of {economic-rent, interest, profit, usury}
-Labor-Value is the human effort applied to production.
+Use_Value is the usefulness of a product the end user {consumer}.  This is measures 
 
+Exchange_Value is the difference between Consumer_Price and Owner_costs {any type of economic_rent, interest_bearing debt, profit}.  This measures Source missalocation, and is 0 when consumers owns for Future_Value.
+
+Future_Value is 
+
+Source_value is the productive potential of Sources {land, water, minerals, tools, nature, knowledge, ...}.  This is an Owner_cost
+
+Labor_Value is the productive potential of human effort {work + metawork {automation, permaculture}}.  This is an Owner_cost.
+
+
+
+===links
 P2PValue.eu >>Commons Based Peer Production (CBPP)
