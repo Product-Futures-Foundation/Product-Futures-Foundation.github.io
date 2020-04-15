@@ -1,45 +1,30 @@
 =                For Product
 "'
-The For Product model attempts to insure the production of future goods and services
-using a set of social rules enforced through property ownership as Source Titles▦,
-contract law as Work Agreements📃, and a subscription program as Product Tickets🎫.
+This business model attempts to insure the future production of
+goods and services using a set of legal agreements enforced by:
+Private Property: Source Titles▦ represent micro-ownership in land.
+Contract Law: Work Agreements📃 represent commitments of future labor.
+Subscriptions: Product Tickets🎫 represent Future Production.
 '"
 
->> The system will:
-Issue and auction Product Tickets🎫 to buy Sources without debt.
-Issue and auction Source Titles▦ in exchange for Work Agreement📃 signatures.
-Vest Source ownership to workers as those Work Agreements📃 are completed.
+>> The DAO must:
+  Issue and auction Product Tickets🎫 to buy Sources without debt.
+  Issue and auction Source Titles▦ in exchange for Work Agreement📃 signatures.
 
 >> Users may:
-Buy Product Tickets🎫 representing future products. (crowd fund)
-Sign Work Agreements📃 to gain Source Title▦ ownership. (work to own)
-Sign Work Agreements📃 for other Work Agreement📃 signatures. (trade work)
+  Buy Product Tickets🎫 to receive products in the future. (crowd fund)
+  Sign Work Agreements📃 to receive products now plus Sources. (work-to-own)
+  
+=== User Interface
+BUTTON[Buy Product Ticket🎫]: Sign a Work Agreement📃 or pay with money to:
+  🎫 ↔ 💰 Drive future production.
 
-SCREEN[Define Product]:
-List Sources, Work, Time required to create a Product at some quantity and quality.
-For example, how much land, water, compost, work and time required to make one Avocado.
-Show templates for various product types loose enough to enable new inventions.
-Definitions must be validated by qualified workers before Product Tickets🎫 are issued.
+BUTTON[Sign Work Agreement📃]:
+  Payoff debt
+  Own Source Titles▦. (work-to-own)
+  Other Work Agreements📃. (work-for-work)
+  🏡 & 🚿🥗🛏 → 👷 You receive immediate access to those Sources and critical Products.
+  🏡✅ → 🚿🥗🛏 → 👷 Source Owners are Future Production owners without purchase.
 
-SCREEN[Buy Future Product]:
-Map real estate for sale, starting with the users current location.
-Qualified Workers or Guilds, their ratings and physical locations.
-
-SCREEN[Sell Future Product]: Sign agreement to complete future work.
-Workers must Qualify before agreement is offered.
-Workers can optionally join Guilds to spread risk.
-
-BUTTON[Buy Future Product]: Prepay for Products with either work or money.
-Auto-completes when Product is defined, else calls SCREEN[Define Product].
-🎫 ↔ 💰 DAO auctions Product Tickets🎫, each representing a future Product.
-💰 ↔ 🏡 DAO uses some of those funds to buy Sources for future production.
-💰 ↔ 🤑 DAO uses some of those funds to payoff worker external debt.
-🥑 ↔ 🎫 Each Product Ticket🎫 has a natural begin-time and expire-time.
-
-BUTTON[Sell Future Product]: Sign agreement to complete future work.
-Auto-completes when Product is defined, else calls SCREEN[Define Product].
-▦ ↔ 📃✍ DAO auctions Source Titles▦ in return for Work Agreement📃 signatures.
-🏡 & 🚿🥗🛏 → 👷 Receive immediate access to some Sources and critical Products.
-📃✅ → 🤑✅ → 👷 As work is completed, debt held by the DAO is resolved without interest.
-✅🤑 + 📃✅ → 🏡✅ → 👷 Once external debt is repaid, Sources vest as work is completed.
-🏡✅ → 🚿🥗🛏 → 👷 Own Future Goods and services without purchase.
+SCREEN[Define Product Ticket🎫]:
+  List the land, tools, labor, time, pollution and other costs of that production.

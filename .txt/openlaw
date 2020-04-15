@@ -1,0 +1,45 @@
+### A Free as in Freedom Trade Agreement using OpenLaw.io libraries.
+
+[[Define: Term("Product", "Any good or service.")]]
+[[Define: Term("Sources", "Land, water, plants, tools, startup supplies.")]]
+[[Define: Term("Production", "Turning Sources into Products across time.")]]
+[[Define: Term("Role", "A specialized skill.")]]
+
+[[Define: Token("Source Title▦", "Property ownership", "Size", "Location", "Layout")]]
+[[Terms: Clause("Property Deed", "Source Title▦")]]
+
+[[Define: Token("Product Ticket🎫", "Redeemable for a projected quantity and quality of a future product.")]]
+[[Terms: Clause("Payment Invoice", "Product Ticket🎫")]]
+
+[[Define: Token("Work Agreement📃", "Contract to achieve future production.")]]
+[[Terms: Clause("Labor Contract", "Work Agreement📃)]]
+
+## User Interface
+[[Input: Buy("Map of land parcels for sale near that user.")]]
+For each square foot of each parcel,
+  [[Token: Clause("Issue", "Source Title▦")]]
+
+[[Input: Work("Roles required to achieve that Production.")]]
+For each individual role,
+  [[Token: Clause("Issue", "Work Agreement📃")]]
+
+[[Input: Buy("Products which can be made from those Sources.")]]
+For each Future Product instance,
+  [[Token: Clause("Issue", "Product Ticket🎫")]]
+
+[[Input: Buy("Surplus Products already made from those Sources.")]]
+
+For each parcel,
+  If all Source Titles▦ have been sold,
+    use those funds to buy that land and the tools and startup supplies.
+
+For each Role,
+  as production is completed,
+    Vest Source Titles▦ to those workers as real property ownership.
+
+For each Product Ticket🎫,
+  as production is completed,
+    deliver to Product Ticket🎫 holders.
+
+For each surplus Product sold,
+  use some of that profit to buy more Sources for future production.

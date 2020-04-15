@@ -256,7 +256,7 @@ interface <a href="token.htm">token</a>Recipient <small>{ <a href="fun.htm">fun<
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emit Transfer<small>(_from, _to, _<a href="valu.htm">valu</a>e)</small>;<br/>
 &nbsp;&nbsp;&nbsp; }</small><br/>
 <br/>
-&nbsp;&nbsp;&nbsp; /// @notice <a href="creat.htm">Creat</a>e `<a href="mint.htm">mint</a>edAmount` <a href="token.htm">token</a>s and send it to `target`<br/>
+&nbsp;&nbsp;&nbsp; /// @not<a href="ice.htm">ice</a> <a href="creat.htm">Creat</a>e `<a href="mint.htm">mint</a>edAmount` <a href="token.htm">token</a>s and send it to `target`<br/>
 &nbsp;&nbsp;&nbsp; /// @param target Ad<a href="dress.htm">dress</a> to receive the <a href="token.htm">token</a>s<br/>
 &nbsp;&nbsp;&nbsp; /// @param <a href="mint.htm">mint</a>edAmount the amount of <a href="token.htm">token</a>s it will receive<br/>
 &nbsp;&nbsp;&nbsp; <a href="fun.htm">fun</a>ction <a href="mint.htm">mint</a><a href="token.htm">Token</a><small>(ad<a href="dress.htm">dress</a> target,<a href="ui.htm"> ui</a>nt256 <a href="mint.htm">mint</a>edAmount)</small> only<a href="own.htm">Own</a>er public <small>{<br/>
@@ -266,7 +266,7 @@ interface <a href="token.htm">token</a>Recipient <small>{ <a href="fun.htm">fun<
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emit Transfer<small>(ad<a href="dress.htm">dress</a><small>(this)</small>, target, <a href="mint.htm">mint</a>edAmount)</small>;<br/>
 &nbsp;&nbsp;&nbsp; }</small><br/>
 <br/>
-&nbsp;&nbsp;&nbsp; /// @notice `<a href="free.htm">free</a>ze? Prevent | Allow` `target` from sending &amp; receiving <a href="token.htm">token</a>s<br/>
+&nbsp;&nbsp;&nbsp; /// @not<a href="ice.htm">ice</a> `<a href="free.htm">free</a>ze? Prevent | Allow` `target` from sending &amp; receiving <a href="token.htm">token</a>s<br/>
 &nbsp;&nbsp;&nbsp; /// @param target Ad<a href="dress.htm">dress</a> to be frozen<br/>
 &nbsp;&nbsp;&nbsp; /// @param <a href="free.htm">free</a>ze either to <a href="free.htm">free</a>ze it or not<br/>
 &nbsp;&nbsp;&nbsp; <a href="fun.htm">fun</a>ction <a href="free.htm">free</a>zeAccount<small>(ad<a href="dress.htm">dress</a> target, bool <a href="free.htm">free</a>ze)</small> only<a href="own.htm">Own</a>er public <small>{<br/>
@@ -274,7 +274,7 @@ interface <a href="token.htm">token</a>Recipient <small>{ <a href="fun.htm">fun<
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emit Frozen<a href="fun.htm">Fun</a>ds<small>(target, <a href="free.htm">free</a>ze)</small>;<br/>
 &nbsp;&nbsp;&nbsp; }</small><br/>
 <br/>
-&nbsp;&nbsp;&nbsp; /// @notice Allow users to <a href="buy.htm">buy</a> <a href="token.htm">token</a>s for `<a href="new.htm">new</a><a href="buy.htm">Buy</a><a href="pric.htm">Pric</a>e` eth and <a href="sell.htm">sell</a> <a href="token.htm">token</a>s for `<a href="new.htm">new</a><a href="sell.htm">Sell</a><a href="pric.htm">Pric</a>e` eth<br/>
+&nbsp;&nbsp;&nbsp; /// @not<a href="ice.htm">ice</a> Allow users to <a href="buy.htm">buy</a> <a href="token.htm">token</a>s for `<a href="new.htm">new</a><a href="buy.htm">Buy</a><a href="pric.htm">Pric</a>e` eth and <a href="sell.htm">sell</a> <a href="token.htm">token</a>s for `<a href="new.htm">new</a><a href="sell.htm">Sell</a><a href="pric.htm">Pric</a>e` eth<br/>
 &nbsp;&nbsp;&nbsp; /// @param <a href="new.htm">new</a><a href="sell.htm">Sell</a><a href="pric.htm">Pric</a>e <a href="pric.htm">Pric</a>e the users can <a href="sell.htm">sell</a> to the <a href="contract.htm">contract</a><br/>
 &nbsp;&nbsp;&nbsp; /// @param <a href="new.htm">new</a><a href="buy.htm">Buy</a><a href="pric.htm">Pric</a>e <a href="pric.htm">Pric</a>e users can <a href="buy.htm">buy</a> from the <a href="contract.htm">contract</a><br/>
 &nbsp;&nbsp;&nbsp; <a href="fun.htm">fun</a>ction set<a href="pric.htm">Pric</a>es<small>(<a href="ui.htm">ui</a>nt256 <a href="new.htm">new</a><a href="sell.htm">Sell</a><a href="pric.htm">Pric</a>e,<a href="ui.htm"> ui</a>nt256 <a href="new.htm">new</a><a href="buy.htm">Buy</a><a href="pric.htm">Pric</a>e)</small> only<a href="own.htm">Own</a>er public <small>{<br/>
@@ -282,13 +282,13 @@ interface <a href="token.htm">token</a>Recipient <small>{ <a href="fun.htm">fun<
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="buy.htm">buy</a><a href="pric.htm">Pric</a>e = <a href="new.htm">new</a><a href="buy.htm">Buy</a><a href="pric.htm">Pric</a>e;<br/>
 &nbsp;&nbsp;&nbsp; }</small><br/>
 <br/>
-&nbsp;&nbsp;&nbsp; /// @notice <a href="buy.htm">Buy</a> <a href="token.htm">token</a>s from <a href="contract.htm">contract</a> by sending ether<br/>
+&nbsp;&nbsp;&nbsp; /// @not<a href="ice.htm">ice</a> <a href="buy.htm">Buy</a> <a href="token.htm">token</a>s from <a href="contract.htm">contract</a> by sending ether<br/>
 &nbsp;&nbsp;&nbsp; <a href="fun.htm">fun</a>ction <a href="buy.htm">buy</a><small>()</small> <a href="pay.htm">pay</a>able public <small>{<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ui.htm"> ui</a>nt amount = <a class="ext" href="https://msg.value">msg.value</a> / <a href="buy.htm">buy</a><a href="pric.htm">Pric</a>e;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // calculates the amount<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _transfer<small>(ad<a href="dress.htm">dress</a><small>(this)</small>, <a class="ext" href="https://msg.sender">msg.sender</a>, amount)</small>;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // <a href="mak.htm">mak</a>es the transfers<br/>
 &nbsp;&nbsp;&nbsp; }</small><br/>
 <br/>
-&nbsp;&nbsp;&nbsp; /// @notice <a href="sell.htm">Sell</a> `amount` <a href="token.htm">token</a>s to <a href="contract.htm">contract</a><br/>
+&nbsp;&nbsp;&nbsp; /// @not<a href="ice.htm">ice</a> <a href="sell.htm">Sell</a> `amount` <a href="token.htm">token</a>s to <a href="contract.htm">contract</a><br/>
 &nbsp;&nbsp;&nbsp; /// @param amount amount of <a href="token.htm">token</a>s to be sold<br/>
 &nbsp;&nbsp;&nbsp; <a href="fun.htm">fun</a>ction <a href="sell.htm">sell</a><small>(<a href="ui.htm">ui</a>nt256 amount)</small> public <small>{<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ad<a href="dress.htm">dress</a> myAd<a href="dress.htm">dress</a> = ad<a href="dress.htm">dress</a><small>(this)</small>;<br/>

@@ -11,20 +11,39 @@ After the current load is finished, the clean trays are replaced with the dirty 
 
 
 ==Clothes
-Multiple laundry chutes (3 to 5) let the user pre-sort clothes to avoid the need to sort later.
+Pre-sort: 'Whites', 'Colors', 'Delicate' small laundry baskets allows the early solution.
 
-Each chute dumps into the washer when reaching a weight limit and if another load is not running.
+Once a weight limit is reached clothes, are dumped in small washer (with optional [confirm] button) - of course waiting if another load is in progress.
 
-The design of new washers can  not stuck as it empties into the dryer.
+The washer is also the dryer?
 
-Dryer dumps into basket on counterbalanced dumb-waiter which returns to the user.
+Dry load dumps into basket on a counterbalanced dumb-waiter.
 
+A vision-enabled and/or remote-controlled car could take it the last mile.
 
+Large dispenser delivers a configurable amount and kind of soap for each wash.
 
-Also: attach dispensers to deliver configurable amount of soap with each wash.
+==VaClean
+Single-item washer will sanitize and dry most any cloth in seconds.
 
-==Walls, floors
-WashBot, RoboScrub
-Thinking of a little cleaning unit to steam-clean floors and bottom of walls.
-Smaller version cleans countertops.
-Could dress them as pets.
+Design specs:
+4 rollers approx 24 inches tall x 6 inches diameter.
+2 mesh belts, each wrapping around 2 of the rollers.
+
+            INPUT
+          vvvvvvvvvvv
+       --/           \--
+     -/                 \-
+   -/      --      --     \-
+  /       (  )    (  )      \
+ |-STEAM-->>>>>>>>>>>>-WETVAC|
+ /        |  |    |  |       \
+ |DEHUMID |  |    |  |       |
+ \HOT AIR->>>>>>>>>>>>-WETVAC/
+  +-------+--|    |--+------+
+  \       (  )    (  )      /
+   -\      --      --     /-
+     -\                 /-
+       --\           /--
+          vvvvvvvvvvv
+            OUTPUT
