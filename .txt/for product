@@ -1,30 +1,41 @@
 =                For Product
 "'
-This business model attempts to insure the future production of
-goods and services using a set of legal agreements enforced by:
-Private Property: Source Titles▦ represent micro-ownership in land.
+The production of future goods and services is ensured by:
+Private Property: Source Titles▦ represent micro-ownership in Sources.
 Contract Law: Work Agreements📃 represent commitments of future labor.
 Subscriptions: Product Tickets🎫 represent Future Production.
 '"
 
+>> Users may:
+  Buy Product Tickets🎫 to receive Future Products. (crowd fund)
+  Sign Work Agreements📃 to access and own Sources. (work-to-own)
+
 >> The DAO must:
   Issue and auction Product Tickets🎫 to buy Sources without debt.
-  Issue and auction Source Titles▦ in exchange for Work Agreement📃 signatures.
+  Issue and auction Source Titles▦ for Work Agreement📃 signatures.
 
->> Users may:
-  Buy Product Tickets🎫 to receive products in the future. (crowd fund)
-  Sign Work Agreements📃 to receive products now plus Sources. (work-to-own)
-  
 === User Interface
-BUTTON[Buy Product Ticket🎫]: Sign a Work Agreement📃 or pay with money to:
-  🎫 ↔ 💰 Drive future production.
+BUTTON[Buy Product Ticket🎫]:
+  Pay with money to own future products
+  Sign Work Agreements📃 to own both future products and the Sources of those products.
 
 BUTTON[Sign Work Agreement📃]:
-  Payoff debt
-  Own Source Titles▦. (work-to-own)
-  Other Work Agreements📃. (work-for-work)
-  🏡 & 🚿🥗🛏 → 👷 You receive immediate access to those Sources and critical Products.
-  🏡✅ → 🚿🥗🛏 → 👷 Source Owners are Future Production owners without purchase.
+  Receive immediate access to Sources and critical Products.
+  Become Source owner as work is completed. (work-to-own)
+  Trade Work Agreement📃 signatures with others. (work-for-work)
+  Source Owners receive Future Products without purchase. (own-to-use)
+
+SCREEN[Source Acquisition and Allocation]:
+  Show map of parcels for sale near user.
+  Zoom in on any parcel to see water rights and zoning restrictions.
+  For each parcel,
+   Read all pending Product Ticket🎫 proposals details and funding status.
 
 SCREEN[Define Product Ticket🎫]:
-  List the land, tools, labor, time, pollution and other costs of that production.
+  Define a SERVING-SIZE and a MIN-SCALE.
+  Estimate constraints on production such as temperature, water, elevation.
+  Estimate the time delay before each round-of-production.
+  Estimate any pollution or externality that cannot be
+  For each SERVING-SIZE at MIN-SCALE,
+    Estimate the quality and quantity of that future production.
+    Estimate the Work, the Sources and all supporting Sources such as startup supplies or external services before full vertical integration.
