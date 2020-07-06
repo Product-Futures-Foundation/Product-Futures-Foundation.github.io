@@ -3,11 +3,11 @@
 To ensure the production of future goods and services through:
 Subscriptions: Product Tickets🎫 representing that future production.
 Private Property: Source Titles▦ representing micro-ownership in Sources.
-Contract Law: Work Agreements📃 representing contracts to achieve future work.
+Contract Law: Work Agreements📃 representing contracts  achieve future work.
 '"
 
 >> Users may:
-  Buy Product Tickets🎫 to receive Future Products. (crowd fund)
+  Buy Product Tickets🎫 to receive Future Products. (pay-to-play)
   Sign Work Agreements📃 to access and own Sources. (work-to-own)
 
 >> The DAO must:
@@ -16,8 +16,8 @@ Contract Law: Work Agreements📃 representing contracts to achieve future work.
 
 === User Interface
 BUTTON[Buy Product Ticket🎫]:
-  Pay with money to own future products
-  Sign Work Agreements📃 to own both future products and the Sources of those products.
+  Pay with money to own Future Products of some *projected* quantity and quality.
+  Sign Work Agreements📃 to own future products and the Sources of those products.
 
 BUTTON[Sign Work Agreement📃]:
   Receive immediate access to Sources and critical Products.
@@ -29,7 +29,7 @@ SCREEN[Source Acquisition and Allocation]:
   Show map of parcels for sale near user.
   Zoom in on any parcel to see water rights and zoning restrictions.
   For each parcel,
-   Read all pending Product Ticket🎫 proposals details and funding status.
+    Read all pending Product Ticket🎫 proposals details and funding status.
 
 SCREEN[Define Product Ticket🎫]:
   Define a SERVING-SIZE and a MIN-SCALE.
