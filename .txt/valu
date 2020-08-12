@@ -1,12 +1,19 @@
 === Value Forms
-Use Value is the usefulness of a product the end user (consumer).  This is measured by the amount a user is willing to pay for Future Value.
 
-Exchange Value is the difference between Consumer Price and Owner Costs (any type of economic rent, interest bearing debt, profit, usury, etc).  This measures Source missalocation, and is 0 when consumers owns for Future Value.
+Sources such as land, water, plants, animals are fundamental.
 
-Future Value is the future productive potential of Sources (land, water, minerals, tools, nature, knowledge, ...) plus Labor.
+Use value is the usefulness of a product the end user.
+
+Exchange value is the difference between the price a user pays *now* and the costs an owner paid *in the past*.
+
+    profit = user_price - owner_costs
+
+Ahh, so when user is owner, profit is
+UNDEFINED because there is no sale!
+
+Future Value is the future productive potential of Sources plus Labor.
 
 Labor Value is the productive potential of human effort (work + metawork (automation, permaculture)) applied to Sources.
-
 
 
 ===links

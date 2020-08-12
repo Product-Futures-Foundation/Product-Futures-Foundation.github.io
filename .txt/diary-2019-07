@@ -8,20 +8,17 @@ i  0xE4b675ee73D7dF1655eeC8d32be9857e2739fc43
 
 2019-07-28:
 OLD way:
-debt
-buy sources, begin production
-  workers do not gain source ownership, so pay profit even when buying even crucial products such as food and housing.
+Enter into debt to buy the Sources to begin production.
+Workers do not gain Source Ownership,
+so pay profit for even crucial products such as food and housing.
 try to sell product to consumers for more than cost
 if not enough interest, dump it in the river
 try to payback debt plus interest
 
 GNU way:
-no debt
-try to pre-sell product to consumers
-if not enough interest, project delayed
-buy sources, begin production
-  workers gain source ownership, so receive food, housing, and most other crucial products at the real costs of production.
-no debt or interest to repay
+pre-sell product to consumers to buy Sources without debt.
+If not enough interest, project is canceled or delayed.
+Workers gain Source Ownership and so receive crucial products at the real costs of that production.
 
 2019-07-24: ArchChain.cc >>Archchain is a project that encompasses applications of blockchain and distributed ledgers in the design and management of buildings and cities.
 

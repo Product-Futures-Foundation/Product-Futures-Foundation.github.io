@@ -1,0 +1,76 @@
+We restructure the flow of value during startup and production by changing how we buy, own, and govern land to create a user driven, pull economy.
+
+We use a set of shared ledgers to securely record Products, Land and Work.
+
+== The Product Ledger
+This is a record of the quality and quantity of past and future Production.
+Groups auction future Products to crowdfund Land without debt.
+Workers receive startup Products and future Products and future Land ownership.
+
+== The Land Ledger
+This is a record of the property titles of current and future Land ownership.
+Groups auction future Land ownership for future Labor signatures.
+Workers receive Land ownership as production goals are met.
+
+== The Work Ledger
+This is a record of contract details and signatures of past and future Work.
+Workers auction future Work signatures for future Land ownership.
+Workers receive education, apprenticeship, teaming and standards.
+
+User Journey:
+  Buy future goods and services to initiate and control that production.
+  Pay with money, just like crowdfunding, or by signing one or more work contracts.
+  All of that money is used to buy land and tools without debt to begin production.
+  Workers do not receive money, but instead receive real land ownership.
+  During 'onramp', workers also receive a Basic Outcome of goods and services.
+  Land vests to workers as the first round-of-production is completed.
+  These land owners accept future goods and services as the natural ROI.
+  Workers implicitly trade with other workers when they buy future goods and services.
+  Permaculture and appropriate technology help ensure the essential infrastructure.
+
+Phase 0: Land Quest
+Find land for sale that can be used in this way.
+For each parcel,
+  List all goods and services to be produced onsite.
+  Sell those future goods and services to buy the land.
+  Subgroups decide layout of shared spaces and primary road access.
+  Vest land ownership to workers who make those goods and services.
+
+Phase 1: Tent City
+The first wave of workers may live in mobile homes, yurts or even tents while building more permanent shelter, probably as larger shared structures.
+Workers receive access to 'public' land, including roads planned as group decisions.
+Each worker receives access to a personal, unshared portion of land to build a private home.
+
+Phase 3: Tiny Town
+Production is localized through vertically-integrated supply chains based on permaculture.
+Abundance and permanent solutions emerge as economy and ecology align.
+No debt is created, and debt you already have can be worked off.
+Living without rent is obtainable...starting with the building team creating our dream
+
+Phase 4: Fun Factory
+Desktop manufacturing, 3D printing, cnc/robotics, etc.
+
+Team
+Permaculture: Geoff Lawton, John Liu, SantaCruzPermaculture.com
+Automation and Robotics: Marcin Jakubowski
+Appropriate Technology: Appropedia.org, OpenHardware.org
+Digital Ledgers: CreditCommons.net/credit-commons.pdf
+
+
+Templates
+Land
+Current holdings:
+Owner :________    Coordinates:_________
+
+Future holdings:
+Coordinates:_______    Funds needed:_______ (Slot for funds) 
+
+Labor
+Work contract:......  (Slot for signatures)
+
+Product
+Coordinates:________    Worker Rank:_______
+Projected Quality:___________
+Projected Quantity:___________
+
+
