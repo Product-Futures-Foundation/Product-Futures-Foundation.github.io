@@ -1,43 +1,41 @@
-== Open Source Production
+=                For Product
+"'
+To ensure the production of future goods and services through:
+Subscriptions: Product Tickets🎫 representing that future production.
+Private Property: Source Titles▦ representing micro-ownership in Sources.
+Contract Law: Work Agreements📃 representing contracts  achieve future work.
+'"
 
-A business model to own and control the physical Sources of Production
-required to create and maintain the material goods and services we need.
+>> Users may:
+  Buy Product Tickets🎫 to receive Future Products. (pay-to-play)
+  Sign Work Agreements📃 to access and own Sources. (work-to-own)
 
-=== Terms and Timeline
-Consumers buy Future Products to control the production of those goods and services.
-This funds the purchase of Sources (land, tools, water rights, etc.) without debt.
+>> The DAO must:
+  Issue and auction Product Tickets🎫 to buy Sources without debt.
+  Issue and auction Source Titles▦ for Work Agreement📃 signatures.
 
-Some consumers buy Future Products with money, just like crowdfunding.
-Others buy with Future Work when they sign one or more work contracts.
+=== User Interface
+BUTTON[Buy Product Ticket🎫]:
+  Pay with money to own Future Products of some *projected* quantity and quality.
+  Sign Work Agreements📃 to own future products and the Sources of those products.
 
-Workers gain Source Ownership on a work-to-own basis as they complete work contracts.
-This enables debt-free housing, food sovereignty, water security and social stability.
+BUTTON[Sign Work Agreement📃]:
+  Receive immediate access to Sources and critical Products.
+  Become Source owner as work is completed. (work-to-own)
+  Trade Work Agreement📃 signatures with others. (work-for-work)
+  Source Owners receive Future Products without purchase. (own-to-use)
 
-The owner of Sources is the owner of future products without purchase.
-This delivers goods and services at the real costs of that production.
+SCREEN[Source Acquisition and Allocation]:
+  Show map of parcels for sale near user.
+  Zoom in on any parcel to see water rights and zoning restrictions.
+  For each parcel,
+    Read all pending Product Ticket🎫 proposals details and funding status.
 
-Property is held to protect against being charged price above cost.
-The return on investment is that you *avoid* paying profit or rent.
-
-Production is vertically integrated through permaculture and localized manufacturing.
-Abundance and permanent solutions return as natural goals. Economy and ecology align.
-
-In this model, the owner of Sources is the automatic owner of those future products.
-Instead of buying products from the group, each Source Owner claims their part directly.
-Profit is UNDEFINED because the final transaction of purchase simply does not occur.
-Whether you or someone else does the work, ownership of the product does not change.
-
-.    When the consumers are owners there is no sale.
-.    Just as when you own a tree, you own the fruit,
-.    when you co-own a forest, you co-own the fruit.
-.    You own the outputs because you own the inputs.
-
-Workers gain property ownership in the Sources of the products they use,
-and so receive all goods and services 'at cost' and under their control.
-
-When we sell future products to own sources and trade work this way,
-we create an imperfect insurance of that future production.
-
-As the investor's interest is refocused on the product,
-abundance returns as the true purpose of production
-while automation and 🤖 are no longer a threat.
+SCREEN[Define Product Ticket🎫]:
+  Define a SERVING-SIZE and a MIN-SCALE.
+  Estimate constraints on production such as temperature, water, elevation.
+  Estimate the time delay before each round-of-production.
+  Estimate any pollution or externality that cannot be
+  For each SERVING-SIZE at MIN-SCALE,
+    Estimate the quality and quantity of that future production.
+    Estimate the Work, the Sources and all supporting Sources such as startup supplies or external services before full vertical integration.

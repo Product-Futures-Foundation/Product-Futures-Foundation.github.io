@@ -1,6 +1,6 @@
 === Value Forms
 
-Sources such as land, water, plants, animals are fundamental.
+Fundamental value such as land, water, plants, animals create most of 
 
 Use value is the usefulness of a product the end user.
 
@@ -8,8 +8,7 @@ Exchange value is the difference between the price a user pays *now* and the cos
 
     profit = user_price - owner_costs
 
-Ahh, so when user is owner, profit is
-UNDEFINED because there is no sale!
+When user is owner, there is no sale and so profit is undefined.
 
 Future Value is the future productive potential of Sources plus Labor.
 
