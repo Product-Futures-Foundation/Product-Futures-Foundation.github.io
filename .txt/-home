@@ -1,41 +1,43 @@
-=                For Product
-"'
-To ensure the production of future goods and services through:
-Subscriptions: Product Tickets🎫 representing that future production.
-Private Property: Source Titles▦ representing micro-ownership in Sources.
-Contract Law: Work Agreements📃 representing contracts to achieve future work.
-'"
+= Timeline
+== Plan
+Find land for sale that could be used to build a permacultured production arena.
+Find the essential goods and services that could be produced at that location.
 
->> Users may:
-  Buy Product Tickets🎫 to receive Future Products. (pay-to-play)
-  Sign Work Agreements📃 to access and own Sources. (work-to-own)
+== Fund
+Issue Product Tickets🎫, representing future goods and services.
+Auction Product Tickets🎫 to secure land and tools without debt.
+When you pay with work you own future honey🍯 hives𐇧 and bees🐝.
 
->> The DAO must:
-  Issue and auction Product Tickets🎫 to buy Sources without debt.
-  Issue and auction Source Titles▦ for Work Agreement📃 signatures.
+== Work
+Issue Source Titles▦, representing a small amounts of ownership in land and tools.
+Issue Work Agreements📃, representing commitments to achieve future production.
+Auction Source Titles▦ to secure Work Agreement📃 signatures.
 
-=== User Interface
-BUTTON[Buy Product Ticket🎫]:
-  Pay with money to own Future Products of some *projected* quantity and quality.
-  Sign Work Agreements📃 to own future products and the Sources of those products.
+== Own
+If both auctions succeed, buy land and tools and announce first day of work.
+Vest Source Titles▦ to workers as the first round-of-production is completed.
+Workers own Source Titles▦ which fulfilled the Product Tickets🎫 they bought.
 
-BUTTON[Sign Work Agreement📃]:
-  Receive immediate access to Sources and critical Products.
-  Become Source owner as work is completed. (work-to-own)
-  Trade Work Agreement📃 signatures with others. (work-for-work)
-  Source Owners receive Future Products without purchase. (own-to-use)
 
-SCREEN[Source Acquisition and Allocation]:
-  Show map of parcels for sale near user.
-  Zoom in on any parcel to see water rights and zoning restrictions.
-  For each parcel,
-    Read all pending Product Ticket🎫 proposals details and funding status.
+= User Interface
+=== "'Buy Product Ticket🎫'" [This is like rewards-based crowdfunding.]
+  Pay with future work or money to receive a time-delayed good or service.
+  Workers implicitly trade with other workers in this way. (work-for-work)
 
-SCREEN[Define Product Ticket🎫]:
-  Define a SERVING-SIZE and a MIN-SCALE.
-  Estimate constraints on production such as temperature, water, elevation.
-  Estimate the time delay before each round-of-production.
-  Estimate any pollution or externality that cannot be
-  For each SERVING-SIZE at MIN-SCALE,
-    Estimate the quality and quantity of that future production.
-    Estimate the Work, the Sources and all supporting Sources such as startup supplies or external services before full vertical integration.
+=== "'Bid-to-sign Work Agreement📃'" [Pay with future work.]
+  Test to qualify or use the apprenticeship program. (work-to-learn)
+  Receive a Basic Outcome of essential goods and services. (sign-to-use)
+  Workers gain Source Titles▦ as Work Agreements📃 are completed. (work-to-own)
+  Source Title▦ owners receive future products without purchase. (own-to-use)
+
+=== "'Define New Product Ticket🎫'" [Create a crowdfun (sic) campaign.]
+  List work and sources required to begin production.
+  List delivery schedules and production constraints.
+  List pollution and any unavoidable externalities.
+  Change (your version of) a proposal to vote on implementation details.
+
+=== "'Issue Source Titles▦'" [Land acquisition and allocation.]
+  Show map of land for sale, with default being nearest that user.
+  Zoom in to see water rights and zoning restrictions.
+  Show Product Ticket🎫 proposals and funding status.
+  Change (your version of) a map to vote on the layout.

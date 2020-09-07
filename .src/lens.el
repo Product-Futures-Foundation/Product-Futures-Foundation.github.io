@@ -1,4 +1,4 @@
-;;; lens.el --- Clear Code Kit -*- emacs-lisp -*-
+;;; lens.el --- Language Enabling Natural Systems -*- emacs-lisp -*-
 
 ;; Copyright 🄯 2013->∞ Product Futures Foundation
 
@@ -20,10 +20,7 @@
 ;;  Affero General Public License along with this
 ;;  program.  If not, see http://GNU.org/licenses
 
-;; LENS -- a Language to Enable Natural Systems
-;; to describe less-smart contracts simple enough
-;; for everyone to read, understand and write.
-
+;; Write social contracts that are easy to read.
 
 ;;; Version:
 ;; .01 new

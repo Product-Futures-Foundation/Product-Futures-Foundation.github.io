@@ -1,26 +1,25 @@
-== Core of entry for FoodSystemVisionPrize.org
+=== Phase 0 [META]:
+📏📐 💥 🗄  Create secure ledgers (such as physical paper behind locks and guards or a sequentially secure, write-only database such as a blockchain) to record information.
+🚿🥗🛏 ⇉ 🗄  Record essential Goods and Services which can be produced locally.
+🏞🛠👷 ⇉ 🗄  Record the Land, Tools and Work required for that production.
+🗄 : 🚿🥗🛏  Offer those future Goods and Services for sale before they are created.
 
-=== Phase 0:
-📏📐 💥 🗄  Create a secure ledger (such as blockchain) to record information.
-🚿🥗🛏 ⇉ 🗄  Record some Goods and Services which can be produced locally.
-🏞🛠👷 ⇉ 🗄  Record all the Land, Tools and Work required for that production.
-🗄 : 🚿🥗🛏  Offer those future Goods and Services for sale.
-
-=== Phase 1:
+=== Phase 1 [BOOT]:
 🗳[💰] ↔ 🚿🥗🛏  Users vote-with-money to buy future Goods and Services.
 🗳[📃✍👷] ↔ 🚿🥗🛏 & 🏞🛠  Users vote-with-future-work to buy future Goods and Services and also receive access to the Land and Tools required for that production.
 🗄 : 💰 ↔ 🏞🛠  The system uses the money to buy Land and Tools.
 📃✅: 🏞🛠 ⇉ 👷  Land and Tools ownership vests as work is completed.
-🏞 + 🛠 + 👷 ⇉ 🚿🥗🛏 ⇉ 👷  When you own Land, Tools and Work, you own those future Goods and Services without purchase.
-📃✍👷 ↔ 📃✍👷  When you buy future Goods and Services with future Work, you implicitly trade future Work with others, and so create a true insurance network.
+🏞 + 🛠 + 👷 ⇉ 🚿🥗🛏 ⇉ 👷  Own Sources and swap skills to own future Goods and Services.
+📃✍👷 ↔ 📃✍👷  When buy products with future work you implicitly trade with other workers.
 
-=== Phase 2: 🧭🧮  Geoff Lawton of GeoffLawtonOnline.com
+=== Phase 2 [: 🧭🧮  Geoff Lawton of GeoffLawtonOnline.com
 Survey land for watershed and other Permaculture considerations.
+Choose plants and birds and fish suitable for that area.
 
-=== Phase 3: 🏘🏡  Jae Sabol of OneCommunityGlobal.org
+=== Phase 3: 🏘🏡  OneCommunityGlobal.org
 Drawup templates for layout of shared properties.
 Vet construction plans for shelters and structures with local building codes using natural building techniques..
-Use Permaculture to achieve localized self sufficiency.
+
 
 === Phase 4: 🏭🛠🤖  Marcin Jakubowski of OpenSourceEcology.org
 Build tools which make tools to achieve modern comfort with far less ecologic and economic costs.
