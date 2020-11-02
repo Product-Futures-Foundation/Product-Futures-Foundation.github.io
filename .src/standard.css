@@ -22,7 +22,7 @@ span.shell {background:#ddd;}
 span.cmnt {background:#dfd;}
 span.type {background:#9bf;}
 
-/* all links */
+/* internal links */
 a {color:#000; text-decoration:underline dashed #CCF; ;}
 a:hover, a:focus {text-decoration:underline dashed #000;
                   color:#FFF; background:#009;}

@@ -1,35 +1,40 @@
-=                For Product
-"'
-To ensure the production of future goods and services through:
-Subscriptions: Product Tickets🎫 representing that future production.
-Private Property: Source Titles▦ representing micro-ownership in Sources.
-Contract Law: Work Agreements📃 representing contracts to achieve future work.
-'"
+=                The For Product Business Model
 
->> Users may:
-  Buy Product Tickets🎫 to receive Future Products. (pay-to-play)
-  Sign Work Agreements📃 to access and own Sources. (work-to-own)
+== Statement of Intent
+Insure the production of essential goods and services.
 
->> The DAO must:
-  Issue and auction Product Tickets🎫 to buy Sources without debt.
-  Issue and auction Source Titles▦ for Work Agreement📃 signatures.
+== Terms of Operation
+Pay with money to prepay for Future Products🎫.
+Sign Work Agreements📃 to prepay for Future Products.
+Complete Work Agreements📃 to gain land ownership.
+Implicitly swap work when you pay for Future Products.
+Land ownership is collateral to cover further risk.
 
-=== User Interface
-BUTTON[Buy Product Ticket🎫]:
-  Pay with money to own Future Products of some *projected* quantity and quality.
-  Sign Work Agreements📃 to own future products and the Sources of those products.
+== Legal Instruments
+Crowdfunding: Each Product Ticket🎫 is an expiring claim of ownership over the future production of a specific good or service at some projected quantity and quality.
+Private Property: Each Source Title▦ represent fractal ownership in land, tools, water-rights, mineral-rights, etc. required for production.
+Labor Contracts: Each Work Agreement📃 represents a contract to achieve future production of a specific good or service at some projected quantity and quality.
 
-BUTTON[Sign Work Agreement📃]:
-  Receive immediate access to Sources and critical Products.
-  Become Source owner as work is completed. (work-to-own)
-  Trade Work Agreement📃 signatures with others. (work-for-work)
-  Source Owners receive Future Products without purchase. (own-to-use)
+== Code [Rules / Terms of Operation {Business Model, DAO}]
+Sell Future Products for the money to buy Land without debt.
+Land ownership vests to those who complete that production.
+That land is held to avoid paying profit, rent and interest. (Own-to-Use)
 
-SCREEN[Source Acquisition and Allocation]:
-  Show map of parcels for sale near user.
-  Zoom in on any parcel to see water rights and zoning restrictions.
-  For each parcel,
-    Read all pending Product Ticket🎫 proposals details and funding status.
+== User Interface (UI)
+SCREEN[Pay-to-Play]
+Pay with money to own Future Products (crowdfund).
+
+SCREEN[work-to-own]
+Sign Work Agreements📃 to own future goods and services.
+Gain Source Title▦ ownership as you complete that work.
+Receive immediate access to critical goods and services.
+Trade Work Agreements📃 for signatures of others. (work-for-work)
+
+SCREEN[Land Acquisition and Allocation]:
+  Show MAP of real-estate parcels for sale near user.
+  For each SUB-ZONE,
+    Show [water,mineral] rights and ZONING restrictions.
+    Show pending Product Ticket🎫 proposals and funding status.
 
 SCREEN[Define Product Ticket🎫]:
   Define a SERVING-SIZE and a MIN-SCALE.
@@ -39,3 +44,10 @@ SCREEN[Define Product Ticket🎫]:
   For each SERVING-SIZE at MIN-SCALE,
     Estimate the quality and quantity of that future production.
     Estimate the Work, the Sources and all supporting Sources such as startup supplies or external services before full vertical integration.
+
+== Remixing
+Crowd Funding: Commit money or work to prepay for goods or services.
+Time Banking: Gain land ownership as you complete work Agreements📃.
+Mutual Credit: That land is collateral for more risky contracts.
+Home Economics: Owners receive the product itself as the natural ROI.
+Free Software: Hold land to insure user freedom in the material realm.
