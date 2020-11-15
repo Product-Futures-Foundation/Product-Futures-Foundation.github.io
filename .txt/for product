@@ -1,29 +1,27 @@
 =                The For Product Business Model
 
 == Statement of Intent
-Direct user governance over the production of all essential goods and services.
-
-== Legal Instruments
-Crowdfunding: Product Tickets represent expiring claims of ownership over future production.
-Private Property: Source Titles represent property ownership in land, tools, water-rights, mineral-rights, etc. required for that production.
-Contract Law: Work Agreements represent legally binding commitments to achieve that future production.
+Use private property and contract law to regain control of essential goods and services.
 
 == Terms of Operation
-Some must buy Product Tickets with money to fund the acquisition of land and tools.
-Some must buy Product Tickets by signing Work Agreements to achieve that production.
-Those who complete Work Agreements gain Land ownership held under these terms.
-Land ownership is automatic collateral attempting cover further risk.
-That land is held to avoid paying profit, rent and interest.
+You may buy Product Tickets with money to fund the acquisition of land and tools.
+Product Tickets represent expiring claims of ownership over future production.
+You may buy Product Tickets by signing Work Agreements to achieve that production.
+Work Agreements represent legally binding commitments to achieve future production.
+Those who complete Work Agreements gain Source Titles held under these terms.
+Source Titles represent property ownership in land, tools, water-rights, mineral-rights.
+Source Titles enable production without profit, rent or interest.
+Source Titles can be used as collateral for more dangerous work.
 
 == User Interface (UI)
 SCREEN[Pay-to-Play]
-Pay with money to own Product Tickets (crowdfund).
+  Pay with money to own Product Tickets (crowdfund).
 
 SCREEN[work-to-own]
-Sign Work Agreements to own future goods and services.
-Gain Source Title ownership as you complete that work.
-Receive immediate access to critical goods and services.
-Trade Work Agreements for signatures of others. (work-for-work)
+  Sign Work Agreements to own future goods and services.
+  Gain Source Title ownership as you complete that work.
+  Receive immediate access to critical goods and services.
+  Trade Work Agreements for signatures of others. (work-for-work)
 
 SCREEN[Land Acquisition and Allocation]:
   Show MAP of real-estate parcels for sale near user.

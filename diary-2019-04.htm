@@ -235,7 +235,7 @@ interface <a href="token.htm">token</a>Recipient <small>{ <a href="fun.htm">fun<
 &nbsp;&nbsp;&nbsp; mapping <small>(ad<a href="dress.htm">dress</a> => bool)</small> public frozenAccount;<br/>
 <br/>
 &nbsp;&nbsp;&nbsp; /* This generates a public event on the <a href="bloc.htm">bloc</a>kchain that will notify clients */<br/>
-&nbsp;&nbsp;&nbsp; event Frozen<a href="fun.htm">Fun</a>ds<small>(ad<a href="dress.htm">dress</a> target, bool frozen)</small>;<br/>
+&nbsp;&nbsp;&nbsp; event Frozen<a href="fund.htm">Fund</a>s<small>(ad<a href="dress.htm">dress</a> target, bool frozen)</small>;<br/>
 <br/>
 &nbsp;&nbsp;&nbsp; /* Initializes <a href="contract.htm">contract</a> with initial supply <a href="token.htm">token</a>s to the <a href="creat.htm">creat</a>or of the <a href="contract.htm">contract</a> */<br/>
 &nbsp;&nbsp;&nbsp; con<a href="struc.htm">struc</a>tor<small>(<br/>
@@ -271,7 +271,7 @@ interface <a href="token.htm">token</a>Recipient <small>{ <a href="fun.htm">fun<
 &nbsp;&nbsp;&nbsp; /// @param <a href="free.htm">free</a>ze either to <a href="free.htm">free</a>ze it or not<br/>
 &nbsp;&nbsp;&nbsp; <a href="fun.htm">fun</a>ction <a href="free.htm">free</a>zeAccount<small>(ad<a href="dress.htm">dress</a> target, bool <a href="free.htm">free</a>ze)</small> only<a href="own.htm">Own</a>er public <small>{<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; frozenAccount<small>[target]</small> = <a href="free.htm">free</a>ze;<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emit Frozen<a href="fun.htm">Fun</a>ds<small>(target, <a href="free.htm">free</a>ze)</small>;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emit Frozen<a href="fund.htm">Fund</a>s<small>(target, <a href="free.htm">free</a>ze)</small>;<br/>
 &nbsp;&nbsp;&nbsp; }</small><br/>
 <br/>
 &nbsp;&nbsp;&nbsp; /// @not<a href="ice.htm">ice</a> Allow <a href="use.htm">use</a>rs to <a href="buy.htm">buy</a> <a href="token.htm">token</a>s for `<a href="new.htm">new</a><a href="buy.htm">Buy</a><a href="pric.htm">Pric</a>e` eth and <a href="sell.htm">sell</a> <a href="token.htm">token</a>s for `<a href="new.htm">new</a><a href="sell.htm">Sell</a><a href="pric.htm">Pric</a>e` eth<br/>
