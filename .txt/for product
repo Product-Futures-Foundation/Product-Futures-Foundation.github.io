@@ -1,18 +1,49 @@
 =                The For Product Business Model
 
 == Statement of Intent
-Use private property and contract law to regain control of essential goods and services.
+Own land and trade work to produce essential goods and services without debt.
 
 == Terms of Operation
-You may buy Product Tickets with money to fund the acquisition of land and tools.
-Product Tickets represent expiring claims of ownership over future production.
-You may buy Product Tickets by signing Work Agreements to achieve that production.
-Work Agreements represent legally binding commitments to achieve future production.
-Those who complete Work Agreements gain Source Titles held under these terms.
+Product Tickets represent a claim of ownership over future goods and services.
 Source Titles represent property ownership in land, tools, water-rights, mineral-rights.
-Source Titles enable production without profit, rent or interest.
-Source Titles can be used as collateral for more dangerous work.
+Work Agreements represent legally binding commitments to achieve future production.
 
+== Startup Timeline
+Find raw land for sale outside of city limits to build self-hosted micro-cities.
+Verify essential goods and services we to be produced.
+Within the limits of production of each location
+
+Issue Product Tickets representing those future goods and services.
+Auction Product Tickets to secure the land and tools without debt.
+
+Issue Source Titles representing small amounts of land ownership.
+Issue Work Agreements representing commitments to achieve production.
+Auction Source Titles to secure the Work Agreement signatures.
+
+If both auctions succeed, we buy the land and resources to begin.
+
+Source Titles vest to workers as production is completed.
+
+Source Titles can be used as collateral for more risky projects.
+
+== "'Buy Product Ticket'" [This is like rewards-based crowdfunding.]
+  Pay with future work or money to receive a time-delayed good or service.
+  Workers implicitly trade with other workers in this way. (work-for-work)
+== "'Bid-to-sign Work Agreement'" [Pay with future work.]
+  Test to qualify or use the apprenticeship program. (work-to-learn)
+  Receive a Basic Outcome of essential goods and services. (sign-to-use)
+  Workers gain Source Titles as Work Agreements are completed. (work-to-own)
+  Owners of Source Titles receive future products without purchase. (own-to-use)
+== "'Define New Product Ticket'" [Create a crowdfun (sic) campaign.]
+  List work and sources required to begin production.
+  List delivery schedules and production constraints.
+  List pollution and any unavoidable externalities.
+  Change (your version of) a proposal to vote on implementation details.
+== "'Issue Source Titles'" [Land acquisition and allocation.]
+  Show map of land for sale, with default being nearest that user.
+  Zoom in to see water rights and zoning restrictions.
+  Show Product Ticket proposals and funding status.
+  Change (your version of) a map to vote on the layout.
 == User Interface (UI)
 SCREEN[Pay-to-Play]
   Pay with money to own Product Tickets (crowdfund).
@@ -23,20 +54,21 @@ SCREEN[work-to-own]
   Receive immediate access to critical goods and services.
   Trade Work Agreements for signatures of others. (work-for-work)
 
-SCREEN[Land Acquisition and Allocation]:
+SCREEN[Land Acquisition and Allocation]
   Show MAP of real-estate parcels for sale near user.
-  For each SUB-ZONE,
-    Show [water,mineral] rights and ZONING restrictions.
+  For each ZONE,
     Show pending Product Ticket proposals and funding status.
+    Show water-rights, mineral-rights, external restrictions.
 
-SCREEN[Define Product Ticket]:
-  Define a SERVING-SIZE and a MIN-SCALE.
-  Estimate constraints on production such as temperature, water, elevation.
-  Estimate the time delay before each round-of-production.
-  Estimate any pollution or externality that cannot be
-  For each SERVING-SIZE at MIN-SCALE,
-    Estimate the quality and quantity of that future production.
-    Estimate the Work, the Sources and all supporting Sources such as startup supplies or external services before full vertical integration.
+SCREEN[Define Product Ticket]
+  For each Product,
+    Define SERVING-SIZE and a MIN-SCALE.
+    Estimate production constraints like temperature, water, elevation.
+    Estimate time delay before each round-of-production.
+    Estimate pollution and other externalities.
+    For each SERVING-SIZE at MIN-SCALE,
+      Estimate the quality and quantity of that future production.
+      Estimate Work, Sources, and startup products.
 
 == Remixing
 Crowd Funding: Commit money or work to prepay for goods or services.

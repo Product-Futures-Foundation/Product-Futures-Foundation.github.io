@@ -3,9 +3,9 @@ We restructure the flow of value during startup and production by changing how w
 We use a set of shared ledgers to securely record Products, Land and Work.
 
 == The Product Ledger
-This is a record of the quality and quantity of past and future Production.
+This is a record of the quality and quantity of past and future production.
 Groups auction future Products to crowdfund Land without debt.
-Workers receive startup Products and future Products and future Land ownership.
+Workers receive startup Products and future Products and future land ownership.
 
 == The Land Ledger
 This is a record of the property titles of current and future Land ownership.

@@ -1,15 +1,10 @@
-Related: Future Product, NFT, Source Title▦
+Related: Future Product, NFT, Source Title▦, Work Agreements📃
 
-Product Ticket🎫 are issued as claims of ownership over future production at some projected quantity and quality.
+Each Product Ticket represents a claim of ownership over the future production of a particular good or service at some projected quantity and quality.
 
-We can sell Product Tickets🎫 to buy the Sources required for that production
-then mint Source Titles▦ and vest ownership as Work Agreements are fulfilled.
+Each Product Ticket is initially-invalid and finally expiring, with the "Window of Validity" defined by real limitations of production and storage.
 
-Most Product Tickets🎫 have a natural "Window of Validity" as an approximate
-start-time and end-time defined by the real limitations of production and storage.
+During bootup, Product Tickets are issued and sold to buy the Sources required for that production.
 
-For example, you might not redeem Avocado Product Tickets🥑 for a decade or more.
-
-Subscriptions can be thought of as a book of tickets.
-
+After bootup, Product Tickets are periodically issued and deposited into the accounts of Source Title owners, representing the future products they *already* own.
 
