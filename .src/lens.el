@@ -27,14 +27,13 @@
 ;; .02 cleanup
 ;; .03 do not link to self
 ;;; Todo:
-;; Redirect to external when 1st char in file is URL
+;; Redirect to external when 1st line in file is URL
 ;; Resolve file-system links before generating hrefs
 ;; Insure most doc input varieties work fairly well
 ;; Color and link source code of every language
-;; Rewrite in TreeNotation
-;; Replace SPC with _ in URL.
-;; Redirect to URL when at BOF.
-;; Scrape other wikis for redirection lists.
+;; Use TreeNotation?  What is truth?
+;; Replace SPC with _ to avoid %20
+;; Watch other wikis for definitions.
 
 ;;  Header: =, ==, ===, ====
 ;;  Shell: $, #
@@ -117,10 +116,10 @@ All terms less than this match only at the beginning of words (using `\\b')")
 
 (defun lens-shortest-inner (term)
   (if (< (length term) lens-shortest-inner)
-	  (if (<= (length term) 2)
-		  (concat "[[:blank:]\n]*" (regexp-quote term) "[[:blank:]\n]*") ;;find tiny terms only if they stand alone
-		(concat "[[:blank:]\n]*" (regexp-quote term))) ;;find short terms only at beginning of word
-	(regexp-quote term))) ;;Term otherwise
+      (if (<= (length term) 2)
+          (concat "[[:blank:]\n]*" (regexp-quote term) "[[:blank:]\n]*") ;;find tiny terms only if they stand alone
+        (concat "[[:blank:]\n]*" (regexp-quote term))) ;;find short terms only at beginning of word
+    (regexp-quote term))) ;;Term otherwise
 
 ;;This doesn't really recurse yet, but it really should be a collection of files and directories to allow posting of .files etc.
 (defun lens-recurse (process-file)
@@ -147,95 +146,102 @@ All terms less than this match only at the beginning of words (using `\\b')")
    (lambda (file)
      (setq lens-mapping
            (cons
-			(list
-			 (lens-shortest-inner file)
-			 (concat
-			  "<a href=\"" file ".htm"
-			  ;; 			  (if (file-name-extension file)
-			  ;; 				  nil
-			  ;; 				".htm")
-			  "\">\\&</a>"))
-			lens-mapping))))
+            (list
+             (lens-shortest-inner file)
+             (concat
+              "<a href=\"" file ".htm"
+              ;;              (if (file-name-extension file)
+              ;;                  nil
+              ;;                ".htm")
+              "\">\\&</a>"))
+            lens-mapping))))
 
   (dolist
-	  (term ;; regexp followed by HTML markup and optional HTML closing markup
-	   '(
+      (term ;; regexp followed by HTML markup and optional HTML closing markup
+       '(
          ;;;; NOTE: Entries at the BOTTOM of this list have HIGHEST priority
 
-		 ;;must appear at BOL
-		 ;;   		 ("^.[^ \n\t]+?:" "<span class=\"type\">\\&" "</span>")
+         ;;must appear at BOL
+         ;;          ("^.[^ \n\t]+?:" "<span class=\"type\">\\&" "</span>")
 
-		 ;;  		 ("^.*?:" "<span class=\"h4\">\\&" "</span>");anything followed by a : is a title?
+         ;;          ("^.*?:" "<span class=\"h4\">\\&" "</span>");anything followed by a : is a title?
 
          ;; This is at the top of some pages.  Maybe migrate to bottom.
          ("^\\(Related\\|See\\):"  "<span class=\"rel\">\\&" "</span>")
 
- 		 ("^//" "<span class=\"cmnt\">\\&" "</span>")
+                                        ; this will eventually conflict with URLs and file paths.
+         ("^//" "<span class=\"cmnt\">\\&" "</span>")
 
          ;; This is date markup for the diary
-		 ("^[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}:"  "<hr/><span class=\"date\">\\&</span>")
+         ("^[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}:"  "<hr/><span class=\"date\">\\&</span>")
 
- 		 ("^>"  "<span class=\"quot\">\\&"  "</span>")
+                                        ; ye olde email quote style  >  at BOL
+         ("^>"  "<span class=\"quot\">\\&"  "</span>")
 
- 		 ("^="  "<span class=\"h1\">\\&"  "</span>")
- 		 ("^=="  "<span class=\"h2\">\\&"  "</span>")
- 		 ("^==="  "<span class=\"h3\">\\&"  "</span>")
- 		 ("^===="  "<span class=\"h4\">\\&"  "</span>")
- 		 ;; ("^----"  "<hr/>\\&")
+                                        ; headers
+         ("^=\\|^#"  "<span class=\"h1\">\\&"  "</span>")
+         ("^==\\|^##"  "<span class=\"h2\">\\&"  "</span>")
+         ("^===\\|^###"  "<span class=\"h3\">\\&"  "</span>")
+         ("^====\\|^####"  "<span class=\"h4\">\\&"  "</span>")
 
- 		 ("^\\$ "  "<span class=\"shell\">\\&"  "</span>")
+                                        ; line
+         ;; ("^----"  "<hr/>\\&")
+
+                                        ; indent for shell code
+         ;; ("^\\$ "  "<span class=\"shell\">\\&"  "</span>")
 
          ;; If the first char is a number or any of  :*.o
- 		 ;; ("^[ \t]*\\([0-9]\\|:\\|\\*\\|\\.\\|o\\)" "<span class=\"bullet\">\\&</span>")
+         ;; ("^[ \t]*\\([0-9]\\|:\\|\\*\\|\\.\\|o\\)" "<span class=\"bullet\">\\&</span>")
          ("^[ \t]*\\(:\\|\\*\\|\\.\\)" "<span class=\"bullet\">\\&</span>")
 
 
          ;;; BOL not required
- 		 ("(\\|{\\|\\[" "<small>\\&")
- 		 (")\\|\\}\\|]" "\\&</small>")
+         ("(\\|{\\|\\[" "<small>\\&")
+         (")\\|\\}\\|]" "\\&</small>")
 
- 		 ("\"'" "<span class=\"quot2\">\\&")
- 		 ("'\"" "\\&</span>")
+         ("\"'" "<span class=\"quot2\">\\&")
+         ("'\"" "\\&</span>")
 
-		 ;;This is not correct.  We should emit to align at column mod(4)
-		 ;;Wikipedia.org/wiki/Tab_key#Tabs_in_HTML
-		 ("\t" "&nbsp;&nbsp;&nbsp;&nbsp;") ;;TAB
-		 ;; 		 ("\t" "\t") ;;doesn't align
-		 ;; 		 ("\t" "&#09;") ;;same as \t
-		 ;; 		 ("\t" "&#11;") ;;disallowed in SGML (HTML) and XML 1.0
+         ;;This is not correct.  We should emit to align at column mod(4)
+         ;;Wikipedia.org/wiki/Tab_key#Tabs_in_HTML
+         ("\t" "&nbsp;&nbsp;&nbsp;&nbsp;") ;;TAB
+         ;;          ("\t" "\t") ;;doesn't align
+         ;;          ("\t" "&#09;") ;;same as \t
+         ;;          ("\t" "&#11;") ;;disallowed in SGML (HTML) and XML 1.0
 
-		 ("  " "&nbsp;&nbsp;")
-		 ("^ " "&nbsp;") ;; this seems wrong
+         ("  " "&nbsp;&nbsp;")
+         ("^ " "&nbsp;") ;; this seems wrong
 
- 		 (">>" "<span class=\"quot2\">\\&" "</span>")
- 		 (">>>" "<span class=\"quot3\">\\&" "</span>")
+         (">>" "<span class=\"quot2\">\\&" "</span>")
+         (">>>" "<span class=\"quot3\">\\&" "</span>")
 
-		 ;;TODO: encode & to &amp;
-		 ;;see `lens-explicit-URL'
-		 ("\\([a-zA-Z0-9]\\)+://[^ \t\n]*"
-		  "<a class=\"ext\" href=\"\\&\">\\&</a>")
+         ;;TODO: encode and emit HTTP entity, such as &amp;
+         ;;could also support punycode
+         ;;see `lens-explicit-URL'
+         ("\\([a-zA-Z0-9]\\)+://[^ \t\n]*"
+          "<a class=\"ext\" href=\"\\&\">\\&</a>")
 
-		 ;;see `lens-implicit-HTTP'
+         ;;see `lens-implicit-HTTP'
          ("\\(\\([a-zA-Z0-9_-]\\)+\\.\\)+\\([a-zA-Z][a-zA-Z]\\)[^])}>:,; \t\n]*"
-          ;("\\(\\([a-zA-Z0-9_-]\\)+\\.\\)+[^])}>:,; \t\n\j]*"
-		  "<a class=\"ext\" href=\"https://\\&\">\\&</a>")
+                                        ;("\\(\\([a-zA-Z0-9_-]\\)+\\.\\)+[^])}>:,; \t\n\j]*"
+          "<a class=\"ext\" href=\"https://\\&\">\\&</a>")
 
-		 ;;XML entities
-		 ("<" "&lt;")
-		 ("&" "&amp;")
+         ;;XML entities
+         ("<" "&lt;")
+         ("&" "&amp;")
 
- 		 ("<i>" "&lt;i><span class=\"itlc\">")
- 		 ("</i>" "</span>&lt;/i>")
+         ("<i>" "&lt;i><span class=\"itlc\">")
+         ("</i>" "</span>&lt;/i>")
 
- 		 ("<b>" "&lt;b><span class=\"bold\">")
- 		 ("</b>" "</span>&lt;/b>")
+         ("<b>" "&lt;b><span class=\"bold\">")
+         ("</b>" "</span>&lt;/b>")
 
-		 ;;whitespace
-		 ("\n" "<br/>\n")
+         ;;whitespace
+         ("\n" "<br/>\n")
 
 ;;;;;;;; ---- ADD TERMS ABOVE THIS LINE ---- ;;;;;;;;
          ;;;; NOTE: Entries at the BOTTOM of this list have HIGHEST priority
-		 ))
+         ))
     (setq lens-mapping (cons term lens-mapping))))
 
 
@@ -250,18 +256,18 @@ All terms less than this match only at the beginning of words (using `\\b')")
         (make-directory lens-output-dir))
 
     (lens-recurse
-	 'lens-make-page-internal)
+     'lens-make-page-internal)
 
-	(copy-file "../.src/index.src" (concat lens-output-dir "/index.htm") t)
+    (copy-file "../.src/index.src" (concat lens-output-dir "/index.htm") t)
 
-	(if (file-exists-p "../.src/post.el")
-		(load-file "../.src/post.el"))
+    (if (file-exists-p "../.src/post.el")
+        (load-file "../.src/post.el"))
     (message
      (concat "lens started at "
              (format-time-string
               "%I:%M:%S \n"
-			  lens-started)
-			 "and finished at "
+              lens-started)
+             "and finished at "
              (format-time-string
               "%I:%M:%S"
               (current-time) )))))
@@ -283,10 +289,10 @@ All terms less than this match only at the beginning of words (using `\\b')")
 (defun lens-make-page-internal (file)
   (let ((new-file (concat lens-output-dir "/" file))
         (process ".htm")
-		;; 		 (if (file-name-extension file)
-		;;                      nil
-		;;                    ".html"))
-		(modified (format-time-string "%B %e, %Y %l:%M %p" (nth 5 (file-attributes file)))))
+        ;;       (if (file-name-extension file)
+        ;;                      nil
+        ;;                    ".html"))
+        (modified (format-time-string "%B %e, %Y %l:%M %p" (nth 5 (file-attributes file)))))
 
     (setq new-file (concat new-file process))
 
@@ -299,7 +305,7 @@ All terms less than this match only at the beginning of words (using `\\b')")
           (let ((found nil))
             (save-excursion)
             (set-buffer (find-file-literally new-file))
-			;;			(setq buffer-file-coding-system default-buffer-file-coding-system)
+            ;;          (setq buffer-file-coding-system default-buffer-file-coding-system)
             (setq case-fold-search t)
             (goto-char (point-min))
             (let ((term-count (length lens-mapping)))
@@ -312,35 +318,35 @@ All terms less than this match only at the beginning of words (using `\\b')")
 
                   (while (< cur-term term-count) ;;while more terms to consider
                     (let ((regexp (car (nth cur-term lens-mapping)))
-						  (replacement (car (cdr (nth cur-term lens-mapping))))
-						  (closing (cdr (cdr (nth cur-term lens-mapping)))))
+                          (replacement (car (cdr (nth cur-term lens-mapping))))
+                          (closing (cdr (cdr (nth cur-term lens-mapping)))))
                       (if (and (looking-at regexp)
                                (not (string-equal file regexp))) ;; do not link to self
                           (progn ;;found the term
 
-							;;if `cur-term' represents a file (not just a regexp)
-							;;  then add `file' to `cur-term's backlink list
-							;;after `lens-make-pages' is complete, iterate through all files again, appending all found backlinks
+                            ;;if `cur-term' represents a file (not just a regexp)
+                            ;;  then add `file' to `cur-term's backlink list
+                            ;;after `lens-make-pages' is complete, iterate through all files again, appending all found backlinks
 
-							;;if this map has a closing tag
-							(if closing
-								;;prepended to the current string so it closes first
-								(setq lens-closing (concat (car closing) lens-closing)))
+                            ;;if this map has a closing tag
+                            (if closing
+                                ;;prepended to the current string so it closes first
+                                (setq lens-closing (concat (car closing) lens-closing)))
 
-							(if (and (string= regexp "\n") ;if at EOL,
-									 lens-closing);and there are tags to close,
-								(progn
-								  ;;close tags and follow with EOL replacement
-								  ;;(insert lens-closing replacement)
-								  (insert lens-closing)
-								  (setq lens-closing nil);empty our bucket
-								  )
-							  ;;else, just replace as normal
-							  (replace-match replacement t nil))
+                            (if (and (string= regexp "\n") ;if at EOL,
+                                     lens-closing);and there are tags to close,
+                                (progn
+                                  ;;close tags and follow with EOL replacement
+                                  ;;(insert lens-closing replacement)
+                                  (insert lens-closing)
+                                  (setq lens-closing nil);empty our bucket
+                                  )
+                              ;;else, just replace as normal
+                              (replace-match replacement t nil))
 
                             (setq cur-term term-count) ;;break out of while
                             (setq found t)
-							;;`re-search-forward' already set the point to the end of the replacement text
+                            ;;`re-search-forward' already set the point to the end of the replacement text
                             )
                         (setq cur-term (+ 1 cur-term))) ;;didn't find a match, so try the next term at the same point
                       ))
@@ -349,65 +355,65 @@ All terms less than this match only at the beginning of words (using `\\b')")
                       (forward-char))))
 
 
-			  ;;header
+              ;;header
               (goto-char (point-min))
               (insert
-			   "<?xml version=\"1.0\" encoding=\"" lens-encoding "\"?>\n"
+               "<?xml version=\"1.0\" encoding=\"" lens-encoding "\"?>\n"
                "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n"
                "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
                "\n"
                "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n"
                "\n"
                "<head>\n"
-			   "  <title>"
-			   (if lens-global-page-title
-				   lens-global-page-title
-				 file)
-			   "</title>\n"
-			   "  <link href=\"" lens-css "\" rel=\"stylesheet\" type=\"text/css\"/>\n"
+               "  <title>"
+               (if lens-global-page-title
+                   lens-global-page-title
+                 file)
+               "</title>\n"
+               "  <link href=\"" lens-css "\" rel=\"stylesheet\" type=\"text/css\"/>\n"
                "</head>\n"
                "\n"
                "<body>\n"
-			   )
+               )
 
-			  ;;top menu
-			  (if (not lens-pure)
-				  (insert
-				   (concat
-					"<p class='header'>\n"
-					" <a href=\"-home.htm\">Home</a> |"
-					;; " <a href=\"-faq.htm\">FAQ</a> |"
-					" <a href=\"-diary.htm\">Diary</a> |"
-					;; " <a href=\"-projects.htm\">Projects</a> |"
-					" <a href=\"-todo.htm\">Todo</a> |"
-					" <a href=\"-index.htm\">Index</a> |"
-					" <a href=\"-about.htm\">About</a> |"
-					"</p>\n"
-					)))
-			  (insert "<p class='main'>")
+              ;;top menu
+              (if (not lens-pure)
+                  (insert
+                   (concat
+                    "<p class='header'>\n"
+                    " <a href=\"-home.htm\">Home</a> |"
+                    ;; " <a href=\"-faq.htm\">FAQ</a> |"
+                    " <a href=\"-diary.htm\">Diary</a> |"
+                    ;; " <a href=\"-projects.htm\">Projects</a> |"
+                    " <a href=\"-todo.htm\">Todo</a> |"
+                    " <a href=\"-index.htm\">Index</a> |"
+                    " <a href=\"-about.htm\">About</a> |"
+                    "</p>\n"
+                    )))
+              (insert "<p class='main'>")
 
-			  ;;images
+              ;;images
               (mapcar
                (lambda (type)
                  (if (and (file-exists-p lens-img-dir)
-						  (file-exists-p
-						   (concat lens-img-dir "/" file "." type)))
+                          (file-exists-p
+                           (concat lens-img-dir "/" file "." type)))
                      (insert (concat "<img src=\"" lens-img-dir "/" file "." type "\" alt=\"\"/>"))))
                '("jpg" "gif" "png"))
 
-			  ;;footer
+              ;;footer
               (goto-char (point-max))
 
-			  (if (not lens-pure)
-				  (insert
-				   "</p>\n"
-				   "<p class='footer'>\n"
-				   " Page generated from <a href=\".txt/" file "\">" file "</a> by <a href=\".src/lens.el\">lens.el</a>."))
+              (if (not lens-pure)
+                  (insert
+                   "</p>\n"
+                   "<p class='footer'>\n"
+                   " Page generated from <a href=\".txt/" file "\">" file "</a> by <a href=\".src/lens.el\">lens.el</a>."))
 
-			  (insert
-			   "</p>\n"
-			   "</body>\n"
-			   "</html>\n")
+              (insert
+               "</p>\n"
+               "</body>\n"
+               "</html>\n")
 
               (save-buffer)
               (kill-buffer (current-buffer))
@@ -427,7 +433,7 @@ All terms less than this match only at the beginning of words (using `\\b')")
              (save-buffer)
              (kill-buffer (current-buffer))))))
    (if (file-exists-p lens-img-dir)
-	   (directory-files (concat lens-output-dir "/" lens-img-dir)))))
+       (directory-files (concat lens-output-dir "/" lens-img-dir)))))
 
 
 ;;lens-mode
@@ -440,33 +446,33 @@ All terms less than this match only at the beginning of words (using `\\b')")
    (lambda (term)
      (setq lens-font-lock
            (concat
-			(lens-shortest-inner term)
-			"\\|" lens-font-lock)))) ;;fill with filenames
+            (lens-shortest-inner term)
+            "\\|" lens-font-lock)))) ;;fill with filenames
 
   ;;encase and terminate
   (setq lens-font-lock
         (concat "\\(\\)\\("
-;				lens-external "\\|"
-				lens-explicit-URL "\\|"
-				lens-implicit-HTTP "\\|"
-				lens-font-lock "zzzzzzzz\\)"))) ;; what a mess.
+                                        ;               lens-external "\\|"
+                lens-explicit-URL "\\|"
+                lens-implicit-HTTP "\\|"
+                lens-font-lock "zzzzzzzz\\)"))) ;; what a mess.
 
 
 (defun lens-follow ()
   (save-excursion
     (re-search-forward lens-font-lock nil t))
   (let
-	  ((match (match-string 2)))
-	(if match
-		(progn
-		  (message match)
-		  (if (file-exists-p match)
-			  (find-file-read-only match)
-			(if (file-exists-p (capitalize match))
-				(find-file-read-only (capitalize match))
-			  (if (file-exists-p (upcase match))
-				  (find-file-read-only (upcase match))
-				(find-file-read-only (downcase match)))))))))
+      ((match (match-string 2)))
+    (if match
+        (progn
+          (message match)
+          (if (file-exists-p match)
+              (find-file-read-only match)
+            (if (file-exists-p (capitalize match))
+                (find-file-read-only (capitalize match))
+              (if (file-exists-p (upcase match))
+                  (find-file-read-only (upcase match))
+                (find-file-read-only (downcase match)))))))))
 
 
 
@@ -488,21 +494,21 @@ All terms less than this match only at the beginning of words (using `\\b')")
 
 (define-key lens-C-c-map [(control c)]
   (lambda () (interactive) "Compile this file."
-	(save-buffer)
+    (save-buffer)
     (lens-make-page buffer-file-name)))
 
 (define-key lens-C-c-map [(control p)]
   (lambda () (interactive)
-	"Preview generated HTML of this source file"
-	(save-buffer)
+    "Preview generated HTML of this source file"
+    (save-buffer)
     (lens-make-page buffer-file-name)
     (browse-url-of-file
-	 ;;(message
+     ;;(message
      (file-truename
       (concat
-	   lens-output-dir "/"
-	   (file-relative-name
-		(buffer-file-name)) ".htm")))))
+       lens-output-dir "/"
+       (file-relative-name
+        (buffer-file-name)) ".htm")))))
 
 (provide 'lens)
 

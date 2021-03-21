@@ -2,38 +2,34 @@ Related: water, sewer, sort, tray
 
 Sanitation is a fundamental human need required for a healthy society.
 
-Even those that cannot work must be allowed to wash.
+Everyone and everything must be cleaned to control infection.
 
-==Dishes
-Imagine a dishwasher with 4 half-trays in the machine that are easily removed.
+==Dish
+Dishwasher comes with (or conversion kit) with 4 easy-to-remove half-trays.
+2 more half-trays are stacked in or near the sink.
+Users naturally load their dishes into the tray.
+Clean trays can be slid in and out of cabinets.
 
-Another 4 half-trays are placed near the sink so users can load their own dirty dishes instead of filling the sink.
+==Cloth
+Pre-sort:
+Tiny laundry chutes let you sort as you strip.
+You might toss your shirt in 'Whites',
+your pants and socks into 'Colors',
+some other things to 'Delicate'.
 
-After the current load is finished, the clean trays are replaced with the dirty trays with very little effort.
+When the weight limit is reached, a counterbalanced dumb-waiter dumps the load into the washer (with optional [confirm] button) - of course waiting if another load is in progress.
 
+Large soap dispenser stores 1 year worth of soap and delivers the right amount for that cycle.
 
-==Clothes
-Pre-sort: 'Whites', 'Colors', 'Delicate' small laundry baskets allows the early solution.
+The washer is also the dryer.
+How do we automate folding and hanging?
 
-Once a weight limit is reached clothes, are dumped in small washer (with optional [confirm] button) - of course waiting if another load is in progress.
-
-The washer is also the dryer?
-
-Dry load dumps into basket on a counterbalanced dumb-waiter.
-
-A vision-enabled and/or remote-controlled car could take it the last mile.
-
-Large dispenser delivers a configurable amount and kind of soap for each wash.
-
-==VaClean
-Single-item washer will sanitize and dry most any cloth in seconds.
-
-Kitchen version coming soon!
+==Instant
+Single-item washer sanitizes any cloth or dish in seconds.
 
 Design specs:
 4 rollers approx 24 inches tall x 6 inches diameter.
 2 mesh belts, each wrapping around 2 of the rollers.
-
 
          Place items on
          conveyor belt

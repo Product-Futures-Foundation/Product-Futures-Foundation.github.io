@@ -6,16 +6,13 @@ The DAO issues 1 fungible earthChange coin for each ft² of each parcel.
 
 The DAO auctions these coins to gather the funds to buy that land.
 For each parcel, if the auction succeeds, that land is purchased.
-The DAO temporarily holds Source Title ownership of the parcels.
+The DAO temporarily holds Source Title ownership of those parcels.
 
-Users may ask the DAO for Future Production.
-Users may sign Work Agreements to 'pay' for future production.
-The user does their best to describe what they understand.
-If the engineering is unclear, other users may need to help.
-If the supply-chain can be constructed, pre-sales can begin.
-The DAO sells Product Tickets to achieve that Future Production.
+The DAO issues Product Tickets and auctions them to achieve Future Production.
+Users may pay for future production with money or by signing Work Agreements.
 
-There may be lower and upper limits on how much land you may own.
-Users may become Source Title owners when they complete Work Agreements.
-Owners must not sell Source Titles for money, not even for earthChange.
-Owners may trade Source Titles for other Source Titles or for Work Agreement signatures.
+Users who pay with money do not gain Source Title ownership.
+Users who complete Work Agreements gain Source Title ownership.
+
+Owners may not sell Source Titles for money, not even for earthChange.
+Owners may trade Source Titles for Work Agreement signatures or for other Source Titles.
