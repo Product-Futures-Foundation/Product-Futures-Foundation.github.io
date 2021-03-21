@@ -2,7 +2,7 @@
 
 == Plan
 Find land for sale that can be used to build a permacultured private city.
-Verify the essential goods and services we can produce at that location.
+Verify the essential goods and services we could produce at that location.
 
 == Fund
 Issue Product Tickets representing those future goods and services.
@@ -20,23 +20,23 @@ Workers own the Source Titles used to fulfill Product Tickets they bought.
 
 = User Interface
 == "'Buy Product Ticket'" [This is like rewards-based crowdfunding.]
-  Pay with future work or money to receive a time-delayed good or service.
-  Workers implicitly trade with other workers in this way. (work-for-work)
+Pay with future work or money to receive a time-delayed good or service.
+Workers implicitly trade with other workers in this way. (work-for-work)
 
 == "'Bid-to-sign Work Agreement'" [Pay with future work.]
-  Test to qualify or use the apprenticeship program. (work-to-learn)
-  Receive a Basic Outcome of essential goods and services. (sign-to-use)
-  Workers gain Source Titles as Work Agreements are completed. (work-to-own)
-  Source Title owners receive future products without purchase. (own-to-use)
+Test to qualify or use the apprenticeship program. (work-to-learn)
+Receive a Basic Outcome of essential goods and services. (sign-to-use)
+Gain Source Titles as Work Agreements are completed. (work-to-own)
+Source Title owners receive future products without purchase. (own-to-use)
 
 == "'Define New Product Ticket'" [Create a crowdfun (sic) campaign.]
-  List work and sources required to begin production.
-  List delivery schedules and production constraints.
-  List pollution and any unavoidable externalities.
-  Change (your version of) a proposal to vote on implementation details.
+List work and sources required to begin production.
+List projected delivery schedules and production constraints.
+List pollution and any unavoidable externalities.
+Change (your version of) a proposal to vote on implementation details.
 
 == "'Issue Source Titles'" [Land acquisition and allocation.]
-  Show map of land for sale, with default being nearest that user.
-  Zoom in to see water rights and zoning restrictions.
-  Show Product Ticket proposals and funding status.
-  Change (your version of) a map to vote on the layout.
+Show map of land for sale, with default being nearest that user.
+Zoom in to see water rights and zoning restrictions.
+Show Product Ticket proposals and funding status.
+Change (your version of) a map to vote on the layout.

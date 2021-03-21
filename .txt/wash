@@ -2,6 +2,8 @@ Related: water, sewer, sort, tray
 
 Sanitation is a fundamental human need required for a healthy society.
 
+Even those that cannot work must be allowed to wash.
+
 ==Dishes
 Imagine a dishwasher with 4 half-trays in the machine that are easily removed.
 
@@ -26,11 +28,25 @@ Large dispenser delivers a configurable amount and kind of soap for each wash.
 ==VaClean
 Single-item washer will sanitize and dry most any cloth in seconds.
 
+Kitchen version coming soon!
+
 Design specs:
 4 rollers approx 24 inches tall x 6 inches diameter.
 2 mesh belts, each wrapping around 2 of the rollers.
 
-            INPUT
+
+         Place items on
+         conveyor belt
+          ___________
+          |||||||||||
+          |||||||||||
+          |||||||||||
+          |||(|)|||||
+          ||||/||||||
+          ||||||O||||
+          ||----|||||
+          ||++++|||||
+          ||----|||||
           vvvvvvvvvvv
        --/           \--
      -/                 \-
@@ -47,3 +63,9 @@ Design specs:
        --\           /--
           vvvvvvvvvvv
             OUTPUT
+          |||||||||||
+          |||||||||||
+          |||||||||||
+          |||||||||||
+          |||||||||||
+          |||||||||||

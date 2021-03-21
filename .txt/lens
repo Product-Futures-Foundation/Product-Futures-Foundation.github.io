@@ -1,5 +1,13 @@
 Related: For Product
 
-Use the LENS smart contract language to define group policy for shared assets, work commitments and token dynamics.
+    Language Enabling Natural Systems
+
+LENS strives to help groups-of-groups buy and own land to meet their own needs.
+
+Groups, and groups-of-groups can set their own policy by writing documents in this legally-binding prose.
+
+The For Product model uses LENS to describe 3 NFTs: Product Tickets, Source Titles and Work Agreements.
 
 Product-Futures-Foundation.github.io/.src/lens.el
+
+In EMACS: ../.src/lens.el 

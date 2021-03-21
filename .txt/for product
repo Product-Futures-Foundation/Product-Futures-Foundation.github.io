@@ -1,78 +1,61 @@
-=                The For Product Business Model
+#                The For Product Business Model
 
-== Statement of Intent
-Own land and trade work to produce essential goods and services without debt.
+## Statement of Intent
+* Empower groups-of-groups to own and control the production of essential goods and services.
 
-== Terms of Operation
-Product Tickets represent a claim of ownership over future goods and services.
-Source Titles represent property ownership in land, tools, water-rights, mineral-rights.
-Work Agreements represent legally binding commitments to achieve future production.
+## Definitions
+* Product Tickets represent future goods and services.
+* Work Agreements represent legally binding commitments to achieve future production.
+* Source Titles represent property ownership in land, tools, and other productive assets.
 
-== Startup Timeline
-Find raw land for sale outside of city limits to build self-hosted micro-cities.
-Verify essential goods and services we to be produced.
-Within the limits of production of each location
+## Terms of Operation
+* You may buy Product Tickets with money to receive that future good or service, just like crowdfunding.
+* You may buy Product Tickets by signing Work Agreements to achieve some future production in the system.
+* When paying with Work Agreements, you also receive Source Title ownership as that production is completed.
+* As a Source Title owner, you may decide what must and must not be produced on that land.
+* As a Source Title owner, you must supply the work required for that production, or sign Work Agreements to fill other requests in the system.  You must have a chain-of-exchange to those other requests.
+* As a Source Title owner, you are the *automatic* owner of all future production on that land.
+* These terms must work when co-owing in groups and groups-of-groups, in a fractal way.
 
-Issue Product Tickets representing those future goods and services.
-Auction Product Tickets to secure the land and tools without debt.
+## Pilot Project Startup Timeline
+* Find raw land for sale outside of city limits to build a self-hosted micro-city.
+* Verify which essential goods and services can be produced at this location.
+* Issue and auction Product Tickets to secure land and tools startup supplies without debt.
+* Issue and auction Source Titles to secure Work Agreement signatures.
+* If both auctions succeed, the property is purchased and production begins!
 
-Issue Source Titles representing small amounts of land ownership.
-Issue Work Agreements representing commitments to achieve production.
-Auction Source Titles to secure the Work Agreement signatures.
+## User Interface
 
-If both auctions succeed, we buy the land and resources to begin.
+### "'Buy Product Ticket'"
+  * Pay with future work or money to receive a time-delayed good or service.
+  * Workers implicitly trade with other workers in this way. (work-for-work)
 
-Source Titles vest to workers as production is completed.
+### "'Bid-to-sign Work Agreement'" [This is how you pay with future work.]
+  * Qualify by passing tests.  All jobs have apprentice onboarding. (work-to-learn)
+  * Receive immediate access to essential goods and services. (sign-to-use)
+  * Workers gain Source Titles as Work Agreements are completed. (work-to-own)
+  * Trade Work Agreements for signatures of others. (work-for-work)
 
-Source Titles can be used as collateral for more risky projects.
+### "'Issue Source Titles'"
+  * Show map of land for sale, with default being nearest that user.
+  * Zoom in to see water rights and zoning restrictions.
+  * Show Product Ticket proposals and funding status.
+  * Change (your version of) a map to vote on the layout.
+  * Owners of Source Titles receive future products without purchase. (own-to-use)
+  * For each ZONE,
+    * Show pending Product Ticket proposals and funding status.
+    * Show water-rights, mineral-rights, external restrictions.
 
-== "'Buy Product Ticket'" [This is like rewards-based crowdfunding.]
-  Pay with future work or money to receive a time-delayed good or service.
-  Workers implicitly trade with other workers in this way. (work-for-work)
-== "'Bid-to-sign Work Agreement'" [Pay with future work.]
-  Test to qualify or use the apprenticeship program. (work-to-learn)
-  Receive a Basic Outcome of essential goods and services. (sign-to-use)
-  Workers gain Source Titles as Work Agreements are completed. (work-to-own)
-  Owners of Source Titles receive future products without purchase. (own-to-use)
-== "'Define New Product Ticket'" [Create a crowdfun (sic) campaign.]
-  List work and sources required to begin production.
-  List delivery schedules and production constraints.
-  List pollution and any unavoidable externalities.
-  Change (your version of) a proposal to vote on implementation details.
-== "'Issue Source Titles'" [Land acquisition and allocation.]
-  Show map of land for sale, with default being nearest that user.
-  Zoom in to see water rights and zoning restrictions.
-  Show Product Ticket proposals and funding status.
-  Change (your version of) a map to vote on the layout.
-== User Interface (UI)
-SCREEN[Pay-to-Play]
-  Pay with money to own Product Tickets (crowdfund).
-
-SCREEN[work-to-own]
-  Sign Work Agreements to own future goods and services.
-  Gain Source Title ownership as you complete that work.
-  Receive immediate access to critical goods and services.
-  Trade Work Agreements for signatures of others. (work-for-work)
-
-SCREEN[Land Acquisition and Allocation]
-  Show MAP of real-estate parcels for sale near user.
-  For each ZONE,
-    Show pending Product Ticket proposals and funding status.
-    Show water-rights, mineral-rights, external restrictions.
-
-SCREEN[Define Product Ticket]
-  For each Product,
-    Define SERVING-SIZE and a MIN-SCALE.
-    Estimate production constraints like temperature, water, elevation.
-    Estimate time delay before each round-of-production.
-    Estimate pollution and other externalities.
-    For each SERVING-SIZE at MIN-SCALE,
-      Estimate the quality and quantity of that future production.
-      Estimate Work, Sources, and startup products.
-
-== Remixing
-Crowd Funding: Commit money or work to prepay for goods or services.
-Time Banking: Gain land ownership as you complete work Agreements.
-Mutual Credit: That land is collateral for more risky contracts.
-Home Economics: Owners receive the product itself as the natural ROI.
-Free Software: Hold land to insure user freedom in the material realm.
+### "'Define New Product Ticket'" [Recipe for that production.]
+  * List work and sources required to create that product.
+  * List delivery schedules and production constraints.
+  * List pollution and any unavoidable externalities.
+  * Change (your version of) any Product Ticket to vote on future production.
+  * For each Product,
+    * Define SERVING-SIZE and MIN-SCALE.
+    * Estimate production constraints like temperature, water, elevation.
+    * Estimate time delay to complete each round-of-production (first will usually be longest).
+    * Estimate pollution and other externalities.
+    * For each SERVING-SIZE at MIN-SCALE,
+      * Estimate projected quality and quantity
+      * Estimate land, work tools and startup supplies to begin.
