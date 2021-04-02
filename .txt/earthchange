@@ -1,13 +1,15 @@
-earthChange is a coin issued against land held under this contract.
+earthChange is a coin limited in issuance by land **to be purchased**, and limited in circulation by land under this contract.
 
 To begin, users feed real-estate listings into the earthChange DAO.
 The DAO issues 1 fungible earthChange coin for each ft² of each parcel.
-**THESE COINS DO NOT REPRESENT PROPERTY OWNERSHIP!  See: Source Titles**
+    **These tokens do NOT represent property ownership**
+The DAO also issues 1 non-fungible SourceTitle for each ft² of each parcel.
+    **These tokens DO represent real property ownership in that land.**
 
-The DAO auctions these coins to gather the funds to buy that land.
+The DAO temporarily holds property ownership of the Source Titles.
+The DAO auctions the earthChange coins to gather the funds to buy that land.
+
 For each parcel, if the auction succeeds, that land is purchased.
-The DAO temporarily holds Source Title ownership of those parcels.
-
 The DAO issues Product Tickets and auctions them to achieve Future Production.
 Users may pay for future production with money or by signing Work Agreements.
 
