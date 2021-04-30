@@ -1,12 +1,17 @@
-Yet Another Organization is GNU way to fund, work and govern the production we all need.
+See: GAO, GNG, GNU
+
+Yet Another Organization is a GNU way to own and control the production we need.
 
 The YAO UI offers:
-[Buy Future Products]: Supplies the YAO with the money needed to buy land and tools.
-[Sell Future Labor]: Supplies the YAO with the work needed to begin production.
-[Govern]: Group policy is managed through a shared document.  Every change splits the group.
+[Buy Future Products]: Pay with coin-of-the-realm to fund the land and tools.
 
-Any user may:
-  0. Ignore changes to the document.
-  1. Change the document.
-  2. Accept a change from another user.
-  3. Subscribe to future changes from another user.
+[Sell Future Labor]: Pay with future-work by signing a work agreement.
+
+You may:
+. Change your own copy of the document.
+. Allow reading of your copy of the document.
+. Block reading of your copy of the document.
+. Allow writing from a list of other users.
+. Allow writing from any user.
+. Block writing a list of other users.
+. Block writing from all other users.
